@@ -95,14 +95,14 @@ export default function Navigation() {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-surface-base border-b border-border-subtle overflow-hidden shadow-flat-plus"
+            initial={{ opacity: 0, y: -10, filter: "blur(10px)" }}
+            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            exit={{ opacity: 0, y: -10, filter: "blur(10px)" }}
+            transition={{ duration: 0.3, ease: [0.23, 1, 0.32, 1] }}
+            className="md:hidden absolute top-full left-0 right-0 bg-white/95 backdrop-blur-xl border-b border-slate-200 overflow-hidden shadow-[0_20px_40px_rgb(0,0,0,0.08)] z-[100]"
           >
             <div className="px-4 sm:px-6 py-4 space-y-1">
               {navItems.map((item) => {
@@ -111,10 +111,10 @@ export default function Navigation() {
                   <Link
                     key={item.id}
                     href={item.id}
-                    className={`block w-full text-left px-4 py-4 rounded-md text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary min-h-[44px] ${
+                    className={`block w-full text-left px-4 py-4 rounded-xl text-base font-bold transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary min-h-[44px] ${
                       isActive 
-                        ? 'bg-surface-muted text-primary' 
-                        : 'text-on-surface-variant hover:bg-surface-muted hover:text-on-surface'
+                        ? 'bg-[#5B2D8C]/5 text-[#5B2D8C] scale-[0.99] shadow-sm ring-1 ring-[#5B2D8C]/10' 
+                        : 'text-slate-600 hover:bg-slate-50 hover:text-[#5B2D8C]'
                     }`}
                   >
                     {item.label}

@@ -59,7 +59,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
         <div key={item.label} className={`flex flex-col border-b border-[#EEF5FF] ${bgColor}`}>
           <button 
             onClick={() => toggleAccordion(item.label)}
-            className={`py-4 pr-4 ${paddingLeft} flex items-center justify-between w-full font-medium focus:outline-none focus-visible:bg-[#EAF3FF] ${isActive || isExpanded ? 'text-[#1A6FD4]' : 'text-[#0C1929]'}`}
+            className={`py-4 pr-4 ${paddingLeft} flex items-center justify-between w-full font-medium focus:outline-none focus-visible:bg-[#EAF3FF] transition-all duration-200 ${isActive || isExpanded ? 'text-[#1A6FD4] bg-white/60' : 'text-[#0C1929] hover:bg-white/40'}`}
             aria-expanded={isExpanded}
           >
             <span className="flex items-center gap-2">
@@ -97,10 +97,10 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
         key={item.label}
         href={item.href} 
         onClick={onClose}
-        className={`py-4 pr-4 ${paddingLeft} border-b border-[#EEF5FF] flex items-center w-full font-medium transition-colors focus:outline-none focus-visible:bg-[#EAF3FF] ${
+        className={`py-4 pr-4 ${paddingLeft} border-b border-[#EEF5FF] flex items-center w-full font-medium transition-all duration-200 focus:outline-none focus-visible:bg-[#EAF3FF] ${
           isActive 
-            ? 'text-[#1A6FD4] bg-[#EAF3FF] border-l-4 border-l-[#1A6FD4]' 
-            : 'text-[#0C1929] hover:text-[#1A6FD4] hover:bg-[#EEF5FF] border-l-4 border-l-transparent'
+            ? 'text-[#1A6FD4] bg-[#EAF3FF]/70 border-l-4 border-l-[#1A6FD4]' 
+            : 'text-[#0C1929] hover:text-[#1A6FD4] hover:bg-white/60 border-l-4 border-l-transparent'
         }`}
         aria-current={isActive ? 'page' : undefined}
       >
@@ -133,12 +133,12 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", bounce: 0, duration: 0.4 }}
-            className="relative flex-1 flex flex-col max-w-sm w-[85vw] bg-white overflow-y-auto transform h-full shadow-2xl"
+            className="relative flex-1 flex flex-col max-w-sm w-[85vw] bg-white/95 backdrop-blur-xl overflow-y-auto transform h-full shadow-[0_0_40px_rgba(0,0,0,0.15)] ring-1 ring-black/5"
             role="dialog"
             aria-modal="true"
             aria-label="Mobile Navigation"
           >
-            <div className="p-4 border-b border-[#D4E5F7] flex items-center justify-between sticky top-0 bg-white z-10 min-h-[5rem]">
+            <div className="p-4 border-b border-[#D4E5F7] flex items-center justify-between sticky top-0 bg-white/50 backdrop-blur-md z-10 min-h-[5rem]">
               <Link href="/" onClick={onClose} className="text-xl font-black text-[#0D4999] tracking-tighter" aria-label="Startseite">
                 K-AQUA<span className="text-[#00B4D8]">.</span>
               </Link>
