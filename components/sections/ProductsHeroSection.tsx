@@ -17,17 +17,18 @@ const containerVariants: any = {
     transition: {
       staggerChildren: 0.15,
       delayChildren: 0.2,
+      ease: "easeOut",
     },
   },
 };
 
 const itemVariants: any = {
-  hidden: { opacity: 0, y: 20, filter: 'blur(10px)' },
+  hidden: { opacity: 0, y: 30, filter: 'blur(12px)' },
   show: { 
     opacity: 1, 
     y: 0, 
     filter: 'blur(0px)',
-    transition: { duration: 1, ease: "easeOut" } 
+    transition: { duration: 1.2, ease: "easeOut" } 
   },
 };
 
@@ -35,61 +36,74 @@ export default function ProductsHeroSection({ heroY, heroOpacity }: ProductsHero
   const t = useTranslations('Products');
   
   return (
-    <section className="relative min-h-[100dvh] flex flex-col items-center justify-center pt-24 px-4 sm:px-6 md:px-12 z-10 overflow-hidden bg-slate-50">
+    <section className="relative min-h-[100svh] flex flex-col items-center justify-center pt-24 px-4 sm:px-6 md:px-12 z-10 overflow-hidden bg-[#FAFAFA]">
       
-      {/* Premium Background Gradients & Glows */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
-        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-[#a589d6]/20 rounded-full blur-[120px] mix-blend-multiply" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-[#6c5194]/15 rounded-full blur-[120px] mix-blend-multiply" />
-        <div className="absolute top-[20%] right-[20%] w-[30%] h-[30%] bg-blue-400/10 rounded-full blur-[100px] mix-blend-multiply" />
+      {/* Ultra Premium Ambient Background */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
+        <div className="absolute top-[-20%] left-[-10%] w-[70vw] h-[70vw] rounded-full bg-blue-100/40 blur-[120px] opacity-70" />
+        <div className="absolute bottom-[-10%] right-[-20%] w-[60vw] h-[60vw] rounded-full bg-sky-100/40 blur-[100px] opacity-60" />
+        <div className="absolute top-[20%] left-[40%] w-[40vw] h-[40vw] rounded-full bg-white/50 blur-[80px] opacity-50" />
       </div>
 
       <motion.div 
         style={{ y: heroY, opacity: heroOpacity }}
-        className="relative z-20 w-full min-w-0 max-w-full"
+        className="relative z-20 w-full min-w-0 max-w-full flex-1 flex flex-col justify-center"
       >
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="show"
-          className="text-center max-w-5xl mx-auto flex flex-col items-center w-full min-w-0 max-w-full"
+          className="text-center max-w-[90rem] mx-auto flex flex-col items-center justify-center w-full min-w-0 max-w-full"
         >
-          <motion.div variants={itemVariants} className="mb-8 w-full min-w-0 max-w-full flex justify-center">
-            <div className="inline-flex px-5 py-2 rounded-full border border-white/40 bg-white/50 backdrop-blur-md shadow-[0_4px_24px_rgba(0,0,0,0.04)] text-xs sm:text-sm font-mono tracking-[0.2em] uppercase text-[#6c5194]">
-              {t('Hero.badge')}
+          {/* Badge */}
+          <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full flex justify-center mb-10">
+            <div className="w-full min-w-0 max-w-full overflow-hidden flex justify-center">
+              <div className="group relative inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/60 backdrop-blur-xl border border-white/80 shadow-[0_4px_24px_-4px_rgba(0,0,0,0.05)] hover:bg-white/80 transition-all duration-500 ease-out">
+                <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+                <span className="text-[0.75rem] sm:text-xs font-semibold tracking-[0.2em] uppercase text-slate-800">
+                  {t('Hero.badge')}
+                </span>
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500/10 to-sky-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out" />
+              </div>
             </div>
           </motion.div>
           
-          <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full mb-8 flex justify-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] text-balance text-transparent bg-clip-text bg-gradient-to-b from-slate-900 via-slate-800 to-slate-500 drop-shadow-sm max-w-full">
-              {t('Hero.title')}
-            </h1>
+          {/* Title */}
+          <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full flex justify-center mb-10 px-2 sm:px-0">
+            <div className="w-full min-w-0 max-w-full overflow-hidden">
+              <h1 className="text-[clamp(1.75rem,6vw,4.5rem)] leading-[1.05] tracking-tight text-balance text-slate-900 mx-auto font-extrabold pb-2">
+                {t('Hero.title')}
+              </h1>
+            </div>
           </motion.div>
           
-          <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full mb-12 flex justify-center">
-            <p className="text-lg sm:text-xl md:text-2xl text-slate-600 max-w-3xl font-light leading-relaxed text-balance max-w-full">
-              {t('Hero.subtitle')}
-            </p>
+          {/* Subtitle */}
+          <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full flex justify-center mb-14 px-4 sm:px-0">
+            <div className="w-full min-w-0 max-w-full overflow-hidden">
+              <p className="text-[clamp(1rem,2vw,1.25rem)] mx-auto text-slate-500 max-w-3xl font-medium leading-[1.6] text-balance">
+                {t('Hero.subtitle')}
+              </p>
+            </div>
           </motion.div>
 
+          {/* CTA Button */}
           <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full flex justify-center">
-            <MagneticButton as="div">
-              <button className="group relative px-8 py-4 bg-gradient-to-b from-[#7a5ca3] to-[#6c5194] text-white rounded-full font-medium tracking-wide shadow-[0_8px_32px_rgba(108,81,148,0.3)] hover:shadow-[0_16px_48px_rgba(108,81,148,0.4)] transition-all duration-500 hover:-translate-y-1 flex items-center gap-3 overflow-hidden border border-white/10">
-                <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
-                <span className="relative z-10">{t('Hero.button')}</span>
-                <div className="relative z-10 w-2 h-2 rounded-full bg-white/90 animate-pulse shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
-              </button>
-            </MagneticButton>
+            <div className="w-full min-w-0 max-w-full overflow-hidden flex justify-center p-4">
+              <MagneticButton as="div">
+                <button className="relative group overflow-hidden rounded-full bg-slate-900 px-10 py-5 text-white shadow-[0_8px_32px_-8px_rgba(0,0,0,0.2)] hover:shadow-[0_16px_48px_-12px_rgba(0,0,0,0.3)] transition-all duration-500 ease-out hover:-translate-y-1">
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-sky-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out" />
+                  <span className="relative z-10 text-sm sm:text-base font-semibold tracking-wide flex items-center gap-3">
+                    {t('Hero.button')}
+                    <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-500 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </span>
+                </button>
+              </MagneticButton>
+            </div>
           </motion.div>
         </motion.div>
       </motion.div>
-
-      {/* Hero Visual Layer */}
-      <div className="absolute inset-0 z-0 pointer-events-none flex items-center justify-center opacity-30 mix-blend-overlay">
-        <div className="w-full h-full max-w-5xl max-h-[80vh] flex items-center justify-center">
-          <div className="w-full h-full aspect-square md:aspect-video rounded-full overflow-hidden shadow-[inset_0_0_100px_rgba(108,81,148,0.1)] border border-white/20"></div>
-        </div>
-      </div>
     </section>
   );
 }
