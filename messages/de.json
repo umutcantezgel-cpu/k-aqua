@@ -1,0 +1,13 @@
+{
+  "Navigation": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "solutions": "Lösungen",
+    "about": "Unternehmen",
+    "service": "Service",
+    "news": "News",
+    "career": "Karriere",
+    "references": "Referenzen",
+    "contact": "Kontakt"
+  }
+}

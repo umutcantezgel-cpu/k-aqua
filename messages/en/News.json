@@ -1,0 +1,154 @@
+{
+  "GridSection": {
+    "title": "Recent Transmissions",
+    "subtitle": "Stay informed on our latest technological breakthroughs, international deployments, and strategic sustainability initiatives.",
+    "readArticle": "Read Article",
+    "articles": {
+      "article1": {
+        "title": "Next-Gen Polymer Extrusion Technology Unveiled",
+        "category": "Product Innovations",
+        "date": "Oct 15, 2025",
+        "summary": "Our new multi-layer extrusion process increases impact resistance by 40% while reducing material weight, setting a new benchmark for industrial piping."
+      },
+      "article2": {
+        "title": "Major Infrastructure Deployment in Southeast Asia",
+        "category": "Global Projects",
+        "date": "Oct 08, 2025",
+        "summary": "K-Aqua secures a $45M contract to overhaul municipal water infrastructure across three major metropolitan zones in the ASEAN region."
+      },
+      "article3": {
+        "title": "100% Recyclability Milestone Achieved",
+        "category": "Sustainability",
+        "date": "Oct 02, 2025",
+        "summary": "Every K-Aqua fitting produced globally is now fully recyclable, closing the loop on our circular economy mandate."
+      },
+      "article4": {
+        "title": "Advanced Electrofusion Fittings Enter Beta",
+        "category": "Product Innovations",
+        "date": "Sep 28, 2025",
+        "summary": "Beta testing begins for our intelligent electrofusion fittings equipped with RFID traceability and automated weld parameter configuration."
+      },
+      "article5": {
+        "title": "New Manufacturing Hub Opens in Eastern Europe",
+        "category": "Global Projects",
+        "date": "Sep 20, 2025",
+        "summary": "Expanding our European footprint, the new fully automated facility will double our production capacity for the EU market."
+      },
+      "article6": {
+        "title": "Carbon Negative Operations Target for 2030",
+        "category": "Sustainability",
+        "date": "Sep 12, 2025",
+        "summary": "We are accelerating our timeline. By transitioning to 100% renewable energy grids, we aim to be fully carbon negative by the end of the decade."
+      },
+      "article7": {
+        "title": "High-Pressure Industrial Valve Series Launched",
+        "category": "Product Innovations",
+        "date": "Sep 05, 2025",
+        "summary": "Designed for extreme chemical transport, the new valve series offers unparalleled corrosion resistance in harsh operational environments."
+      },
+      "article8": {
+        "title": "Partnership with Mega Desalination Plant",
+        "category": "Global Projects",
+        "date": "Aug 29, 2025",
+        "summary": "K-Aqua selected as the primary supplier for the world's largest solar-powered desalination plant in the Middle East."
+      },
+      "article9": {
+        "title": "Breakthrough in Bio-based Polymers",
+        "category": "Sustainability",
+        "date": "Aug 21, 2025",
+        "summary": "R&D successfully engineers a commercial-grade bio-polymer blend that maintains 98% of the tensile strength of traditional fossil-based plastics."
+      },
+      "article10": {
+        "title": "Smart Pipe Leak Detection Integration",
+        "category": "Product Innovations",
+        "date": "Aug 15, 2025",
+        "summary": "Integrated acoustic sensors in our municipal pipe series allow for real-time leak detection and predictive maintenance alerts."
+      },
+      "article11": {
+        "title": "K-Aqua Acquires Nordic Distribution Network",
+        "category": "Global Projects",
+        "date": "Aug 08, 2025",
+        "summary": "Strategic acquisition streamlines our supply chain across Scandinavia, drastically reducing lead times for regional clients."
+      },
+      "article12": {
+        "title": "Zero Water Waste Facility Certified",
+        "category": "Sustainability",
+        "date": "Aug 01, 2025",
+        "summary": "Our flagship production plant has achieved verified Zero Water Waste status, utilizing advanced closed-loop cooling and filtration systems."
+      }
+    }
+  },
+  "HeroSection": {
+    "badge": "Company News & Press",
+    "title1": "The Latest",
+    "title2": "Updates.",
+    "subtitle": "Discover our latest product innovations, global projects, sustainability milestones, and corporate announcements."
+  },
+  "FeaturedArticleSection": {
+    "badge": "CERTIFIED STANDARD",
+    "article1": {
+      "title": "Quality Without Compromise",
+      "subtitle": "ISO 9001:2015 — Quality Management System",
+      "p1": "At K-Aqua, quality is not a static metric—it is the dynamic, foundational architecture of everything we engineer. The ISO 9001:2015 certification rigorously validates our relentless pursuit of operational perfection and absolute precision in global manufacturing.",
+      "p2": "Every pipeline, every fitting, and every fluid transport solution we deploy is subjected to unapologetically strict standards. We believe that true reliability requires a systemic, highly calibrated approach to excellence. By enforcing these comprehensive international guidelines across our entire production matrix, we ensure that our partners receive nothing short of industry-defining performance—engineered to withstand the test of time and the harshest of environmental extremes.",
+      "li1": "Rigorous material testing",
+      "li2": "End-to-end traceability",
+      "li3": "Continuous process optimization"
+    },
+    "article2": {
+      "title": "Environmental Stewardship",
+      "subtitle": "ISO 14001:2015 — Environmental Management System",
+      "p1": "Our commitment to the planet is unequivocally codified in our ISO 14001:2015 certification. The ecological challenges of tomorrow demand bold, systemic, and sustainable action today. We have comprehensively restructured our lifecycle processes to fiercely minimize our global footprint.",
+      "p2": "From the hyper-ethical sourcing of raw materials to the radical reduction of industrial waste in our manufacturing facilities, K-Aqua is fiercely dedicated to protecting the vital resources we work so intimately with. Water is life, and safeguarding it is our supreme directive. This certification stands as our unbreakable promise to future generations that industrial progress and ecological preservation are not mutually exclusive.",
+      "li1": "Zero-waste manufacturing initiatives",
+      "li2": "Lifecycle impact reduction",
+      "li3": "Sustainable material procurement"
+    },
+    "article3": {
+      "title": "Radical Energy Efficiency",
+      "subtitle": "ISO 50001:2018 — Energy Management System",
+      "p1": "Efficiency is the absolute engine of industrial evolution. With the ISO 50001:2018 certification, we have hyper-optimized our energy consumption protocols across all global K-Aqua facilities, setting a new benchmark for the sector.",
+      "p2": "By implementing intelligent, data-driven energy management systems and investing heavily in state-of-the-art, low-consumption production technologies, we are dramatically curbing our carbon emissions. We meticulously track, analyze, and relentlessly refine every single watt of power utilized in our production lines. We are not just conserving energy; we are architecting a profoundly leaner, cleaner, and vastly more responsible future for heavy manufacturing.",
+      "li1": "Smart-grid facility integration",
+      "li2": "Real-time consumption analytics",
+      "li3": "Carbon emission mitigation"
+    }
+  },
+  "PressKitSection": {
+    "badge": "Official Assets",
+    "title": "Media & Press Kit",
+    "subtitle": "Absolute transparency is paramount. Access our official brand guidelines, high-resolution product photography, executive bios, and verified ISO management certificates.",
+    "btnEn": "English ISO PDF",
+    "btnDe": "German ISO PDF",
+    "card1": {
+      "title": "Brand Assets",
+      "desc": "Official logos, typography, and color palette specifications.",
+      "action": "Download ZIP"
+    },
+    "card2": {
+      "title": "Product Photography",
+      "desc": "High-resolution imagery of our pipes, fittings, and facilities.",
+      "action": "Download ZIP"
+    },
+    "card3": {
+      "title": "Press Releases",
+      "desc": "Archive of all official company statements and press releases.",
+      "action": "View Archive"
+    },
+    "card4": {
+      "title": "Executive Bios",
+      "desc": "Profiles and headshots of the K-Aqua leadership team.",
+      "action": "Download PDF"
+    }
+  },
+  "NewsletterSection": {
+    "title": "Subscribe to Our Briefing",
+    "subtitle": "Get the latest insights on industrial pipe manufacturing, sustainable engineering practices, and global corporate updates delivered directly to your inbox.",
+    "success": "Subscription confirmed. Welcome aboard.",
+    "placeholder": "Enter your email address",
+    "subscribe": "Subscribe",
+    "privacy": "We respect your inbox. No spam, ever. Read our",
+    "privacyLink": "Privacy Policy",
+    "dot": "."
+  }
+}

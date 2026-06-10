@@ -1,0 +1,47 @@
+{
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "solutions": "Çözümler",
+    "about": "Hakkımızda",
+    "service": "Hizmetler",
+    "news": "Haberler",
+    "career": "Kariyer",
+    "contact": "İletişim"
+  },
+  "Footer": {
+    "description": "Su tedarikinde lider. Yüksek kaliteli PP-R/PP-RCT boru ve ek parçaları.",
+    "explore": "Keşfet",
+    "products": "Ürünler",
+    "solutions": "Çözümler",
+    "references": "Referanslar",
+    "career": "Kariyer",
+    "contact": "İletişim",
+    "legal": "Yasal",
+    "imprint": "Künye",
+    "privacyPolicy": "Gizlilik Politikası",
+    "allRightsReserved": "Tüm hakları saklıdır.",
+    "gdpr": "KVKK/GDPR'ye tam uyum"
+  },
+  "CTASection": {
+    "heading": "Sonraki projeniz için hazır mısınız?",
+    "text": "Gereksinimlerinizi mükemmel şekilde karşılayan çözümlerimizi öğrenmek için ücretsiz danışmanlık hizmetimizden yararlanın.",
+    "buttonText": "Şimdi iletişime geçin"
+  },
+  "FAQSection": {
+    "title": "Sıkça Sorulan Sorular"
+  },
+  "HeroSection": {
+    "title": "K-Aqua'ya Hoş Geldiniz",
+    "subtitle": "Geleceğe hazır su teknolojileri için partneriniz",
+    "ctaText": "Hemen bilgi alın"
+  },
+  "NotFound": {
+    "title": "404",
+    "subtitle": "Sayfa bulunamadı",
+    "desc": "İstenen sayfa bulunamadı. Lütfen aşağıdaki seçeneklerden birini kullanın:",
+    "home": "Ana Sayfa",
+    "contact": "İletişim",
+    "blog": "Blog"
+  }
+}

@@ -1,0 +1,2037 @@
+"use client";
+
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform, useReducedMotion } from 'motion/react';
+import { Globe2, ArrowRight, ShieldCheck, Map, Layers } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+
+import MagneticButton from '@/components/ui/MagneticButton';
+import ParallaxTilt from '@/components/ui/ParallaxTilt';
+import WebGLCanvas from '@/components/ui/WebGLCanvas';
+
+export default function ReferencesClient() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const reduce = useReducedMotion();
+  const router = useRouter();
+  
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end end"]
+  });
+
+  const heroY = useTransform(scrollYProgress, [0, 0.2], [0, 150]);
+  const heroOpacity = useTransform(scrollYProgress, [0, 0.15], [1, 0]);
+
+  return (
+    <main ref={containerRef} className="flex flex-col min-h-screen bg-white text-slate-900 overflow-hidden selection:bg-[#5b2d8c] selection:text-slate-900">
+      
+      {/* Hero Section */}
+      <section className="relative w-full min-h-[100dvh] flex items-center justify-center overflow-hidden border-b border-slate-200/50">
+        <div className="absolute inset-0 z-0">
+          <ParallaxTilt className="w-full h-full">
+            <WebGLCanvas color="#5b2d8c" count={6000} />
+          </ParallaxTilt>
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-zinc-950/60 to-zinc-950" />
+        </div>
+
+        <motion.div 
+          style={reduce ? {} : { y: heroY, opacity: heroOpacity }}
+          className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full flex flex-col items-center text-center mt-12"
+        >
+          <motion.div
+            initial={reduce ? { opacity: 1 } : { opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <div className="inline-flex items-center space-x-2 px-4 py-2 bg-slate-50/40 border border-slate-200 shadow-sm rounded-full mb-8 backdrop-blur-md">
+              <Globe2 className="w-4 h-4 text-[#8a4bce]" />
+              <span className="text-xs font-mono tracking-widest uppercase text-slate-700">Global Deployment</span>
+            </div>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[1.05] mb-8 max-w-5xl mx-auto">
+              Engineered for the <br /> 
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-[#8a4bce] to-slate-500">
+                World's Extremes.
+              </span>
+            </h1>
+            <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+              Over the past decades, K-Aqua products have proven themselves countless times in destinations all over the world. Our references mirror the extensive installation possibilities we offer.
+            </p>
+          </motion.div>
+        </motion.div>
+      </section>
+
+      {/* Expanded Text Section / The Legacy */}
+      <section className="relative py-32 md:py-48 bg-white z-10">
+        <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center md:text-left">
+          <motion.article 
+            initial={reduce ? { opacity: 1 } : { opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="prose prose-invert prose-lg md:prose-xl max-w-none text-slate-600 leading-relaxed font-light"
+          >
+            <p className="text-2xl md:text-3xl text-zinc-200 font-medium mb-12 leading-tight">
+              For over a quarter of a century, K-Aqua has redefined the standards of polymer piping systems on a global scale. From the freezing municipal pipelines of Northern Europe to the hyper-demanding high-rise commercial structures in the Middle East, our PP-R and PP-RCT technologies serve as the invisible backbone of modern civilization.
+            </p>
+            <p className="mb-8">
+              The references showcased here serve as a rapid reflection of our extensive installation possibilities. Engineers, architects, and urban planners demand absolute certainty—and K-Aqua delivers. We provide the unyielding arteries that power modern infrastructure, luxury hospitality, and vast industrial estates. When the stakes are highest, the world builds with K-Aqua.
+            </p>
+            <p className="mb-8">
+              Every installation is a testament to our German-engineered precision. The superior thermal stability, absolute corrosion resistance, and decades-long operational lifespans of our piping networks ensure that once K-Aqua is installed, it performs flawlessly. Our footprint spans five continents, safeguarding the world's most vital resource against extreme pressures and fluctuating temperatures.
+            </p>
+            <p>
+              We understand that modern architecture pushes boundaries. Whether it’s routing through the structural core of an 80-story skyscraper or burying miles of municipal supply lines beneath a bustling metropolis, K-Aqua offers an uncompromising solution that scales with your ambition.
+            </p>
+          </motion.article>
+        </div>
+      </section>
+
+      {/* Parallax WebGL Showcases */}
+      <section className="py-24 bg-white relative">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12 space-y-32">
+          
+          <ShowcaseRow 
+            title="Commercial Superstructures"
+            description="Withstanding immense hydrostatic pressures in mega-towers. K-Aqua systems are selected for their zero-failure tolerance, ensuring seamless water distribution across hundreds of vertical meters without degradation or pressure loss over decades of continuous operation."
+            icon={<Layers className="w-6 h-6 text-[#8a4bce]" />}
+            reverse={false}
+          />
+
+          <ShowcaseRow 
+            title="Luxury Hospitality & Resorts"
+            description="Pristine water quality is non-negotiable in the world's leading resorts. Our non-toxic, hygienically perfect PP-R systems guarantee that water remains exactly as intended from the source to the suite, eliminating heavy metal contamination and scaling."
+            icon={<ShieldCheck className="w-6 h-6 text-[#8a4bce]" />}
+            reverse={true}
+          />
+
+          <ShowcaseRow 
+            title="Municipal Infrastructure"
+            description="Cities rely on K-Aqua to deliver millions of liters daily. Engineered to resist scaling, corrosion, and extreme ground movements, our vast underground networks provide multi-generational reliability, significantly reducing maintenance overheads for public utilities."
+            icon={<Map className="w-6 h-6 text-[#8a4bce]" />}
+            reverse={false}
+          />
+
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-32 md:py-48 bg-white relative border-t border-slate-200 overflow-hidden">
+        {/* Subtle background webgl for the CTA */}
+        <div className="absolute inset-0 opacity-20 z-0 pointer-events-none">
+           <WebGLCanvas color="#4a2472" count={2000} />
+        </div>
+        
+        <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center relative z-10 flex flex-col items-center">
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-8 text-slate-800">
+            Specify K-Aqua for Your Next Project.
+          </h2>
+          <p className="text-xl text-slate-600 mb-12 max-w-2xl leading-relaxed">
+            Join the thousands of global developers who refuse to compromise on quality. Connect with our engineering team to design your system architecture.
+          </p>
+          <MagneticButton 
+            onClick={() => router.push('/contact')}
+            className="bg-slate-900 text-slate-900 hover:bg-slate-800 text-base md:text-lg tracking-wide px-10 py-5"
+          >
+            Initiate Consultation <ArrowRight className="ml-3 w-5 h-5" />
+          </MagneticButton>
+        </div>
+      </section>
+
+    </main>
+  );
+}
+
+function ShowcaseRow({ title, description, icon, reverse }: { title: string, description: string, icon: React.ReactNode, reverse: boolean }) {
+  const ref = useRef<HTMLElement>(null);
+  const reduce = useReducedMotion();
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start 90%", "center center"]
+  });
+
+  const scale = useTransform(scrollYProgress, [0, 1], [0.9, 1]);
+  const opacity = useTransform(scrollYProgress, [0, 1], [0, 1]);
+
+  return (
+    <article ref={ref} className={`flex flex-col ${reverse ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12 lg:gap-24`}>
+      <motion.div 
+        style={reduce ? {} : { scale, opacity }}
+        className="w-full lg:w-1/2 aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden bg-slate-50 border border-slate-200 shadow-sm relative shadow-2xl flex items-center justify-center p-4 group"
+      >
+        <div className="absolute inset-0 z-0 opacity-60 group-hover:opacity-100 transition-opacity duration-1000">
+           <ParallaxTilt tiltReverse className="w-full h-full">
+             <WebGLCanvas color="#5b2d8c" count={3000} />
+           </ParallaxTilt>
+        </div>
+        {/* Subtle physical overlay to ground the abstract canvas */}
+        <div className="absolute inset-0 border border-slate-300 shadow-lg/30 rounded-3xl z-10 pointer-events-none mix-blend-overlay"></div>
+        <div className="absolute bottom-6 left-6 z-20 text-xs font-mono text-slate-9000 uppercase tracking-widest flex items-center gap-2">
+          <div className="w-2 h-2 rounded-full bg-[#8a4bce] animate-pulse"></div> Active Node
+        </div>
+      </motion.div>
+      
+      <div className="w-full lg:w-1/2 flex flex-col justify-center">
+        <motion.div
+          initial={reduce ? { opacity: 1 } : { opacity: 0, x: reverse ? 40 : -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <div className="w-14 h-14 rounded-2xl bg-slate-50/50 border border-slate-200 shadow-sm flex items-center justify-center mb-8 shadow-inner">
+            {icon}
+          </div>
+          <h3 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6">{title}</h3>
+          <p className="text-lg text-slate-600 leading-relaxed font-light">
+            {description}
+          </p>
+        </motion.div>
+      </div>
+    </article>
+  );
+}
+"use client";
+
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform, useSpring } from 'motion/react';
+import MagneticButton from '@/components/ui/MagneticButton';
+import ParallaxTilt from '@/components/ui/ParallaxTilt';
+import WebGLCanvas from '@/components/ui/WebGLCanvas';
+
+// A helper for scroll-driven text reveals
+function RevealText({ children, delay = 0 }: { children: React.ReactNode, delay?: number }) {
+  return (
+    <motion.span
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-10%" }}
+      transition={{ duration: 0.8, delay, ease: [0.16, 1, 0.3, 1] }}
+      className="inline-block"
+    >
+      {children}
+    </motion.span>
+  );
+}
+
+export default function ProductsClient() {
+  const mainRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: mainRef,
+    offset: ["start start", "end end"]
+  });
+
+  const smoothProgress = useSpring(scrollYProgress, { damping: 20, stiffness: 100 });
+  
+  // Hero transforms
+  const heroY = useTransform(smoothProgress, [0, 0.2], ["0%", "30%"]);
+  const heroOpacity = useTransform(smoothProgress, [0, 0.15], [1, 0]);
+
+  return (
+    <main 
+      ref={mainRef} 
+      className="relative bg-[#030305] text-slate-900 overflow-hidden font-sans selection:bg-[#6c5194] selection:text-slate-900"
+    >
+      {/* Background ambient noise/gradient */}
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1a122e] via-[#030305] to-[#030305] opacity-50" />
+
+      {/* --- HERO SECTION --- */}
+      <section className="relative h-[100dvh] flex flex-col items-center justify-center pt-24 px-6 md:px-12 z-10">
+        <motion.div 
+          style={{ y: heroY, opacity: heroOpacity }}
+          className="text-center max-w-7xl mx-auto flex flex-col items-center z-20"
+        >
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+            className="mb-6 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-xs font-mono tracking-[0.2em] uppercase text-[#a589d6]"
+          >
+            System Architecture
+          </motion.div>
+          
+          <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-[9rem] font-bold tracking-tighter leading-[0.9] mb-8 text-transparent bg-clip-text bg-gradient-to-b from-white to-white/40">
+            PP-R & PP-RCT
+          </h1>
+          
+          <p className="text-lg md:text-2xl text-slate-600 max-w-2xl font-light leading-relaxed mb-12">
+            The apex of sanitary engineering. Forged for pure drinkable hot and cold water, our piping systems redefine structural integrity in the modern construction industry.
+          </p>
+
+          <MagneticButton>
+            <button className="px-8 py-4 bg-[#6c5194] hover:bg-[#8667b3] text-slate-900 rounded-full font-medium tracking-wide transition-colors flex items-center gap-3">
+              <span>Initialize System</span>
+              <div className="w-2 h-2 rounded-full bg-white animate-pulse" />
+            </button>
+          </MagneticButton>
+        </motion.div>
+
+        {/* Hero Visual Layer */}
+        <div className="absolute inset-0 z-0 pointer-events-none flex items-center justify-center opacity-40 mix-blend-screen">
+          <div className="w-full h-full max-w-5xl max-h-[80vh]">
+            <ParallaxTilt >
+              <div className="w-full h-full aspect-square md:aspect-video rounded-3xl overflow-hidden shadow-[0_0_100px_rgba(108,81,148,0.2)]">
+                <WebGLCanvas color="#6c5194" count={5000} className="w-full h-full" />
+              </div>
+            </ParallaxTilt>
+          </div>
+        </div>
+      </section>
+
+      {/* --- TECHNOLOGY CORE SECTION --- */}
+      <section className="relative py-32 md:py-48 px-6 md:px-12 z-10 border-t border-white/5 bg-[#050507]">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+          
+          {/* Deep Semantic Article */}
+          <article className="space-y-12">
+            <header>
+              <h2 className="text-4xl md:text-6xl font-bold tracking-tight leading-[1.1] mb-6">
+                <RevealText>Molecular</RevealText> <RevealText delay={0.1}>Dominance.</RevealText>
+              </h2>
+              <p className="text-xl text-[#8667b3] font-mono tracking-tight">
+                Mono-layer & Multi-layer Glass Fiber Reinforced Structures.
+              </p>
+            </header>
+            
+            <div className="space-y-6 text-slate-600 text-lg leading-relaxed font-light">
+              <p>
+                The K-Aqua PP-R (Polypropylene Random Copolymer) and PP-RCT (Polypropylene Random Copolymer with modified crystallinity and Temperature resistance) piping architectures represent a paradigm shift in fluid transport. Designed explicitly for extreme thermal stress and rigorous sanitary demands, the system guarantees zero toxicity, preventing scaling, corrosion, and bacterial colonization.
+              </p>
+              <p>
+                By integrating an advanced multi-layer extrusion process, we embed high-tensile glass fibers directly into the polymer matrix. This composite architecture drastically minimizes thermal expansion while exponentially increasing the pressure tolerance at elevated temperatures. The result is a network that performs flawlessly under the most hostile industrial and residential conditions, ensuring drinkable water remains absolutely pure from source to tap.
+              </p>
+              <p>
+                When you deploy K-Aqua, you are not just installing pipes. You are initializing a permanent, leak-proof, homogeneous vascular system for your infrastructure. The fusion welding process melts the pipe and fitting into a single, continuous molecular chain, eliminating the mechanical failure points inherent in legacy metal or glued PVC systems.
+              </p>
+            </div>
+          </article>
+
+          {/* Gamified Visual Replacement */}
+          <figure className="relative h-[60vh] lg:h-[80vh] w-full rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur-3xl overflow-hidden group">
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#6c5194]/20 to-transparent opacity-50 group-hover:opacity-100 transition-opacity duration-700" />
+            <ParallaxTilt >
+              <div className="w-full h-full rounded-2xl overflow-hidden">
+                <WebGLCanvas color="#8667b3" count={8000} className="w-full h-full" />
+              </div>
+            </ParallaxTilt>
+            <figcaption className="absolute bottom-8 left-8 right-8 flex justify-between items-end">
+              <div className="font-mono text-xs text-slate-600 uppercase tracking-widest bg-black/50 px-3 py-1.5 rounded backdrop-blur-md">
+                Polymatrix / Visualization
+              </div>
+              <div className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center animate-[spin_10s_linear_infinite]">
+                <div className="w-2 h-2 bg-[#6c5194] rounded-full" />
+              </div>
+            </figcaption>
+          </figure>
+
+        </div>
+      </section>
+
+      {/* --- SCALABILITY & SDR RATINGS --- */}
+      <section className="relative py-32 md:py-48 px-6 md:px-12 z-10 bg-[#030305]">
+        <div className="max-w-7xl mx-auto">
+          
+          <div className="mb-20 md:text-center max-w-3xl md:mx-auto">
+            <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-8">
+              Dimensional Scaling.
+            </h2>
+            <p className="text-xl text-slate-600 font-light leading-relaxed">
+              We do not compromise on scale. Depending on the precise pipe type and application requirements, our dimensions start from a highly agile <strong className="text-slate-900 font-medium">20 mm</strong> and scale up to a colossal <strong className="text-[#8667b3] font-medium">630 mm</strong> for massive industrial fluid dynamics.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {[
+              { sdr: "SDR 6", desc: "Extreme Pressure. Maximum wall thickness for hostile operational environments.", pressure: "PN 20" },
+              { sdr: "SDR 7.4", desc: "High Pressure. Optimal balance for commercial hot water grids.", pressure: "PN 16" },
+              { sdr: "SDR 9", desc: "Elevated Flow. Reinforced structure with optimized internal diameter.", pressure: "PN 12.5" },
+              { sdr: "SDR 11", desc: "Standard Distribution. The gold standard for residential cold/hot water.", pressure: "PN 10" },
+              { sdr: "SDR 17", desc: "Maximum Volume. Thin-walled architecture for low-pressure high-yield flow.", pressure: "PN 6" }
+            ].map((item, i) => (
+              <motion.div 
+                key={item.sdr}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-5%" }}
+                transition={{ duration: 0.6, delay: i * 0.1, ease: "easeOut" }}
+                className="group relative p-8 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-[#6c5194]/50 hover:bg-slate-800/[0.04] transition-all duration-500 overflow-hidden"
+              >
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#6c5194] to-transparent opacity-0 group-hover:opacity-100 transform -translate-x-full group-hover:translate-x-full transition-all duration-1000" />
+                <div className="text-3xl font-bold text-slate-900 mb-2 font-mono tracking-tight">{item.sdr}</div>
+                <div className="text-xs text-[#6c5194] uppercase tracking-widest font-bold mb-6">{item.pressure}</div>
+                <p className="text-sm text-slate-9000 leading-relaxed font-light">
+                  {item.desc}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
+      {/* --- THE ARSENAL (FITTINGS & ACCESSORIES) --- */}
+      <section className="relative py-32 md:py-48 px-6 md:px-12 z-10 border-t border-white/5 bg-[#050507]">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-8 items-center">
+          
+          <div className="lg:col-span-5 relative h-[50vh] lg:h-[70vh] rounded-3xl overflow-hidden group">
+            <ParallaxTilt >
+              <div className="w-full h-full rounded-3xl overflow-hidden border border-white/10 bg-black/50 shadow-[inset_0_0_50px_rgba(108,81,148,0.1)]">
+                <WebGLCanvas color="#6c5194" count={4000} className="w-full h-full mix-blend-screen opacity-80" />
+              </div>
+            </ParallaxTilt>
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <div className="w-32 h-32 rounded-full border border-[#8667b3]/30 flex items-center justify-center backdrop-blur-sm">
+                <div className="w-24 h-24 rounded-full border border-[#8667b3]/60 flex items-center justify-center animate-pulse">
+                  <div className="w-2 h-2 bg-white rounded-full" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside className="lg:col-span-6 lg:col-start-7 space-y-10">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+                The Arsenal.
+              </h2>
+              <p className="text-xl text-slate-600 font-light leading-relaxed">
+                A system is only as formidable as its weakest link. K-Aqua eliminates weak links entirely. Our fittings are precision-engineered in sizes from <strong className="text-slate-900 font-medium">20 mm to 315 mm</strong>, creating an impenetrable network of homogeneous connections.
+              </p>
+            </div>
+
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {[
+                { title: "Premium Valves", desc: "Zero-leakage control mechanisms." },
+                { title: "High-Pressure Unions", desc: "Flawless mechanical junctions." },
+                { title: "Cutting Tools", desc: "Micrometer-precision pipe severing." },
+                { title: "Welding Devices", desc: "Thermal fusion equipment for absolute homogenization." }
+              ].map((item, i) => (
+                <li key={i} className="flex flex-col p-6 rounded-xl bg-white/[0.02] border border-white/5">
+                  <div className="w-8 h-8 rounded bg-[#6c5194]/20 flex items-center justify-center mb-4 text-[#8667b3]">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  </div>
+                  <h4 className="text-lg font-bold text-slate-900 mb-2">{item.title}</h4>
+                  <p className="text-sm text-slate-9000 font-light">{item.desc}</p>
+                </li>
+              ))}
+            </ul>
+            
+            <p className="text-slate-9000 font-light leading-relaxed">
+              Every single accessory is manufactured to interlock flawlessly with the core piping system. From the exact calibration of the welding saddles to the ergonomic superiority of our cutting tools, the ecosystem is uncompromising.
+            </p>
+          </aside>
+
+        </div>
+      </section>
+
+      {/* --- FOOTER CTA --- */}
+      <section className="relative py-48 px-6 md:px-12 z-10 bg-[#030305] text-center flex flex-col items-center justify-center border-t border-white/5">
+        <div className="absolute inset-0 z-0 pointer-events-none opacity-20 bg-[radial-gradient(circle_at_center,_#6c5194_0%,_transparent_50%)]" />
+        
+        <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-8 z-10 relative">
+          Acquire the Schematics.
+        </h2>
+        <p className="text-xl text-slate-600 font-light mb-16 max-w-2xl z-10 relative">
+          Download the complete product range PDF. Review the comprehensive technical parameters, molecular specifications, and extreme testing protocols.
+        </p>
+
+        <div className="z-10 relative">
+          <MagneticButton>
+            <a 
+              href="https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative inline-flex items-center justify-center px-12 py-6 bg-white text-black font-bold text-lg tracking-wide rounded-full overflow-hidden transition-transform active:scale-95"
+            >
+              <div className="absolute inset-0 w-full h-full bg-[#6c5194] origin-bottom transform scale-y-0 transition-transform duration-300 ease-out group-hover:scale-y-100" />
+              <span className="relative group-hover:text-slate-900 transition-colors duration-300">
+                Download PDF Range
+              </span>
+              <svg className="relative ml-3 w-5 h-5 group-hover:text-slate-900 transition-colors duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </MagneticButton>
+        </div>
+      </section>
+
+    </main>
+  );
+}
+"use client";
+
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform, useReducedMotion } from 'motion/react';
+import { Download, PlayCircle, Wrench, FileText, ChevronRight } from 'lucide-react';
+import MagneticButton from '../ui/MagneticButton';
+import WebGLCanvas from '../ui/WebGLCanvas';
+import ParallaxTilt from '../ui/ParallaxTilt';
+
+export default function ServiceClient() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  
+  const reduce = useReducedMotion();
+
+  // Horizontal scroll for videos
+  const hScrollRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress: hScrollY } = useScroll({
+    target: hScrollRef,
+  });
+  // 4 items = 400vw track. Scroll -75% to bring the 4th 100vw item onto the screen.
+  const xTransform = useTransform(hScrollY, [0, 1], ["0%", "-75%"]);
+
+  return (
+    <div className="flex flex-col min-h-screen bg-white text-slate-900 selection:bg-[#6c5194] selection:text-slate-900 font-sans overflow-hidden">
+      
+      {/* Hero Section */}
+      <section className="relative w-full min-h-[100dvh] flex items-center justify-center pt-24 pb-20 overflow-hidden">
+        {/* Abstract WebGL Background */}
+        <div className="absolute inset-0 z-0 opacity-40 pointer-events-none flex items-center justify-center">
+          <ParallaxTilt tiltReverse className="w-full h-full max-w-[800px] max-h-[800px]">
+            <WebGLCanvas color="#6c5194" count={4000} className="w-full h-full" />
+          </ParallaxTilt>
+        </div>
+
+        <div className="max-w-[1400px] w-full mx-auto px-6 sm:px-8 lg:px-12 relative z-10 flex flex-col items-center text-center">
+          <motion.div 
+            initial={reduce ? false : { opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="max-w-4xl flex flex-col items-center"
+          >
+            <h1 className="text-5xl sm:text-7xl lg:text-8xl font-bold tracking-tighter mb-6 leading-[1.05]">
+              Engineering<br />Resources.
+            </h1>
+            <p className="text-xl sm:text-2xl text-slate-600 leading-relaxed max-w-[24ch] mb-12">
+              Comprehensive technical documentation, quality assurance standards, and precision installation guides for K-Aqua systems.
+            </p>
+            
+            <motion.div
+              initial={reduce ? false : { opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.2, duration: 0.6 }}
+            >
+              <MagneticButton className="bg-slate-900 text-slate-900 px-8 py-4 rounded-full font-medium tracking-wide text-sm uppercase flex items-center gap-2 hover:bg-slate-800 transition-colors">
+                <span>Explore Technical Data</span>
+                <ChevronRight className="w-4 h-4" />
+              </MagneticButton>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Downloads / Technical Docs (Bento Grid) */}
+      <section className="py-32 relative z-10 bg-white">
+        <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
+          <motion.div 
+            initial={reduce ? false : { opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="mb-16 md:mb-24"
+          >
+            <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">Technical Data<br />& Specifications</h2>
+            <p className="text-lg text-slate-600 max-w-[40ch] leading-relaxed">
+              Access the definitive K-Aqua library. From holistic product ranges to rigorous quality assurance testing parameters, our documentation provides engineers, architects, and installers with the exact specifications required for uncompromising infrastructure projects. We ensure total transparency in material composition, thermal properties, and pressure ratings.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Cell 1: Product Range */}
+            <motion.article
+              initial={reduce ? false : { opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="group relative flex flex-col justify-between p-8 md:p-10 bg-slate-50/50 border border-slate-200 shadow-sm rounded-3xl hover:bg-slate-50 transition-colors overflow-hidden min-h-[400px] focus-within:ring-2 focus-within:ring-[#6c5194]"
+            >
+              <a 
+                href="https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0 z-20 focus:outline-none"
+              >
+                <span className="sr-only">Download Product Range PDF</span>
+              </a>
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                 <ParallaxTilt className="w-full h-full scale-150 opacity-20">
+                    <WebGLCanvas color="#6c5194" count={500} />
+                 </ParallaxTilt>
+              </div>
+              <div className="relative z-10 flex items-center justify-between mb-8 pointer-events-none">
+                <div className="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center border border-slate-300 shadow-lg group-hover:border-[#6c5194] transition-colors">
+                  <FileText className="w-5 h-5 text-slate-700 group-hover:text-[#6c5194]" />
+                </div>
+                <Download className="w-6 h-6 text-zinc-600 group-hover:text-slate-700 transition-colors" />
+              </div>
+              <div className="relative z-10 pointer-events-none">
+                <h3 className="text-2xl font-bold mb-4 tracking-tight">Product Range</h3>
+                <p className="text-slate-600 leading-relaxed text-sm">
+                  A complete catalog detailing our PP-R and PP-RCT piping systems. Discover dimensions, pressure classes (SDR), and the full array of precision-engineered fittings designed for potable water, heating, and industrial cooling applications. This comprehensive guide outlines the modular flexibility of the K-Aqua ecosystem.
+                </p>
+              </div>
+            </motion.article>
+
+            {/* Cell 2: Product Features */}
+            <motion.article
+              initial={reduce ? false : { opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="group relative flex flex-col justify-between p-8 md:p-10 bg-slate-50/50 border border-slate-200 shadow-sm rounded-3xl hover:bg-slate-50 transition-colors overflow-hidden min-h-[400px] focus-within:ring-2 focus-within:ring-[#6c5194]"
+            >
+              <a 
+                href="https://www.k-aqua.de/PDF/K-Aqua_Product_Features_en.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0 z-20 focus:outline-none"
+              >
+                <span className="sr-only">Download Product Features PDF</span>
+              </a>
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                 <ParallaxTilt className="w-full h-full scale-150 opacity-20">
+                    <WebGLCanvas color="#6c5194" count={500} />
+                 </ParallaxTilt>
+              </div>
+              <div className="relative z-10 flex items-center justify-between mb-8 pointer-events-none">
+                <div className="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center border border-slate-300 shadow-lg group-hover:border-[#6c5194] transition-colors">
+                  <Wrench className="w-5 h-5 text-slate-700 group-hover:text-[#6c5194]" />
+                </div>
+                <Download className="w-6 h-6 text-zinc-600 group-hover:text-slate-700 transition-colors" />
+              </div>
+              <div className="relative z-10 pointer-events-none">
+                <h3 className="text-2xl font-bold mb-4 tracking-tight">Product Features</h3>
+                <p className="text-slate-600 leading-relaxed text-sm">
+                  Deep dive into the material science behind K-Aqua. Learn about our advanced high-molecular-weight polypropylene random copolymer architecture, exceptional thermal stability, chemical resistance, and the acoustic dampening properties that make our pipes the superior choice for modern mechanical engineering.
+                </p>
+              </div>
+            </motion.article>
+
+            {/* Cell 3: Quality Assurance */}
+            <motion.article
+              initial={reduce ? false : { opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="group relative flex flex-col justify-between p-8 md:p-10 bg-[#6c5194]/10 border border-[#6c5194]/30 rounded-3xl hover:bg-[#6c5194]/20 transition-colors overflow-hidden min-h-[400px] focus-within:ring-2 focus-within:ring-white"
+            >
+              <a 
+                href="https://www.k-aqua.de/PDF/K-Aqua_Quality_Assurance_en.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0 z-20 focus:outline-none"
+              >
+                <span className="sr-only">Download Quality Assurance PDF</span>
+              </a>
+               <div className="absolute inset-0 opacity-20 group-hover:opacity-40 transition-opacity duration-700 pointer-events-none">
+                 <ParallaxTilt className="w-full h-full scale-150">
+                    <WebGLCanvas color="#6c5194" count={1000} />
+                 </ParallaxTilt>
+              </div>
+              <div className="relative z-10 flex items-center justify-between mb-8 pointer-events-none">
+                <div className="w-12 h-12 rounded-full bg-[#6c5194]/20 flex items-center justify-center border border-[#6c5194]/40">
+                  <FileText className="w-5 h-5 text-slate-900" />
+                </div>
+                <Download className="w-6 h-6 text-slate-700 group-hover:text-slate-900 transition-colors" />
+              </div>
+              <div className="relative z-10 pointer-events-none">
+                <h3 className="text-2xl font-bold mb-4 tracking-tight text-slate-900">Quality Assurance</h3>
+                <p className="text-slate-700 leading-relaxed text-sm">
+                  Uncompromising standards define our manufacturing process. This document outlines our rigorous internal testing protocols, adherence to strict international DIN and ISO standards, continuous batch monitoring, and the zero-defect tolerance policy that guarantees decades of flawless operation for every K-Aqua installation globally.
+                </p>
+              </div>
+            </motion.article>
+          </div>
+        </div>
+      </section>
+
+      {/* Horizontal Scroll Installation Videos */}
+      <section ref={hScrollRef} className="relative bg-white" style={{ height: reduce ? 'auto' : '400vh' }}>
+        <div className={`border-t border-slate-200 ${reduce ? 'py-32 flex flex-col' : 'sticky top-0 h-[100dvh] flex items-center overflow-hidden'}`}>
+          
+          <div className={`${reduce ? 'px-6 sm:px-8 lg:px-12 mb-12' : 'absolute top-12 left-6 sm:left-8 lg:left-12 z-20 mix-blend-difference pointer-events-none'}`}>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-2 text-slate-900">Installation Protocols</h2>
+            <p className="text-slate-700 max-w-[50ch]">
+              Mastering the exact thermal fusion techniques ensures lifelong joint integrity. Review our step-by-step masterclasses.
+            </p>
+          </div>
+
+          <motion.div 
+            style={{ x: reduce ? "0%" : xTransform }}
+            className={`flex ${reduce ? 'flex-col gap-12 w-full px-6 sm:px-8 lg:px-12' : 'w-[400vw] h-full items-center'}`}
+          >
+            {[
+              {
+                title: "Manual Socket Welding",
+                subtitle: "PP-R / PP-RCT Pipes & Fittings",
+                desc: "The foundational technique for standard residential and commercial pipe networks. This module demonstrates precise heating times, optimal insertion depths, and critical cooling periods using handheld welding devices to achieve homogenous, leak-proof thermal fusion joints.",
+                url: "https://www.youtube.com/watch?v=d56p048YB2o&t=20s"
+              },
+              {
+                title: "Machine Socket Welding",
+                subtitle: "Stationary Welding Machines",
+                desc: "For larger diameter pipes where manual alignment becomes physically demanding, stationary socket welding machines provide mechanical precision. Learn how to secure the pipe, calibrate the heating matrix, and execute perfectly aligned fusion with industrial-grade consistency.",
+                url: "https://www.youtube.com/watch?v=yD99teROIKc&t=59s"
+              },
+              {
+                title: "Electrofusion Welding",
+                subtitle: "Automated Joint Fusion",
+                desc: "When working in tight spatial constraints or executing repairs, electrofusion is unparalleled. This guide covers pipe peeling, cleaning protocols, barcode scanning for automated heating cycles, and verifying the fusion indicators for guaranteed structural integrity.",
+                url: "https://www.youtube.com/watch?v=ob2wMFZgm0k"
+              },
+              {
+                title: "Butt Fusion Welding",
+                subtitle: "High-Diameter Mainlines",
+                desc: "Essential for massive infrastructure and high-volume fluid transport. This advanced tutorial explains facing the pipe ends, aligning the heating plate under specific hydraulic pressure, the bead-up phase, and the controlled cooling cycle necessary for flawless high-diameter butt fusion.",
+                url: "https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s"
+              }
+            ].map((video, idx) => (
+              <div key={idx} className={`${reduce ? 'w-full' : 'w-[100vw] h-full flex items-center justify-center px-6 sm:px-12'}`}>
+                <article 
+                  className={`group relative flex-shrink-0 w-full ${reduce ? 'h-[500px]' : 'max-w-[1200px] h-[60vh] min-h-[500px]'} bg-slate-50 border border-slate-200 shadow-sm rounded-3xl overflow-hidden focus-within:ring-2 focus-within:ring-[#6c5194] flex flex-col justify-end p-8 md:p-12`}
+                >
+                  <a href={video.url} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-20 focus:outline-none">
+                    <span className="sr-only">Watch {video.title}</span>
+                  </a>
+                  <div className="absolute inset-0 bg-white pointer-events-none overflow-hidden">
+                    <ParallaxTilt className="w-full h-full opacity-30 group-hover:opacity-70 transition-opacity duration-1000 scale-110">
+                      <WebGLCanvas color="#6c5194" count={800} />
+                    </ParallaxTilt>
+                    <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/80 to-transparent" />
+                  </div>
+                  
+                  <div className="relative z-10 pointer-events-none">
+                    <div className="mb-6 w-16 h-16 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center group-hover:scale-110 group-hover:bg-slate-800 group-hover:text-slate-900 transition-all duration-500">
+                      <PlayCircle className="w-8 h-8" />
+                    </div>
+                    <p className="text-[#6c5194] font-mono text-sm tracking-widest uppercase mb-3">Module 0{idx + 1} — {video.subtitle}</p>
+                    <h3 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">{video.title}</h3>
+                    <p className="text-slate-600 max-w-2xl leading-relaxed text-sm md:text-base">
+                      {video.desc}
+                    </p>
+                  </div>
+                </article>
+              </div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Footer CTA */}
+      <section className="py-32 bg-white border-t border-slate-200 flex flex-col items-center justify-center text-center px-6 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20 pointer-events-none">
+          <ParallaxTilt className="w-full h-full scale-150">
+            <WebGLCanvas color="#6c5194" count={2000} />
+          </ParallaxTilt>
+        </div>
+        <div className="relative z-10 flex flex-col items-center">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-8">Ready to initiate your next project?</h2>
+          <MagneticButton className="bg-[#6c5194] text-slate-900 px-10 py-5 rounded-full font-medium tracking-wide text-sm flex items-center gap-2 hover:bg-[#5a427c] transition-colors">
+            <span>Contact Engineering Support</span>
+          </MagneticButton>
+        </div>
+      </section>
+      
+    </div>
+  );
+}
+"use client";
+
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'motion/react';
+import { Mail, Phone, MapPin, Info, ShieldCheck, Printer, ArrowRight, ArrowUpRight, Globe, ArrowDown } from 'lucide-react';
+import MagneticButton from '@/components/ui/MagneticButton';
+import ParallaxTilt from '@/components/ui/ParallaxTilt';
+import WebGLCanvas from '@/components/ui/WebGLCanvas';
+
+// ----------------------------------------------------------------------
+// Hero Section
+// ----------------------------------------------------------------------
+function ContactHero() {
+  const ref = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
+  
+  const yText = useTransform(scrollYProgress, [0, 1], [0, 200]);
+  const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+
+  return (
+    <section ref={ref} className="relative min-h-[100dvh] w-full overflow-hidden bg-surface flex items-center">
+      {/* Background visual replaces standard hero images */}
+      <div className="absolute inset-0 z-0">
+        <ParallaxTilt className="w-full h-full" tiltReverse={true}>
+          <WebGLCanvas color="#6c5194" count={4000} className="opacity-80" />
+        </ParallaxTilt>
+      </div>
+
+      <motion.div 
+        style={{ y: yText, opacity }}
+        className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10 w-full"
+      >
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end">
+          <div className="lg:col-span-8">
+            <motion.div 
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            >
+              <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-on-surface tracking-tighter leading-[1.05] mb-8">
+                Initiate <br />
+                Connection.
+              </h1>
+            </motion.div>
+            
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+              className="text-xl sm:text-2xl text-on-surface-variant leading-relaxed max-w-[45ch] font-medium"
+            >
+              Whether you are looking for enterprise-grade solutions, precise technical documentation, or partnership opportunities, K-Aqua's global network begins here in Germany. 
+            </motion.p>
+          </div>
+          
+          <div className="lg:col-span-4 flex flex-col items-start lg:items-end">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
+            >
+              <MagneticButton 
+                onClick={() => document.getElementById('contact-ops')?.scrollIntoView({ behavior: 'smooth' })}
+                className="px-10 py-6 text-lg bg-on-surface text-surface hover:bg-primary hover:text-on-primary"
+              >
+                Reach Support <ArrowDown className="ml-3 w-5 h-5" />
+              </MagneticButton>
+            </motion.div>
+          </div>
+        </div>
+      </motion.div>
+    </section>
+  );
+}
+
+// ----------------------------------------------------------------------
+// Headquarters & Global Operations
+// ----------------------------------------------------------------------
+function GlobalOperations() {
+  const containerRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start end", "end start"],
+  });
+  
+  const scaleIn = useTransform(scrollYProgress, [0, 0.3], [0.9, 1]);
+  const opacityIn = useTransform(scrollYProgress, [0, 0.3], [0, 1]);
+
+  return (
+    <section id="contact-ops" ref={containerRef} className="py-32 bg-surface-base relative z-10">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
+          
+          <motion.div style={{ scale: scaleIn, opacity: opacityIn }} className="sticky top-32">
+            <h2 className="text-5xl sm:text-6xl font-bold tracking-tighter text-on-surface mb-8">
+              Engineered in <br/>Germany. <br/>Operating Worldwide.
+            </h2>
+            <p className="text-lg text-on-surface-variant leading-relaxed max-w-[40ch] mb-12">
+              KWT GmbH represents the pinnacle of aquatic engineering. From our headquarters in Waldsolms-Brandoberndorf, we oversee research, development, and global distribution of the K-Aqua product ecosystem. Our central operations facility ensures uncompromising quality control across our entire supply chain.
+            </p>
+            <div className="flex gap-4">
+              <div className="w-16 h-16 rounded-full bg-surface border border-border flex items-center justify-center">
+                <Globe className="w-6 h-6 text-primary" />
+              </div>
+              <div className="w-16 h-16 rounded-full bg-surface border border-border flex items-center justify-center">
+                <MapPin className="w-6 h-6 text-primary" />
+              </div>
+            </div>
+          </motion.div>
+
+          <div className="flex flex-col gap-12">
+            <address className="not-italic bg-surface p-12 rounded-2xl border border-border shadow-flat-plus group hover:border-primary transition-colors duration-500">
+              <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-primary mb-8 flex items-center">
+                <MapPin className="w-4 h-4 mr-3" /> Headquarters
+              </h3>
+              <div className="text-3xl sm:text-4xl font-semibold leading-[1.3] text-on-surface mb-8">
+                KWT GmbH <br/>
+                Auweg 3 <br/>
+                35647 Waldsolms-<br/>Brandoberndorf
+              </div>
+              <MagneticButton 
+                onClick={() => window.open('https://maps.google.com/?q=Auweg+3,+35647+Waldsolms-Brandoberndorf', '_blank')}
+                className="bg-transparent border border-border text-on-surface hover:bg-surface-muted px-6 py-3"
+              >
+                View on Maps <ArrowUpRight className="w-4 h-4 ml-2" />
+              </MagneticButton>
+            </address>
+
+            <article className="bg-surface p-12 rounded-2xl border border-border shadow-flat-plus">
+              <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-primary mb-8 flex items-center">
+                <Phone className="w-4 h-4 mr-3" /> Sales Department
+              </h3>
+              <p className="text-on-surface-variant text-lg mb-8 leading-relaxed">
+                Connect with our commercial team for enterprise deployments, volume pricing, and international distribution inquiries. Our technical sales engineers are ready to architect the perfect solution.
+              </p>
+              <div className="space-y-6">
+                <a href="tel:+4960859868410" className="flex items-center text-2xl font-semibold text-on-surface hover:text-primary transition-colors group">
+                  <span className="w-12 h-12 bg-surface-muted rounded-full flex items-center justify-center mr-6 group-hover:bg-primary/10 transition-colors">
+                    <Phone className="w-5 h-5" />
+                  </span>
+                  +49 (0)60 85 / 9868-410
+                </a>
+                <div className="flex items-center text-xl text-on-surface-variant">
+                  <span className="w-12 h-12 bg-surface-muted rounded-full flex items-center justify-center mr-6">
+                    <Printer className="w-5 h-5" />
+                  </span>
+                  +49 (0)60 85 / 9868-420 <span className="text-sm uppercase tracking-wider ml-4 text-outline font-bold">Fax</span>
+                </div>
+                <a href="mailto:info@k-aqua.de" className="flex items-center text-2xl font-semibold text-on-surface hover:text-primary transition-colors group">
+                  <span className="w-12 h-12 bg-surface-muted rounded-full flex items-center justify-center mr-6 group-hover:bg-primary/10 transition-colors">
+                    <Mail className="w-5 h-5" />
+                  </span>
+                  info@k-aqua.de
+                </a>
+              </div>
+            </article>
+
+            <article className="bg-primary text-on-primary p-12 rounded-2xl shadow-flat-plus relative overflow-hidden group">
+              <div className="absolute inset-0 z-0 opacity-20 pointer-events-none transition-opacity duration-700 group-hover:opacity-40">
+                 <WebGLCanvas color="#ffffff" count={1000} />
+              </div>
+              <div className="relative z-10">
+                <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-inverse-primary mb-8 flex items-center">
+                  <Info className="w-4 h-4 mr-3" /> Quality & Technical Support
+                </h3>
+                <p className="text-on-primary-container text-xl mb-10 leading-relaxed font-medium">
+                  We stand behind every component. For installation guidance, material specifications, or rigorous quality assurance inquiries, our specialized engineering support desk is at your disposal.
+                </p>
+                <MagneticButton 
+                  onClick={() => window.location.href='mailto:support@k-aqua.de'}
+                  className="bg-on-primary text-primary hover:bg-inverse-primary px-8 py-4 text-lg"
+                >
+                  support@k-aqua.de <ArrowRight className="ml-3 w-5 h-5" />
+                </MagneticButton>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+// ----------------------------------------------------------------------
+// Legal & Privacy Grid
+// ----------------------------------------------------------------------
+function LegalSection() {
+  return (
+    <section className="py-32 bg-surface border-t border-border">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="mb-20">
+           <h2 className="text-4xl sm:text-5xl font-bold tracking-tighter text-on-surface mb-6">Corporate <br/>Information.</h2>
+           <p className="text-xl text-on-surface-variant max-w-[50ch]">
+             Transparency and strict adherence to European standards govern our corporate operations and data management practices.
+           </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* Imprint */}
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="flex flex-col h-full"
+          >
+            <div className="p-10 bg-surface-muted rounded-2xl border border-border h-full">
+              <h3 className="text-2xl font-bold text-on-surface mb-10 pb-6 border-b border-border">Imprint (Impressum)</h3>
+              
+              <dl className="space-y-8 text-lg">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  <dt className="text-on-surface-variant">Managing Directors</dt>
+                  <dd className="font-semibold text-on-surface sm:text-right">Philipp Nickel, Marcello Gallio</dd>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  <dt className="text-on-surface-variant">Court of Registry</dt>
+                  <dd className="font-semibold text-on-surface sm:text-right">Wetzlar HRB 6732</dd>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  <dt className="text-on-surface-variant">VAT Identification No.</dt>
+                  <dd className="font-semibold text-on-surface sm:text-right font-mono text-base mt-1">DE 296238486</dd>
+                </div>
+              </dl>
+
+              <div className="mt-12 pt-8 border-t border-border">
+                 <p className="text-sm text-on-surface-variant leading-relaxed">
+                   Information provided according to Sec. 5 German Telemedia Act (TMG). The managing directors are legally responsible for the operations and commercial representation of KWT GmbH.
+                 </p>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Privacy */}
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="flex flex-col h-full"
+          >
+            <div className="p-10 bg-surface-base rounded-2xl border border-border shadow-sm h-full flex flex-col justify-between group hover:border-primary/50 transition-colors">
+              <div>
+                <div className="w-14 h-14 bg-surface rounded-xl border border-border flex items-center justify-center mb-8">
+                  <ShieldCheck className="w-7 h-7 text-primary" />
+                </div>
+                <h3 className="text-2xl font-bold text-on-surface mb-6">Data Privacy Policy</h3>
+                <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
+                  KWT GmbH adheres strictly to the General Data Protection Regulation (DSGVO/GDPR). We are committed to ensuring the security, integrity, and protection of the personal information that we process across our digital and physical touchpoints.
+                </p>
+                <p className="text-on-surface-variant text-lg leading-relaxed">
+                  We process data on the basis of legal provisions. For comprehensive details regarding data collection vectors, external processing, retention periods, and your rights (including withdrawal of consent), our full documentation is available.
+                </p>
+              </div>
+              
+              <div className="mt-12">
+                <MagneticButton className="bg-surface text-on-surface border border-border hover:bg-surface-muted px-8 py-4 w-full sm:w-auto">
+                  Request Full Policy <ArrowRight className="ml-3 w-5 h-5" />
+                </MagneticButton>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default function ContactClient() {
+  return (
+    <div className="flex flex-col bg-surface selection:bg-primary selection:text-on-primary">
+      <ContactHero />
+      <GlobalOperations />
+      <LegalSection />
+    </div>
+  );
+}
+"use client";
+
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'motion/react';
+import { Newspaper, ShieldCheck, Zap, Droplet, Download, CheckCircle2 } from 'lucide-react';
+import WebGLCanvas from '@/components/ui/WebGLCanvas';
+import ParallaxTilt from '@/components/ui/ParallaxTilt';
+import MagneticButton from '@/components/ui/MagneticButton';
+
+export default function NewsClient() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  
+  return (
+    <div ref={containerRef} className="min-h-screen bg-white text-slate-900 font-sans selection:bg-[#5b2d8c] selection:text-slate-900 pb-32">
+      
+      {/* GLOBAL BACKGROUND NOISE/WEBGL FOR AMBIANCE */}
+      <div className="fixed inset-0 z-0 pointer-events-none opacity-20">
+        <WebGLCanvas color="#2a1542" count={2000} className="w-full h-full mix-blend-screen" />
+      </div>
+
+      <main className="relative z-10 w-full flex flex-col gap-12 lg:gap-32">
+        
+        {/* ASYMMETRIC HERO SECTION */}
+        <section className="min-h-[100dvh] flex items-center px-6 lg:px-12 pt-24 lg:pt-0">
+          <div className="max-w-[1440px] mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+            
+            <motion.div 
+              initial={{ opacity: 0, x: -40 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+              className="lg:col-span-7 flex flex-col items-start"
+            >
+              <div className="inline-flex items-center space-x-3 px-4 py-2 rounded-full border border-slate-200 shadow-sm bg-slate-50/50 backdrop-blur-md mb-8">
+                <Newspaper className="w-4 h-4 text-[#5b2d8c]" />
+                <span className="text-xs font-mono uppercase tracking-[0.2em] text-slate-700">News & Updates • Oct 2025</span>
+              </div>
+              
+              <h1 className="text-5xl sm:text-7xl lg:text-[7rem] font-bold tracking-tighter leading-[0.9] text-slate-900 mb-8">
+                The Standard <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-[#5b2d8c] to-purple-600">
+                  Elevated.
+                </span>
+              </h1>
+              
+              <p className="text-xl lg:text-2xl text-slate-600 max-w-[45ch] leading-relaxed font-light">
+                Starting October 2025, K-Aqua fundamentally expands its international ISO management systems. A definitive milestone in our uncompromising commitment to supreme quality, environmental preservation, and radical energy efficiency.
+              </p>
+            </motion.div>
+
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+              className="lg:col-span-5 h-[50vh] lg:h-[70vh] w-full"
+            >
+              <ParallaxTilt className="w-full h-full rounded-[2rem] border border-slate-200 shadow-sm bg-slate-50 overflow-hidden shadow-[0_0_80px_rgba(91,45,140,0.15)] backdrop-blur-sm relative group cursor-crosshair">
+                <div className="absolute inset-0 bg-gradient-to-br from-[#5b2d8c]/10 to-transparent z-10 pointer-events-none"></div>
+                <WebGLCanvas color="#5b2d8c" count={5000} className="w-full h-full opacity-80 mix-blend-screen transition-opacity duration-700 group-hover:opacity-100" />
+                
+                <div className="absolute bottom-8 left-8 right-8 z-20 flex justify-between items-end pointer-events-none">
+                  <div className="flex flex-col">
+                    <span className="text-slate-9000 font-mono text-xs uppercase tracking-widest mb-1">Status</span>
+                    <span className="text-slate-900 font-medium flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
+                      DAkkS Verified
+                    </span>
+                  </div>
+                  <ShieldCheck className="w-8 h-8 text-zinc-700" />
+                </div>
+              </ParallaxTilt>
+            </motion.div>
+
+          </div>
+        </section>
+
+        {/* SECTION 1: ISO 9001 */}
+        <ScrollSection 
+          index="01"
+          title="Quality Without Compromise"
+          subtitle="ISO 9001:2015 — Quality Management System"
+          icon={<ShieldCheck className="w-8 h-8 text-[#5b2d8c]" />}
+          reverse={false}
+        >
+          <p className="text-xl md:text-2xl text-slate-700 leading-relaxed font-light mb-8">
+            At K-Aqua, quality is not a static metric—it is the dynamic, foundational architecture of everything we engineer. The ISO 9001:2015 certification rigorously validates our relentless pursuit of operational perfection and absolute precision in global manufacturing.
+          </p>
+          <p className="text-lg text-slate-9000 leading-relaxed max-w-[60ch] mb-8">
+            Every pipeline, every fitting, and every fluid transport solution we deploy is subjected to unapologetically strict standards. We believe that true reliability requires a systemic, highly calibrated approach to excellence. By enforcing these comprehensive international guidelines across our entire production matrix, we ensure that our partners receive nothing short of industry-defining performance—engineered to withstand the test of time and the harshest of environmental extremes.
+          </p>
+          <ul className="space-y-4">
+            {['Rigorous material testing', 'End-to-end traceability', 'Continuous process optimization'].map((item, i) => (
+              <li key={i} className="flex items-center text-slate-600 font-mono text-sm">
+                <CheckCircle2 className="w-4 h-4 mr-3 text-[#5b2d8c]" />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </ScrollSection>
+
+        {/* SECTION 2: ISO 14001 */}
+        <ScrollSection 
+          index="02"
+          title="Environmental Stewardship"
+          subtitle="ISO 14001:2015 — Environmental Management System"
+          icon={<Droplet className="w-8 h-8 text-slate-700" />}
+          reverse={true}
+        >
+          <p className="text-xl md:text-2xl text-slate-700 leading-relaxed font-light mb-8">
+            Our commitment to the planet is unequivocally codified in our ISO 14001:2015 certification. The ecological challenges of tomorrow demand bold, systemic, and sustainable action today. We have comprehensively restructured our lifecycle processes to fiercely minimize our global footprint.
+          </p>
+          <p className="text-lg text-slate-9000 leading-relaxed max-w-[60ch] mb-8">
+            From the hyper-ethical sourcing of raw materials to the radical reduction of industrial waste in our manufacturing facilities, K-Aqua is fiercely dedicated to protecting the vital resources we work so intimately with. Water is life, and safeguarding it is our supreme directive. This certification stands as our unbreakable promise to future generations that industrial progress and ecological preservation are not mutually exclusive.
+          </p>
+          <ul className="space-y-4">
+            {['Zero-waste manufacturing initiatives', 'Lifecycle impact reduction', 'Sustainable material procurement'].map((item, i) => (
+              <li key={i} className="flex items-center text-slate-600 font-mono text-sm">
+                <CheckCircle2 className="w-4 h-4 mr-3 text-slate-9000" />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </ScrollSection>
+
+        {/* SECTION 3: ISO 50001 */}
+        <ScrollSection 
+          index="03"
+          title="Radical Energy Efficiency"
+          subtitle="ISO 50001:2018 — Energy Management System"
+          icon={<Zap className="w-8 h-8 text-[#5b2d8c]" />}
+          reverse={false}
+        >
+          <p className="text-xl md:text-2xl text-slate-700 leading-relaxed font-light mb-8">
+            Efficiency is the absolute engine of industrial evolution. With the ISO 50001:2018 certification, we have hyper-optimized our energy consumption protocols across all global K-Aqua facilities, setting a new benchmark for the sector.
+          </p>
+          <p className="text-lg text-slate-9000 leading-relaxed max-w-[60ch] mb-8">
+            By implementing intelligent, data-driven energy management systems and investing heavily in state-of-the-art, low-consumption production technologies, we are dramatically curbing our carbon emissions. We meticulously track, analyze, and relentlessly refine every single watt of power utilized in our production lines. We are not just conserving energy; we are architecting a profoundly leaner, cleaner, and vastly more responsible future for heavy manufacturing.
+          </p>
+          <ul className="space-y-4">
+            {['Smart-grid facility integration', 'Real-time consumption analytics', 'Carbon emission mitigation'].map((item, i) => (
+              <li key={i} className="flex items-center text-slate-600 font-mono text-sm">
+                <CheckCircle2 className="w-4 h-4 mr-3 text-[#5b2d8c]" />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </ScrollSection>
+
+        {/* PREMIUM FOOTER CTA */}
+        <section className="min-h-[60dvh] flex flex-col justify-center items-center text-center px-6 mt-24 relative">
+          <div className="absolute inset-0 bg-gradient-to-t from-[#5b2d8c]/5 to-transparent pointer-events-none"></div>
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="max-w-4xl flex flex-col items-center relative z-10"
+          >
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter text-slate-900 mb-8">
+              Verify Our Credentials
+            </h2>
+            <p className="text-slate-600 text-lg md:text-xl mb-12 max-w-[50ch] font-light">
+              Absolute transparency is paramount. Access the official documentation detailing our comprehensive, DAkkS verified ISO management systems.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-6 w-full justify-center">
+              <a href="https://www.k-aqua.de/PDF/KWT%20Zertifikate%20English.pdf" target="_blank" rel="noopener noreferrer" className="block w-full sm:w-auto">
+                <MagneticButton className="w-full sm:w-auto px-8 py-5 bg-white text-slate-900 rounded-full font-semibold text-base tracking-wide flex items-center justify-center transition-transform hover:scale-105 active:scale-95">
+                  <Download className="w-5 h-5 mr-3" />
+                  English Version
+                </MagneticButton>
+              </a>
+              <a href="https://www.k-aqua.de/PDF/KWT%20Zertifikat%20Deutsch.pdf" target="_blank" rel="noopener noreferrer" className="block w-full sm:w-auto">
+                <MagneticButton className="w-full sm:w-auto px-8 py-5 bg-transparent border border-slate-300 shadow-lg text-slate-900 rounded-full font-semibold text-base tracking-wide flex items-center justify-center transition-all hover:bg-slate-100 hover:border-zinc-500 hover:scale-105 active:scale-95">
+                  <Download className="w-5 h-5 mr-3" />
+                  German Version
+                </MagneticButton>
+              </a>
+            </div>
+          </motion.div>
+        </section>
+
+      </main>
+    </div>
+  );
+}
+
+function ScrollSection({ index, title, subtitle, icon, reverse, children }: { index: string, title: string, subtitle: string, icon: React.ReactNode, reverse: boolean, children: React.ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "center center"]
+  });
+
+  const opacity = useTransform(scrollYProgress, [0, 0.4, 1], [0, 0.8, 1]);
+  const y = useTransform(scrollYProgress, [0, 1], [80, 0]);
+
+  return (
+    <section ref={ref} className="min-h-[80dvh] flex items-center px-6 lg:px-12 py-12 lg:py-24">
+      <div className="max-w-[1440px] mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center">
+        
+        {/* Visual Area */}
+        <div className={`lg:col-span-5 w-full h-[50vh] lg:h-[70vh] ${reverse ? 'lg:order-2' : 'lg:order-1'}`}>
+          <motion.div style={{ opacity, y }} className="w-full h-full">
+            <ParallaxTilt className="w-full h-full rounded-[2rem] overflow-hidden border border-slate-200 shadow-sm bg-slate-50 backdrop-blur-md relative group cursor-crosshair">
+              <div className="absolute inset-0 flex items-center justify-center z-0">
+                <WebGLCanvas color="#5b2d8c" count={3000} className="w-full h-full opacity-60 mix-blend-screen transition-opacity duration-700 group-hover:opacity-100" />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent z-10 flex flex-col justify-end p-8 lg:p-10 pointer-events-none">
+                <div className="w-14 h-14 bg-slate-50/80 rounded-2xl flex items-center justify-center mb-6 border border-slate-200 shadow-sm backdrop-blur-md shadow-xl">
+                  {icon}
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-3">{title}</h3>
+                <p className="text-slate-9000 text-xs font-mono uppercase tracking-[0.2em]">{index} — CERTIFIED STANDARD</p>
+              </div>
+            </ParallaxTilt>
+          </motion.div>
+        </div>
+
+        {/* Content Area */}
+        <div className={`lg:col-span-7 ${reverse ? 'lg:order-1' : 'lg:order-2'}`}>
+          <motion.div style={{ opacity, y }} className="flex flex-col items-start">
+            <div className="text-[#5b2d8c] font-mono text-sm tracking-widest mb-8 flex items-center gap-4 w-full">
+              <span>{index}</span>
+              <div className="h-px bg-slate-100 flex-1 max-w-[100px]"></div>
+            </div>
+            
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-slate-900 mb-6 leading-[1.1]">
+              {title}
+            </h2>
+            
+            <div className="bg-slate-50/40 border border-slate-200 shadow-sm/80 rounded-full px-4 py-2 inline-flex items-center gap-3 mb-10 backdrop-blur-md">
+              <div className="w-1.5 h-1.5 rounded-full bg-[#5b2d8c] animate-pulse shadow-[0_0_10px_#5b2d8c]"></div>
+              <p className="text-xs font-mono tracking-widest text-slate-700 uppercase">
+                {subtitle}
+              </p>
+            </div>
+            
+            <div className="flex flex-col">
+              {children}
+            </div>
+          </motion.div>
+        </div>
+
+      </div>
+    </section>
+  );
+}
+"use client";
+
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform, useSpring } from 'motion/react';
+import { Droplet, ShieldCheck, Factory, Globe, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
+import MagneticButton from '@/components/ui/MagneticButton';
+import ParallaxTilt from '@/components/ui/ParallaxTilt';
+import WebGLCanvas from '@/components/ui/WebGLCanvas';
+
+export default function HomeClient() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end end"]
+  });
+
+  const smoothScroll = useSpring(scrollYProgress, { damping: 20, stiffness: 100 });
+
+  // Hero transformations
+  const heroY = useTransform(smoothScroll, [0, 0.2], [0, 200]);
+  const heroOpacity = useTransform(smoothScroll, [0, 0.2], [1, 0]);
+
+  // Section 2 transformations
+  const section2Y = useTransform(smoothScroll, [0.1, 0.3], [100, 0]);
+  const section2Opacity = useTransform(smoothScroll, [0.1, 0.3], [0, 1]);
+
+  return (
+    <main ref={containerRef} className="relative bg-white text-slate-900 min-h-[300vh] selection:bg-[#5B2D8C]/20">
+      
+      {/* SECTION 1: HERO */}
+      <section className="sticky top-0 h-[100dvh] flex items-center overflow-hidden">
+        <motion.div 
+          style={{ y: heroY, opacity: heroOpacity }}
+          className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
+        >
+          <div className="lg:col-span-6 flex flex-col items-start z-10">
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              className="mb-8 flex items-center space-x-3"
+            >
+              <div className="w-2 h-2 rounded-full bg-[#431074] animate-pulse" />
+              <span className="font-mono text-xs uppercase tracking-[0.2em] text-slate-600">System initialization</span>
+            </motion.div>
+
+            <motion.h1 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+              className="text-6xl lg:text-[5.5rem] font-bold leading-[0.95] tracking-tight mb-8"
+            >
+              Leading in <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-slate-500">Water Supply</span>
+            </motion.h1>
+
+            <motion.p 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+              className="text-lg text-slate-600 max-w-[45ch] leading-relaxed mb-12"
+            >
+              The core business field of KWT GmbH represents the apex of manufacturing. We engineer advanced pipes and fittings for critical water supply architectures. Utilizing high-performance plastic materials, we position ourselves not just as a supplier, but as the fundamental manufacturer in the modern construction value chain.
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+              className="flex items-center gap-6"
+            >
+              <MagneticButton>
+                <Link href="/products" className="px-8 py-4 bg-slate-900 text-slate-900 rounded-full font-semibold flex items-center gap-2 transition-transform hover:scale-105">
+                  Explore Ecosystem <ArrowRight className="w-4 h-4" />
+                </Link>
+              </MagneticButton>
+              <MagneticButton>
+                <Link href="/about" className="px-8 py-4 border border-slate-200 shadow-sm text-slate-800 rounded-full font-semibold hover:bg-slate-50 transition-colors">
+                  Our Origins
+                </Link>
+              </MagneticButton>
+            </motion.div>
+          </div>
+
+          <div className="lg:col-span-6 h-[50vh] lg:h-[70vh] relative rounded-3xl overflow-hidden border border-slate-200 shadow-sm bg-slate-50 backdrop-blur-sm">
+            <ParallaxTilt className="w-full h-full">
+              <WebGLCanvas color="#431074" count={5000} />
+            </ParallaxTilt>
+            <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent pointer-events-none" />
+          </div>
+        </motion.div>
+      </section>
+
+      {/* SECTION 2: THE KESSEL PARTNERSHIP & DECADES OF EXPERIENCE */}
+      <section className="relative min-h-[100dvh] flex items-center py-32 bg-white border-t border-slate-200 overflow-hidden z-10">
+        <motion.div 
+          style={{ y: section2Y, opacity: section2Opacity }}
+          className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center"
+        >
+          <div className="order-2 lg:order-1 h-[50vh] lg:h-[60vh] relative rounded-3xl overflow-hidden border border-slate-200 shadow-sm bg-slate-50">
+             <ParallaxTilt className="w-full h-full">
+              <WebGLCanvas color="#431074" count={5000} />
+            </ParallaxTilt>
+          </div>
+
+          <div className="order-1 lg:order-2 flex flex-col items-start z-10">
+            <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-200 shadow-sm flex items-center justify-center mb-8">
+              <ShieldCheck className="w-6 h-6 text-[#431074]" />
+            </div>
+            <h2 className="text-4xl lg:text-6xl font-bold tracking-tight mb-8 leading-[1.1]">Decades of <br/> Unrelenting Quality</h2>
+            <div className="space-y-6 text-lg text-slate-600 leading-relaxed max-w-[50ch]">
+              <p>
+                For over a generation, KWT GmbH has stood at the intersection of material science and civil engineering. Our pipes and fittings are not mere plastic—they are engineered conduits designed to outlast the structures they inhabit. Every millimeter of our systems is stress-tested against the harshest environmental variables.
+              </p>
+              <p>
+                Our strength is amplified by our strategic alliance with the premium manufacturer KESSEL — Leading in drainage. This close and long-standing partnership bridges the gap between water supply and water evacuation. Together, we provide a unified, uncompromising ecosystem for liquid transport.
+              </p>
+              <p>
+                With this experience of decades, we will transport our success to the future. Innovation is not a buzzword for us; it is a mechanical necessity. The construction value chain demands reliability, and we manufacture it at the molecular level.
+              </p>
+            </div>
+          </div>
+        </motion.div>
+      </section>
+
+      {/* SECTION 3: ENGINEERING SPECIFICATIONS */}
+      <section className="relative py-32 bg-white text-slate-900 border-t border-slate-200 z-10">
+        <div className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="mb-20 max-w-3xl">
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">The Architecture of Water Transport</h2>
+            <p className="text-xl text-slate-600">Engineered with absolute precision. Deployed globally. Our material advantages stand the test of time.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <motion.article 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.6 }}
+              className="p-10 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm hover:border-slate-300 shadow-lg transition-colors group backdrop-blur-sm"
+            >
+              <Factory className="w-10 h-10 text-slate-9000 mb-8 group-hover:text-[#431074] transition-colors" />
+              <h3 className="text-2xl font-bold mb-4">Precision Manufacturing</h3>
+              <p className="text-slate-600 leading-relaxed">
+                Fabricated entirely in our state-of-the-art facilities, each KWT fitting is molded with micrometer precision. The result is a seamless, friction-free internal geometry that prevents scaling and maximizes flow dynamics.
+              </p>
+            </motion.article>
+
+            <motion.article 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="p-10 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm hover:border-slate-300 shadow-lg transition-colors group backdrop-blur-sm"
+            >
+              <Droplet className="w-10 h-10 text-slate-9000 mb-8 group-hover:text-[#431074] transition-colors" />
+              <h3 className="text-2xl font-bold mb-4">Material Superiority</h3>
+              <p className="text-slate-600 leading-relaxed">
+                Utilizing next-generation plastics, our systems withstand extreme thermal stress and high-pressure differentials. These advanced polymers are biologically neutral, ensuring absolute water purity.
+              </p>
+            </motion.article>
+
+            <motion.article 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="p-10 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm hover:border-slate-300 shadow-lg transition-colors group backdrop-blur-sm"
+            >
+              <Globe className="w-10 h-10 text-slate-9000 mb-8 group-hover:text-[#431074] transition-colors" />
+              <h3 className="text-2xl font-bold mb-4">Global Deployment</h3>
+              <p className="text-slate-600 leading-relaxed">
+                From desert mega-structures to alpine infrastructure, K-Aqua systems are certified and deployed globally. We provide a universal, unyielding solution for commercial and residential water management.
+              </p>
+            </motion.article>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 4: HORIZONTAL PAN / DEEP DIVE */}
+      <HorizontalPanSection />
+      
+    </main>
+  );
+}
+
+function HorizontalPanSection() {
+  const targetRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: targetRef,
+  });
+
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
+
+  return (
+    <section ref={targetRef} className="relative h-[200vh] bg-white border-t border-slate-200 z-10">
+      <div className="sticky top-0 h-[100dvh] flex items-center overflow-hidden">
+        <motion.div style={{ x }} className="flex gap-12 md:gap-24 px-6 md:px-32 w-[200vw] items-center">
+          <div className="w-[80vw] md:w-[50vw] flex flex-col justify-center">
+            <h2 className="text-5xl lg:text-7xl font-bold tracking-tighter mb-8 leading-[1.05]">
+              K-Aqua: Leading in water supply.
+            </h2>
+            <p className="text-xl text-slate-600 leading-relaxed max-w-[45ch] mb-12">
+              Our presence in the construction value chain is defined by an absolute commitment to material integrity. We do not just manufacture pipes; we architect the lifelines of modern civilization.
+            </p>
+            <MagneticButton>
+              <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-slate-900 text-slate-900 rounded-full font-semibold gap-2 w-fit hover:bg-slate-800 transition-colors">
+                Initiate Project <ArrowRight className="w-4 h-4" />
+              </Link>
+            </MagneticButton>
+          </div>
+          <div className="w-[90vw] md:w-[70vw] h-[50vh] md:h-[70vh] relative rounded-3xl overflow-hidden border border-slate-200 shadow-sm bg-slate-50">
+            <ParallaxTilt className="w-full h-full">
+              <WebGLCanvas color="#431074" count={5000} />
+            </ParallaxTilt>
+            <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-white opacity-50 pointer-events-none" />
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+"use client";
+
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform, useSpring } from 'motion/react';
+import { Building2, ArrowRight, Activity, Globe, Droplets, ShieldCheck, Zap, GitCommit, Leaf } from 'lucide-react';
+import Link from 'next/link';
+import ParallaxTilt from '@/components/ui/ParallaxTilt';
+import MagneticButton from '@/components/ui/MagneticButton';
+import StatusDot from '@/components/ui/StatusDot';
+import dynamic from 'next/dynamic';
+
+const WebGLCanvas = dynamic(() => import('@/components/ui/WebGLCanvas'), { ssr: false });
+
+export default function AboutClient() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({ target: containerRef });
+  
+  // Smooth out the scroll progress for physics-based animations
+  const smoothProgress = useSpring(scrollYProgress, { damping: 20, stiffness: 100 });
+  
+  const y1 = useTransform(smoothProgress, [0, 1], [0, -300]);
+  const y2 = useTransform(smoothProgress, [0, 1], [0, 300]);
+  const rotateX = useTransform(smoothProgress, [0, 1], [10, -10]);
+  const scale = useTransform(smoothProgress, [0, 0.5, 1], [1, 0.95, 1]);
+
+  return (
+    <article ref={containerRef} className="flex flex-col min-h-screen bg-white text-slate-900 selection:bg-purple-900 selection:text-slate-900 overflow-hidden">
+      
+      {/* 1. Hero Section (Immersive WebGL) */}
+      <header className="relative w-full min-h-[100dvh] flex items-center justify-center pt-20 pb-20 overflow-hidden">
+        {/* Background WebGL */}
+        <div className="absolute inset-0 z-0">
+          <WebGLCanvas color="#431074" count={6000} />
+          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/20 via-zinc-950/60 to-zinc-950" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(67,16,116,0.15)_0%,transparent_70%)]" />
+        </div>
+
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10 w-full flex flex-col items-center text-center">
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.8, filter: "blur(10px)" }}
+            animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
+            transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] as const }}
+            className="inline-flex items-center justify-center p-4 bg-slate-50/50 backdrop-blur-md border border-purple-500/30 rounded-2xl mb-8 shadow-[0_0_30px_rgba(67,16,116,0.5)]"
+          >
+            <Building2 className="w-8 h-8 text-purple-400" strokeWidth={1.5} />
+          </motion.div>
+          
+          <motion.h1 
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] as const }}
+            className="text-5xl sm:text-7xl lg:text-8xl font-black tracking-tighter mb-8 leading-[0.9] text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-200 to-zinc-600"
+          >
+            APPLYING NEW<br />
+            <span className="text-purple-400">STRATEGIES</span>
+          </motion.h1>
+          
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.6 }}
+            className="h-px w-24 bg-gradient-to-r from-transparent via-purple-500 to-transparent mb-8"
+          />
+
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] as const }}
+            className="text-xl sm:text-2xl text-slate-600 leading-relaxed max-w-[60ch] font-light"
+          >
+            Our experience is your supreme advantage. We engineer the invisible lifelines of modern infrastructure through uncompromising quality, radical ecological responsibility, and relentless material innovation.
+          </motion.p>
+        </div>
+      </header>
+
+      {/* 2. Water Supply & Kessel Partnership */}
+      <section className="relative py-32 z-10">
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
+            
+            <motion.div 
+              style={{ y: y1 }}
+              className="lg:col-span-6 flex flex-col justify-center"
+            >
+              <div className="flex items-center gap-3 mb-8">
+                <span className="h-px w-8 bg-purple-500"></span>
+                <span className="text-xs font-mono tracking-[0.2em] text-purple-400 uppercase">The Foundation</span>
+              </div>
+              <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-8 tracking-tight">
+                Leading the global<br />water supply matrix.
+              </h2>
+              <div className="space-y-6 text-lg text-slate-600 font-light leading-relaxed">
+                <p>
+                  We are the absolute architects of fluid dynamics. For decades, KWT GmbH has engineered the invisible veins of modern infrastructure. We do not merely manufacture pipes and fittings; we forge the high-performance lifelines of the entire construction value chain.
+                </p>
+                <p>
+                  Through advanced polymer science, precision manufacturing, and relentless material stress-testing, we deliver water supply solutions across diverse plastic materials that defy time and environmental degradation. Our position as a premier construction material supplier is secured by a flawless track record.
+                </p>
+                <p className="text-slate-700 font-medium pl-6 border-l-2 border-purple-500">
+                  Our strategic alliance with KESSEL—the undisputed pioneer in premium drainage systems—creates a comprehensive, unbreakable ecosystem of water management.
+                </p>
+                <p>
+                  Together, we bridge the monumental gap between supply and drainage, crafting a seamless, intelligent flow from source to cycle. This partnership is not merely a collaboration; it is a profound convergence of titans, combining centuries of collective wisdom to transport our mutual success into the future.
+                </p>
+              </div>
+            </motion.div>
+            
+            <motion.div 
+              style={{ scale, rotateX }}
+              className="lg:col-span-6 relative h-[600px]"
+            >
+              <ParallaxTilt className="w-full h-full rounded-3xl overflow-hidden border border-slate-200 shadow-sm bg-slate-50 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+                <WebGLCanvas color="#a855f7" count={3000} className="opacity-80" />
+                <div className="absolute inset-0 bg-gradient-to-tr from-zinc-950 via-transparent to-purple-900/20 mix-blend-overlay" />
+                <div className="absolute bottom-10 left-10 right-10 bg-white/80 backdrop-blur-xl border border-slate-200 shadow-sm p-6 rounded-2xl">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h4 className="text-slate-900 font-bold text-lg">KESSEL Alliance</h4>
+                      <p className="text-slate-600 text-sm">Strategic Drainage Partnership</p>
+                    </div>
+                    <div className="h-12 w-12 rounded-full bg-purple-500/20 flex items-center justify-center border border-purple-500/50">
+                      <Droplets className="text-purple-400 w-6 h-6" />
+                    </div>
+                  </div>
+                </div>
+              </ParallaxTilt>
+            </motion.div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Symbiosis of Success (Bento Grid) */}
+      <section className="relative py-32 bg-slate-50 border-y border-slate-200 shadow-sm">
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+          
+          <div className="mb-20 text-center max-w-3xl mx-auto">
+            <h2 className="text-4xl sm:text-6xl font-bold text-slate-900 mb-6 tracking-tight">The Symbiosis of Success</h2>
+            <p className="text-xl text-slate-600 font-light leading-relaxed">
+              At the core of KWT GmbH lies an unyielding belief in symbiotic growth. We operate on a fundamental truth: true success is never isolated, and value must flow infinitely across all touchpoints.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+            
+            <motion.div 
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.7 }}
+              className="md:col-span-8 bg-slate-50/50 backdrop-blur-sm border border-slate-200 shadow-sm p-12 rounded-3xl relative overflow-hidden group"
+            >
+              <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-purple-600/10 rounded-full blur-[100px] pointer-events-none group-hover:bg-purple-600/20 transition-colors duration-700" />
+              <Activity className="w-10 h-10 text-purple-400 mb-8" />
+              <h3 className="text-3xl font-bold text-slate-900 mb-6">Mutual Benefits Matrix</h3>
+              <p className="text-lg text-slate-600 leading-relaxed mb-6 font-light">
+                There is no enduring customer benefit without deeply empowered employee benefits. There are no employee benefits without a resilient, thriving company. And a company cannot truly thrive if it extracts from, rather than enriches, its environment and the world around it.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed font-light">
+                We view every interaction as a profound opportunity to generate compounding value. This is the absolute architecture of our culture. In compliance with rigorous legal and social standards, we relentlessly recognize and implement the wishes of our customers.
+              </p>
+            </motion.div>
+
+            <motion.div 
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+              className="md:col-span-4 bg-gradient-to-br from-purple-900 to-zinc-950 p-12 rounded-3xl border border-purple-500/30 text-slate-900 flex flex-col justify-between"
+            >
+              <div>
+                <ShieldCheck className="w-10 h-10 text-purple-300 mb-8" />
+                <h3 className="text-3xl font-bold mb-6">Quality Dynamics</h3>
+                <p className="text-purple-200/80 leading-relaxed font-light">
+                  Quality must invariably be compatible with the fierce dimensions of cost and absolute deadlines. This uncompromising standard inherently triggers the involvement of every single employee in a perpetual engine of continuous improvement.
+                </p>
+              </div>
+            </motion.div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* 4. The GENAU System & Environment */}
+      <section className="relative py-32 overflow-hidden">
+        {/* Abstract background elements */}
+        <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[800px] h-[800px] bg-purple-900/10 rounded-full blur-[120px] pointer-events-none" />
+        
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 shadow-sm bg-slate-50/50 mb-8">
+                <Leaf className="w-4 h-4 text-emerald-400" />
+                <span className="text-sm font-medium text-slate-700">Ecological Custodianship</span>
+              </div>
+              
+              <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-8 tracking-tight">
+                The GENAU<br />Management System.
+              </h2>
+              
+              <div className="space-y-8 text-lg text-slate-600 font-light leading-relaxed">
+                <p>
+                  Ecological responsibility is not a compliance metric—it is our definitive, non-negotiable standard of quality. Every industrial action, every synthetic process, and every bold innovation at KWT GmbH is aggressively filtered through the uncompromising lens of resource conservation.
+                </p>
+                <p>
+                  This doctrine is operationalized through the GENAU Management System, the operational heartbeat integrated deep into the House of KWT. GENAU utterly transcends traditional management frameworks; it is a preemptive, tactical protocol for absolute environmental protection, health security, and massive energy optimization.
+                </p>
+                <p>
+                  Through systematic threat identification, rigorous continuous risk evaluation, and the immediate implementation of remedial actions, we neutralize inefficiencies long before they materialize into reality.
+                </p>
+              </div>
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="flex flex-col gap-6"
+            >
+              <ParallaxTilt className="bg-slate-50/40 border border-slate-200 shadow-sm p-8 rounded-3xl backdrop-blur-xl">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center border border-purple-500/30">
+                    <Zap className="text-purple-400 w-6 h-6" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-slate-900">Universal Obligation</h3>
+                </div>
+                <p className="text-slate-600 font-light leading-relaxed">
+                  The GENAU-policy is aggressively directed to all employees and all departments. Every employee's daily work is equally responsible for its realization. Every individual is legally and morally obligated to report threats and actively participate in the hyper-evolution of the GENAU-management matrix.
+                </p>
+              </ParallaxTilt>
+
+              <ParallaxTilt className="bg-slate-50/40 border border-slate-200 shadow-sm p-8 rounded-3xl backdrop-blur-xl">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center border border-emerald-500/30">
+                    <Globe className="text-emerald-400 w-6 h-6" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-slate-900">ISO Certifications</h3>
+                </div>
+                <p className="text-slate-600 font-light leading-relaxed mb-6">
+                  Our practiced GENAU management severely meets and routinely exceeds global industrial requirements.
+                </p>
+                <ul className="space-y-4">
+                  <li className="flex items-center bg-white/50 p-4 rounded-xl border border-slate-200 shadow-sm">
+                    <StatusDot active />
+                    <span className="ml-4 font-mono text-slate-700 tracking-wide">DIN EN ISO 14001 (Environment)</span>
+                  </li>
+                  <li className="flex items-center bg-white/50 p-4 rounded-xl border border-slate-200 shadow-sm">
+                    <StatusDot active />
+                    <span className="ml-4 font-mono text-slate-700 tracking-wide">DIN EN ISO 50001 (Energy)</span>
+                  </li>
+                </ul>
+              </ParallaxTilt>
+            </motion.div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* 5. Magnetic CTA Section */}
+      <section className="relative py-40 bg-white border-t border-slate-200 shadow-sm text-center overflow-hidden">
+        <div className="absolute inset-0">
+          <WebGLCanvas color="#a855f7" count={2000} className="opacity-40" />
+        </div>
+        
+        <div className="max-w-3xl mx-auto px-6 relative z-10 flex flex-col items-center">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="flex flex-col items-center"
+          >
+            <GitCommit className="w-12 h-12 text-purple-500 mb-8" />
+            <h2 className="text-5xl sm:text-7xl font-black text-slate-900 mb-8 tracking-tighter leading-none">
+              Meet Us<br />Worldwide
+            </h2>
+            <p className="text-xl text-slate-600 font-light mb-12 leading-relaxed max-w-xl">
+              We consistently deploy our massive infrastructural innovations at premier global events. Discover where the K-Aqua team is manifesting the future next.
+            </p>
+            
+            <Link href="/news" passHref legacyBehavior>
+              <MagneticButton className="bg-purple-600 hover:bg-purple-500 text-slate-900 shadow-[0_0_40px_rgba(168,85,247,0.4)] border border-purple-400/50 px-10 py-5 text-lg rounded-full">
+                View Upcoming Events
+                <ArrowRight className="ml-3 w-5 h-5" />
+              </MagneticButton>
+            </Link>
+          </motion.div>
+        </div>
+      </section>
+
+    </article>
+  );
+}
+"use client";
+
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'motion/react';
+import { Mail, Phone, Droplets, Target, Shield, Zap, Globe, Cpu } from 'lucide-react';
+import MagneticButton from '@/components/ui/MagneticButton';
+import ParallaxTilt from '@/components/ui/ParallaxTilt';
+import WebGLCanvas from '@/components/ui/WebGLCanvas';
+
+const fadeIn = {
+  initial: { opacity: 0, y: 40 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: "-100px" },
+  transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] as const }
+};
+
+const staggerContainer = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1
+    }
+  }
+};
+
+const staggerItem = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] as const } }
+};
+
+export default function CareerClient() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end end"]
+  });
+
+  const yHero = useTransform(scrollYProgress, [0, 0.2], [0, 150]);
+  const opacityHero = useTransform(scrollYProgress, [0, 0.15], [1, 0]);
+
+  return (
+    <main ref={containerRef} className="relative flex flex-col min-h-screen bg-[#050505] text-slate-800 selection:bg-[#431074] selection:text-slate-900 overflow-hidden">
+      
+      {/* 1. HERO SECTION */}
+      <section className="relative w-full min-h-[100dvh] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0 opacity-60">
+          <ParallaxTilt tiltReverse={true} className="w-full h-full">
+            <WebGLCanvas color="#431074" count={4000} />
+          </ParallaxTilt>
+        </div>
+        
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#050505]/50 to-[#050505] z-10 pointer-events-none" />
+
+        <motion.div 
+          style={{ y: yHero, opacity: opacityHero }}
+          className="relative z-20 max-w-7xl mx-auto px-6 flex flex-col items-center text-center mt-20"
+        >
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] as const }}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-8"
+          >
+            <span className="w-2 h-2 rounded-full bg-[#8c30eb] animate-pulse" />
+            <span className="text-xs font-mono uppercase tracking-[0.2em] text-slate-700">Working at K-Aqua</span>
+          </motion.div>
+
+          <motion.h1 
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] as const }}
+            className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[0.9] text-slate-900 mb-8"
+          >
+            Engineer<br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-zinc-700">The Source.</span>
+          </motion.h1>
+
+          <motion.p 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] as const }}
+            className="text-lg md:text-xl text-slate-600 max-w-2xl font-light leading-relaxed"
+          >
+            Creativity and deep experience form the bedrock of our operations. We develop, manufacture, and market the world's leading solutions in water supply architecture.
+          </motion.p>
+        </motion.div>
+      </section>
+
+      {/* 2. THE MANIFESTO */}
+      <section className="relative py-32 z-20 bg-[#050505]">
+        <div className="max-w-4xl mx-auto px-6">
+          <motion.article 
+            variants={fadeIn}
+            initial="initial"
+            whileInView="whileInView"
+            className="prose prose-invert prose-lg md:prose-xl"
+          >
+            <h2 className="text-3xl md:text-5xl font-medium tracking-tight mb-12 text-slate-800 leading-tight">
+              We do not just build pipes. We architect the lifelines of modern infrastructure.
+            </h2>
+            <div className="space-y-8 text-slate-600 font-light leading-relaxed">
+              <p>
+                At K-Aqua, creativity isn't just a buzzword; it is the operational baseline for everything we manufacture. Every millimeter of our PP-R and PP-RCT piping systems is the result of decades of accumulated experience, rigorous testing, and a refusal to accept the status quo in fluid transport.
+              </p>
+              <p>
+                Water supply is the most critical utility on earth. Our market-leading solutions are trusted globally because we combine German engineering precision with relentless innovation. From the molecular structure of our polymers to the macro-scale logistics of global distribution, we engineer reliability at every level.
+              </p>
+              <p>
+                This isn't a place for the complacent. We demand excellence because the infrastructure we build demands it. When you join K-Aqua, you are stepping into a legacy of quality and a future of exponential growth.
+              </p>
+            </div>
+          </motion.article>
+        </div>
+      </section>
+
+      {/* 3. MARKET POSITION */}
+      <section className="relative py-32 z-20 bg-white border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div 
+            variants={fadeIn}
+            initial="initial"
+            whileInView="whileInView"
+            className="mb-16"
+          >
+            <h2 className="text-4xl md:text-6xl font-bold tracking-tighter text-slate-900 mb-6">Unrivaled Position.</h2>
+            <p className="text-xl text-slate-600 max-w-2xl font-light">
+              We have reached a dominant market position, but we consider it only the beginning. Our trajectory is steep, and our expansion is continuous.
+            </p>
+          </motion.div>
+
+          <motion.div 
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: "-100px" }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
+            {[
+              { icon: Globe, title: "Global Reach", desc: "Expanding across continents, our water supply solutions are the backbone of megaprojects worldwide." },
+              { icon: Zap, title: "Aggressive Growth", desc: "An aggrandising company that never stands still. We reinvest heavily in R&D and talent." },
+              { icon: Target, title: "Market Leadership", desc: "Setting the standard for quality, durability, and safety in the PP-R and PP-RCT industry." },
+              { icon: Shield, title: "Uncompromising Quality", desc: "Certified excellence. Our manufacturing process guarantees zero-failure tolerances in extreme conditions." },
+              { icon: Droplets, title: "Fluid Dynamics", desc: "Mastering the physics of water transport. Every fitting and pipe is optimized for maximum efficiency." },
+              { icon: Cpu, title: "Modern Infrastructure", desc: "Operating a state-of-the-art facility where automation and human expertise work in perfect synthesis." }
+            ].map((feature, i) => (
+              <motion.div 
+                key={i}
+                variants={staggerItem}
+                className="group relative p-8 rounded-2xl bg-black border border-white/5 hover:border-white/10 transition-colors overflow-hidden"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-[#431074]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <feature.icon className="w-8 h-8 text-[#8c30eb] mb-6 relative z-10" strokeWidth={1.5} />
+                <h3 className="text-xl font-medium text-slate-800 mb-3 relative z-10">{feature.title}</h3>
+                <p className="text-slate-600 font-light leading-relaxed relative z-10">{feature.desc}</p>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* 4. THE PHILOSOPHY */}
+      <section className="relative py-32 z-20 bg-[#050505] border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <motion.div 
+              variants={fadeIn}
+              initial="initial"
+              whileInView="whileInView"
+            >
+              <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-slate-900 mb-8">
+                Aggrandising by design.
+              </h2>
+              <div className="space-y-6 text-slate-600 font-light leading-relaxed text-lg">
+                <p>
+                  To be aggrandising means to continuously seek growth, capability, and scale. We do not rest on our current market dominance. We view our strong position not as a finish line, but as a robust foundation for unprecedented expansion.
+                </p>
+                <p>
+                  This aggressive mindset applies to our technology and our people. We invest in modern facilities, automated manufacturing processes, and rigorous training programs. We expect our team to bring fresh perspectives, challenge archaic industry norms, and push the limits of what polymer engineering can achieve.
+                </p>
+                <p>
+                  A career at K-Aqua is a commitment to continuous improvement. We provide the resources, the global stage, and the cutting-edge technology. You bring the ambition and the expertise.
+                </p>
+              </div>
+            </motion.div>
+            
+            <motion.div
+              variants={fadeIn}
+              initial="initial"
+              whileInView="whileInView"
+              className="relative aspect-square rounded-2xl border border-white/10 bg-black/50 overflow-hidden flex items-center justify-center pointer-events-none"
+            >
+              <ParallaxTilt className="w-full h-full flex items-center justify-center p-12 pointer-events-auto">
+                <div className="w-full h-full rounded-full border border-white/5 relative flex items-center justify-center">
+                  <div className="w-3/4 h-3/4 rounded-full border border-[#8c30eb]/20 absolute" />
+                  <div className="w-1/2 h-1/2 rounded-full border border-[#8c30eb]/40 absolute" />
+                  <div className="w-1/4 h-1/4 rounded-full bg-[#8c30eb]/20 blur-xl absolute" />
+                  <WebGLCanvas color="#431074" count={1500} className="scale-75" />
+                </div>
+              </ParallaxTilt>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. THE INVITATION / CTA */}
+      <section className="relative py-40 z-20 overflow-hidden bg-black border-t border-white/5">
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <ParallaxTilt tiltReverse={false} className="w-full h-full opacity-40">
+            <WebGLCanvas color="#8c30eb" count={3000} />
+          </ParallaxTilt>
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent z-10 pointer-events-none" />
+
+        <div className="max-w-4xl mx-auto px-6 relative z-20 text-center">
+          <motion.div
+            variants={fadeIn}
+            initial="initial"
+            whileInView="whileInView"
+          >
+            <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-slate-900 mb-8">
+              Become the catalyst.
+            </h2>
+            <p className="text-xl md:text-2xl text-slate-600 font-light max-w-3xl mx-auto leading-relaxed mb-16">
+              If you have the drive to be part of an ever-growing success story and want to join a modern company pushing the limits of engineering, we want to hear from you.
+            </p>
+
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+              <a href="mailto:andrea.nickel@k-aqua.de" className="block focus:outline-none">
+                <MagneticButton className="bg-white text-black hover:bg-zinc-200 px-10 py-5 text-lg rounded-full flex items-center justify-center w-full sm:w-auto">
+                  <Mail className="w-5 h-5 mr-3" />
+                  Apply via Email
+                </MagneticButton>
+              </a>
+              <a href="tel:+4960859868410" className="block focus:outline-none">
+                <MagneticButton className="bg-transparent text-slate-900 border border-white/20 hover:bg-slate-800/5 px-10 py-5 text-lg rounded-full flex items-center justify-center w-full sm:w-auto">
+                  <Phone className="w-5 h-5 mr-3" />
+                  Call HR Dept
+                </MagneticButton>
+              </a>
+            </div>
+
+            <p className="mt-16 text-slate-9000 text-sm font-mono uppercase tracking-widest">
+              Direct Contact: andrea.nickel@k-aqua.de <br className="sm:hidden" />
+              <span className="hidden sm:inline"> • </span> +49 (0)60 85 / 9868-410
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+    </main>
+  );
+}

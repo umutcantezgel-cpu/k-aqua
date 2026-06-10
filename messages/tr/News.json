@@ -1,0 +1,154 @@
+{
+  "GridSection": {
+    "title": "Son Gelişmeler",
+    "subtitle": "En son teknolojik buluşlarımız, uluslararası projelerimiz ve stratejik sürdürülebilirlik girişimlerimizden haberdar olun.",
+    "readArticle": "Makaleyi Oku",
+    "articles": {
+      "article1": {
+        "title": "Yeni Nesil Polimer Ekstrüzyon Teknolojisi Tanıtıldı",
+        "category": "Ürün İnovasyonları",
+        "date": "15 Eki 2025",
+        "summary": "Yeni çok katmanlı ekstrüzyon prosesimiz darbe direncini %40 artırırken malzeme ağırlığını azaltıyor, endüstriyel boru sistemlerinde yeni bir standart belirliyor."
+      },
+      "article2": {
+        "title": "Güneydoğu Asya'da Büyük Altyapı Projesi",
+        "category": "Küresel Projeler",
+        "date": "08 Eki 2025",
+        "summary": "K-Aqua, ASEAN bölgesindeki üç büyük metropol bölgesinde belediye su altyapısını yenilemek için 45 milyon dolarlık bir sözleşme imzaladı."
+      },
+      "article3": {
+        "title": "%100 Geri Dönüştürülebilirlik Hedefine Ulaşıldı",
+        "category": "Sürdürülebilirlik",
+        "date": "02 Eki 2025",
+        "summary": "Dünya çapında üretilen her K-Aqua ek parçası artık tamamen geri dönüştürülebilir, döngüsel ekonomi hedefimiz tamamlanmış oldu."
+      },
+      "article4": {
+        "title": "Gelişmiş Elektrofüzyon Ek Parçaları Beta Aşamasında",
+        "category": "Ürün İnovasyonları",
+        "date": "28 Eyl 2025",
+        "summary": "RFID izlenebilirliği ve otomatik kaynak parametresi konfigürasyonu ile donatılmış akıllı elektrofüzyon ek parçalarımız için beta testleri başlıyor."
+      },
+      "article5": {
+        "title": "Doğu Avrupa'da Yeni Üretim Merkezi Açıldı",
+        "category": "Küresel Projeler",
+        "date": "20 Eyl 2025",
+        "summary": "Avrupa'daki ayak izimizi genişleten yeni, tam otomatik tesisimiz AB pazarı için üretim kapasitemizi iki katına çıkaracak."
+      },
+      "article6": {
+        "title": "2030 İçin Karbon Negatif Operasyon Hedefi",
+        "category": "Sürdürülebilirlik",
+        "date": "12 Eyl 2025",
+        "summary": "Zaman çizelgemizi hızlandırıyoruz. %100 yenilenebilir enerji ağlarına geçerek, bu on yılın sonuna kadar tamamen karbon negatif olmayı hedefliyoruz."
+      },
+      "article7": {
+        "title": "Yüksek Basınçlı Endüstriyel Vana Serisi Piyasaya Sürüldü",
+        "category": "Ürün İnovasyonları",
+        "date": "05 Eyl 2025",
+        "summary": "Aşırı kimyasal taşıma için tasarlanan yeni vana serisi, zorlu çalışma ortamlarında benzersiz korozyon direnci sunar."
+      },
+      "article8": {
+        "title": "Mega Tuzdan Arındırma Tesisi İle Ortaklık",
+        "category": "Küresel Projeler",
+        "date": "29 Ağu 2025",
+        "summary": "K-Aqua, Orta Doğu'da dünyanın en büyük güneş enerjili tuzdan arındırma tesisi için ana tedarikçi seçildi."
+      },
+      "article9": {
+        "title": "Biyo-Tabanlı Polimerlerde Çığır Açan Yenilik",
+        "category": "Sürdürülebilirlik",
+        "date": "21 Ağu 2025",
+        "summary": "Ar-Ge, geleneksel fosil bazlı plastiklerin çekme dayanımının %98'ini koruyan ticari sınıf bir biyo-polimer karışımını başarıyla tasarladı."
+      },
+      "article10": {
+        "title": "Akıllı Boru Sızıntı Tespiti Entegrasyonu",
+        "category": "Ürün İnovasyonları",
+        "date": "15 Ağu 2025",
+        "summary": "Belediye boru serimizdeki entegre akustik sensörler, gerçek zamanlı sızıntı tespitine ve tahmine dayalı bakım uyarılarına olanak tanır."
+      },
+      "article11": {
+        "title": "K-Aqua, İskandinav Dağıtım Ağını Satın Aldı",
+        "category": "Küresel Projeler",
+        "date": "08 Ağu 2025",
+        "summary": "Stratejik satın alma, tüm İskandinavya'daki tedarik zincirimizi düzene sokarak bölgesel müşteriler için teslim sürelerini büyük ölçüde azaltıyor."
+      },
+      "article12": {
+        "title": "Sıfır Su Atığı Tesisi Sertifikalandırıldı",
+        "category": "Sürdürülebilirlik",
+        "date": "01 Ağu 2025",
+        "summary": "Gelişmiş kapalı devre soğutma ve filtreleme sistemlerini kullanan amiral gemisi üretim tesisimiz, doğrulanmış Sıfır Su Atığı statüsüne ulaştı."
+      }
+    }
+  },
+  "HeroSection": {
+    "badge": "Şirket Haberleri ve Basın",
+    "title1": "En Son",
+    "title2": "Güncellemeler.",
+    "subtitle": "En yeni ürün inovasyonlarımızı, küresel projelerimizi, sürdürülebilirlik dönüm noktalarımızı ve kurumsal duyurularımızı keşfedin."
+  },
+  "FeaturedArticleSection": {
+    "badge": "SERTİFİKALI STANDART",
+    "article1": {
+      "title": "Ödün Vermeyen Kalite",
+      "subtitle": "ISO 9001:2015 — Kalite Yönetim Sistemi",
+      "p1": "K-Aqua'da kalite statik bir ölçüt değildir; tasarladığımız her şeyin dinamik ve temel mimarisidir. ISO 9001:2015 sertifikası, küresel üretimde operasyonel mükemmellik ve mutlak hassasiyet konusundaki amansız arayışımızı titizlikle doğrulamaktadır.",
+      "p2": "Geliştirdiğimiz her boru hattı, her bağlantı parçası ve her sıvı taşıma çözümü kesinlikle katı standartlara tabidir. Gerçek güvenilirliğin, mükemmelliğe yönelik sistemik ve son derece kalibre edilmiş bir yaklaşım gerektirdiğine inanıyoruz. Bu kapsamlı uluslararası yönergeleri tüm üretim matrisimizde uygulayarak, iş ortaklarımızın zamanın testine ve en zorlu çevre koşullarına dayanacak şekilde tasarlanmış sektör lideri performanstan daha azını almamasını sağlıyoruz.",
+      "li1": "Sıkı malzeme testleri",
+      "li2": "Uçtan uca izlenebilirlik",
+      "li3": "Sürekli süreç optimizasyonu"
+    },
+    "article2": {
+      "title": "Çevre Yönetimi",
+      "subtitle": "ISO 14001:2015 — Çevre Yönetim Sistemi",
+      "p1": "Gezegenimize olan bağlılığımız, ISO 14001:2015 sertifikamızda tartışmasız bir şekilde kodlanmıştır. Yarının ekolojik zorlukları bugün cesur, sistemik ve sürdürülebilir eylemler gerektiriyor. Küresel ayak izimizi şiddetle en aza indirmek için yaşam döngüsü süreçlerimizi kapsamlı bir şekilde yeniden yapılandırdık.",
+      "p2": "Hammaddelerin hiper-etik tedarikinden üretim tesislerimizdeki endüstriyel atıkların radikal bir şekilde azaltılmasına kadar K-Aqua, birlikte çok yakından çalıştığımız hayati kaynakları korumaya şiddetle kendini adamıştır. Su hayattır ve onu korumak en yüce görevimizdir. Bu sertifika, endüstriyel ilerleme ile ekolojik korumanın birbirini dışlamadığına dair gelecek nesillere olan sarsılmaz vaadimizi temsil etmektedir.",
+      "li1": "Sıfır atık üretim girişimleri",
+      "li2": "Yaşam döngüsü etkisinin azaltılması",
+      "li3": "Sürdürülebilir malzeme tedariki"
+    },
+    "article3": {
+      "title": "Radikal Enerji Verimliliği",
+      "subtitle": "ISO 50001:2018 — Enerji Yönetim Sistemi",
+      "p1": "Verimlilik, endüstriyel evrimin mutlak motorudur. ISO 50001:2018 sertifikası ile tüm küresel K-Aqua tesislerinde enerji tüketimi protokollerimizi hiper-optimize ederek sektör için yeni bir ölçüt belirledik.",
+      "p2": "Akıllı, veriye dayalı enerji yönetim sistemlerini uygulayarak ve son teknoloji, düşük tüketimli üretim teknolojilerine yoğun yatırım yaparak karbon emisyonlarımızı önemli ölçüde engelliyoruz. Üretim hatlarımızda kullanılan her bir watt gücü titizlikle takip ediyor, analiz ediyor ve acımasızca iyileştiriyoruz. Sadece enerjiyi korumakla kalmıyoruz; ağır imalat endüstrisi için çok daha yalın, daha temiz ve çok daha sorumlu bir gelecek tasarlıyoruz.",
+      "li1": "Akıllı şebeke tesis entegrasyonu",
+      "li2": "Gerçek zamanlı tüketim analizi",
+      "li3": "Karbon emisyonlarının azaltılması"
+    }
+  },
+  "PressKitSection": {
+    "badge": "Resmi Varlıklar",
+    "title": "Medya ve Basın Kiti",
+    "subtitle": "Mutlak şeffaflık çok önemlidir. Resmi marka yönergelerimize, yüksek çözünürlüklü ürün fotoğraflarına, yönetici biyografilerine ve onaylanmış ISO yönetim sertifikalarına erişin.",
+    "btnEn": "İngilizce ISO PDF",
+    "btnDe": "Almanca ISO PDF",
+    "card1": {
+      "title": "Marka Varlıkları",
+      "desc": "Resmi logolar, tipografi ve renk paleti özellikleri.",
+      "action": "ZIP İndir"
+    },
+    "card2": {
+      "title": "Ürün Fotoğrafları",
+      "desc": "Borularımızın, bağlantı parçalarımızın ve tesislerimizin yüksek çözünürlüklü görüntüleri.",
+      "action": "ZIP İndir"
+    },
+    "card3": {
+      "title": "Basın Bültenleri",
+      "desc": "Tüm resmi şirket beyanlarının ve basın bültenlerinin arşivi.",
+      "action": "Arşivi Görüntüle"
+    },
+    "card4": {
+      "title": "Yönetici Biyografileri",
+      "desc": "K-Aqua liderlik ekibinin profilleri ve vesikalık fotoğrafları.",
+      "action": "PDF İndir"
+    }
+  },
+  "NewsletterSection": {
+    "title": "Bültenimize Abone Olun",
+    "subtitle": "Endüstriyel boru üretimi, sürdürülebilir mühendislik uygulamaları ve küresel şirket güncellemeleri hakkındaki en son gelişmeleri doğrudan gelen kutunuza alın.",
+    "success": "Abonelik onaylandı. Aramıza hoş geldiniz.",
+    "placeholder": "E-posta adresinizi girin",
+    "subscribe": "Abone Ol",
+    "privacy": "Gelen kutunuza saygı duyuyoruz. Asla spam göndermeyiz. Lütfen okuyun:",
+    "privacyLink": "Gizlilik Politikası",
+    "dot": "."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "CTA": {
+    "title": "Bir sonraki projeniz için K-Aqua'yı seçin.",
+    "description": "Kaliteden ödün vermeyi reddeden binlerce küresel geliştiriciye katılın. Sistem mimarinizi tasarlamak için mühendislik ekibimizle iletişime geçin.",
+    "button": "Danışmanlık Başlat"
+  },
+  "CaseStudies": {
+    "title": "Öne Çıkan Vaka Çalışmaları",
+    "description": "Başarılı kurulumlardan oluşan küresel portföyümüzü keşfedin ve K-Aqua'nın karmaşık mühendislik zorluklarını nasıl çözdüğünü öğrenin.",
+    "viewFull": "Vaka Çalışmasının Tamamını Görüntüle"
+  },
+  "FAQ": {
+    "title": "Sıkça Sorulan Sorular",
+    "description": "Küresel dağıtımlarımız ve teknik yeteneklerimiz hakkında içgörüler.",
+    "questions": {
+      "q1": "K-Aqua PP-R boruları tipik olarak ne tür projelere kurulur?",
+      "a1": "K-Aqua PP-R sistemleri oldukça çok yönlüdür ve küresel olarak belediye su tedarik ağları, lüks otel tatil köyleri, yüksek katlı ticari süper yapılar ve kimyasallara dayanıklı borulama gerektiren endüstriyel tesisler için belirlenmiştir.",
+      "q2": "K-Aqua sistemleri aşırı sıcaklıklarda nasıl performans gösterir?",
+      "a2": "PP-R ve PP-RCT borularımız üstün termal kararlılık için tasarlanmıştır. Yapısal bütünlüğü korurlar ve hem dondurucu koşullarda hem de yüksek sıcaklıktaki endüstriyel ortamlarda kusursuz bir şekilde çalışırlar.",
+      "q3": "Mühendisler geleneksel metal borular yerine neden K-Aqua'yı seçiyor?",
+      "a3": "K-Aqua polimer sistemleri, geleneksel metal borularda yaygın olan korozyon ve kireçlenme riskini ortadan kaldırır. Ayrıca sistemlerimiz önemli ölçüde daha hafiftir, kurulumu daha hızlıdır ve 50 yılı aşan bir çalışma ömrüne sahiptir.",
+      "q4": "K-Aqua boru sistemleri yüksek binalar için uygun mu?",
+      "a4": "Evet. Sistemlerimiz, onlarca yıllık sürekli çalışma boyunca bozulma veya basınç kaybı olmadan muazzam hidrostatik basınçlara dayanabilmeleri nedeniyle gökdelenlerde sıklıkla kullanılmaktadır."
+    }
+  },
+  "Hero": {
+    "badge": "Küresel Dağıtım",
+    "title1": "Dünyanın Aşırılıkları İçin",
+    "title2": "Tasarlandı.",
+    "description": "Geçtiğimiz on yıllar boyunca, K-Aqua ürünleri dünyanın dört bir yanındaki destinasyonlarda kendilerini sayısız kez kanıtlamıştır. Referanslarımız sunduğumuz geniş kurulum olanaklarını yansıtır."
+  },
+  "Legacy": {
+    "title": "PP-R ve PP-RCT Sistemlerinin Mirası",
+    "p1": "Çeyrek asırdan fazla bir süredir K-Aqua, küresel ölçekte polimer boru sistemlerinin standartlarını yeniden tanımladı. Kuzey Avrupa'nın dondurucu belediye boru hatlarından Orta Doğu'daki hiper talepkar yüksek katlı ticari yapılara kadar, PP-R ve PP-RCT teknolojilerimiz modern medeniyetin görünmez omurgası olarak hizmet vermektedir.",
+    "p2": "Burada sergilenen referanslar, geniş kurulum olanaklarımızın hızlı bir yansıması olarak hizmet vermektedir. Mühendisler, mimarlar ve şehir planlamacıları mutlak kesinlik talep eder ve K-Aqua bunu sağlar.",
+    "p3": "Her kurulum, Alman mühendislik hassasiyetimizin bir kanıtıdır. Boru ağlarımızın üstün termal kararlılığı, mutlak korozyon direnci ve onlarca yıllık çalışma ömürleri, K-Aqua kurulduktan sonra kusursuz çalışmasını sağlar.",
+    "p4": "Modern mimarinin sınırları zorladığını anlıyoruz. İster 80 katlı bir gökdelenin yapısal çekirdeğinden yönlendirilsin, ister kalabalık bir metropolün altına kilometrelerce belediye tedarik hatları gömülsün, K-Aqua vizyonunuzla ölçeklenen tavizsiz bir çözüm sunar."
+  },
+  "Sectors": {
+    "title": "Hizmet Verdiğimiz Sektörler",
+    "description": "Boru sistemleri çözümlerimiz, çeşitli yüksek performanslı sektörlerin benzersiz taleplerini karşılamak üzere tasarlanmıştır.",
+    "commercialTitle": "Ticari Süper Yapılar",
+    "commercialDesc": "Mega kulelerdeki devasa hidrostatik basınçlara dayanma. K-Aqua sistemleri, onlarca yıllık sürekli çalışma boyunca bozulma veya basınç kaybı olmadan dikey olarak yüzlerce metre boyunca kesintisiz su dağıtımı sağlayan sıfır hata toleransları nedeniyle seçilmektedir.",
+    "hospitalityTitle": "Lüks Konaklama & Tatil Köyleri",
+    "hospitalityDesc": "Dünyanın önde gelen tatil köylerinde bozulmamış su kalitesi tartışılamaz. Toksik olmayan, hijyenik olarak mükemmel PP-R sistemlerimiz, suyun kaynaktan süite kadar tam olarak tasarlandığı gibi kalmasını sağlar.",
+    "municipalTitle": "Belediye Altyapısı",
+    "municipalDesc": "Şehirler, her gün milyonlarca litre su sağlamak için K-Aqua'ya güveniyor. Kireçlenmeye, korozyona ve aşırı zemin hareketlerine direnmek üzere tasarlanan geniş yeraltı ağlarımız, kamu hizmetleri için bakım masraflarını önemli ölçüde azaltarak çok nesilli güvenilirlik sağlar."
+  },
+  "Stats": {
+    "countries": "Hizmet Verilen Ülkeler",
+    "meters": "Kurulan Metre",
+    "years": "Mükemmellik Yılı",
+    "failure": "Sıfır Hata Oranı"
+  },
+  "Technical": {
+    "title": "Teknik Üstünlük",
+    "description": "Her başarılı kurulumun temeli, K-Aqua sistemlerinin eşsiz malzeme özelliklerinde yatar. Sadece boru tedarik etmiyoruz; ömür boyu performans garantisi sunuyoruz.",
+    "features": {
+      "thermalTitle": "Termal Kararlılık",
+      "thermalDesc": "K-Aqua PP-R ve PP-RCT boruları, yapısal bozulma olmadan yüksek sıcaklıklarda sürekli çalışma kapasitesine sahip olağanüstü bir termal kararlılık sergiler.",
+      "corrosionTitle": "Mutlak Korozyon Direnci",
+      "corrosionDesc": "Polimer bileşimimiz, hem iç hem de dış korozyona karşı doğası gereği bağışıktır, bu da su kalitesinin bozulmamasını ve boru içlerinin kireçlenmeden kalmasını sağlar.",
+      "pressureTitle": "Yüksek Basınç Toleransı",
+      "pressureDesc": "Şiddetli hidrostatik basınçlara dayanacak şekilde tasarlanmıştır, bu da onu yüksek binalar ve zorlu endüstriyel uygulamalar için ideal bir seçim haline getirir."
+    },
+    "specsTitle": "Malzeme Özellikleri",
+    "specs": {
+      "material": "Malzeme Tabanı",
+      "density": "Yoğunluk",
+      "thermal": "Isıl İletkenlik",
+      "linear": "Doğrusal Genleşme",
+      "lifespan": "Beklenen Ömür"
+    }
+  }
+}

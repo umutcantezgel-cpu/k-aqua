@@ -1,0 +1,75 @@
+{
+  "CTA": {
+    "title": "Spezifizieren Sie K-Aqua für Ihr nächstes Projekt.",
+    "description": "Schließen Sie sich tausenden Entwicklern weltweit an, die bei der Qualität keine Kompromisse eingehen. Kontaktieren Sie unser Ingenieurteam, um Ihre Systemarchitektur zu planen.",
+    "button": "Beratung anfordern"
+  },
+  "CaseStudies": {
+    "title": "Ausgewählte Fallstudien",
+    "description": "Entdecken Sie unser globales Portfolio an erfolgreichen Installationen und erfahren Sie, wie K-Aqua komplexe technische Herausforderungen löst.",
+    "viewFull": "Vollständige Fallstudie anzeigen"
+  },
+  "FAQ": {
+    "title": "Häufig gestellte Fragen",
+    "description": "Einblicke in unsere weltweiten Installationen und technischen Fähigkeiten.",
+    "questions": {
+      "q1": "In welchen Projekttypen werden K-Aqua PP-R-Rohre typischerweise installiert?",
+      "a1": "K-Aqua PP-R-Systeme sind äußerst vielseitig und werden weltweit für städtische Wasserversorgungsnetze, Luxushotelresorts, gewerbliche Hochhäuser und Industrieanlagen mit Bedarf an chemikalienbeständigen Rohrleitungen spezifiziert.",
+      "q2": "Wie verhalten sich K-Aqua-Systeme bei extremen Temperaturen?",
+      "a2": "Unsere PP-R- und PP-RCT-Rohre sind für überragende thermische Stabilität ausgelegt. Sie behalten ihre strukturelle Integrität und funktionieren einwandfrei sowohl bei Frost als auch in industriellen Hochtemperaturumgebungen.",
+      "q3": "Warum entscheiden sich Ingenieure für K-Aqua anstelle traditioneller Metallrohre?",
+      "a3": "K-Aqua-Polymersysteme beseitigen das Risiko von Korrosion und Verkalkung – häufige Fehlerquellen bei traditionellen Metallrohren. Zudem sind unsere Systeme deutlich leichter, schneller zu installieren und weisen eine Lebensdauer von über 50 Jahren auf.",
+      "q4": "Sind K-Aqua-Rohrleitungssysteme für Hochhäuser geeignet?",
+      "a4": "Ja. Unsere Systeme werden häufig in Wolkenkratzern eingesetzt, da sie enormen hydrostatischen Drücken standhalten, ohne dass es über Jahrzehnte hinweg zu Materialermüdung oder Druckverlusten kommt."
+    }
+  },
+  "Hero": {
+    "badge": "Weltweiter Einsatz",
+    "title1": "Konstruiert für die",
+    "title2": "Extreme der Welt.",
+    "description": "In den vergangenen Jahrzehnten haben sich K-Aqua-Produkte unzählige Male an Orten auf der ganzen Welt bewährt. Unsere Referenzen spiegeln die vielfältigen Installationsmöglichkeiten wider, die wir bieten."
+  },
+  "Legacy": {
+    "title": "Das Vermächtnis der PP-R- und PP-RCT-Systeme",
+    "p1": "Seit über einem Vierteljahrhundert definiert K-Aqua die Standards für Polymer-Rohrleitungssysteme weltweit neu. Von den eiskalten städtischen Rohrleitungen Nordeuropas bis zu den extrem anspruchsvollen gewerblichen Hochhäusern im Nahen Osten bilden unsere PP-R- und PP-RCT-Technologien das unsichtbare Rückgrat der modernen Zivilisation.",
+    "p2": "Die hier gezeigten Referenzen sind ein kurzer Einblick in unsere umfassenden Installationsmöglichkeiten. Ingenieure, Architekten und Stadtplaner verlangen absolute Sicherheit – und K-Aqua liefert sie. Wir bieten die unnachgiebigen Adern, die moderne Infrastruktur, luxuriöse Gastronomie und riesige Industrieanlagen versorgen. Wenn viel auf dem Spiel steht, baut die Welt auf K-Aqua.",
+    "p3": "Jede Installation ist ein Beweis für unsere Präzision und deutsche Ingenieurskunst. Die überragende thermische Stabilität, die absolute Korrosionsbeständigkeit und die jahrzehntelange Betriebsdauer unserer Rohrleitungsnetze garantieren: Wenn K-Aqua einmal installiert ist, funktioniert es einwandfrei. Unsere Präsenz erstreckt sich über fünf Kontinente und schützt die wichtigste Ressource der Welt vor extremen Drücken und Temperaturschwankungen.",
+    "p4": "Wir wissen, dass moderne Architektur Grenzen überschreitet. Ob die Leitungsführung durch den strukturellen Kern eines 80-stöckigen Wolkenkratzers verläuft oder kilometerlange städtische Versorgungsleitungen unter einer belebten Metropole verlegt werden – K-Aqua bietet eine kompromisslose Lösung, die mit Ihren Ambitionen wächst."
+  },
+  "Sectors": {
+    "title": "Branchen, die wir beliefern",
+    "description": "Unsere Rohrleitungslösungen sind so konstruiert, dass sie den einzigartigen Anforderungen verschiedener Hochleistungssektoren gerecht werden.",
+    "commercialTitle": "Gewerbliche Hochhausbauten",
+    "commercialDesc": "Widerstandsfähigkeit gegen immense hydrostatische Drücke in Megatürmen. K-Aqua-Systeme werden aufgrund ihrer Null-Fehler-Toleranz ausgewählt und gewährleisten eine nahtlose Wasserverteilung über Hunderte von vertikalen Metern ohne Verschleiß oder Druckverlust über Jahrzehnte im Dauerbetrieb.",
+    "hospitalityTitle": "Luxushotels & Resorts",
+    "hospitalityDesc": "Einwandfreie Wasserqualität ist in den führenden Resorts der Welt unverzichtbar. Unsere ungiftigen, hygienisch perfekten PP-R-Systeme garantieren, dass das Wasser von der Quelle bis zur Suite genau so bleibt, wie es sein soll – frei von Schwermetallbelastung und Verkalkung.",
+    "municipalTitle": "Städtische Infrastruktur",
+    "municipalDesc": "Städte verlassen sich auf K-Aqua, um täglich Millionen Liter zu liefern. Unsere riesigen unterirdischen Netzwerke sind resistent gegen Verkalkung, Korrosion und extreme Bodenbewegungen, bieten generationsübergreifende Zuverlässigkeit und senken die Wartungskosten für öffentliche Versorgungsunternehmen erheblich."
+  },
+  "Stats": {
+    "countries": "Belieferte Länder",
+    "meters": "Installierte Meter",
+    "years": "Jahre der Exzellenz",
+    "failure": "Ausfallrate"
+  },
+  "Technical": {
+    "title": "Technische Überlegenheit",
+    "description": "Die Grundlage jeder erfolgreichen Installation liegt in den unübertroffenen Materialeigenschaften der K-Aqua-Systeme. Wir liefern nicht nur Rohre, sondern garantieren ein Leben lang Leistung.",
+    "features": {
+      "thermalTitle": "Thermische Stabilität",
+      "thermalDesc": "K-Aqua PP-R- und PP-RCT-Rohre weisen eine außergewöhnliche thermische Stabilität auf und können bei hohen Temperaturen ohne strukturelle Verschlechterung im Dauerbetrieb eingesetzt werden.",
+      "corrosionTitle": "Absolute Korrosionsbeständigkeit",
+      "corrosionDesc": "Unsere Polymerzusammensetzung ist von Natur aus immun gegen interne und externe Korrosion, sodass die Wasserqualität makellos bleibt und die Rohrinnenräume nicht verkalken.",
+      "pressureTitle": "Hohe Drucktoleranz",
+      "pressureDesc": "Entwickelt, um starkem hydrostatischem Druck standzuhalten – die ideale Wahl für Hochhäuser und anspruchsvolle industrielle Anwendungen."
+    },
+    "specsTitle": "Materialspezifikationen",
+    "specs": {
+      "material": "Materialbasis",
+      "density": "Dichte",
+      "thermal": "Wärmeleitfähigkeit",
+      "linear": "Längenausdehnung",
+      "lifespan": "Erwartete Lebensdauer"
+    }
+  }
+}

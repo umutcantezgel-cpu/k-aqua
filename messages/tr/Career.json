@@ -1,0 +1,88 @@
+{
+  "Hero": {
+    "title_1": "Suyun Geleceğini",
+    "title_2": "Tasarlayın",
+    "subtitle": "K-Aqua'ya katılın ve yaşamı sürdüren altyapıyı inşa edin. Polimer mühendisliğinin sınırlarını zorlayacak hırslı zihinler arıyoruz.",
+    "cta": "Açık Pozisyonları Görüntüle"
+  },
+  "CTA": {
+    "title": "Katalizör Olun",
+    "subtitle": "Sürekli büyüyen bir başarı öyküsünün parçası olma dürtüsüne sahipseniz ve mühendisliğin sınırlarını zorlayan modern bir şirkete katılmak istiyorsanız, sizinle tanışmak istiyoruz.",
+    "btn_email": "E-posta ile Başvur",
+    "btn_call": "İK Departmanını Ara",
+    "contact_prefix": "Doğrudan İletişim"
+  },
+  "FAQ": {
+    "title": "Sıkça Sorulan Sorular",
+    "items": [
+      { "q": "Uzaktan çalışma seçenekleri sunuyor musunuz?", "a": "Role bağlı olarak, esnek hibrit ve tamamen uzaktan çalışma düzenlemeleri sunuyoruz. Mühendislik ve üretim rolleri tipik olarak sahada bulunmayı gerektirirken, satış ve yönetici rolleri daha fazla esneklik sunar." },
+      { "q": "İşe alım süreci nasıl işliyor?", "a": "Yeni işe alınanlar, ürünlerimizi, kültürümüzü, sistemlerimizi kapsayan ve önemli departman başkanlarıyla derinlemesine görüşmeler içeren kapsamlı bir 4 haftalık işe alım programından geçerler." },
+      { "q": "Uluslararası yer değiştirme fırsatları var mı?", "a": "Evet, küresel bir şirket olarak, uluslararası ofislerimizde sıklıkla kurum içi hareketlilik ve yer değiştirme fırsatları sunuyoruz." },
+      { "q": "K-Aqua mesleki gelişimi nasıl destekliyor?", "a": "Yıllık bir öğrenim bütçesi, şirket içi mentorluk programları ve ilgili sertifikalar ve endüstri konferansları için ücretli izin sağlıyoruz." }
+    ]
+  },
+  "Benefits": {
+    "title": "Kapsamlı Yan Haklar",
+    "subtitle": "Ekibimizden en iyisini talep ediyoruz ve karşılığında en iyisini sunuyoruz. Yan haklar paketimiz profesyonel ve kişisel yaşamınızı desteklemek üzere tasarlanmıştır.",
+    "items": [
+      { "title": "Kapsamlı Sağlık", "desc": "Refahınızı ve huzurunuzu ön planda tutan üst düzey sağlık sigortası." },
+      { "title": "Sürekli Öğrenme", "desc": "Kurslar, sertifikalar ve endüstri konferansları için cömert bütçeler." },
+      { "title": "Esnek Çalışma", "desc": "Kişisel programınızı yönetme esnekliği ile temel çalışma saatleri." },
+      { "title": "Modern Tesisler", "desc": "Odaklanma, işbirliği ve konfor için tasarlanmış son teknoloji ofis alanları." },
+      { "title": "Ayrıcalıklı İmkanlar", "desc": "Şirket içi yemek hizmeti, özel kahve ve dinlenme alanları." },
+      { "title": "Performans Bonusu", "desc": "Performansa dayalı teşviklere sahip rekabetçi ücret paketleri." }
+    ]
+  },
+  "JobPostings": {
+    "title": "Açık Pozisyonlar",
+    "subtitle": "Büyüyen organizasyonumuzda yerinizi bulun. Birden fazla departmanda aktif olarak işe alım yapıyoruz.",
+    "items": [
+      { "title": "Kıdemli Polimer Mühendisi", "dept": "Mühendislik", "type": "Tam zamanlı", "location": "Almanya / Hibrit" },
+      { "title": "Üretim Tesisi Müdürü", "dept": "Üretim", "type": "Tam zamanlı", "location": "Yerinde" },
+      { "title": "Küresel Teknik Satış Lideri", "dept": "Satış", "type": "Tam zamanlı", "location": "Uzaktan / Seyahat" },
+      { "title": "Tedarik Zinciri Analisti", "dept": "Lojistik", "type": "Tam zamanlı", "location": "Hibrit" }
+    ]
+  },
+  "HiringProcess": {
+    "title": "İşe Alım Süreci",
+    "subtitle": "Şeffaf, verimli ve zamanınıza saygılı.",
+    "items": [
+      { "title": "Başvuru İncelemesi", "desc": "İşe alım ekibimiz, profilinizi mevcut gereksinimlerimize ve gelecekteki ihtiyaçlarımıza karşı dikkatle inceler." },
+      { "title": "İlk Görüşme", "desc": "Geçmişinizi, motivasyonlarınızı tartışmak ve K-Aqua hakkındaki acil soruları yanıtlamak için kısa bir görüşme." },
+      { "title": "Teknik/Uzmanlık Mülakatı", "desc": "İşe alım yöneticisi ve ekip üyeleriyle profesyonel becerilerinize derinlemesine bir bakış." },
+      { "title": "Son Teklif", "desc": "Rekabetçi bir teklif sunuyor ve küresel ekibimize entegrasyon planınızı tartışıyoruz." }
+    ]
+  },
+  "Culture": {
+    "title": "Kültürümüz",
+    "subtitle": "Mükemmelliği talep eden ve yüksek performanslı ekiplerde gelişenler için tasarlanmış bir ortam.",
+    "items": [
+      { "title": "İşbirlikçi Mükemmellik", "desc": "Ekiplerimiz yüksek güven ve özerklikle çalışır. Hiyerarşiye veya kıdeme bakılmaksızın en iyi fikirlerin kazandığına inanıyoruz." },
+      { "title": "Önce İnovasyon", "desc": "Ar-Ge'ye yoğun yatırım yapıyoruz. Gelişmiş PP-RCT bileşiklerinden otomatik ekstrüzyon hatlarına kadar, inovasyon bizim temelimizdir." },
+      { "title": "Sürekli Büyüme", "desc": "Eski normlara meydan okuyoruz. K-Aqua'daki kariyer yolunuz yalnızca hırsınız ve öğrenme arzunuzla sınırlıdır." }
+    ]
+  },
+  "Manifesto": {
+    "title": "Manifesto",
+    "quote": "\"Su yaşamın özüdür, ancak onu sağlayan altyapıdır. Modern medeniyetin arterlerini tavizsiz hassasiyet ve Alman mühendisliği ile inşa ediyoruz.\"",
+    "description": "K-Aqua'da sadece boru üretmiyoruz. Dünyanın en değerli kaynağının güvenli taşınmasını garanti eden dayanıklı sistemler tasarlıyoruz. Tasarım gereği büyüyoruz—sürekli olarak ölçek ve kapasite arayışındayız."
+  },
+  "Locations": {
+    "title": "Merkezimiz",
+    "subtitle": "Almanya'nın kalbinde yer alan merkez kampüsümüz, küresel operasyonlarımızın merkezidir. Ana Ar-Ge laboratuvarlarımıza, yönetim ofislerimize ve uluslararası genişlememizi yönlendiren çekirdek mühendislik ekiplerine ev sahipliği yapmaktadır.",
+    "hq_title": "Küresel Genel Merkez - Almanya",
+    "map_placeholder": "Tesis Haritası Entegrasyonu"
+  },
+  "MarketPosition": {
+    "title": "Rakipsiz Konum",
+    "subtitle": "Pazarda baskın bir konuma sahibiz, ancak bunu sadece bir başlangıç olarak görüyoruz. Yörüngemiz dik ve büyümemiz süreklidir.",
+    "items": [
+      { "title": "Küresel Erişim", "desc": "Kıtalara yayılan su temini çözümlerimiz, dünya çapındaki mega projelerin belkemiğidir." },
+      { "title": "Agresif Büyüme", "desc": "Asla yerinde saymayan, büyüyen bir şirket. Ar-Ge'ye ve yeteneğe yoğun bir şekilde yeniden yatırım yapıyoruz." },
+      { "title": "Pazar Liderliği", "desc": "PP-R ve PP-RCT endüstrisinde kalite, dayanıklılık ve güvenlik standartlarını belirliyoruz." },
+      { "title": "Tavizsiz Kalite", "desc": "Sertifikalı mükemmellik. Üretim sürecimiz, zorlu koşullarda sıfır hata toleransını garanti eder." },
+      { "title": "Akışkanlar Dinamiği", "desc": "Su taşımacılığının fiziğinde ustalaşmak. Her bağlantı parçası ve boru maksimum verimlilik için optimize edilmiştir." },
+      { "title": "Modern Altyapı", "desc": "Otomasyon ve insan uzmanlığının mükemmel bir sentez içinde çalıştığı son teknoloji ürünü bir tesisi işletmek." }
+    ]
+  }
+}

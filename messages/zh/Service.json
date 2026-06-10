@@ -1,0 +1,81 @@
+{
+  "Hero": {
+    "title": "工程<br />资源。",
+    "subtitle": "有关 K-Aqua PP-R 和 PP-RCT 管道系统的全面技术文档、质量保证标准和精确安装指南。",
+    "button": "探索技术数据"
+  },
+  "Overview": {
+    "title": "现代基础设施的精密工程",
+    "p1": "K-Aqua 致力于通过毫不妥协的精度和严谨的材料科学来推进流体传输技术。",
+    "p2": "专为支持建筑师、机械工程师、设施规划人员和安装大师而设计，确保全生命周期的可靠性。",
+    "p3": "我们通过提供详尽、透明的技术数据为行业专业人士赋能。"
+  },
+  "MaterialScience": {
+    "title": "先进材料科学",
+    "description": "K-Aqua 管道系统的基础优势在于我们高度提炼的聚合物基质。",
+    "coreAdvantageTitle": "核心优势",
+    "coreAdvantageQuote": "\"我们专有的 PP-R 和 PP-RCT 配方极大地延长了高压流体传输系统的使用寿命，同时减少了生物膜的形成。\"",
+    "cards": {
+      "0": { "title": "高分子量 PP-R", "description": "具有卓越的抗冲击性。" },
+      "1": { "title": "PP-RCT 新一代晶体", "description": "可承受更高的静水压力。" },
+      "2": { "title": "声学阻尼", "description": "有效降低水锤效应和噪音传输。" },
+      "3": { "title": "耐化学和耐热性", "description": "可处理极端的运行压力。" }
+    }
+  },
+  "QualityAssurance": {
+    "title": "质量保证标准",
+    "description": "我们的零缺陷政策受到毫不妥协的自动化测试框架的约束。",
+    "cards": {
+      "0": { "title": "在线挤出监控", "description": "激光引导微米连续扫描。" },
+      "1": { "title": "破坏性批量测试", "description": "极端静水压力测试。" },
+      "2": { "title": "第三方验证", "description": "经 TÜV、DVGW 等认证。" }
+    }
+  },
+  "TrainingAcademy": {
+    "title": "K-Aqua 培训学院",
+    "description": "我们为安装大师提供获得官方认证所需的严格培训。",
+    "list": {
+      "0": { "title": "现场项目研讨会", "description": "直接部署到大型基础设施地点。" },
+      "1": { "title": "理论课程", "description": "热力学计算研讨会。" },
+      "2": { "title": "官方认证", "description": "安装人员资格证书。" }
+    },
+    "protocol": "认证协议"
+  },
+  "InstallationProtocols": {
+    "title": "安装协议",
+    "description": "掌握确切的热熔接技术可确保终身接头完整性。",
+    "modulePrefix": "模块",
+    "protocols": {
+      "0": { "title": "手动承插焊接", "subtitle": "PP-R 管道", "desc": "标准住宅的基础技术。" },
+      "1": { "title": "机器承插焊接", "subtitle": "固定机器", "desc": "用于大直径管道。" },
+      "2": { "title": "电熔接", "subtitle": "自动接头融合", "desc": "将人为错误降至最低。" },
+      "3": { "title": "对接焊接", "subtitle": "高直径主线", "desc": "适用于大规模基础设施。" }
+    }
+  },
+  "DocumentLibrary": {
+    "title": "文件库",
+    "description": "访问权威的技术库。",
+    "download": "下载 PDF",
+    "docs": {
+      "0": { "title": "完整产品范围", "category": "目录", "description": "完整的目录。" },
+      "1": { "title": "技术产品特性", "category": "技术数据", "description": "深入了解材料科学。" },
+      "2": { "title": "质量与认证", "category": "合规", "description": "内部测试协议。" }
+    }
+  },
+  "FAQ": {
+    "title": "技术常见问题解答",
+    "subtitle": "针对工程查询的直接答案。",
+    "faqs": {
+      "0": { "q": "最高工作温度？", "a": "最高连续 70°C。" },
+      "1": { "q": "冷却时间？", "a": "取决于直径，约 2 到 40 分钟。" },
+      "2": { "q": "阳光直射？", "a": "需要绝缘或防紫外线保护。" },
+      "3": { "q": "热膨胀？", "a": "复合管道大大降低了热膨胀。" },
+      "4": { "q": "腐蚀性化学品？", "a": "具有极高的耐抗性。" }
+    }
+  },
+  "CTA": {
+    "title": "准备好开始下一个项目了吗？",
+    "description": "直接与我们的技术规范团队联系。",
+    "button": "联系技术支持"
+  }
+}

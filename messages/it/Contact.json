@@ -1,0 +1,151 @@
+{
+  "Departments": {
+    "title": "Routing dipartimentale diretto.",
+    "subtitle": "Accelera la tua richiesta connettendoti direttamente con i team specializzati di ingegneria, vendita o approvvigionamento aziendale responsabili della tua regione e del tuo dominio tecnico.",
+    "enterprise_division": {
+      "tag": "Divisione Commerciale Enterprise",
+      "desc": "Connettiti con il nostro team di strutturazione commerciale per distribuzioni aziendali, modelli di prezzo all'ingrosso, enormi gare per progetti infrastrutturali e partnership internazionali con distributori B2B. I nostri ingegneri di vendita tecnici sono pronti a progettare la precisa struttura finanziaria e logistica per il lancio della tua pipeline multifase.",
+      "fax_protocol": "Protocollo Fax"
+    },
+    "technical_support": {
+      "tag": "Supporto tecnico e QA aziendale",
+      "desc": "Garantiamo l'integrità operativa di ogni raccordo e tubo in PPR. Per complesse indicazioni di installazione, specifiche fluidodinamiche, protocolli di collaudo a pressione o rigorosi audit di controllo qualità, il nostro centro di supporto ingegneristico specializzato offre una supervisione tecnica senza compromessi.",
+      "bullet1": "Documentazione di certificazione ISO/DIN",
+      "bullet2": "Librerie di sistemi BIM e CAD",
+      "bullet3": "Specifiche tecniche di saldatura ed estrusione"
+    }
+  },
+  "FAQ": {
+    "title": "Richieste aziendali.",
+    "subtitle": "Rivedi i nostri protocolli tecnici e commerciali standardizzati.",
+    "q1": {
+      "q": "Come divento un distributore ufficiale B2B K-Aqua?",
+      "a": "Diventare un distributore autorizzato K-Aqua richiede una valutazione preliminare delle capacità del mercato. Collaboriamo con aziende di logistica e forniture idrauliche consolidate in grado di mantenere l'inventario regionale e supportare progetti infrastrutturali su larga scala. Contatta la nostra Divisione Commerciale Enterprise per avviare il protocollo di valutazione dei fornitori."
+    },
+    "q2": {
+      "q": "Quali sono le quantità minime d'ordine (MOQ) per le spedizioni aziendali?",
+      "a": "A causa della scala logistica del trasporto merci internazionale, le spedizioni aziendali standard sono ottimizzate per container da 20 e 40 piedi. Tuttavia, i requisiti specifici del progetto possono dettare carichi di container misti. Per soglie MOQ esatte in base ai diametri dei tubi e ai rapporti dei raccordi richiesti, richiedi un preventivo di volume."
+    },
+    "q3": {
+      "q": "K-Aqua fornisce formazione tecnica in loco per i team di installazione?",
+      "a": "Sì. Per implementazioni di infrastrutture di grandi dimensioni, il nostro team di ingegneria tecnica può essere inviato presso il cantiere del progetto per condurre formazioni certificate su precise tecniche di saldatura PPR, protocolli di estrusione e gestione dell'espansione termica. Ci assicuriamo che i tuoi team operino secondo rigorosi standard DIN tedeschi."
+    },
+    "q4": {
+      "q": "Quali garanzie si applicano ai vostri sistemi in PPR?",
+      "a": "I nostri sistemi di tubazioni in PPR sono supportati da una garanzia completa di 10 anni, leader del settore, se installati da professionisti certificati in conformità con le nostre linee guida tecniche. A causa dei nostri rigorosi processi di produzione e QA termografica, i sistemi K-Aqua sono progettati per superare un ciclo di vita operativo di 50 anni."
+    },
+    "q5": {
+      "q": "Potete produrre soluzioni PPR personalizzate per applicazioni industriali specializzate?",
+      "a": "Sì. Il nostro avanzato impianto di produzione in Germania è attrezzato per gestire attrezzature personalizzate e miscele polimeriche specializzate per requisiti aziendali unici, compreso il trasporto di acqua ultrapura per fabbriche di semiconduttori o linee di elaborazione chimica altamente specifiche. L'ingegneria personalizzata richiede una consultazione diretta con il nostro ufficio tecnico."
+    }
+  },
+  "GlobalOperations": {
+    "title": "Progettato in <br/>Germania. <br/>Distribuito in tutto il mondo.",
+    "p1": "KWT GmbH rappresenta l'avanguardia dell'ingegneria idrica e delle infrastrutture moderne. Operando dal nostro quartier generale centrale a Waldsolms-Brandoberndorf, supervisioniamo meticolosamente la ricerca, la produzione ad alta precisione e la logistica di distribuzione globale dell'intero ecosistema di prodotti K-Aqua.",
+    "p2": "La nostra struttura operativa centrale è profondamente integrata in ogni fase della catena di fornitura, imponendo protocolli di controllo qualità tedeschi senza compromessi, rigorosa conformità agli standard DIN/ISO e un routing del trasporto merci internazionale altamente efficiente. Ciò garantisce che ogni sistema di tubazioni in PPR che produciamo soddisfi rigorosi SLA aziendali.",
+    "hq_tag": "Sede centrale e Comando Globale",
+    "hq_address": "KWT GmbH <br/>Auweg 3 <br/>35647 Waldsolms-<br/>Brandoberndorf <br/>Germania",
+    "hq_desc": "Il nostro principale campus di produzione e il consiglio di amministrazione si trovano precisamente nel cuore industriale dell'Assia, consentendo un collegamento diretto con le principali arterie del trasporto merci in Europa e il polo logistico globale di Francoforte.",
+    "view_map": "Visualizza struttura su Maps"
+  },
+  "Hero": {
+    "title": "Avvia <br />connessione aziendale.",
+    "subtitle": "Sia che tu stia progettando un progetto infrastrutturale da svariati milioni di dollari, cercando documentazione tecnica precisa per le tubazioni PPR o stabilendo una partnership di distribuzione strategica, il centro di comando globale di K-Aqua in Germania è pronto ad accelerare il tuo ciclo di approvvigionamento.",
+    "button": "Contatta Operations"
+  },
+  "Legal": {
+    "title": "Conformità <br/>Aziendale.",
+    "subtitle": "Trasparenza assoluta e rigorosa conformità ai quadri giuridici europei governano le nostre operazioni aziendali e la nostra architettura di gestione dei dati.",
+    "imprint": {
+      "title": "Note Legali (Impressum)",
+      "directors_label": "Amministratori Delegati",
+      "directors_value": "Philipp Nickel, Marcello Gallio",
+      "court_label": "Tribunale di Registrazione",
+      "court_value": "Wetzlar HRB 6732",
+      "vat_label": "Partita IVA",
+      "vat_value": "DE 296238486",
+      "disclaimer": "Informazioni fornite ai sensi dell'art. 5 della legge tedesca sui media telematici (TMG). Gli amministratori delegati sono legalmente responsabili delle operazioni e della rappresentanza commerciale di KWT GmbH."
+    },
+    "privacy": {
+      "title": "Architettura per la privacy dei dati",
+      "p1": "KWT GmbH aderisce rigorosamente al Regolamento generale sulla protezione dei dati (GDPR). Applichiamo modelli di sicurezza zero-trust per garantire la totale integrità e protezione delle informazioni personali e aziendali che elaboriamo attraverso le nostre interfacce aziendali digitali.",
+      "p2": "Elaboriamo i dati rigorosamente sulla base delle disposizioni legali europee. Per approfondimenti tecnici sui nostri vettori di raccolta dati, archiviazione crittografica, ciclo di vita di conservazione e i tuoi diritti (incluso il ritiro del consenso), è disponibile la nostra documentazione completa.",
+      "button": "Richiedi politica di sicurezza"
+    }
+  },
+  "Procurement": {
+    "title": "Flusso di lavoro degli approvvigionamenti aziendali.",
+    "subtitle": "Abbiamo progettato una pipeline di acquisizione semplificata e altamente prevedibile per progetti infrastrutturali su larga scala e distributori B2B.",
+    "step1": {
+      "title": "Consulenza Tecnica & Specifica",
+      "desc": "La nostra divisione di ingegneria analizza gli schemi del tuo progetto, i requisiti fluidodinamici e i parametri operativi per specificare la matrice esatta delle tubazioni PPR richiesta. Garantiamo la piena conformità ai codici regionali e agli SLA aziendali."
+    },
+    "step2": {
+      "title": "Preventivo volume e pianificazione logistica",
+      "desc": "Il reparto commerciale struttura un modello di prezzi per volume altamente competitivo. Contemporaneamente, i nostri architetti della catena di fornitura mappano il percorso di trasporto ottimale dalle nostre strutture tedesche direttamente al cantiere o hub di distribuzione."
+    },
+    "step3": {
+      "title": "Produzione di precisione",
+      "desc": "Al momento dell'autorizzazione all'approvvigionamento, la produzione è programmata. Ogni tubo e raccordo è sottoposto a rigorosa garanzia di qualità certificata ISO/DIN, inclusi test di iper-pressione e termografia, garantendo una consegna senza difetti."
+    },
+    "step4": {
+      "title": "Distribuzione globale e supporto",
+      "desc": "I materiali vengono distribuiti tramite trasporto internazionale sicuro e tracciato. Dopo la consegna, il nostro team tecnico rimane a disposizione per controlli delle saldature in loco, formazione per l'installazione e supporto continuo per tutto il ciclo di vita."
+    }
+  },
+  "RegionalOffices": {
+    "title": "Rete Globale. <br/>Esperienza Locale.",
+    "subtitle": "Oltre al nostro centro di comando in Germania, K-Aqua mantiene hub operativi strategici per garantire una rapida esecuzione della catena di fornitura e supporto tecnico localizzato nei principali mercati continentali.",
+    "mena": {
+      "name": "K-Aqua HUB MENA",
+      "address": "Dubai Silicon Oasis, DDP, Edificio A2, Dubai, Emirati Arabi Uniti",
+      "focus": "Gestione delle interfacce di desalinizzazione su larga scala, tubazioni di raffreddamento ad alta temperatura e distribuzione aziendale in tutto il Medio Oriente e Nord Africa."
+    },
+    "apac": {
+      "name": "K-Aqua Operations APAC",
+      "address": "Marina Bay Financial Centre, Torre 3, Singapore",
+      "focus": "Supervisione strategica dei sistemi di acqua ultrapura nella produzione di semiconduttori e implementazioni commerciali in grattacieli in tutto il territorio Asia-Pacifico."
+    },
+    "latam": {
+      "name": "K-Aqua Coordinamento LATAM",
+      "address": "Av. Brigadeiro Faria Lima, San Paolo, Brasile",
+      "focus": "Guidare soluzioni di infrastrutture minerarie robuste e reti di distribuzione idrica municipale attraverso ambienti estremi in tutta l'America Latina."
+    }
+  },
+  "SalesForm": {
+    "title": "Avvia la specifica del progetto.",
+    "subtitle": "Invia i parametri del tuo progetto infrastrutturale o la tua richiesta di distribuzione. Il nostro team di ingegneria commerciale risponderà entro 24 ore per programmare un allineamento tecnico approfondito.",
+    "success_title": "Trasmissione assicurata.",
+    "success_desc": "I tuoi parametri sono stati instradati in modo sicuro al nostro banco di ingegneria commerciale. A breve verrà assegnato uno specialista al tuo caso.",
+    "labels": {
+      "first_name": "Nome",
+      "last_name": "Cognome",
+      "company": "Impresa / Organizzazione",
+      "email": "Email aziendale",
+      "inquiry_type": "Natura della richiesta",
+      "message": "Parametri e specifiche del progetto"
+    },
+    "placeholders": {
+      "first_name": "Inserisci il nome",
+      "last_name": "Inserisci il cognome",
+      "company": "Il nome della tua azienda",
+      "email": "nome@azienda.com",
+      "message": "Fornisci dettagli riguardanti i requisiti di volume, il dominio di applicazione, l'implementazione regionale e le certificazioni DIN/ISO richieste..."
+    },
+    "options": {
+      "distributor": "Domanda di partnership come distributore",
+      "project": "Approvvigionamento di progetti su larga scala",
+      "technical": "Supporto tecnico / Specifiche ingegneristiche",
+      "other": "Richiesta commerciale generale"
+    },
+    "button": "Trasmetti Richiesta",
+    "email_subject": "Richiesta K-Aqua",
+    "email_body": {
+      "name": "Nome",
+      "company": "Azienda",
+      "email": "Email",
+      "inquiry_type": "Tipo di richiesta",
+      "message": "Messaggio"
+    }
+  }
+}

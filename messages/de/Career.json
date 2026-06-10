@@ -1,0 +1,88 @@
+{
+  "Hero": {
+    "title_1": "Ingenieure für die",
+    "title_2": "Zukunft des Wassers",
+    "subtitle": "Schließen Sie sich K-Aqua an und bauen Sie die Infrastruktur, die Leben erhält. Wir suchen ambitionierte Köpfe, die die Grenzen der Polymertechnik verschieben.",
+    "cta": "Offene Stellen ansehen"
+  },
+  "CTA": {
+    "title": "Werden Sie der Katalysator",
+    "subtitle": "Wenn Sie den Antrieb haben, Teil einer stetig wachsenden Erfolgsgeschichte zu sein, und sich einem modernen Unternehmen anschließen möchten, das die Grenzen der Technik verschiebt, wollen wir von Ihnen hören.",
+    "btn_email": "Per E-Mail bewerben",
+    "btn_call": "Personalabteilung anrufen",
+    "contact_prefix": "Direktkontakt"
+  },
+  "FAQ": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      { "q": "Bieten Sie Remote-Arbeitsoptionen an?", "a": "Je nach Rolle bieten wir flexible hybride und vollständig remote Arbeitsmodelle an. Ingenieur- und Produktionsrollen erfordern in der Regel Präsenz vor Ort, während Vertriebs- und Verwaltungsrollen mehr Flexibilität bieten." },
+      { "q": "Wie sieht der Onboarding-Prozess aus?", "a": "Neue Mitarbeiter durchlaufen ein umfassendes 4-wöchiges Onboarding-Programm, das unsere Produkte, Kultur, Systeme und vertiefende Einblicke in wichtige Abteilungen abdeckt." },
+      { "q": "Gibt es Möglichkeiten für internationale Versetzungen?", "a": "Ja, als globales Unternehmen bieten wir regelmäßig interne Mobilität und Versetzungsmöglichkeiten in unseren internationalen Niederlassungen an." },
+      { "q": "Wie unterstützt K-Aqua die berufliche Weiterentwicklung?", "a": "Wir bieten ein jährliches Lernbudget, interne Mentorenprogramme und bezahlte Freistellungen für relevante Zertifizierungen und Branchenkonferenzen." }
+    ]
+  },
+  "Benefits": {
+    "title": "Umfassende Benefits",
+    "subtitle": "Wir verlangen das Beste von unserem Team, und wir bieten das Beste im Gegenzug. Unser Leistungspaket ist darauf ausgelegt, Ihr berufliches und privates Leben zu unterstützen.",
+    "items": [
+      { "title": "Umfassende Gesundheitsversorgung", "desc": "Erstklassige Gesundheitsversorgung, die Ihr Wohlbefinden und Ihren Seelenfrieden in den Vordergrund stellt." },
+      { "title": "Kontinuierliches Lernen", "desc": "Großzügige Budgets für Kurse, Zertifizierungen und Branchenkonferenzen." },
+      { "title": "Flexible Arbeitszeiten", "desc": "Kernarbeitszeiten mit Flexibilität zur Gestaltung Ihres persönlichen Zeitplans." },
+      { "title": "Moderne Einrichtungen", "desc": "Hochmoderne Büroräume, die für Konzentration, Zusammenarbeit und Komfort konzipiert sind." },
+      { "title": "Premium-Annehmlichkeiten", "desc": "Hausinterne Verpflegung, Kaffeespezialitäten und Entspannungszonen." },
+      { "title": "Leistungsbonus", "desc": "Wettbewerbsfähige Vergütungspakete mit leistungsbezogenen Anreizen." }
+    ]
+  },
+  "JobPostings": {
+    "title": "Offene Stellen",
+    "subtitle": "Finden Sie Ihren Platz in unserer wachsenden Organisation. Wir stellen aktiv in verschiedenen Abteilungen ein.",
+    "items": [
+      { "title": "Senior Polymer-Ingenieur", "dept": "Ingenieurwesen", "type": "Vollzeit", "location": "Deutschland / Hybrid" },
+      { "title": "Produktionsleiter", "dept": "Fertigung", "type": "Vollzeit", "location": "Vor Ort" },
+      { "title": "Globaler technischer Vertriebsleiter", "dept": "Vertrieb", "type": "Vollzeit", "location": "Remote / Reisen" },
+      { "title": "Supply Chain Analyst", "dept": "Logistik", "type": "Vollzeit", "location": "Hybrid" }
+    ]
+  },
+  "HiringProcess": {
+    "title": "Der Einstellungsprozess",
+    "subtitle": "Transparent, effizient und respektvoll gegenüber Ihrer Zeit.",
+    "items": [
+      { "title": "Bewerbungsprüfung", "desc": "Unser Recruiting-Team prüft Ihr Profil sorgfältig anhand unserer aktuellen Anforderungen und zukünftigen Bedürfnisse." },
+      { "title": "Erstes Gespräch", "desc": "Ein kurzes Gespräch, um Ihren Hintergrund und Ihre Motivation zu besprechen und erste Fragen zu K-Aqua zu klären." },
+      { "title": "Technisches/Fachliches Interview", "desc": "Ein tiefer Einblick in Ihre beruflichen Fähigkeiten mit dem einstellenden Manager und den Teammitgliedern." },
+      { "title": "Letztes Angebot", "desc": "Wir unterbreiten Ihnen ein wettbewerbsfähiges Angebot und besprechen Ihren Integrationsplan in unser globales Team." }
+    ]
+  },
+  "Culture": {
+    "title": "Unsere Kultur",
+    "subtitle": "Eine Umgebung, die für diejenigen geschaffen wurde, die Spitzenleistungen fordern und in Hochleistungsteams aufblühen.",
+    "items": [
+      { "title": "Kollaborative Exzellenz", "desc": "Unsere Teams agieren mit hohem Vertrauen und großer Autonomie. Wir glauben, dass die besten Ideen gewinnen, unabhängig von Hierarchie oder Betriebszugehörigkeit." },
+      { "title": "Innovation an erster Stelle", "desc": "Wir investieren stark in F&E. Von fortschrittlichen PP-RCT-Compounds bis hin zu automatisierten Extrusionslinien ist Innovation unsere Basis." },
+      { "title": "Kontinuierliches Wachstum", "desc": "Wir stellen veraltete Normen in Frage. Ihr Karriereweg bei K-Aqua ist nur durch Ihren Ehrgeiz und Ihren Lernwillen begrenzt." }
+    ]
+  },
+  "Manifesto": {
+    "title": "Das Manifest",
+    "quote": "\"Wasser ist die Essenz des Lebens, aber die Infrastruktur liefert es. Wir bauen die Arterien der modernen Zivilisation mit kompromissloser Präzision und deutscher Ingenieurskunst.\"",
+    "description": "Bei K-Aqua stellen wir nicht einfach nur Rohre her. Wir entwickeln widerstandsfähige Systeme, die den sicheren Transport der wertvollsten Ressource der Welt garantieren. Wir sind darauf ausgerichtet zu wachsen – stets auf der Suche nach Skalierbarkeit und neuen Möglichkeiten."
+  },
+  "Locations": {
+    "title": "Unser Hauptsitz",
+    "subtitle": "Im Herzen Deutschlands gelegen, ist unser zentraler Campus der Dreh- und Angelpunkt unserer weltweiten Aktivitäten. Er beherbergt unsere wichtigsten F&E-Labore, die Chefetage und die Kern-Ingenieurteams, die unsere internationale Expansion vorantreiben.",
+    "hq_title": "Global HQ - Deutschland",
+    "map_placeholder": "Standortkarten-Integration"
+  },
+  "MarketPosition": {
+    "title": "Unübertroffene Position",
+    "subtitle": "Wir nehmen eine dominierende Marktposition ein, betrachten diese aber nur als den Anfang. Unser Kurs ist steil, und unsere Expansion ist kontinuierlich.",
+    "items": [
+      { "title": "Globale Reichweite", "desc": "Wir expandieren über Kontinente hinweg und unsere Wasserversorgungslösungen bilden das Rückgrat von Megaprojekten weltweit." },
+      { "title": "Aggressives Wachstum", "desc": "Ein aufstrebendes Unternehmen, das niemals stillsteht. Wir investieren massiv in F&E und Talente." },
+      { "title": "Marktführerschaft", "desc": "Wir setzen den Standard für Qualität, Haltbarkeit und Sicherheit in der PP-R- und PP-RCT-Branche." },
+      { "title": "Kompromisslose Qualität", "desc": "Zertifizierte Exzellenz. Unser Herstellungsprozess garantiert Null-Fehler-Toleranzen unter extremsten Bedingungen." },
+      { "title": "Strömungsmechanik", "desc": "Die Physik des Wassertransports beherrschen. Jedes Fitting und jedes Rohr ist auf maximale Effizienz optimiert." },
+      { "title": "Moderne Infrastruktur", "desc": "Betrieb einer hochmodernen Anlage, in der Automatisierung und menschliche Expertise in perfekter Synthese zusammenarbeiten." }
+    ]
+  }
+}

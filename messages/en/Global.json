@@ -1,0 +1,47 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "products": "Products",
+    "solutions": "Solutions",
+    "about": "About Us",
+    "service": "Service",
+    "news": "News",
+    "career": "Career",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "description": "Leading in Water Supply. High-quality PP-R/PP-RCT pipes and fittings.",
+    "explore": "Explore",
+    "products": "Products",
+    "solutions": "Solutions",
+    "references": "References",
+    "career": "Career",
+    "contact": "Contact",
+    "legal": "Legal",
+    "imprint": "Imprint",
+    "privacyPolicy": "Privacy Policy",
+    "allRightsReserved": "All rights reserved.",
+    "gdpr": "Strict adherence to DSGVO/GDPR"
+  },
+  "CTASection": {
+    "heading": "Ready for your next project?",
+    "text": "Contact us for a non-binding consultation and find out how our solutions perfectly meet your requirements.",
+    "buttonText": "Contact us now"
+  },
+  "FAQSection": {
+    "title": "Frequently Asked Questions"
+  },
+  "HeroSection": {
+    "title": "Welcome to K-Aqua",
+    "subtitle": "Your partner for future-proof water technology",
+    "ctaText": "Inquire now"
+  },
+  "NotFound": {
+    "title": "404",
+    "subtitle": "Page not found",
+    "desc": "The requested page could not be found. Please use one of the options below:",
+    "home": "Go to Home",
+    "contact": "Contact",
+    "blog": "Blog"
+  }
+}

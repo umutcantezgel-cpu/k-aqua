@@ -1,0 +1,153 @@
+{
+  "ApplicationAreas": {
+    "title": "Áreas de Aplicación.",
+    "subtitle": "K-Aqua es una plataforma versátil diseñada para escenarios de transporte de fluidos exigentes.",
+    "cards": {
+      "potable": { "title": "Redes de Agua Potable", "desc": "Higiene absoluta para la distribución de agua potable caliente y fría." },
+      "climate": { "title": "Sistemas HVAC", "desc": "Optimizado para líneas de agua enfriada y calefacción." },
+      "industrial": { "title": "Fluidos Industriales", "desc": "Alta resistencia química para líquidos agresivos." },
+      "agricultural": { "title": "Riego Agrícola", "desc": "Despliegue duradero en entornos de alta presión." },
+      "compressed": { "title": "Aire Comprimido", "desc": "Una red sin fugas para la distribución de aire comprimido." },
+      "shipbuilding": { "title": "Construcción Naval", "desc": "Resistencia de grado marino contra entornos salinos." }
+    }
+  },
+  "CTA": {
+    "title": "Iniciar Despliegue.",
+    "subtitle": "Descargue la gama completa de productos en PDF.",
+    "download": "Descargar Gama PDF",
+    "contact": "Contactar Ingeniería",
+    "systemStatus": "Estado del Sistema:",
+    "operational": "Operativo"
+  },
+  "CompetitiveAdvantage": {
+    "title": "La Matriz Competitiva.",
+    "subtitle": "K-Aqua establece una nueva línea base para la longevidad de la infraestructura.",
+    "table": {
+      "feature": "Característica",
+      "rows": {
+        "joining": "Método de Unión",
+        "corrosion": "Resistencia a la Corrosión",
+        "scale": "Acumulación de Sarro",
+        "thermal": "Aislamiento Térmico",
+        "acoustic": "Amortiguación Acústica",
+        "lifespan": "Vida Útil"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Consultas Técnicas.",
+    "subtitle": "Respuestas completas para ingenieros y arquitectos.",
+    "questions": {
+      "diff": { "q": "¿Cuál es la diferencia entre PP-R y PP-RCT?", "a": "El PP-RCT permite una mayor resistencia a la presión a temperaturas elevadas." },
+      "hvac": { "q": "¿Se pueden utilizar tuberías K-Aqua para sistemas HVAC?", "a": "Absolutamente. La baja conductividad térmica reduce el riesgo de condensación." },
+      "weld": { "q": "¿Cómo previene las fugas la soldadura por polifusión?", "a": "Crea una única matriz macromolecular continua, sin pegamentos." },
+      "safe": { "q": "¿Son estas tuberías seguras para el agua potable?", "a": "Sí, están certificadas para el transporte de agua potable en todo el mundo." },
+      "life": { "q": "¿Cuál es la vida útil esperada?", "a": "Más de 50 años cuando se instala correctamente." }
+    }
+  },
+  "FittingsArsenal": {
+    "title": "El Arsenal.",
+    "subtitle1": "Nuestros accesorios están diseñados con precisión en tamaños de ",
+    "subtitle2": "20 mm a 315 mm",
+    "subtitle3": ".",
+    "footer": "Cada accesorio se entrelaza impecablemente con el sistema.",
+    "items": {
+      "valves": { "title": "Válvulas Premium", "desc": "Mecanismos de control sin fugas." },
+      "unions": { "title": "Uniones de Alta Presión", "desc": "Uniones mecánicas impecables." },
+      "cutting": { "title": "Herramientas de Corte", "desc": "Precisión micrométrica." },
+      "welding": { "title": "Dispositivos de Soldadura", "desc": "Equipo de fusión térmica." }
+    }
+  },
+  "Hero": {
+    "badge": "Arquitectura del Sistema",
+    "title": "PP-R y PP-RCT",
+    "subtitle": "La cúspide de la ingeniería sanitaria. Diseñado para agua potable.",
+    "button": "Inicializar Sistema"
+  },
+  "Installation": {
+    "title": "La Física de la Polifusión.",
+    "subtitle1": "K-Aqua evita las vulnerabilidades mediante la polifusión térmica.",
+    "subtitle2": "Al calentar el material a su punto de fusión preciso, la estructura se vuelve fluida.",
+    "steps": {
+      "cut": { "title": "Corte de Precisión", "desc": "La tubería se corta perpendicularmente." },
+      "thermal": { "title": "Activación Térmica", "desc": "Calentado simultáneamente a 260°C." },
+      "polyfusion": { "title": "Polifusión", "desc": "Los componentes se unen sin torcer." },
+      "homo": { "title": "Homogeneización", "desc": "Ambas piezas se convierten en un material continuo." }
+    }
+  },
+  "MaterialScience": {
+    "title": "Ciencia de los Materiales.",
+    "subtitle": "Ingeniería avanzada de polímeros.",
+    "p1": "El PP-RCT eleva la línea base a través de un proceso de nucleación beta.",
+    "p2": "Esta cristalización controlada permite una resistencia a la presión mucho mayor.",
+    "badge": "Estructura Cristalina Beta",
+    "features": {
+      "beta": "Cristalinidad Beta",
+      "pressure": "Mayor Resistencia a la Presión",
+      "wall": "Espesor de Pared Reducido",
+      "flow": "Caudal Aumentado"
+    }
+  },
+  "QualityAssurance": {
+    "title": "Garantía de Calidad.",
+    "subtitle": "Sometido a rigurosos protocolos de pruebas.",
+    "certs": {
+      "din": { "title": "DIN 8077 / 8078", "desc": "Estándar alemán para tuberías PP." },
+      "dvgw": { "title": "DVGW", "desc": "Certificado para agua potable." },
+      "iso": { "title": "ISO 15874", "desc": "Estándar internacional." },
+      "skz": { "title": "Pruebas SKZ", "desc": "Auditoría continua de terceros." }
+    }
+  },
+  "SDRRatings": {
+    "title": "Escala Dimensional.",
+    "subtitle1": "Nuestras dimensiones comienzan desde ",
+    "subtitle2": "20 mm",
+    "subtitle3": " y llegan a ",
+    "subtitle4": "630 mm",
+    "subtitle5": ".",
+    "ratings": {
+      "sdr6": { "sdr": "SDR 6", "desc": "Presión Extrema.", "pressure": "PN 20" },
+      "sdr7": { "sdr": "SDR 7.4", "desc": "Alta Presión.", "pressure": "PN 16" },
+      "sdr9": { "sdr": "SDR 9", "desc": "Flujo Elevado.", "pressure": "PN 12.5" },
+      "sdr11": { "sdr": "SDR 11", "desc": "Distribución Estándar.", "pressure": "PN 10" },
+      "sdr17": { "sdr": "SDR 17", "desc": "Volumen Máximo.", "pressure": "PN 6" }
+    }
+  },
+  "Sustainability": {
+    "title": "Responsabilidad Ecológica.",
+    "p1": "La sostenibilidad requiere un enfoque multifacético.",
+    "p2": "Los sistemas exigen significativamente menos energía para fabricarse.",
+    "p3": "La matriz de polipropileno es 100% reciclable.",
+    "energy": "Energía Incorporada",
+    "low": "Baja",
+    "heat": "Pérdida de Calor",
+    "minimal": "Mínima",
+    "recyclability": "Reciclabilidad"
+  },
+  "TechnicalSpecs": {
+    "title": "Especificaciones Técnicas.",
+    "subtitle": "Datos precisos documentados según normas ISO y DIN.",
+    "headers": {
+      "property": "Propiedad",
+      "value": "Valor",
+      "method": "Método"
+    },
+    "specs": {
+      "density": { "property": "Densidad", "value": "0.895 - 0.905 g/cm³", "method": "ISO 1183" },
+      "melt": { "property": "Índice de Fluidez", "value": "0.2 - 0.5 g/10min", "method": "ISO 1133" },
+      "thermal": { "property": "Conductividad", "value": "0.24 W/(m·K)", "method": "DIN 52612" },
+      "expansion": { "property": "Dilatación", "value": "0.15 mm/(m·K)", "method": "DIN 53752" },
+      "modulus": { "property": "Módulo Elástico", "value": "800 MPa", "method": "ISO 178" },
+      "yield": { "property": "Límite Elástico", "value": "25 MPa", "method": "ISO 527-2" }
+    }
+  },
+  "TechnologyCore": {
+    "title1": "Dominio",
+    "title2": "Molecular.",
+    "subtitle": "Estructuras reforzadas con fibra de vidrio.",
+    "p1": "Las arquitecturas garantizan una toxicidad nula.",
+    "p2": "La arquitectura minimiza la expansión térmica.",
+    "p3": "La soldadura por fusión elimina las fallas mecánicas.",
+    "badge": "Polimatriz"
+  }
+}

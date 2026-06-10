@@ -1,0 +1,47 @@
+{
+  "Navigation": {
+    "home": "Strona główna",
+    "products": "Produkty",
+    "solutions": "Rozwiązania",
+    "about": "O nas",
+    "service": "Usługi",
+    "news": "Aktualności",
+    "career": "Kariera",
+    "contact": "Kontakt"
+  },
+  "Footer": {
+    "description": "Lider w zaopatrzeniu w wodę. Wysokiej jakości rury i złączki PP-R/PP-RCT.",
+    "explore": "Odkryj",
+    "products": "Produkty",
+    "solutions": "Rozwiązania",
+    "references": "Referencje",
+    "career": "Kariera",
+    "contact": "Kontakt",
+    "legal": "Kwestie prawne",
+    "imprint": "Nota prawna",
+    "privacyPolicy": "Polityka prywatności",
+    "allRightsReserved": "Wszelkie prawa zastrzeżone.",
+    "gdpr": "Ścisłe przestrzeganie RODO/GDPR"
+  },
+  "CTASection": {
+    "heading": "Gotowy na kolejny projekt?",
+    "text": "Skontaktuj się z nami w sprawie niezobowiązującej konsultacji i dowiedz się, jak nasze rozwiązania idealnie spełniają Twoje wymagania.",
+    "buttonText": "Skontaktuj się z nami"
+  },
+  "FAQSection": {
+    "title": "Często zadawane pytania"
+  },
+  "HeroSection": {
+    "title": "Witamy w K-Aqua",
+    "subtitle": "Twój partner w zakresie przyszłościowych technologii wodnych",
+    "ctaText": "Zapytaj teraz"
+  },
+  "NotFound": {
+    "title": "404",
+    "subtitle": "Nie znaleziono strony",
+    "desc": "Żądana strona nie została znaleziona. Skorzystaj z jednej z poniższych opcji:",
+    "home": "Strona główna",
+    "contact": "Kontakt",
+    "blog": "Blog"
+  }
+}

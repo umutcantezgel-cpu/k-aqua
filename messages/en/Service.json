@@ -1,0 +1,154 @@
+{
+  "Hero": {
+    "title": "Engineering<br />Resources.",
+    "subtitle": "Comprehensive technical documentation, quality assurance standards, and precision installation guides for K-Aqua PP-R and PP-RCT piping systems.",
+    "button": "Explore Technical Data"
+  },
+  "Overview": {
+    "title": "Precision Engineering for Modern Infrastructure",
+    "p1": "K-Aqua is dedicated to advancing fluid transport technology through uncompromising precision and rigorous material science. Our PP-R (Polypropylene Random Copolymer) and PP-RCT (Polypropylene Random Copolymer with modified crystallinity and temperature resistance) systems represent the pinnacle of modern piping infrastructure.",
+    "p2": "Designed explicitly to support architects, mechanical engineers, facility planners, and master installers, our technical ecosystem ensures total lifecycle reliability. From high-demand industrial cooling networks and aggressive chemical transport lines to sensitive potable water distributions, K-Aqua products deliver unmatched chemical resistance, thermal stability, and acoustic dampening.",
+    "p3": "We empower industry professionals by providing exhaustive, transparent technical data. This commitment guarantees that every joint fused and every meter of pipe laid meets the highest international standards, including DIN, ISO, and DVGW certifications. Discover the specifications that make K-Aqua the definitive choice for forward-thinking structural engineering."
+  },
+  "MaterialScience": {
+    "title": "Advanced Material Science",
+    "description": "The foundational strength of K-Aqua piping systems lies in our highly refined polymer matrices. Understanding the biochemical and structural advantages of our materials ensures optimal application across diverse engineering scenarios.",
+    "coreAdvantageTitle": "Core Advantage",
+    "coreAdvantageQuote": "\"Our proprietary PP-R and PP-RCT formulations dramatically extend the operational lifespan of high-pressure fluid transport systems while mitigating bio-film formation.\"",
+    "cards": {
+      "0": {
+        "title": "High-Molecular Weight PP-R",
+        "description": "Polypropylene Random Copolymer (PP-R) is characterized by a high molecular weight structure that delivers superior impact strength, even at low temperatures. Its smooth internal surface dramatically reduces fluid friction and entirely prevents calcification and encrustation over decades of active service."
+      },
+      "1": {
+        "title": "PP-RCT Next-Generation Crystals",
+        "description": "PP-RCT represents a breakthrough in polymer engineering, featuring an altered crystalline structure. This modification allows the material to withstand significantly higher hydrostatic pressures at elevated temperatures, facilitating thinner pipe walls and resulting in 15-20% greater hydraulic flow capacities."
+      },
+      "2": {
+        "title": "Acoustic Dampening",
+        "description": "Unlike rigid metallic conduits, the viscoelastic nature of K-Aqua polymers naturally absorbs kinetic energy. This structural trait profoundly dampens water hammer effects and reduces hydrodynamic noise transmission, making it ideal for acoustic-sensitive environments like hospitals, hotels, and luxury residences."
+      },
+      "3": {
+        "title": "Chemical & Thermal Resistance",
+        "description": "Engineered to handle extreme operational stresses, K-Aqua systems transport aggressive chemicals, compressed air, and super-heated water without structural degradation. The polymer matrix remains entirely chemically inert and corrosion-resistant across a pH range of 1 to 14."
+      }
+    }
+  },
+  "QualityAssurance": {
+    "title": "Quality Assurance Standards",
+    "description": "Our zero-defect policy is governed by an uncompromising, automated testing framework. Operating strictly under ISO 9001:2015 and DIN EN ISO 15874 standards, K-Aqua guarantees that every component leaving our facility is engineered for decades of flawless performance.",
+    "cards": {
+      "0": {
+        "title": "Inline Extrusion Monitoring",
+        "description": "Laser-guided micrometers continuously scan pipe wall thickness and concentricity during the extrusion process. Any deviation beyond microscopic tolerances instantly triggers an automated line rejection, ensuring absolute dimensional stability."
+      },
+      "1": {
+        "title": "Destructive Batch Testing",
+        "description": "Every production batch undergoes extreme hydrostatic pressure tests, thermal cycling, and Izod impact resistance evaluations. These destructive stress tests verify the molecular integrity of the polymer chains under worst-case operational scenarios."
+      },
+      "2": {
+        "title": "Third-Party Verification",
+        "description": "Internal metrics are consistently audited and certified by independent global testing authorities including TÜV, DVGW, and SKZ. This dual-layer verification system guarantees compliance with global sanitary and mechanical engineering codes."
+      }
+    }
+  },
+  "TrainingAcademy": {
+    "title": "K-Aqua Training Academy",
+    "description": "Even the most advanced piping systems require expert installation. The K-Aqua Academy exists to bridge the gap between material science and practical application. We provide master installers with the rigorous training necessary to achieve official certification.",
+    "list": {
+      "0": {
+        "title": "On-Site Project Seminars",
+        "description": "Our technical supervisors deploy directly to major infrastructure sites, offering hands-on training to large installation teams, ensuring project-specific compliance from day one."
+      },
+      "1": {
+        "title": "Theoretical Curriculum",
+        "description": "Deep-dive workshops covering thermodynamic calculations, expansion compensations, and optimal bracketing distances tailored for PP-R and PP-RCT networks."
+      },
+      "2": {
+        "title": "Official Certification",
+        "description": "Installers who pass both practical welding exams and theoretical assessments receive the K-Aqua Certified Installer credential, authorizing them to activate our extended manufacturer warranties."
+      }
+    },
+    "protocol": "Certification Protocol"
+  },
+  "InstallationProtocols": {
+    "title": "Installation Protocols",
+    "description": "Mastering the exact thermal fusion techniques ensures lifelong joint integrity. Review our step-by-step masterclasses detailing the temperature calibrations, pressure requirements, and cooling timelines for every welding methodology.",
+    "modulePrefix": "Module",
+    "protocols": {
+      "0": {
+        "title": "Manual Socket Welding",
+        "subtitle": "PP-R / PP-RCT Pipes & Fittings",
+        "desc": "The foundational technique for standard residential and commercial pipe networks. This module demonstrates precise heating times, optimal insertion depths, and critical cooling periods using handheld welding devices to achieve homogenous, leak-proof thermal fusion joints. Learn the exact millimeter tolerances required for standard dimension ratios."
+      },
+      "1": {
+        "title": "Machine Socket Welding",
+        "subtitle": "Stationary Welding Machines",
+        "desc": "For larger diameter pipes where manual alignment becomes physically demanding, stationary socket welding machines provide mechanical precision. Learn how to secure the pipe, calibrate the heating matrix, and execute perfectly aligned fusion with industrial-grade consistency. Essential for high-rise riser installations."
+      },
+      "2": {
+        "title": "Electrofusion Welding",
+        "subtitle": "Automated Joint Fusion",
+        "desc": "When working in tight spatial constraints or executing repairs, electrofusion is unparalleled. This guide covers pipe peeling, cleaning protocols, barcode scanning for automated heating cycles, and verifying the fusion indicators for guaranteed structural integrity. Electrofusion minimizes human error through digital calibration."
+      },
+      "3": {
+        "title": "Butt Fusion Welding",
+        "subtitle": "High-Diameter Mainlines",
+        "desc": "Essential for massive infrastructure and high-volume fluid transport. This advanced tutorial explains facing the pipe ends, aligning the heating plate under specific hydraulic pressure, the bead-up phase, and the controlled cooling cycle necessary for flawless high-diameter butt fusion. Ensures monolithic integrity across long municipal stretches."
+      }
+    }
+  },
+  "DocumentLibrary": {
+    "title": "Document Library",
+    "description": "Access the definitive K-Aqua technical library. Our documentation provides the exact specifications required for uncompromising infrastructure projects, ensuring total transparency in material composition and performance ratings.",
+    "download": "Download PDF",
+    "docs": {
+      "0": {
+        "title": "Comprehensive Product Range",
+        "category": "Catalog",
+        "description": "A complete catalog detailing our PP-R and PP-RCT piping systems. Discover dimensions, pressure classes (SDR), and the full array of precision-engineered fittings designed for potable water, heating, and industrial applications."
+      },
+      "1": {
+        "title": "Technical Product Features",
+        "category": "Technical Data",
+        "description": "Deep dive into the material science behind K-Aqua. Learn about our advanced high-molecular-weight polypropylene architecture, exceptional thermal stability, and acoustic dampening properties."
+      },
+      "2": {
+        "title": "Quality Assurance & Certifications",
+        "category": "Compliance",
+        "description": "Review our rigorous internal testing protocols, adherence to strict international DIN and ISO standards, continuous batch monitoring, and our zero-defect manufacturing tolerance policy."
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Technical FAQ",
+    "subtitle": "Direct answers to the most critical mechanical engineering and installation inquiries regarding K-Aqua polymer networks.",
+    "faqs": {
+      "0": {
+        "q": "What is the maximum operating temperature for PP-RCT systems?",
+        "a": "K-Aqua PP-RCT systems are designed to operate safely at continuous temperatures up to 70°C (158°F) for 50 years at standard operating pressures. They can withstand short-term peak temperatures up to 90°C (194°F) without structural degradation, making them ideal for rigorous hydronic heating applications."
+      },
+      "1": {
+        "q": "How long must a fusion joint cool before applying pressure?",
+        "a": "Cooling time is strictly dependent on the pipe's diameter and wall thickness. A standard 20mm pipe joint requires approximately 2 minutes of fixed cooling and an additional 5 minutes before full hydrostatic testing. For large diameter mainlines (e.g., 160mm), the joint must remain undisturbed for at least 40 minutes. Refer to our Technical Product Features manual for exact cooling matrices."
+      },
+      "2": {
+        "q": "Can K-Aqua pipes be installed in direct sunlight?",
+        "a": "Standard PP-R and PP-RCT pipes are sensitive to prolonged ultraviolet (UV) radiation. If installed externally, the pipes must be insulated or painted with UV-resistant coatings. Alternatively, K-Aqua offers specialized UV-stabilized pipe variants designed specifically for exposed outdoor installations."
+      },
+      "3": {
+        "q": "How does PP-R accommodate thermal expansion?",
+        "a": "All polymer pipes expand when subjected to temperature increases. K-Aqua systems accommodate this through precise fixed and sliding point bracket arrangements, or via expansion loops. Our multi-layer fiberglass composite pipes (Faser) dramatically reduce linear expansion by up to 75% compared to standard single-layer pipes, simplifying structural planning."
+      },
+      "4": {
+        "q": "Is K-Aqua suitable for aggressive industrial chemical transport?",
+        "a": "Yes. Our high-molecular-weight polypropylene matrix is highly resistant to a vast spectrum of acids, alkalis, and organic solvents. However, chemical resistance is dependent on the specific compound, concentration, and operating temperature. We provide an exhaustive chemical resistance chart to engineers upon request."
+      }
+    }
+  },
+  "CTA": {
+    "title": "Ready to engineer your next infrastructure project?",
+    "description": "Connect directly with our technical specification team for custom thermodynamic calculations, CAD libraries, or on-site academy scheduling.",
+    "button": "Contact Engineering Support"
+  }
+}

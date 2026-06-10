@@ -1,0 +1,112 @@
+{
+  "Hero": {
+    "title1": "Systèmes de",
+    "title2": "Tubes PP-R",
+    "title3": "Durables",
+    "subtitle": "Solutions de plomberie respectueuses de l'environnement conçues pour l'avenir. Nous nous engageons à réduire la pollution atmosphérique, à préserver les ressources et à fabriquer des polymères thermoplastiques supérieurs qui surpassent les matériaux traditionnels."
+  },
+  "Applications": {
+    "title": "Applications Industrielles",
+    "subtitle": "Une solution d'ingénierie polyvalente déployée dans de multiples secteurs, conçue pour résoudre les défis spécifiques du transport de fluides.",
+    "commercialTitle": "Plomberie Commerciale",
+    "commercialDesc": "Idéal pour les immeubles commerciaux de grande hauteur, les hôpitaux et les hôtels où une distribution fiable d'eau potable et une constance de la pression sont strictement obligatoires. Zéro corrosion garantit une distribution d'eau propre pendant des décennies.",
+    "hvacTitle": "Eau Glacée CVC",
+    "hvacDesc": "Très efficace pour la climatisation et les systèmes d'eau glacée. La faible conductivité thermique du PP-R minimise le gain de chaleur, empêchant l'accumulation de condensation et maintenant un contrôle précis de la température.",
+    "heatingTitle": "Chauffage par Radiateur",
+    "heatingDesc": "Conçu pour supporter un stress continu à haute température, ce qui en fait le choix de premier ordre pour les réseaux centraux de chauffage par radiateur et les applications de chauffage par le sol.",
+    "industrialTitle": "Transport de Fluides Industriels",
+    "industrialDesc": "Une résistance chimique exceptionnelle permet le transport sûr de fluides industriels agressifs, d'air comprimé et de produits chimiques de fabrication sans dégrader la matrice du tuyau.",
+    "agricultureTitle": "Irrigation Agricole",
+    "agricultureDesc": "Options durables et résistantes aux UV disponibles pour l'irrigation agricole à grande échelle, offrant une haute résistance aux chocs contre l'usure environnementale et les conditions météorologiques extrêmes."
+  },
+  "Certifications": {
+    "title": "Certifications Mondiales",
+    "subtitle": "Conçu en Allemagne, digne de confiance dans le monde entier. Nos produits sont rigoureusement testés pour respecter et dépasser les normes internationales d'assurance qualité.",
+    "dinTitle": "DIN 8077 / DIN 8078",
+    "dinDesc": "Conformité de l'Institut Allemand de Normalisation pour les dimensions des tuyaux en polypropylène et les tests de qualité.",
+    "isoTitle": "ISO 9001:2015",
+    "isoDesc": "Norme internationalement reconnue pour les systèmes de gestion de la qualité robustes dans la fabrication.",
+    "dvgwTitle": "Certifié DVGW",
+    "dvgwDesc": "Approuvé pour une utilisation sûre dans les installations d'eau potable par l'Association Technique et Scientifique Allemande pour le Gaz et l'Eau.",
+    "skzTitle": "Tests SKZ",
+    "skzDesc": "Tests rigoureux par des tiers et surveillance de la qualité par le Centre Allemand des Plastiques."
+  },
+  "Comparative": {
+    "title": "Comparaison des Matériaux",
+    "subtitle": "Lorsqu'il est évalué par rapport aux matériaux de plomberie traditionnels, le PP-R K-Aqua démontre des capacités supérieures pour prévenir la corrosion, réduire l'accumulation de tartre et assurer l'intégrité du système à long terme.",
+    "perfFeature": "Caractéristique de Performance",
+    "kAqua": "K-Aqua PP-R",
+    "copper": "Cuivre",
+    "steel": "Acier Galvanisé",
+    "pvc": "PVC / CPVC",
+    "f1": "Résistant à la Corrosion",
+    "f2": "Prévention de l'Accumulation de Tartre",
+    "f3": "Isolation Thermique (Faible Perte de Chaleur)",
+    "f4": "Amortissement Acoustique (Faible Bruit)",
+    "f5": "Installation Sans Produits Toxiques",
+    "f6": "Haute Résistance aux Chocs"
+  },
+  "Cta": {
+    "title": "Spécifiez K-Aqua pour Votre Prochain Projet",
+    "subtitle": "Téléchargez notre documentation technique complète, y compris les fichiers CAD, les spécifications de pression et les documents de certification mondiaux.",
+    "button1": "Télécharger les Spécifications Techniques",
+    "button2": "Contacter l'Équipe d'Ingénierie"
+  },
+  "Durability": {
+    "title": "Durabilité Intransigeante",
+    "subtitle": "Construit pour durer plus longtemps que les bâtiments qu'ils occupent. Nos systèmes offrent une tranquillité d'esprit grâce à une ingénierie et une science des matériaux exceptionnelles.",
+    "lifespanTitle": "Durée de Vie de 50+ Ans",
+    "lifespanDesc": "Conçus pour la longévité, les systèmes de tuyauterie PP-R K-Aqua sont certifiés pour fonctionner en continu pendant plus de 50 ans sous des pressions et des températures de fonctionnement standard, éliminant ainsi le besoin de révisions périodiques du système.",
+    "pressureTitle": "Haute Résistance à la Pression",
+    "pressureDesc": "Nos joints de fusion homogènes et nos parois de tuyaux structurellement renforcées permettent au système de résister à de fortes fluctuations de pression et aux coups de bélier, dépassant les tolérances aux contraintes des matériaux traditionnels.",
+    "tempTitle": "Températures Extrêmes",
+    "tempDesc": "Conçu pour fonctionner parfaitement sur un large spectre thermique. Des applications de refroidissement profond aux réseaux de chauffage par radiateur à haute température, le matériau conserve son intégrité structurelle sans se déformer ni se dégrader."
+  },
+  "EconomicROI": {
+    "title": "ROI Économique",
+    "subtitle": "Au-delà de la supériorité technique, K-Aqua offre de profonds avantages économiques grâce à une installation rapide, une efficacité énergétique et une maintenance éliminée.",
+    "fasterTitle": "Installation Plus Rapide",
+    "fasterDesc": "L'assemblage par fusion thermique réduit considérablement le temps de travail par rapport au soudage de l'acier ou au brasage du cuivre, accélérant les délais du projet et réduisant les coûts de main-d'œuvre.",
+    "maintenanceTitle": "Coûts de Maintenance",
+    "maintenanceDesc": "Les propriétés sans tartre et résistantes à la corrosion signifient aucune maintenance interne de routine, réduisant considérablement les dépenses d'exploitation tout au long du cycle de vie du bâtiment.",
+    "heatTitle": "Moins de Perte de Chaleur",
+    "heatDesc": "L'isolation thermique supérieure retient la chaleur dans les conduites d'eau chaude beaucoup plus efficacement que la tuyauterie métallique, conduisant à une efficacité énergétique mesurable et à des économies d'utilité."
+  },
+  "Environment": {
+    "title": "Intégrité Environnementale",
+    "p1": "Avant l'extraction moderne du polypropylène, le propylène et l'éthylène provenant du traitement du pétrole étaient simplement brûlés, libérant une importante pollution atmosphérique. Aujourd'hui, ces gaz sont recyclés en polypropylène, réduisant considérablement les émissions de fabrication et empêchant les torchères nocives.",
+    "p2": "Nos installations de fabrication utilisent un cycle de refroidissement fermé de pointe. Cela signifie que l'eau circule et est refroidie en continu sans se déverser dans les rivières, les ruisseaux ou les lacs locaux, éliminant complètement la pollution thermique et le ruissellement des eaux usées.",
+    "p3": "Étant donné que les tuyaux K-Aqua PP-R sont nettement plus légers que les alternatives métalliques, le transport nécessite moins de carburant, contribuant directement à une empreinte carbone considérablement réduite de l'usine au chantier."
+  },
+  "HealthSafety": {
+    "title": "Santé & Hygiène",
+    "subtitle": "Définir la norme internationale pour le transport hygiénique des fluides. Nos matériaux accordent la priorité à la santé humaine et au confort acoustique avant tout.",
+    "potableTitle": "Sécurité de l'Eau Potable",
+    "potableDesc": "Fabriqué à partir de matériaux de plomberie de qualité alimentaire, garantissant que l'eau potable reste complètement non contaminée, insipide et inodore de la source au robinet.",
+    "legionellaTitle": "Résistance aux Légionelles",
+    "legionellaDesc": "La surface interne extrêmement lisse du PP-R empêche la formation de biofilms et de tartre, neutralisant efficacement les zones de reproduction de la légionelle et d'autres bactéries nocives.",
+    "toxicTitle": "Architecture Non Toxique",
+    "toxicDesc": "L'installation repose sur la fusion thermique plutôt que sur des colles toxiques, des solvants ou des soudures à base de plomb, maintenant une pureté chimique absolue dans le réseau de tuyauterie.",
+    "acousticTitle": "Isolation Acoustique",
+    "acousticDesc": "La densité inhérente et l'élasticité de notre structure polymère offrent une réduction exceptionnelle du bruit, atténuant considérablement les bruits d'écoulement et les coups de bélier pour des environnements de construction plus calmes."
+  },
+  "MaterialScience": {
+    "title": "Science des Matériaux Avancée",
+    "p1": "Au cœur de nos solutions se trouve le Copolymère Aléatoire de Polypropylène (PP-R/PP-RCT), un polymère thermoplastique sophistiqué conçu pour des performances exceptionnelles. Contrairement aux matériaux traditionnels, sa structure moléculaire unique offre une résistance chimique et une stabilité thermique exceptionnelles.",
+    "p2": "Le processus de copolymérisation introduit de l'éthylène dans la chaîne propylène, résultant en une matrice hautement flexible et durable. Cela empêche l'entartrage interne, maintient une surface interne lisse et élimine le risque de lixiviation des métaux lourds, garantissant une pureté absolue dans le transport des fluides.",
+    "chemicalTitle": "Résistance Chimique",
+    "chemicalDesc": "Hautement résistant aux solutions acides et alcalines, fonctionnant en toute sécurité dans des environnements agressifs sans dégrader ni affaiblir la paroi du tuyau.",
+    "thermalTitle": "Stabilité Thermique",
+    "thermalDesc": "Maintient l'intégrité structurelle à travers des gradients de température extrêmes, ce qui le rend idéal pour les applications industrielles à haute température et les systèmes d'eau glacée."
+  },
+  "Recyclability": {
+    "title": "Cycle de Vie & Recyclabilité",
+    "subtitle": "Conçus pour un avenir durable, nos systèmes PP-R représentent le summum de la fabrication zéro déchet et de la récupération des matériaux en fin de vie.",
+    "recyclableTitle": "Tuyaux 100% Recyclables",
+    "recyclableDesc": "Les tuyaux K-Aqua PP-R sont 100% recyclables à la fin de leur durée de vie de 50+ ans. Contrairement aux plastiques réticulés (PEX) ou aux métaux composites, le polypropylène peut être fondu et réutilisé sans séparation chimique complexe.",
+    "resinTitle": "Code de Résine 5",
+    "resinDesc": "Classés sous le Code d'Identification de Résine 5, nos matériaux sont très prisés sur le marché secondaire du recyclage. Ce polymère de haute qualité conserve une intégrité structurelle significative, le rendant idéal pour les applications industrielles secondaires.",
+    "zeroWasteTitle": "Fabrication Zéro Déchet",
+    "zeroWasteDesc": "Pendant les processus d'extrusion et de moulage par injection, toutes les chutes ou rebuts de production sont immédiatement rebroyés et réintroduits dans des lignes de fabrication non critiques, garantissant un gaspillage absolu minimal."
+  }
+}

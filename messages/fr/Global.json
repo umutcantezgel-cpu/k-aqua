@@ -1,0 +1,47 @@
+{
+  "Navigation": {
+    "home": "Accueil",
+    "products": "Produits",
+    "solutions": "Solutions",
+    "about": "À propos",
+    "service": "Service",
+    "news": "Actualités",
+    "career": "Carrière",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "description": "Leader de l'approvisionnement en eau. Tuyaux et raccords PP-R/PP-RCT de haute qualité.",
+    "explore": "Explorer",
+    "products": "Produits",
+    "solutions": "Solutions",
+    "references": "Références",
+    "career": "Carrière",
+    "contact": "Contact",
+    "legal": "Légal",
+    "imprint": "Mentions légales",
+    "privacyPolicy": "Politique de confidentialité",
+    "allRightsReserved": "Tous droits réservés.",
+    "gdpr": "Strict respect du RGPD"
+  },
+  "CTASection": {
+    "heading": "Prêt pour votre prochain projet ?",
+    "text": "Contactez-nous pour une consultation sans engagement et découvrez comment nos solutions répondent parfaitement à vos exigences.",
+    "buttonText": "Contactez-nous maintenant"
+  },
+  "FAQSection": {
+    "title": "Foire aux questions"
+  },
+  "HeroSection": {
+    "title": "Bienvenue chez K-Aqua",
+    "subtitle": "Votre partenaire pour une technologie de l'eau d'avenir",
+    "ctaText": "Demander maintenant"
+  },
+  "NotFound": {
+    "title": "404",
+    "subtitle": "Page non trouvée",
+    "desc": "La page demandée est introuvable. Veuillez utiliser l'une des options ci-dessous:",
+    "home": "Accueil",
+    "contact": "Contact",
+    "blog": "Blog"
+  }
+}

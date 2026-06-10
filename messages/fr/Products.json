@@ -1,0 +1,154 @@
+{
+  "ApplicationAreas": {
+    "title": "Domaines d'Application.",
+    "subtitle": "K-Aqua n'est pas une solution unique ; c'est une plateforme polyvalente conçue pour des scénarios de transport de fluides très exigeants.",
+    "cards": {
+      "potable": { "title": "Réseaux d'Eau Potable", "desc": "Hygiène absolue pour la distribution d'eau potable chaude et froide." },
+      "climate": { "title": "Systèmes CVC", "desc": "Optimisé pour les conduites d'eau glacée et le chauffage." },
+      "industrial": { "title": "Fluides Industriels", "desc": "Haute résistance chimique pour le transport de liquides agressifs." },
+      "agricultural": { "title": "Irrigation Agricole", "desc": "Déploiement durable dans des environnements à forte pression." },
+      "compressed": { "title": "Air Comprimé", "desc": "Un réseau sans fuite pour la distribution d'air comprimé." },
+      "shipbuilding": { "title": "Construction Navale", "desc": "Résistance de qualité marine contre les environnements salins." }
+    }
+  },
+  "CTA": {
+    "title": "Initialiser le Déploiement.",
+    "subtitle": "Téléchargez la gamme complète de produits en PDF.",
+    "download": "Télécharger la Gamme PDF",
+    "contact": "Contacter l'Ingénierie",
+    "systemStatus": "État du Système :",
+    "operational": "Opérationnel"
+  },
+  "CompetitiveAdvantage": {
+    "title": "La Matrice Concurrentielle.",
+    "subtitle": "K-Aqua établit une nouvelle référence en matière de longévité des infrastructures.",
+    "table": {
+      "feature": "Caractéristique",
+      "rows": {
+        "joining": "Méthode d'Assemblage",
+        "corrosion": "Résistance à la Corrosion",
+        "scale": "Accumulation de Tartre",
+        "thermal": "Isolation Thermique",
+        "acoustic": "Amortissement Acoustique",
+        "lifespan": "Durée de Vie"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Demandes Techniques.",
+    "subtitle": "Réponses complètes pour les ingénieurs et architectes.",
+    "questions": {
+      "diff": { "q": "Quelle est la différence entre le PP-R et le PP-RCT ?", "a": "Le PP-RCT permet une résistance à la pression plus élevée à des températures élevées." },
+      "hvac": { "q": "Les tuyaux K-Aqua peuvent-ils être utilisés pour les systèmes CVC ?", "a": "Absolument. La faible conductivité thermique réduit considérablement les risques de condensation." },
+      "weld": { "q": "Comment la soudure par polyfusion prévient-elle les fuites ?", "a": "Elle crée une seule matrice macromoléculaire continue, sans colle ni joint." },
+      "safe": { "q": "Ces tuyaux sont-ils sûrs pour l'eau potable ?", "a": "Oui, ils sont certifiés pour le transport d'eau potable dans le monde entier." },
+      "life": { "q": "Quelle est la durée de vie attendue ?", "a": "Plus de 50 ans lorsqu'il est installé correctement." }
+    }
+  },
+  "FittingsArsenal": {
+    "title": "L'Arsenal.",
+    "subtitle1": "Nos raccords sont fabriqués avec précision dans des tailles allant de ",
+    "subtitle2": "20 mm à 315 mm",
+    "subtitle3": ".",
+    "footer": "Chaque accessoire s'emboîte parfaitement avec le système.",
+    "items": {
+      "valves": { "title": "Vannes Premium", "desc": "Mécanismes de contrôle sans fuite." },
+      "unions": { "title": "Raccords Haute Pression", "desc": "Jonctions mécaniques impeccables." },
+      "cutting": { "title": "Outils de Coupe", "desc": "Précision micrométrique." },
+      "welding": { "title": "Appareils de Soudage", "desc": "Équipement de fusion thermique." }
+    }
+  },
+  "Hero": {
+    "badge": "Architecture Système",
+    "title": "PP-R & PP-RCT",
+    "subtitle": "L'apogée de l'ingénierie sanitaire. Conçus pour l'eau potable.",
+    "button": "Initialiser le Système"
+  },
+  "Installation": {
+    "title": "La Physique de la Polyfusion.",
+    "subtitle1": "K-Aqua évite les vulnérabilités grâce à la polyfusion thermique.",
+    "subtitle2": "En chauffant le matériau à son point de fusion précis, la structure moléculaire devient fluide.",
+    "steps": {
+      "cut": { "title": "Coupe de Précision", "desc": "Le tuyau est coupé perpendiculairement." },
+      "thermal": { "title": "Activation Thermique", "desc": "Chauffé simultanément à 260°C." },
+      "polyfusion": { "title": "Polyfusion", "desc": "Les composants sont assemblés sans torsion." },
+      "homo": { "title": "Homogénéisation", "desc": "Les deux pièces deviennent un seul matériau continu." }
+    }
+  },
+  "MaterialScience": {
+    "title": "La Science des Matériaux.",
+    "subtitle": "Ingénierie des polymères avancée.",
+    "p1": "Le PP-RCT élève la référence grâce à un processus de nucléation bêta.",
+    "p2": "Cette cristallisation contrôlée permet une résistance à la pression nettement supérieure.",
+    "badge": "Structure Bêta-Cristalline",
+    "features": {
+      "beta": "Cristallinité Bêta",
+      "pressure": "Résistance à la Pression",
+      "wall": "Épaisseur de Paroi Réduite",
+      "flow": "Débit Augmenté"
+    }
+  },
+  "QualityAssurance": {
+    "title": "Assurance Qualité.",
+    "subtitle": "Chaque millimètre est soumis à des protocoles de test rigoureux.",
+    "certs": {
+      "din": { "title": "DIN 8077 / 8078", "desc": "Norme allemande pour les tuyaux en PP." },
+      "dvgw": { "title": "DVGW", "desc": "Certifié pour l'eau potable." },
+      "iso": { "title": "ISO 15874", "desc": "Norme internationale." },
+      "skz": { "title": "Tests SKZ", "desc": "Audit tiers continu." }
+    }
+  },
+  "SDRRatings": {
+    "title": "Mise à l'Échelle.",
+    "subtitle1": "Nos dimensions commencent à partir de ",
+    "subtitle2": "20 mm",
+    "subtitle3": " et vont jusqu'à ",
+    "subtitle4": "630 mm",
+    "subtitle5": ".",
+    "ratings": {
+      "sdr6": { "sdr": "SDR 6", "desc": "Pression Extrême.", "pressure": "PN 20" },
+      "sdr7": { "sdr": "SDR 7.4", "desc": "Haute Pression.", "pressure": "PN 16" },
+      "sdr9": { "sdr": "SDR 9", "desc": "Débit Élevé.", "pressure": "PN 12.5" },
+      "sdr11": { "sdr": "SDR 11", "desc": "Distribution Standard.", "pressure": "PN 10" },
+      "sdr17": { "sdr": "SDR 17", "desc": "Volume Maximal.", "pressure": "PN 6" }
+    }
+  },
+  "Sustainability": {
+    "title": "Responsabilité Écologique.",
+    "p1": "La durabilité nécessite une approche multidimensionnelle.",
+    "p2": "Les systèmes exigent beaucoup moins d'énergie à fabriquer.",
+    "p3": "La matrice en polypropylène est 100% recyclable.",
+    "energy": "Énergie Grise (MJ/kg)",
+    "low": "Faible",
+    "heat": "Perte de Chaleur",
+    "minimal": "Minimale",
+    "recyclability": "Recyclabilité",
+    "recyclability_value": "100%"
+  },
+  "TechnicalSpecs": {
+    "title": "Spécifications Techniques.",
+    "subtitle": "Des données précises documentées selon les normes ISO et DIN.",
+    "headers": {
+      "property": "Propriété",
+      "value": "Valeur",
+      "method": "Méthode"
+    },
+    "specs": {
+      "density": { "property": "Densité", "value": "0.895 - 0.905 g/cm³", "method": "ISO 1183" },
+      "melt": { "property": "Indice de fluidité", "value": "0.2 - 0.5 g/10min", "method": "ISO 1133" },
+      "thermal": { "property": "Conductivité", "value": "0.24 W/(m·K)", "method": "DIN 52612" },
+      "expansion": { "property": "Dilatation", "value": "0.15 mm/(m·K)", "method": "DIN 53752" },
+      "modulus": { "property": "Module d'élasticité", "value": "800 MPa", "method": "ISO 178" },
+      "yield": { "property": "Limite d'élasticité", "value": "25 MPa", "method": "ISO 527-2" }
+    }
+  },
+  "TechnologyCore": {
+    "title1": "Dominance",
+    "title2": "Moléculaire.",
+    "subtitle": "Structures renforcées de fibres de verre.",
+    "p1": "Les architectures garantissent une toxicité nulle.",
+    "p2": "L'architecture composite minimise la dilatation thermique.",
+    "p3": "La soudure par fusion élimine les points de défaillance mécaniques.",
+    "badge": "Polymatrice"
+  }
+}

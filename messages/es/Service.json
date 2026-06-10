@@ -1,0 +1,81 @@
+{
+  "Hero": {
+    "title": "Recursos de<br />Ingeniería.",
+    "subtitle": "Documentación técnica completa, estándares de aseguramiento de calidad y guías de instalación para sistemas K-Aqua.",
+    "button": "Explorar Datos Técnicos"
+  },
+  "Overview": {
+    "title": "Ingeniería de Precisión",
+    "p1": "K-Aqua se dedica a avanzar la tecnología de transporte de fluidos mediante precisión sin compromisos.",
+    "p2": "Diseñado para apoyar a arquitectos e ingenieros mecánicos, nuestro ecosistema técnico garantiza fiabilidad.",
+    "p3": "Empoderamos a los profesionales de la industria proporcionando datos técnicos exhaustivos y transparentes."
+  },
+  "MaterialScience": {
+    "title": "Ciencia Avanzada de Materiales",
+    "description": "La fuerza fundamental de nuestros sistemas de tuberías radica en nuestras matrices de polímeros.",
+    "coreAdvantageTitle": "Ventaja Principal",
+    "coreAdvantageQuote": "\"Nuestras formulaciones patentadas prolongan drásticamente la vida útil operativa.\"",
+    "cards": {
+      "0": { "title": "PP-R de Alto Peso Molecular", "description": "Resistencia superior al impacto." },
+      "1": { "title": "PP-RCT Cristales de Nueva Generación", "description": "Soporta mayores presiones." },
+      "2": { "title": "Amortiguación Acústica", "description": "Absorbe la energía cinética, reduciendo el ruido." },
+      "3": { "title": "Resistencia Química", "description": "Maneja el estrés operativo extremo." }
+    }
+  },
+  "QualityAssurance": {
+    "title": "Aseguramiento de Calidad",
+    "description": "Política de cero defectos.",
+    "cards": {
+      "0": { "title": "Monitoreo en Línea", "description": "Escaneo láser del grosor de la pared." },
+      "1": { "title": "Pruebas Destructivas", "description": "Pruebas extremas de presión." },
+      "2": { "title": "Verificación de Terceros", "description": "Auditorías consistentes y certificaciones." }
+    }
+  },
+  "TrainingAcademy": {
+    "title": "Academia de Entrenamiento K-Aqua",
+    "description": "Proporcionamos a los instaladores entrenamiento riguroso.",
+    "list": {
+      "0": { "title": "Seminarios en el Sitio", "description": "Entrenamiento en instalaciones de infraestructura." },
+      "1": { "title": "Plan de Estudios Teórico", "description": "Talleres de cálculos termodinámicos." },
+      "2": { "title": "Certificación Oficial", "description": "Credencial oficial tras aprobar." }
+    },
+    "protocol": "Protocolo de Certificación"
+  },
+  "InstallationProtocols": {
+    "title": "Protocolos de Instalación",
+    "description": "Dominar las técnicas exactas asegura integridad.",
+    "modulePrefix": "Módulo",
+    "protocols": {
+      "0": { "title": "Soldadura Manual", "subtitle": "Tuberías y Accesorios", "desc": "Técnica fundamental." },
+      "1": { "title": "Soldadura a Máquina", "subtitle": "Máquinas Estacionarias", "desc": "Para grandes diámetros." },
+      "2": { "title": "Electrofusión", "subtitle": "Fusión Automatizada", "desc": "Para espacios reducidos." },
+      "3": { "title": "Soldadura a Tope", "subtitle": "Líneas Principales", "desc": "Para transporte de alto volumen." }
+    }
+  },
+  "DocumentLibrary": {
+    "title": "Biblioteca de Documentos",
+    "description": "Acceda a la biblioteca técnica definitiva de K-Aqua.",
+    "download": "Descargar PDF",
+    "docs": {
+      "0": { "title": "Gama de Productos", "category": "Catálogo", "description": "Catálogo completo." },
+      "1": { "title": "Características Técnicas", "category": "Datos Técnicos", "description": "Ciencia de materiales." },
+      "2": { "title": "Aseguramiento de Calidad", "category": "Cumplimiento", "description": "Protocolos de prueba." }
+    }
+  },
+  "FAQ": {
+    "title": "FAQ Técnico",
+    "subtitle": "Respuestas directas.",
+    "faqs": {
+      "0": { "q": "¿Temperatura máxima para PP-RCT?", "a": "Hasta 70°C continuos." },
+      "1": { "q": "¿Tiempo de enfriamiento de fusión?", "a": "Aproximadamente 2 a 40 minutos dependiendo del diámetro." },
+      "2": { "q": "¿Tubos en luz solar directa?", "a": "Requieren aislamiento o variantes UV." },
+      "3": { "q": "¿Expansión térmica?", "a": "Soportes fijos o tubos multicapa (Faser)." },
+      "4": { "q": "¿Transporte químico agresivo?", "a": "Sí, altamente resistente." }
+    }
+  },
+  "CTA": {
+    "title": "¿Listo para su próximo proyecto?",
+    "description": "Conéctese con nuestro equipo de especificaciones técnicas.",
+    "button": "Contactar Soporte Técnico"
+  }
+}

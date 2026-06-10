@@ -1,0 +1,153 @@
+{
+  "ApplicationAreas": {
+    "title": "Kullanım Alanları.",
+    "subtitle": "K-Aqua, zorlu akışkan transferi senaryoları için tasarlanmış çok yönlü bir platformdur.",
+    "cards": {
+      "potable": { "title": "İçme Suyu Ağları", "desc": "Sıcak ve soğuk içme suyu dağıtımı için mutlak hijyen." },
+      "climate": { "title": "İklimlendirme Sistemleri", "desc": "Soğutulmuş su hatları ve ısıtma için optimize edilmiştir." },
+      "industrial": { "title": "Endüstriyel Akışkanlar", "desc": "Agresif sıvılar için yüksek kimyasal direnç." },
+      "agricultural": { "title": "Tarımsal Sulama", "desc": "Yüksek basınçlı ortamlarda dayanıklı kullanım." },
+      "compressed": { "title": "Basınçlı Hava", "desc": "Basınçlı hava dağıtımı için sızdırmaz ağ." },
+      "shipbuilding": { "title": "Gemi İnşası", "desc": "Tuzlu ortamlara karşı denizcilik sınıfı dayanıklılık." }
+    }
+  },
+  "CTA": {
+    "title": "Sistemi Başlat.",
+    "subtitle": "Tüm ürün yelpazesini PDF olarak indirin.",
+    "download": "PDF İndir",
+    "contact": "Mühendislik ile İletişime Geç",
+    "systemStatus": "Sistem Durumu:",
+    "operational": "Aktif"
+  },
+  "CompetitiveAdvantage": {
+    "title": "Rekabet Avantajı.",
+    "subtitle": "K-Aqua, altyapı uzun ömrü için yeni bir standart belirliyor.",
+    "table": {
+      "feature": "Özellik",
+      "rows": {
+        "joining": "Birleştirme Yöntemi",
+        "corrosion": "Korozyon Direnci",
+        "scale": "Kireç Birikimi",
+        "thermal": "Termal Yalıtım",
+        "acoustic": "Akustik Sönümleme",
+        "lifespan": "Kullanım Ömrü"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Teknik Sorular.",
+    "subtitle": "Mühendisler ve mimarlar için kapsamlı cevaplar.",
+    "questions": {
+      "diff": { "q": "PP-R ve PP-RCT arasındaki fark nedir?", "a": "PP-RCT, yüksek sıcaklıklarda daha yüksek basınç direnci sağlar." },
+      "hvac": { "q": "K-Aqua boruları iklimlendirme (HVAC) sistemlerinde kullanılabilir mi?", "a": "Kesinlikle. Düşük termal iletkenlik, yoğuşma riskini önemli ölçüde azaltır." },
+      "weld": { "q": "Polifüzyon kaynağı sızıntıları nasıl önler?", "a": "Tek ve sürekli bir makromoleküler matris oluşturur." },
+      "safe": { "q": "Bu borular içme suyu için güvenli mi?", "a": "Evet, dünya çapında içme suyu taşınması için onaylanmıştır." },
+      "life": { "q": "Beklenen kullanım ömrü nedir?", "a": "Doğru kurulduğunda 50 yıldan fazla." }
+    }
+  },
+  "FittingsArsenal": {
+    "title": "Ekipmanlar.",
+    "subtitle1": "Bağlantı elemanlarımız ",
+    "subtitle2": "20 mm ile 315 mm",
+    "subtitle3": " boyutlarında hassasiyetle üretilmiştir.",
+    "footer": "Her bir aksesuar sistemle kusursuz bir şekilde kenetlenir.",
+    "items": {
+      "valves": { "title": "Premium Vanalar", "desc": "Sızdırmaz kontrol mekanizmaları." },
+      "unions": { "title": "Yüksek Basınç Rekorları", "desc": "Kusursuz mekanik bağlantılar." },
+      "cutting": { "title": "Kesici Aletler", "desc": "Mikrometre hassasiyetinde kesim." },
+      "welding": { "title": "Kaynak Cihazları", "desc": "Mutlak homojenleştirme için termal füzyon ekipmanı." }
+    }
+  },
+  "Hero": {
+    "badge": "Sistem Mimarisi",
+    "title": "PP-R ve PP-RCT",
+    "subtitle": "Sıhhi tesisat mühendisliğinin zirvesi. Saf içme suyu için tasarlandı.",
+    "button": "Sistemi Başlat"
+  },
+  "Installation": {
+    "title": "Polifüzyon Fiziği.",
+    "subtitle1": "K-Aqua termal polifüzyon ile zayıflıkları ortadan kaldırır.",
+    "subtitle2": "Malzemeyi tam erime noktasına ısıtarak, yapı sıvı hale gelir.",
+    "steps": {
+      "cut": { "title": "Hassas Kesim", "desc": "Boru dik olarak kesilir." },
+      "thermal": { "title": "Termal Aktivasyon", "desc": "Eşzamanlı olarak 260°C'ye ısıtılır." },
+      "polyfusion": { "title": "Polifüzyon", "desc": "Bileşenler bükülmeden birleştirilir." },
+      "homo": { "title": "Homojenleştirme", "desc": "İki parça sürekli ve tek bir malzeme haline gelir." }
+    }
+  },
+  "MaterialScience": {
+    "title": "Malzeme Bilimi.",
+    "subtitle": "Gelişmiş Polimer Mühendisliği.",
+    "p1": "PP-RCT, beta-nükleasyon süreciyle standardı yükseltir.",
+    "p2": "Bu kontrollü kristalizasyon, daha yüksek basınç direncine izin verir.",
+    "badge": "Beta-Kristal Yapı",
+    "features": {
+      "beta": "Beta-Kristalinite",
+      "pressure": "Yüksek Basınç Direnci",
+      "wall": "Azaltılmış Et Kalınlığı",
+      "flow": "Artırılmış Akış Oranı"
+    }
+  },
+  "QualityAssurance": {
+    "title": "Kalite Güvencesi.",
+    "subtitle": "Sıkı test protokollerine tabi tutulmuştur.",
+    "certs": {
+      "din": { "title": "DIN 8077 / 8078", "desc": "PP boruları için Alman standardı." },
+      "dvgw": { "title": "DVGW", "desc": "İçme suyu için sertifikalandırılmıştır." },
+      "iso": { "title": "ISO 15874", "desc": "Uluslararası standart." },
+      "skz": { "title": "SKZ Testleri", "desc": "Sürekli üçüncü taraf denetimi." }
+    }
+  },
+  "SDRRatings": {
+    "title": "Boyutsal Ölçeklendirme.",
+    "subtitle1": "Boyutlarımız ",
+    "subtitle2": "20 mm",
+    "subtitle3": " ile başlar ve devasa ",
+    "subtitle4": "630 mm",
+    "subtitle5": " değerine kadar ulaşır.",
+    "ratings": {
+      "sdr6": { "sdr": "SDR 6", "desc": "Aşırı Basınç.", "pressure": "PN 20" },
+      "sdr7": { "sdr": "SDR 7.4", "desc": "Yüksek Basınç.", "pressure": "PN 16" },
+      "sdr9": { "sdr": "SDR 9", "desc": "Yüksek Akış.", "pressure": "PN 12.5" },
+      "sdr11": { "sdr": "SDR 11", "desc": "Standart Dağıtım.", "pressure": "PN 10" },
+      "sdr17": { "sdr": "SDR 17", "desc": "Maksimum Hacim.", "pressure": "PN 6" }
+    }
+  },
+  "Sustainability": {
+    "title": "Ekolojik Sorumluluk.",
+    "p1": "Sürdürülebilirlik çok yönlü bir yaklaşım gerektirir.",
+    "p2": "Sistemler üretilirken çok daha az enerjiye ihtiyaç duyar.",
+    "p3": "Polipropilen matris %100 geri dönüştürülebilir.",
+    "energy": "Gömülü Enerji",
+    "low": "Düşük",
+    "heat": "Isı Kaybı",
+    "minimal": "Minimal",
+    "recyclability": "Geri Dönüştürülebilirlik"
+  },
+  "TechnicalSpecs": {
+    "title": "Teknik Özellikler.",
+    "subtitle": "ISO ve DIN standartlarına göre belgelenmiş kesin veriler.",
+    "headers": {
+      "property": "Özellik",
+      "value": "Değer",
+      "method": "Yöntem"
+    },
+    "specs": {
+      "density": { "property": "Yoğunluk", "value": "0.895 - 0.905 g/cm³", "method": "ISO 1183" },
+      "melt": { "property": "Erime Akış Hızı", "value": "0.2 - 0.5 g/10min", "method": "ISO 1133" },
+      "thermal": { "property": "İletkenlik", "value": "0.24 W/(m·K)", "method": "DIN 52612" },
+      "expansion": { "property": "Genleşme", "value": "0.15 mm/(m·K)", "method": "DIN 53752" },
+      "modulus": { "property": "Elastisite Modülü", "value": "800 MPa", "method": "ISO 178" },
+      "yield": { "property": "Akma Gerilimi", "value": "25 MPa", "method": "ISO 527-2" }
+    }
+  },
+  "TechnologyCore": {
+    "title1": "Moleküler",
+    "title2": "Üstünlük.",
+    "subtitle": "Cam elyaf takviyeli yapılar.",
+    "p1": "Mimariler toksisite garantisi sunar.",
+    "p2": "Mimari, termal genleşmeyi en aza indirir.",
+    "p3": "Füzyon kaynağı mekanik hataları ortadan kaldırır.",
+    "badge": "Polimatris"
+  }
+}

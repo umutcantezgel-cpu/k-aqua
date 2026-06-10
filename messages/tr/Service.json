@@ -1,0 +1,81 @@
+{
+  "Hero": {
+    "title": "Mühendislik<br />Kaynakları.",
+    "subtitle": "K-Aqua PP-R ve PP-RCT boru sistemleri için kapsamlı teknik dokümantasyon, kalite güvence standartları ve hassas kurulum kılavuzları.",
+    "button": "Teknik Verileri Keşfedin"
+  },
+  "Overview": {
+    "title": "Modern Altyapı için Hassas Mühendislik",
+    "p1": "K-Aqua, tavizsiz hassasiyetle sıvı taşıma teknolojisini ilerletmeye adanmıştır.",
+    "p2": "Mimarları ve mühendisleri desteklemek için tasarlanan teknik ekosistemimiz tam güvenilirlik sağlar.",
+    "p3": "Kapsamlı teknik veriler sağlayarak sektör profesyonellerini güçlendiriyoruz."
+  },
+  "MaterialScience": {
+    "title": "İleri Malzeme Bilimi",
+    "description": "K-Aqua boru sistemlerinin temel gücü polimer matrislerimizde yatar.",
+    "coreAdvantageTitle": "Temel Avantaj",
+    "coreAdvantageQuote": "\"Formüllerimiz, yüksek basınçlı sıvı taşıma sistemlerinin operasyonel ömrünü büyük ölçüde uzatır.\"",
+    "cards": {
+      "0": { "title": "PP-R", "description": "Üstün darbe dayanımı sağlar." },
+      "1": { "title": "PP-RCT Kristaller", "description": "Yüksek hidrostatik basınçlara dayanır." },
+      "2": { "title": "Akustik Sönümleme", "description": "Hidrodinamik gürültü iletimini azaltır." },
+      "3": { "title": "Kimyasal Direnç", "description": "Aşırı operasyonel stresleri kaldırır." }
+    }
+  },
+  "QualityAssurance": {
+    "title": "Kalite Güvence Standartları",
+    "description": "Sıfır hata politikamız tavizsiz otomatik testlerle yönetilir.",
+    "cards": {
+      "0": { "title": "Hat İçi İzleme", "description": "Lazerli mikrometre taramaları." },
+      "1": { "title": "Yıkıcı Testler", "description": "Aşırı basınç testleri." },
+      "2": { "title": "Üçüncü Taraf Doğrulama", "description": "TÜV, DVGW tarafından onaylanmıştır." }
+    }
+  },
+  "TrainingAcademy": {
+    "title": "K-Aqua Eğitim Akademisi",
+    "description": "Uzman kurulumculara zorlu eğitimler veriyoruz.",
+    "list": {
+      "0": { "title": "Saha Seminerleri", "description": "Uygulamalı eğitim." },
+      "1": { "title": "Teorik Müfredat", "description": "Termodinamik hesaplamalar atölyesi." },
+      "2": { "title": "Resmi Sertifika", "description": "Uzatılmış garanti sertifikası." }
+    },
+    "protocol": "Sertifikasyon Protokolü"
+  },
+  "InstallationProtocols": {
+    "title": "Kurulum Protokolleri",
+    "description": "Isıl füzyon tekniklerinde uzmanlaşmak ömür boyu bütünlük sağlar.",
+    "modulePrefix": "Modül",
+    "protocols": {
+      "0": { "title": "Manuel Kaynak", "subtitle": "PP-R Borular", "desc": "Temel teknik." },
+      "1": { "title": "Makine Kaynağı", "subtitle": "Sabit Makineler", "desc": "Büyük çaplı borular için." },
+      "2": { "title": "Elektrofüzyon", "subtitle": "Otomatik Füzyon", "desc": "İnsan hatasını en aza indirir." },
+      "3": { "title": "Alın Kaynağı", "subtitle": "Ana Hatlar", "desc": "Devasa altyapı için." }
+    }
+  },
+  "DocumentLibrary": {
+    "title": "Belge Kütüphanesi",
+    "description": "K-Aqua teknik kütüphanesine erişin.",
+    "download": "PDF İndir",
+    "docs": {
+      "0": { "title": "Ürün Yelpazesi", "category": "Katalog", "description": "Kapsamlı katalog." },
+      "1": { "title": "Teknik Özellikler", "category": "Teknik Veriler", "description": "Malzeme bilimine derinlemesine bakış." },
+      "2": { "title": "Kalite ve Sertifikalar", "category": "Uyumluluk", "description": "Test protokollerimiz." }
+    }
+  },
+  "FAQ": {
+    "title": "Teknik SSS",
+    "subtitle": "Kritik mühendislik sorularına doğrudan yanıtlar.",
+    "faqs": {
+      "0": { "q": "Maksimum çalışma sıcaklığı?", "a": "70°C'ye kadar sürekli." },
+      "1": { "q": "Soğuma süresi?", "a": "Çapa bağlı olarak 2 ila 40 dakika." },
+      "2": { "q": "Doğrudan güneş ışığı?", "a": "İzolasyon veya UV koruması gerektirir." },
+      "3": { "q": "Termal genleşme?", "a": "Faser borular genleşmeyi azaltır." },
+      "4": { "q": "Agresif kimyasallar?", "a": "Evet, son derece dirençlidir." }
+    }
+  },
+  "CTA": {
+    "title": "Bir sonraki projeniz için hazır mısınız?",
+    "description": "Teknik ekibimizle doğrudan bağlantı kurun.",
+    "button": "Teknik Desteğe Ulaşın"
+  }
+}

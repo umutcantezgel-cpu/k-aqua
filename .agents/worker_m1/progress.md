@@ -1,0 +1,4 @@
+- [x] Deleted components/ui/WebGLCanvas.tsx and components/ui/ParallaxTilt.tsx
+- [x] Replaced ParallaxTilt components with w-full h-full div containers
+- [x] Cleaned up unused imports
+- [x] Verified build success

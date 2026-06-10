@@ -1,0 +1,153 @@
+{
+  "ApplicationAreas": {
+    "title": "应用领域",
+    "subtitle": "K-Aqua 并非单一解决方案；它是一个多功能平台，专为要求严苛的流体传输场景而设计。",
+    "cards": {
+      "potable": { "title": "饮用水管网", "desc": "确保冷热饮用水分配的绝对卫生。" },
+      "climate": { "title": "暖通空调系统", "desc": "优化冷冻水管道和供暖。" },
+      "industrial": { "title": "工业流体", "desc": "高耐化学性，适用于腐蚀性液体。" },
+      "agricultural": { "title": "农业灌溉", "desc": "在高压环境中的耐用部署。" },
+      "compressed": { "title": "压缩空气", "desc": "用于压缩空气的无泄漏网络。" },
+      "shipbuilding": { "title": "造船业", "desc": "耐盐环境的海事级强度。" }
+    }
+  },
+  "CTA": {
+    "title": "启动部署",
+    "subtitle": "下载完整产品系列 PDF。",
+    "download": "下载 PDF",
+    "contact": "联系工程师",
+    "systemStatus": "系统状态：",
+    "operational": "运行中"
+  },
+  "CompetitiveAdvantage": {
+    "title": "竞争优势",
+    "subtitle": "K-Aqua 为基础设施寿命确立了新标准。",
+    "table": {
+      "feature": "特性",
+      "rows": {
+        "joining": "连接方式",
+        "corrosion": "耐腐蚀性",
+        "scale": "积垢",
+        "thermal": "隔热性",
+        "acoustic": "隔音减震",
+        "lifespan": "使用寿命"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "技术问答",
+    "subtitle": "为工程师和建筑师提供全面解答。",
+    "questions": {
+      "diff": { "q": "PP-R 和 PP-RCT 有什么区别？", "a": "PP-RCT 在高温下具有更高的耐压性。" },
+      "hvac": { "q": "K-Aqua 管道可用于 HVAC 系统吗？", "a": "当然可以。低导热性显著降低了冷凝风险。" },
+      "weld": { "q": "热熔焊接如何防止泄漏？", "a": "它形成了单一的连续高分子基质，无需胶水。" },
+      "safe": { "q": "这些管道对饮用水安全吗？", "a": "是的，它们已通过全球饮用水运输认证。" },
+      "life": { "q": "预期寿命是多少？", "a": "如果安装正确，可达 50 年以上。" }
+    }
+  },
+  "FittingsArsenal": {
+    "title": "配件库",
+    "subtitle1": "我们的配件经过精密设计，尺寸从 ",
+    "subtitle2": "20 mm 到 315 mm",
+    "subtitle3": "。",
+    "footer": "每个配件都能与系统完美结合。",
+    "items": {
+      "valves": { "title": "高级阀门", "desc": "无泄漏控制机制。" },
+      "unions": { "title": "高压接头", "desc": "完美的机械连接。" },
+      "cutting": { "title": "切割工具", "desc": "微米级精度。" },
+      "welding": { "title": "焊接设备", "desc": "热熔设备。" }
+    }
+  },
+  "Hero": {
+    "badge": "系统架构",
+    "title": "PP-R & PP-RCT",
+    "subtitle": "卫生工程的顶峰。专为纯净饮用水设计。",
+    "button": "初始化系统"
+  },
+  "Installation": {
+    "title": "热熔物理学",
+    "subtitle1": "K-Aqua 通过热熔技术避免了机械连接的脆弱性。",
+    "subtitle2": "加热材料使其结构流体化，从而完美融合。",
+    "steps": {
+      "cut": { "title": "精准切割", "desc": "垂直切割管道以确保接触面完美。" },
+      "thermal": { "title": "热激活", "desc": "同时加热到 260°C。" },
+      "polyfusion": { "title": "热熔", "desc": "聚合物链瞬间互锁。" },
+      "homo": { "title": "均质化", "desc": "两部分冷却后成为单一材料。" }
+    }
+  },
+  "MaterialScience": {
+    "title": "材料科学",
+    "subtitle": "高级聚合物工程。",
+    "p1": "PP-RCT 通过 beta 成核过程提升了标准。",
+    "p2": "受控的结晶过程提供了更高的耐压性。",
+    "badge": "Beta 结晶结构",
+    "features": {
+      "beta": "Beta 结晶度",
+      "pressure": "更高的耐压性",
+      "wall": "减小的壁厚",
+      "flow": "增加的流速"
+    }
+  },
+  "QualityAssurance": {
+    "title": "质量保证",
+    "subtitle": "经过严格的测试协议验证。",
+    "certs": {
+      "din": { "title": "DIN 8077 / 8078", "desc": "德国 PP 管道标准。" },
+      "dvgw": { "title": "DVGW", "desc": "饮用水认证。" },
+      "iso": { "title": "ISO 15874", "desc": "国际标准。" },
+      "skz": { "title": "SKZ 测试", "desc": "持续的第三方审核。" }
+    }
+  },
+  "SDRRatings": {
+    "title": "尺寸标准",
+    "subtitle1": "我们的尺寸从灵活的 ",
+    "subtitle2": "20 mm",
+    "subtitle3": " 开始，一直到巨大的 ",
+    "subtitle4": "630 mm",
+    "subtitle5": "。",
+    "ratings": {
+      "sdr6": { "sdr": "SDR 6", "desc": "极端压力。", "pressure": "PN 20" },
+      "sdr7": { "sdr": "SDR 7.4", "desc": "高压。", "pressure": "PN 16" },
+      "sdr9": { "sdr": "SDR 9", "desc": "高流量。", "pressure": "PN 12.5" },
+      "sdr11": { "sdr": "SDR 11", "desc": "标准分配。", "pressure": "PN 10" },
+      "sdr17": { "sdr": "SDR 17", "desc": "最大流量。", "pressure": "PN 6" }
+    }
+  },
+  "Sustainability": {
+    "title": "生态责任",
+    "p1": "可持续性需要多方面的方法。",
+    "p2": "系统制造所需的能源显着减少。",
+    "p3": "聚丙烯基质 100% 可回收。",
+    "energy": "隐含能源",
+    "low": "低",
+    "heat": "热损失",
+    "minimal": "极少",
+    "recyclability": "可回收性"
+  },
+  "TechnicalSpecs": {
+    "title": "技术规格",
+    "subtitle": "根据 ISO 和 DIN 标准记录的精确数据。",
+    "headers": {
+      "property": "属性",
+      "value": "数值",
+      "method": "测试方法"
+    },
+    "specs": {
+      "density": { "property": "密度", "value": "0.895 - 0.905 g/cm³", "method": "ISO 1183" },
+      "melt": { "property": "熔体流动速率", "value": "0.2 - 0.5 g/10min", "method": "ISO 1133" },
+      "thermal": { "property": "导热系数", "value": "0.24 W/(m·K)", "method": "DIN 52612" },
+      "expansion": { "property": "线性热膨胀系数", "value": "0.15 mm/(m·K)", "method": "DIN 53752" },
+      "modulus": { "property": "弹性模量", "value": "800 MPa", "method": "ISO 178" },
+      "yield": { "property": "屈服应力", "value": "25 MPa", "method": "ISO 527-2" }
+    }
+  },
+  "TechnologyCore": {
+    "title1": "分子级",
+    "title2": "优势",
+    "subtitle": "玻璃纤维增强结构。",
+    "p1": "保证零毒性，防止腐蚀。",
+    "p2": "复合架构可最大程度减少热膨胀。",
+    "p3": "热熔焊接消除了机械故障点。",
+    "badge": "聚合物矩阵"
+  }
+}

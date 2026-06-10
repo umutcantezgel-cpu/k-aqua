@@ -1,0 +1,113 @@
+{
+  "Hero": {
+    "title1": "Zrównoważone",
+    "title2": "Systemy Rur",
+    "title3": "PP-R",
+    "subtitle": "Ekologicznie odpowiedzialne rozwiązania hydrauliczne zaprojektowane z myślą o przyszłości. Jesteśmy zaangażowani w redukcję zanieczyszczenia atmosfery, ochronę zasobów i produkcję doskonałych polimerów termoplastycznych, które przewyższają tradycyjne materiały."
+  },
+  "Applications": {
+    "title": "Zastosowania Przemysłowe",
+    "subtitle": "Wszechstronne rozwiązanie inżynieryjne wdrożone w wielu sektorach, zaprojektowane w celu rozwiązywania specyficznych wyzwań związanych z transportem płynów.",
+    "commercialTitle": "Hydraulika Komercyjna",
+    "commercialDesc": "Idealny do wieżowców komercyjnych, szpitali i hoteli, gdzie niezawodna dystrybucja wody pitnej i stałe ciśnienie są ściśle wymagane. Zerowa korozja gwarantuje dostarczanie czystej wody przez dziesięciolecia.",
+    "hvacTitle": "Klimatyzacja i Woda Lodowa",
+    "hvacDesc": "Wysoce wydajne w systemach klimatyzacji i wody lodowej. Niska przewodność cieplna PP-R minimalizuje zysk ciepła, zapobiegając gromadzeniu się kondensacji i utrzymując precyzyjną kontrolę temperatury.",
+    "heatingTitle": "Ogrzewanie Grzejnikowe",
+    "heatingDesc": "Zaprojektowane, aby wytrzymać ciągłe naprężenia w wysokiej temperaturze, co czyni je najlepszym wyborem dla centralnych sieci ogrzewania grzejnikowego i zastosowań ogrzewania podłogowego.",
+    "industrialTitle": "Przemysłowy Transport Płynów",
+    "industrialDesc": "Wyjątkowa odporność chemiczna pozwala na bezpieczny transport agresywnych płynów przemysłowych, sprężonego powietrza i chemii produkcyjnej bez degradacji matrycy rury.",
+    "agricultureTitle": "Nawadnianie Rolnicze",
+    "agricultureDesc": "Dostępne trwałe i odporne na promieniowanie UV opcje dla nawadniania rolniczego na dużą skalę, oferujące wysoką odporność na uderzenia przed zużyciem środowiskowym i ekstremalnymi warunkami pogodowymi."
+  },
+  "Certifications": {
+    "title": "Globalne Certyfikaty",
+    "subtitle": "Zaprojektowane w Niemczech, zaufane na całym świecie. Nasze produkty są rygorystycznie testowane, aby spełniać i przekraczać międzynarodowe standardy zapewnienia jakości.",
+    "dinTitle": "DIN 8077 / DIN 8078",
+    "dinDesc": "Zgodność z Niemieckim Instytutem Normalizacyjnym dla wymiarów rur polipropylenowych i testów jakości.",
+    "isoTitle": "ISO 9001:2015",
+    "isoDesc": "Międzynarodowo uznany standard dla solidnych Systemów Zarządzania Jakością w produkcji.",
+    "dvgwTitle": "Certyfikat DVGW",
+    "dvgwDesc": "Zatwierdzony do bezpiecznego użytku w instalacjach wody pitnej przez Niemieckie Stowarzyszenie Techniczno-Naukowe ds. Gazu i Wody.",
+    "skzTitle": "Testy SKZ",
+    "skzDesc": "Rygorystyczne testy stron trzecich i nadzór nad jakością przez Niemieckie Centrum Tworzyw Sztucznych."
+  },
+  "Comparative": {
+    "title": "Porównanie Materiałów",
+    "subtitle": "W ocenie z tradycyjnymi materiałami hydraulicznymi K-Aqua PP-R wykazuje doskonałe możliwości w zapobieganiu korozji, redukcji osadzania się kamienia i zapewnianiu długoterminowej integralności systemu.",
+    "perfFeature": "Cecha Wydajnościowa",
+    "kAqua": "K-Aqua PP-R",
+    "copper": "Miedź",
+    "steel": "Stal Ocynkowana",
+    "pvc": "PVC / CPVC",
+    "f1": "Odporność na Korozję",
+    "f2": "Zapobieganie Osadzaniu się Kamienia",
+    "f3": "Izolacja Termiczna (Niska Utrata Ciepła)",
+    "f4": "Tłumienie Akustyczne (Niski Hałas)",
+    "f5": "Bezpieczna Instalacja (Brak Klejów/Lutów)",
+    "f6": "Wysoka Odporność na Uderzenia"
+  },
+  "Cta": {
+    "title": "Wybierz K-Aqua do Swojego Następnego Projektu",
+    "subtitle": "Pobierz naszą kompleksową dokumentację techniczną, w tym pliki CAD, specyfikacje ciśnienia i globalne dokumenty certyfikacyjne.",
+    "button1": "Pobierz Specyfikacje Techniczne",
+    "button2": "Skontaktuj się z Zespołem Inżynierów"
+  },
+  "Durability": {
+    "title": "Bezkompromisowa Trwałość",
+    "subtitle": "Zbudowane, aby przetrwać budynki, w których się znajdują. Nasze systemy zapewniają spokój ducha dzięki wyjątkowej inżynierii i inżynierii materiałowej.",
+    "lifespanTitle": "Ponad 50 Lat Żywotności",
+    "lifespanDesc": "Zaprojektowane z myślą o długowieczności, systemy rur K-Aqua PP-R są certyfikowane do ciągłej pracy przez ponad 50 lat przy standardowym ciśnieniu roboczym i temperaturach, eliminując potrzebę okresowych przeglądów systemu.",
+    "pressureTitle": "Wysoka Odporność na Ciśnienie",
+    "pressureDesc": "Nasze jednorodne złącza termofuzyjne i strukturalnie wzmocnione ściany rur pozwalają systemowi wytrzymać silne wahania ciśnienia i uderzenia hydrauliczne, przewyższając tolerancje naprężeń tradycyjnych materiałów.",
+    "tempTitle": "Ekstremalne Temperatury",
+    "tempDesc": "Zaprojektowany, aby działać bezawaryjnie w szerokim spektrum termicznym. Od zastosowań chłodniczych do wysokotemperaturowych sieci grzewczych, materiał zachowuje integralność strukturalną bez wypaczania lub degradacji."
+  },
+  "EconomicROI": {
+    "title": "Ekonomiczny Zwrot z Inwestycji",
+    "subtitle": "Poza wyższością inżynieryjną, K-Aqua oferuje głębokie korzyści ekonomiczne dzięki szybkiej instalacji, efektywności energetycznej i eliminacji konserwacji.",
+    "fasterTitle": "Szybsza Instalacja",
+    "fasterDesc": "Łączenie metodą fuzji termicznej drastycznie skraca czas pracy w porównaniu ze spawaniem stali lub lutowaniem miedzi, przyspieszając harmonogramy projektów i zmniejszając koszty pracy.",
+    "maintenanceTitle": "Koszty Konserwacji",
+    "maintenanceDesc": "Właściwości zapobiegające osadzaniu się kamienia i odporność na korozję oznaczają zerową rutynową konserwację wewnętrzną, co znacznie obniża koszty operacyjne w całym cyklu życia budynku.",
+    "heatTitle": "Mniejsza Utrata Ciepła",
+    "heatDesc": "Doskonała izolacja termiczna utrzymuje ciepło w rurach z gorącą wodą znacznie skuteczniej niż rury metalowe, co prowadzi do wymiernej efektywności energetycznej i oszczędności."
+  },
+  "Environment": {
+    "title": "Integralność Środowiskowa",
+    "p1": "Przed nowoczesną ekstrakcją polipropylenu gazy odpadowe z propylenu i etylenu z przetwórstwa ropy naftowej były po prostu spalane, powodując znaczne zanieczyszczenie atmosfery. Obecnie gazy te są przetwarzane w polipropylen, co drastycznie zmniejsza emisje przemysłowe.",
+    "p2": "Nasze zakłady produkcyjne wykorzystują nowoczesny, zamknięty obieg chłodzenia. Oznacza to, że woda jest w sposób ciągły wprawiana w obieg i schładzana bez odprowadzania jej do rzek lub jezior, co całkowicie eliminuje zanieczyszczenie termiczne.",
+    "p3": "Ponieważ rury K-Aqua PP-R są znacznie lżejsze od rur metalowych, transport wymaga mniejszej ilości paliwa, co bezpośrednio przyczynia się do znacznie zmniejszonego śladu węglowego od fabryki po miejsce pracy.",
+    "diagram": "Schemat Procesu Środowiskowego"
+  },
+  "HealthSafety": {
+    "title": "Zdrowie i Higiena",
+    "subtitle": "Ustanawiamy międzynarodowy standard higienicznego transportu płynów. Nasze materiały stawiają zdrowie ludzkie i komfort akustyczny ponad wszystko.",
+    "potableTitle": "Bezpieczeństwo Wody Pitnej",
+    "potableDesc": "Wyprodukowane z materiałów hydraulicznych dopuszczonych do kontaktu z żywnością, co gwarantuje, że woda pitna pozostaje całkowicie nieskażona, bez smaku i zapachu od źródła do kranu.",
+    "legionellaTitle": "Odporność na Legionellę",
+    "legionellaDesc": "Wyjątkowo gładka powierzchnia wewnętrzna PP-R zapobiega tworzeniu się biofilmów i kamienia, skutecznie neutralizując miejsca lęgowe Legionelli i innych szkodliwych bakterii.",
+    "toxicTitle": "Nietoksyczna Architektura",
+    "toxicDesc": "Instalacja opiera się na fuzji termicznej zamiast toksycznych klejów, rozpuszczalników lub lutów na bazie ołowiu, zachowując absolutną czystość chemiczną w sieci rurociągów.",
+    "acousticTitle": "Izolacja Akustyczna",
+    "acousticDesc": "Nieodłączna gęstość i elastyczność naszej struktury polimerowej zapewniają wyjątkową redukcję hałasu, silnie tłumiąc hałas przepływu i uderzenia hydrauliczne dla cichszego środowiska budynku."
+  },
+  "MaterialScience": {
+    "title": "Zaawansowana Inżynieria Materiałowa",
+    "p1": "U podstaw naszych rozwiązań leży kopolimer statystyczny polipropylenu (PP-R/PP-RCT), wyrafinowany polimer termoplastyczny zaprojektowany dla wyjątkowej wydajności. W przeciwieństwie do tradycyjnych materiałów, jego unikalna struktura zapewnia doskonałą odporność chemiczną i stabilność.",
+    "p2": "Proces kopolimeryzacji wprowadza etylen do łańcucha propylenu, co daje wysoce elastyczną, ale trwałą matrycę. Zapobiega to osadzaniu się kamienia, utrzymuje gładką powierzchnię i eliminuje ryzyko wypłukiwania metali ciężkich, zapewniając absolutną czystość.",
+    "chemicalTitle": "Odporność Chemiczna",
+    "chemicalDesc": "Wysoce odporny na roztwory kwasów i zasad, działa bezpiecznie w agresywnych środowiskach bez degradacji lub osłabiania ściany rury.",
+    "thermalTitle": "Stabilność Termiczna",
+    "thermalDesc": "Utrzymuje integralność strukturalną w ekstremalnych gradientach temperatury, dzięki czemu jest idealny do instalacji wysokotemperaturowych, jak i układów wody lodowej."
+  },
+  "Recyclability": {
+    "title": "Cykl Życia i Możliwość Recyklingu",
+    "subtitle": "Zaprojektowane z myślą o zrównoważonej przyszłości, nasze systemy PP-R stanowią szczyt produkcji bezodpadowej i odzysku materiałów po wycofaniu z eksploatacji.",
+    "recyclableTitle": "W 100% Rury W Nadające się do Recyklingu",
+    "recyclableDesc": "Rury K-Aqua PP-R nadają się w 100% do recyklingu po zakończeniu ich 50-letniej żywotności. W przeciwieństwie do usieciowanych tworzyw sztucznych, polipropylen można stopić i ponownie wykorzystać.",
+    "resinTitle": "Kod Żywicy 5",
+    "resinDesc": "Zaklasyfikowane do kodu 5 materiały są bardzo cenione na wtórnym rynku recyklingu. Ten wysokiej jakości polimer zachowuje doskonałą strukturę, co czyni go idealnym dla zastosowań przemysłowych.",
+    "zeroWasteTitle": "Produkcja Bez Odpadów",
+    "zeroWasteDesc": "Podczas wytłaczania wszelkie ścinki są natychmiast mielone i ponownie wprowadzane do mniej wymagających linii produkcyjnych, minimalizując odpady na wysypiskach."
+  }
+}

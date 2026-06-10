@@ -1,0 +1,75 @@
+{
+  "CTA": {
+    "title": "Spécifiez K-Aqua pour votre prochain projet.",
+    "description": "Rejoignez les milliers de développeurs mondiaux qui refusent de faire des compromis sur la qualité. Connectez-vous avec notre équipe d'ingénierie pour concevoir votre architecture système.",
+    "button": "Initier une consultation"
+  },
+  "CaseStudies": {
+    "title": "Études de cas présentées",
+    "description": "Explorez notre portefeuille mondial d'installations réussies et découvrez comment K-Aqua résout des défis d'ingénierie complexes.",
+    "viewFull": "Voir l'étude de cas complète"
+  },
+  "FAQ": {
+    "title": "Questions fréquemment posées",
+    "description": "Aperçu de nos déploiements mondiaux et de nos capacités techniques.",
+    "questions": {
+      "q1": "Dans quels types de projets les tubes K-Aqua PP-R sont-ils généralement installés ?",
+      "a1": "Les systèmes K-Aqua PP-R sont très polyvalents et sont globalement spécifiés pour les réseaux d'approvisionnement en eau municipaux, les complexes hôteliers de luxe, les superstructures commerciales de grande hauteur et les installations industrielles nécessitant une tuyauterie résistante aux produits chimiques.",
+      "q2": "Comment les systèmes K-Aqua se comportent-ils à des températures extrêmes ?",
+      "a2": "Nos tubes PP-R et PP-RCT sont conçus pour une stabilité thermique supérieure. Ils maintiennent leur intégrité structurelle et fonctionnent parfaitement dans des conditions glaciales comme dans des environnements industriels à haute température.",
+      "q3": "Pourquoi les ingénieurs choisissent-ils K-Aqua plutôt que la tuyauterie métallique traditionnelle ?",
+      "a3": "Les systèmes polymères K-Aqua éliminent le risque de corrosion et d'entartrage, qui sont des points de défaillance courants dans les tuyaux métalliques traditionnels. De plus, nos systèmes sont nettement plus légers, plus rapides à installer et ont une durée de vie opérationnelle de plus de 50 ans.",
+      "q4": "Les systèmes de tuyauterie K-Aqua sont-ils adaptés aux immeubles de grande hauteur ?",
+      "a4": "Oui. Nos systèmes sont fréquemment déployés dans les gratte-ciel en raison de leur capacité à résister à d'immenses pressions hydrostatiques sans dégradation ni perte de pression sur des décennies de fonctionnement continu."
+    }
+  },
+  "Hero": {
+    "badge": "Déploiement mondial",
+    "title1": "Conçu pour les",
+    "title2": "extrêmes du monde.",
+    "description": "Au cours des dernières décennies, les produits K-Aqua ont fait leurs preuves d'innombrables fois dans des destinations du monde entier. Nos références reflètent les nombreuses possibilités d'installation que nous offrons."
+  },
+  "Legacy": {
+    "title": "L'héritage des systèmes PP-R et PP-RCT",
+    "p1": "Depuis plus d'un quart de siècle, K-Aqua a redéfini les normes des systèmes de tuyauterie en polymère à l'échelle mondiale. Des canalisations municipales glaciales d'Europe du Nord aux structures commerciales de grande hauteur ultra-exigeantes du Moyen-Orient, nos technologies PP-R et PP-RCT servent d'épine dorsale invisible à la civilisation moderne.",
+    "p2": "Les références présentées ici reflètent nos vastes possibilités d'installation. Les ingénieurs, les architectes et les urbanistes exigent une certitude absolue, et K-Aqua la leur offre. Nous fournissons les artères inflexibles qui alimentent les infrastructures modernes, l'hôtellerie de luxe et les vastes domaines industriels.",
+    "p3": "Chaque installation témoigne de notre précision d'ingénierie allemande. La stabilité thermique supérieure, la résistance absolue à la corrosion et les durées de vie opérationnelles de plusieurs décennies garantissent que, une fois installé, K-Aqua fonctionne parfaitement.",
+    "p4": "Nous comprenons que l'architecture moderne repousse les limites. Qu'il s'agisse de passer à travers le noyau structurel d'un gratte-ciel de 80 étages ou d'enterrer des kilomètres de conduites municipales sous une métropole animée, K-Aqua offre une solution sans compromis."
+  },
+  "Sectors": {
+    "title": "Industries que nous desservons",
+    "description": "Nos solutions de tuyauterie sont conçues pour répondre aux exigences uniques de divers secteurs de haute performance.",
+    "commercialTitle": "Superstructures commerciales",
+    "commercialDesc": "Résister aux immenses pressions hydrostatiques dans les méga-tours. Les systèmes K-Aqua sont sélectionnés pour leur tolérance zéro défaut, assurant une distribution d'eau transparente sur des centaines de mètres verticaux.",
+    "hospitalityTitle": "Hôtellerie de luxe et complexes hôteliers",
+    "hospitalityDesc": "La qualité de l'eau pure est non négociable dans les complexes hôteliers du monde entier. Nos systèmes PP-R non toxiques et hygiéniquement parfaits garantissent que l'eau reste exactement comme prévu.",
+    "municipalTitle": "Infrastructure municipale",
+    "municipalDesc": "Les villes s'appuient sur K-Aqua pour livrer des millions de litres quotidiennement. Conçus pour résister à l'entartrage, à la corrosion et aux mouvements de sol extrêmes, nos vastes réseaux souterrains offrent une fiabilité multi-générationnelle."
+  },
+  "Stats": {
+    "countries": "Pays desservis",
+    "meters": "Mètres installés",
+    "years": "Années d'excellence",
+    "failure": "Taux d'échec nul"
+  },
+  "Technical": {
+    "title": "Supériorité technique",
+    "description": "La base de toute installation réussie réside dans les propriétés matérielles inégalées des systèmes K-Aqua. Nous ne fournissons pas seulement des tuyaux ; nous offrons une garantie de performance à vie.",
+    "features": {
+      "thermalTitle": "Stabilité thermique",
+      "thermalDesc": "Les tuyaux K-Aqua PP-R et PP-RCT présentent une stabilité thermique extraordinaire, capables de fonctionner en continu à des températures élevées sans dégradation structurelle.",
+      "corrosionTitle": "Résistance absolue à la corrosion",
+      "corrosionDesc": "Notre composition polymère est intrinsèquement à l'abri de la corrosion interne et externe, garantissant que la qualité de l'eau reste vierge et que les intérieurs des tuyaux restent exempts d'entartrage.",
+      "pressureTitle": "Haute tolérance à la pression",
+      "pressureDesc": "Conçu pour résister à des pressions hydrostatiques sévères, ce qui en fait le choix idéal pour les immeubles de grande hauteur et les applications industrielles exigeantes."
+    },
+    "specsTitle": "Spécifications des matériaux",
+    "specs": {
+      "material": "Base matérielle",
+      "density": "Densité",
+      "thermal": "Conductivité thermique",
+      "linear": "Expansion linéaire",
+      "lifespan": "Durée de vie attendue"
+    }
+  }
+}

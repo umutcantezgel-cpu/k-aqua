@@ -1,0 +1,153 @@
+{
+  "ApplicationAreas": {
+    "title": "Deployment Verticals.",
+    "subtitle": "K-Aqua is not a singular solution; it is a versatile platform engineered for diverse, highly-demanding fluid transport scenarios across residential, commercial, and industrial sectors.",
+    "cards": {
+      "potable": { "title": "Potable Water Networks", "desc": "Absolute hygienic integrity for hot and cold drinkable water distribution in residential, commercial, and medical facilities. Zero heavy metal leaching." },
+      "climate": { "title": "HVAC Systems", "desc": "Optimized for chilled water lines, radiator connections, and underfloor heating. Exceptional thermal insulation inherently minimizes energy loss." },
+      "industrial": { "title": "Industrial Fluids", "desc": "High chemical resistance allows the safe transport of aggressive acids, alkalis, and industrial cooling water under demanding operating conditions." },
+      "agricultural": { "title": "Agricultural Irrigation", "desc": "Durable deployment in high UV and pressure environments." },
+      "compressed": { "title": "Compressed Air", "desc": "A leak-free, corrosion-proof network for compressed air distribution. Ensures clean air delivery without rust particulate contamination to pneumatic tools." },
+      "shipbuilding": { "title": "Shipbuilding", "desc": "Marine-grade resilience against saline environments." }
+    }
+  },
+  "CTA": {
+    "title": "Acquire the Schematics.",
+    "subtitle": "Download the complete product range PDF. Review the comprehensive technical parameters, molecular specifications, and extreme testing protocols.",
+    "download": "Download PDF Range",
+    "contact": "Contact Engineering",
+    "systemStatus": "System Status:",
+    "operational": "Operational"
+  },
+  "CompetitiveAdvantage": {
+    "title": "The Competitive Matrix.",
+    "subtitle": "Legacy materials are fundamentally compromised by their joining methods and chemical vulnerabilities. K-Aqua establishes a new baseline for infrastructural longevity.",
+    "table": {
+      "feature": "Feature",
+      "rows": {
+        "joining": "Joining Method",
+        "corrosion": "Corrosion Resistance",
+        "scale": "Scale Buildup",
+        "thermal": "Thermal Insulation",
+        "acoustic": "Acoustic Dampening",
+        "lifespan": "Lifespan"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Technical Inquiries.",
+    "subtitle": "Comprehensive answers for engineers, architects, and installers specifying K-Aqua systems.",
+    "questions": {
+      "diff": { "q": "What is the difference between PP-R and PP-RCT?", "a": "PP-R (Polypropylene Random Copolymer) is the standard material for reliable piping networks. PP-RCT (Polypropylene Random Copolymer with modified Crystallinity and Temperature resistance) features a distinct crystalline structure that allows for higher pressure resistance at elevated temperatures, enabling thinner walls (higher SDR) and increased flow rates." },
+      "hvac": { "q": "Can K-Aqua pipes be used for chilled water and HVAC systems?", "a": "Absolutely. The inherently low thermal conductivity of PP-R/RCT significantly reduces the risk of condensation on the pipe exterior in chilled water applications, often requiring less insulation compared to metallic pipes." },
+      "weld": { "q": "How does Polyfusion welding prevent leaks?", "a": "Polyfusion welding involves heating both the pipe and the fitting to their precise melting points, then joining them together. As the plastic cools, it forms a single, continuous macromolecular matrix. There are no glues, O-rings, or mechanical joints to fail, making it inherently leak-proof." },
+      "safe": { "q": "Are these pipes safe for drinking water?", "a": "Yes. K-Aqua systems are manufactured from high-grade virgin polypropylene, ensuring no leaching of heavy metals, toxic chemicals, or microplastics. They are fully certified for potable water transport worldwide." },
+      "life": { "q": "What is the expected lifespan of a K-Aqua installation?", "a": "When installed correctly and operated within the specified pressure and temperature parameters, a K-Aqua PP-R/RCT system is engineered to function flawlessly for over 50 years." }
+    }
+  },
+  "FittingsArsenal": {
+    "title": "The Arsenal.",
+    "subtitle1": "A system is only as formidable as its weakest link. K-Aqua eliminates weak links entirely. Our fittings are precision-engineered in sizes from ",
+    "subtitle2": "20 mm to 315 mm",
+    "subtitle3": ", creating an impenetrable network of homogeneous connections.",
+    "footer": "Every single accessory is manufactured to interlock flawlessly with the core piping system. From the exact calibration of the welding saddles to the ergonomic superiority of our cutting tools, the ecosystem is uncompromising.",
+    "items": {
+      "valves": { "title": "Premium Valves", "desc": "Zero-leakage control mechanisms." },
+      "unions": { "title": "High-Pressure Unions", "desc": "Flawless mechanical junctions." },
+      "cutting": { "title": "Cutting Tools", "desc": "Micrometer-precision pipe severing." },
+      "welding": { "title": "Welding Devices", "desc": "Thermal fusion equipment for absolute homogenization." }
+    }
+  },
+  "Hero": {
+    "badge": "System Architecture",
+    "title": "PP-R & PP-RCT",
+    "subtitle": "The apex of sanitary engineering. Forged for pure drinkable hot and cold water, our piping systems redefine structural integrity in the modern construction industry.",
+    "button": "Initialize System"
+  },
+  "Installation": {
+    "title": "The Physics of Polyfusion.",
+    "subtitle1": "Mechanical joints eventually fail. O-rings degrade. Threads corrode. Glue embrittles. K-Aqua avoids these vulnerabilities through thermal polyfusion.",
+    "subtitle2": "By heating the PP-R/RCT material to its precise melting point, the molecular structure becomes temporarily fluid. When the pipe and fitting are joined, their polymer chains merge completely, creating a joint that is structurally identical to the pipe itself.",
+    "steps": {
+      "cut": { "title": "Precision Cut", "desc": "The pipe is severed perpendicularly using specialized cutting tools to ensure a flawless mating surface." },
+      "thermal": { "title": "Thermal Activation", "desc": "Both the pipe exterior and fitting interior are simultaneously heated to 260°C (500°F) using custom welding dies." },
+      "polyfusion": { "title": "Polyfusion", "desc": "The activated components are joined without twisting. The polymer chains interlock instantly." },
+      "homo": { "title": "Homogenization", "desc": "Upon cooling, the boundary layer vanishes entirely. The two pieces become a single, contiguous material." }
+    }
+  },
+  "MaterialScience": {
+    "title": "The Material Science: PP-R vs. PP-RCT.",
+    "subtitle": "Advanced Polymer Engineering.",
+    "p1": "Standard PP-R (Polypropylene Random Copolymer) has long been the baseline for hygienic water transport. However, PP-RCT (Polypropylene Random Copolymer with modified crystallinity and Temperature resistance) elevates this baseline through a beta-nucleation process.",
+    "p2": "This controlled crystallization results in a denser, highly ordered molecular network. The structural integrity of PP-RCT allows for a significantly higher pressure-resistance at elevated temperatures, effectively extending the lifespan of the system while maintaining absolute hygienic safety.",
+    "badge": "Beta-Crystalline Structure",
+    "features": {
+      "beta": "Beta-Crystallinity",
+      "pressure": "Higher Pressure Resistance",
+      "wall": "Reduced Wall Thickness",
+      "flow": "Increased Flow Rate"
+    }
+  },
+  "QualityAssurance": {
+    "title": "Uncompromising Quality Assurance.",
+    "subtitle": "Every millimeter of K-Aqua PP-R and PP-RCT pipe is subjected to rigorous internal and third-party testing protocols. We do not rely on sampling alone; our continuous extrusion monitoring ensures absolute dimensional consistency, structural integrity, and flawless surface smoothness. The result is an engineered lifespan exceeding 50 years under continuous operational stress.",
+    "certs": {
+      "din": { "title": "DIN 8077 / 8078", "desc": "German standard for Polypropylene (PP) pipes dimensions and general quality requirements." },
+      "dvgw": { "title": "DVGW", "desc": "Certified for safe transportation of drinking water with zero leaching." },
+      "iso": { "title": "ISO 15874", "desc": "International standard for plastics piping systems for hot and cold water installations." },
+      "skz": { "title": "SKZ Testing", "desc": "Continuous third-party auditing to guarantee molecular stability over a 50-year lifespan." }
+    }
+  },
+  "SDRRatings": {
+    "title": "Dimensional Scaling.",
+    "subtitle1": "We do not compromise on scale. Depending on the precise pipe type and application requirements, our dimensions start from a highly agile ",
+    "subtitle2": "20 mm",
+    "subtitle3": " and scale up to a colossal ",
+    "subtitle4": "630 mm",
+    "subtitle5": " for massive industrial fluid dynamics.",
+    "ratings": {
+      "sdr6": { "sdr": "SDR 6", "desc": "Extreme Pressure. Maximum wall thickness for hostile operational environments.", "pressure": "PN 20" },
+      "sdr7": { "sdr": "SDR 7.4", "desc": "High Pressure. Optimal balance for commercial hot water grids.", "pressure": "PN 16" },
+      "sdr9": { "sdr": "SDR 9", "desc": "Elevated Flow. Reinforced structure with optimized internal diameter.", "pressure": "PN 12.5" },
+      "sdr11": { "sdr": "SDR 11", "desc": "Standard Distribution. The gold standard for residential cold/hot water.", "pressure": "PN 10" },
+      "sdr17": { "sdr": "SDR 17", "desc": "Maximum Volume. Thin-walled architecture for low-pressure high-yield flow.", "pressure": "PN 6" }
+    }
+  },
+  "Sustainability": {
+    "title": "Ecological Responsibility.",
+    "p1": "Sustainability in industrial engineering requires a multi-faceted approach: minimizing embodied energy during production, maximizing operational efficiency, and ensuring end-of-life recyclability.",
+    "p2": "K-Aqua PP-R/RCT systems demand significantly less energy to manufacture and transport compared to copper or steel alternatives. Operationally, the exceptionally smooth inner surface (roughness of 0.007 mm) reduces fluid friction, lowering the energy required by circulatory pumps. Furthermore, the inherent thermal insulation reduces heat loss in hot water networks, conserving immense amounts of energy over the system's 50-year lifecycle.",
+    "p3": "At the end of its service life, the polypropylene matrix is 100% recyclable, capable of being repurposed into secondary industrial applications without chemical degradation.",
+    "energy": "Embodied Energy (MJ/kg)",
+    "low": "Low",
+    "heat": "Heat Loss Profile",
+    "minimal": "Minimal",
+    "recyclability": "Material Recyclability"
+  },
+  "TechnicalSpecs": {
+    "title": "Technical Specifications.",
+    "subtitle": "Rigorous engineering requires precise data. The thermal, mechanical, and physical properties of the K-Aqua piping systems are thoroughly tested and documented according to international ISO and DIN standards.",
+    "headers": {
+      "property": "Property",
+      "value": "Value",
+      "method": "Test Method"
+    },
+    "specs": {
+      "density": { "property": "Density", "value": "0.895 - 0.905 g/cm³", "method": "ISO 1183" },
+      "melt": { "property": "Melt Flow Rate (230°C/2.16kg)", "value": "0.2 - 0.5 g/10min", "method": "ISO 1133" },
+      "thermal": { "property": "Thermal Conductivity at 20°C", "value": "0.24 W/(m·K)", "method": "DIN 52612" },
+      "expansion": { "property": "Coefficient of Linear Thermal Expansion", "value": "0.15 mm/(m·K)", "method": "DIN 53752" },
+      "modulus": { "property": "Modulus of Elasticity", "value": "800 MPa", "method": "ISO 178" },
+      "yield": { "property": "Yield Stress", "value": "25 MPa", "method": "ISO 527-2" }
+    }
+  },
+  "TechnologyCore": {
+    "title1": "Molecular",
+    "title2": "Dominance.",
+    "subtitle": "Mono-layer & Multi-layer Glass Fiber Reinforced Structures.",
+    "p1": "The K-Aqua PP-R (Polypropylene Random Copolymer) and PP-RCT (Polypropylene Random Copolymer with modified crystallinity and Temperature resistance) piping architectures represent a paradigm shift in fluid transport. Designed explicitly for extreme thermal stress and rigorous sanitary demands, the system guarantees zero toxicity, preventing scaling, corrosion, and bacterial colonization.",
+    "p2": "By integrating an advanced multi-layer extrusion process, we embed high-tensile glass fibers directly into the polymer matrix. This composite architecture drastically minimizes thermal expansion while exponentially increasing the pressure tolerance at elevated temperatures. The result is a network that performs flawlessly under the most hostile industrial and residential conditions, ensuring drinkable water remains absolutely pure from source to tap.",
+    "p3": "When you deploy K-Aqua, you are not just installing pipes. You are initializing a permanent, leak-proof, homogeneous vascular system for your infrastructure. The fusion welding process melts the pipe and fitting into a single, continuous molecular chain, eliminating the mechanical failure points inherent in legacy metal or glued PVC systems.",
+    "badge": "Polymatrix / Visualization"
+  }
+}

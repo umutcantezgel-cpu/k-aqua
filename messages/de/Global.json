@@ -1,0 +1,47 @@
+{
+  "Navigation": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "solutions": "Lösungen",
+    "about": "Über uns",
+    "service": "Service",
+    "news": "News",
+    "career": "Karriere",
+    "contact": "Kontakt"
+  },
+  "Footer": {
+    "description": "Führend in der Wasserversorgung. Hochwertige PP-R/PP-RCT Rohre und Formteile.",
+    "explore": "Entdecken",
+    "products": "Produkte",
+    "solutions": "Lösungen",
+    "references": "Referenzen",
+    "career": "Karriere",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "imprint": "Impressum",
+    "privacyPolicy": "Datenschutzerklärung",
+    "allRightsReserved": "Alle Rechte vorbehalten.",
+    "gdpr": "Strikte Einhaltung der DSGVO/GDPR"
+  },
+  "CTASection": {
+    "heading": "Bereit für Ihr nächstes Projekt?",
+    "text": "Kontaktieren Sie uns für eine unverbindliche Beratung und erfahren Sie, wie unsere Lösungen Ihre Anforderungen perfekt erfüllen.",
+    "buttonText": "Jetzt Kontakt aufnehmen"
+  },
+  "FAQSection": {
+    "title": "Häufig gestellte Fragen"
+  },
+  "HeroSection": {
+    "title": "Willkommen bei K-Aqua",
+    "subtitle": "Ihr Partner für zukunftssichere Wassertechnologie",
+    "ctaText": "Jetzt anfragen"
+  },
+  "NotFound": {
+    "title": "404",
+    "subtitle": "Seite nicht gefunden",
+    "desc": "Die angeforderte Seite existiert leider nicht oder wurde verschoben. Nutzen Sie eine der folgenden Optionen:",
+    "home": "Zur Startseite",
+    "contact": "Kontakt",
+    "blog": "Blog"
+  }
+}

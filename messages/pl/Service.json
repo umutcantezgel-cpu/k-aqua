@@ -1,0 +1,81 @@
+{
+  "Hero": {
+    "title": "Zasoby<br />Inżynieryjne.",
+    "subtitle": "Kompleksowa dokumentacja techniczna dla systemów rurowych K-Aqua PP-R i PP-RCT.",
+    "button": "Odkryj Dane Techniczne"
+  },
+  "Overview": {
+    "title": "Precyzyjna Inżynieria",
+    "p1": "K-Aqua rozwija technologię transportu płynów.",
+    "p2": "Zaprojektowane, aby wspierać inżynierów i architektów.",
+    "p3": "Dostarczamy wyczerpujących danych technicznych."
+  },
+  "MaterialScience": {
+    "title": "Zaawansowana Inżynieria Materiałowa",
+    "description": "Podstawowa siła naszych systemów.",
+    "coreAdvantageTitle": "Główna Zaleta",
+    "coreAdvantageQuote": "\"Wydłużamy żywotność operacyjną.\"",
+    "cards": {
+      "0": { "title": "PP-R", "description": "Doskonała odporność na uderzenia." },
+      "1": { "title": "PP-RCT", "description": "Odporność na wyższe ciśnienie." },
+      "2": { "title": "Tłumienie Akustyczne", "description": "Redukcja hałasu." },
+      "3": { "title": "Odporność Chemiczna", "description": "Do ekstremalnych obciążeń." }
+    }
+  },
+  "QualityAssurance": {
+    "title": "Standardy Jakości",
+    "description": "Zautomatyzowane ramy testowe.",
+    "cards": {
+      "0": { "title": "Monitorowanie na Linii", "description": "Skanowanie grubości ścianki." },
+      "1": { "title": "Testy Niszczące", "description": "Ewaluacje odporności na ciśnienie." },
+      "2": { "title": "Weryfikacja Zewnętrzna", "description": "Certyfikaty TÜV, DVGW." }
+    }
+  },
+  "TrainingAcademy": {
+    "title": "Akademia Szkoleniowa",
+    "description": "Ekspercka instalacja ma znaczenie.",
+    "list": {
+      "0": { "title": "Seminaria na Miejscu", "description": "Praktyczne szkolenia." },
+      "1": { "title": "Program Teoretyczny", "description": "Warsztaty termodynamiczne." },
+      "2": { "title": "Certyfikacja", "description": "Oficjalne poświadczenia." }
+    },
+    "protocol": "Protokół Certyfikacji"
+  },
+  "InstallationProtocols": {
+    "title": "Protokoły Instalacyjne",
+    "description": "Opanuj techniki termofuzji.",
+    "modulePrefix": "Moduł",
+    "protocols": {
+      "0": { "title": "Zgrzewanie Ręczne", "subtitle": "Podstawowa Technika", "desc": "Do mniejszych instalacji." },
+      "1": { "title": "Zgrzewanie Maszynowe", "subtitle": "Maszyny Stacjonarne", "desc": "Do większych rur." },
+      "2": { "title": "Elektrooporowe", "subtitle": "Zautomatyzowane", "desc": "Precyzja i bezpieczeństwo." },
+      "3": { "title": "Doczołowe", "subtitle": "Magistrale", "desc": "Dla dużej infrastruktury." }
+    }
+  },
+  "DocumentLibrary": {
+    "title": "Biblioteka Dokumentów",
+    "description": "Techniczna biblioteka K-Aqua.",
+    "download": "Pobierz PDF",
+    "docs": {
+      "0": { "title": "Katalog Produktów", "category": "Katalog", "description": "Pełny katalog." },
+      "1": { "title": "Cechy Techniczne", "category": "Dane Techniczne", "description": "Dane materiałowe." },
+      "2": { "title": "Zapewnienie Jakości", "category": "Zgodność", "description": "Protokoły testowe." }
+    }
+  },
+  "FAQ": {
+    "title": "Techniczne FAQ",
+    "subtitle": "Bezpośrednie odpowiedzi na pytania.",
+    "faqs": {
+      "0": { "q": "Maksymalna temperatura?", "a": "Do 70°C w sposób ciągły." },
+      "1": { "q": "Czas chłodzenia?", "a": "Od 2 do 40 minut." },
+      "2": { "q": "Bezpośrednie światło słoneczne?", "a": "Wymaga izolacji." },
+      "3": { "q": "Rozszerzalność cieplna?", "a": "Rury wielowarstwowe redukują ją o 75%." },
+      "4": { "q": "Agresywna chemia?", "a": "Tak, wysoce odporne." }
+    }
+  },
+  "CTA": {
+    "title": "Gotowy na inżynierię kolejnego projektu?",
+    "description": "Połącz się z naszym zespołem.",
+    "button": "Skontaktuj się ze Wsparciem"
+  }
+}

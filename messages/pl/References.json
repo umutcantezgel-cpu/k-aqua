@@ -1,0 +1,75 @@
+{
+  "CTA": {
+    "title": "Wybierz K-Aqua do swojego następnego projektu.",
+    "description": "Dołącz do tysięcy globalnych deweloperów, którzy odmawiają kompromisów w zakresie jakości. Skontaktuj się z naszym zespołem inżynierów, aby zaprojektować architekturę Twojego systemu.",
+    "button": "Rozpocznij konsultacje"
+  },
+  "CaseStudies": {
+    "title": "Wybrane studia przypadków",
+    "description": "Poznaj nasze globalne portfolio udanych instalacji i dowiedz się, jak K-Aqua rozwiązuje złożone wyzwania inżynieryjne.",
+    "viewFull": "Zobacz pełne studium przypadku"
+  },
+  "FAQ": {
+    "title": "Często zadawane pytania",
+    "description": "Spostrzeżenia na temat naszych globalnych wdrożeń i możliwości technicznych.",
+    "questions": {
+      "q1": "W jakich typach projektów zazwyczaj instaluje się rury K-Aqua PP-R?",
+      "a1": "Systemy K-Aqua PP-R są niezwykle wszechstronne i są powszechnie stosowane w miejskich sieciach wodociągowych, luksusowych kurortach, wieżowcach komercyjnych i obiektach przemysłowych.",
+      "q2": "Jak systemy K-Aqua sprawdzają się w ekstremalnych temperaturach?",
+      "a2": "Nasze rury PP-R i PP-RCT zostały zaprojektowane z myślą o doskonałej stabilności termicznej. Zachowują integralność strukturalną i działają bezbłędnie zarówno w warunkach ujemnych temperatur, jak i w środowiskach przemysłowych o wysokiej temperaturze.",
+      "q3": "Dlaczego inżynierowie wybierają K-Aqua zamiast tradycyjnych rur metalowych?",
+      "a3": "Systemy polimerowe K-Aqua eliminują ryzyko korozji i osadzania się kamienia. Ponadto nasze systemy są znacznie lżejsze, szybsze w montażu, a ich żywotność przekracza 50 lat.",
+      "q4": "Czy systemy rurowe K-Aqua nadają się do budynków wysokościowych?",
+      "a4": "Tak. Nasze systemy są często stosowane w wieżowcach ze względu na ich zdolność do wytrzymywania ogromnych ciśnień hydrostatycznych bez degradacji i spadku ciśnienia."
+    }
+  },
+  "Hero": {
+    "badge": "Globalne wdrożenia",
+    "title1": "Zaprojektowane na",
+    "title2": "Światowe ekstrema.",
+    "description": "W ciągu ostatnich dziesięcioleci produkty K-Aqua wielokrotnie sprawdziły się w różnych miejscach na całym świecie. Nasze referencje odzwierciedlają szerokie możliwości instalacyjne, jakie oferujemy."
+  },
+  "Legacy": {
+    "title": "Dziedzictwo systemów PP-R i PP-RCT",
+    "p1": "Od ponad ćwierć wieku K-Aqua redefiniuje standardy systemów rur polimerowych na skalę globalną. Od mroźnych miejskich rurociągów w Europie Północnej po hiperwymagające wieżowce na Bliskim Wschodzie.",
+    "p2": "Przedstawione tu referencje są szybkim odzwierciedleniem naszych szerokich możliwości instalacyjnych. Inżynierowie, architekci i urbaniści wymagają absolutnej pewności - a K-Aqua ją zapewnia.",
+    "p3": "Każda instalacja jest świadectwem naszej niemieckiej precyzji inżynieryjnej. Doskonała stabilność termiczna, absolutna odporność na korozję i kilkudziesięcioletnia żywotność operacyjna.",
+    "p4": "Rozumiemy, że nowoczesna architektura przesuwa granice. Niezależnie od tego, czy chodzi o poprowadzenie rur przez rdzeń strukturalny 80-piętrowego wieżowca, czy o zakopanie mil rur miejskich."
+  },
+  "Sectors": {
+    "title": "Branże, które obsługujemy",
+    "description": "Nasze rozwiązania rurowe zostały zaprojektowane tak, aby spełniać unikalne wymagania różnych sektorów o wysokiej wydajności.",
+    "commercialTitle": "Superkonstrukcje komercyjne",
+    "commercialDesc": "Wytrzymywanie ogromnych ciśnień hydrostatycznych w megawieżach. Systemy K-Aqua są wybierane ze względu na ich tolerancję zerowej awaryjności.",
+    "hospitalityTitle": "Luksusowe hotele i kurorty",
+    "hospitalityDesc": "Nieskazitelna jakość wody nie podlega negocjacjom w wiodących kurortach na świecie. Nasze nietoksyczne systemy PP-R gwarantują, że woda pozostaje dokładnie taka, jak zamierzono.",
+    "municipalTitle": "Infrastruktura miejska",
+    "municipalDesc": "Miasta polegają na K-Aqua w dostarczaniu milionów litrów dziennie. Zaprojektowane, aby opierać się osadzaniu kamienia, korozji i ekstremalnym ruchom gruntu."
+  },
+  "Stats": {
+    "countries": "Obsługiwane kraje",
+    "meters": "Zainstalowane metry",
+    "years": "Lata doskonałości",
+    "failure": "Wskaźnik awaryjności"
+  },
+  "Technical": {
+    "title": "Przewaga techniczna",
+    "description": "Podstawą każdej udanej instalacji są niezrównane właściwości materiałowe systemów K-Aqua. Zapewniamy dożywotnią gwarancję wydajności.",
+    "features": {
+      "thermalTitle": "Stabilność termiczna",
+      "thermalDesc": "Rury K-Aqua wykazują niezwykłą stabilność termiczną, umożliwiając ciągłą pracę w wysokich temperaturach.",
+      "corrosionTitle": "Absolutna odporność na korozję",
+      "corrosionDesc": "Nasza kompozycja polimerowa jest odporna na korozję, zapewniając czystość wody.",
+      "pressureTitle": "Wysoka tolerancja ciśnienia",
+      "pressureDesc": "Zaprojektowane, aby wytrzymać surowe ciśnienia hydrostatyczne."
+    },
+    "specsTitle": "Specyfikacje materiałowe",
+    "specs": {
+      "material": "Baza materiałowa",
+      "density": "Gęstość",
+      "thermal": "Przewodność cieplna",
+      "linear": "Rozszerzalność liniowa",
+      "lifespan": "Oczekiwana żywotność"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "Departments": {
+    "title": "Doğrudan Departman Yönlendirmesi.",
+    "subtitle": "Talebinizi, bölgenizden ve teknik alanınızdan sorumlu olan uzman mühendislik, satış veya kurumsal tedarik ekiplerine doğrudan bağlayarak hızlandırın.",
+    "enterprise_division": {
+      "tag": "Kurumsal Ticari Bölüm",
+      "desc": "Kurumsal dağıtımlar, toptan hacim fiyatlandırma modelleri, devasa altyapı projesi ihaleleri ve uluslararası B2B distribütör ortaklıkları için ticari yapılandırma ekibimizle iletişime geçin. Teknik satış mühendislerimiz, çok aşamalı boru hattı kurulumunuz için hassas finansal ve lojistik çerçeveyi oluşturmaya hazırdır.",
+      "fax_protocol": "Faks Protokolü"
+    },
+    "technical_support": {
+      "tag": "Teknik Destek ve Kurumsal QA",
+      "desc": "Her PPR fiting ve borunun çalışma bütünlüğünü garanti ediyoruz. Karmaşık kurulum rehberliği, akışkanlar dinamiği özellikleri, basınç testi protokolleri veya zorlu kalite güvence denetimleri için, uzman mühendislik destek masamız tavizsiz teknik gözetim sunar.",
+      "bullet1": "ISO/DIN Sertifikasyon Belgeleri",
+      "bullet2": "BIM ve CAD Sistem Kütüphaneleri",
+      "bullet3": "Kaynak ve Ekstrüzyon Teknik Özellikleri"
+    }
+  },
+  "FAQ": {
+    "title": "Kurumsal Talepler.",
+    "subtitle": "Standartlaştırılmış teknik ve ticari protokollerimizi inceleyin.",
+    "q1": {
+      "q": "Resmi bir K-Aqua B2B distribütörü nasıl olabilirim?",
+      "a": "Yetkili bir K-Aqua distribütörü olmak, ön piyasa yetenek değerlendirmesi gerektirir. Bölgesel envanteri sürdürebilen ve büyük ölçekli altyapı projelerini destekleyebilen köklü lojistik ve sıhhi tesisat tedarik işletmeleriyle ortaklık yapıyoruz. Tedarikçi inceleme protokolünü başlatmak için lütfen Kurumsal Ticari Bölümümüzle iletişime geçin."
+    },
+    "q2": {
+      "q": "Kurumsal gönderiler için minimum sipariş miktarları (MOQ) nelerdir?",
+      "a": "Uluslararası nakliyenin lojistik ölçeği nedeniyle, standart kurumsal gönderiler 20ft ve 40ft konteynerler için optimize edilmiştir. Ancak projeye özel gereksinimler, karma konteyner yüklerini zorunlu kılabilir. Gerekli boru çaplarınıza ve bağlantı oranlarınıza dayalı kesin MOQ sınırları için lütfen hacim teklifi isteyin."
+    },
+    "q3": {
+      "q": "K-Aqua, kurulum ekipleri için yerinde teknik eğitim veriyor mu?",
+      "a": "Evet. Devasa altyapı dağıtımları için teknik mühendislik ekibimiz, kesin PPR kaynak teknikleri, ekstrüzyon protokolleri ve termal genleşme yönetimi konusunda sertifikalı eğitim vermek üzere proje sahanıza gönderilebilir. Ekiplerinizin tam Alman DIN standartlarında çalışmasını sağlıyoruz."
+    },
+    "q4": {
+      "q": "PPR sistemleriniz için hangi garantiler geçerlidir?",
+      "a": "PPR boru hattı sistemlerimiz, teknik yönergelerimize uygun olarak sertifikalı profesyoneller tarafından kurulduğunda endüstri lideri, kapsamlı bir 10 yıllık garanti ile desteklenmektedir. Titiz üretim ve termografik kalite güvence (QA) süreçlerimiz nedeniyle, K-Aqua sistemleri 50 yıllık bir operasyonel ömrü aşacak şekilde tasarlanmıştır."
+    },
+    "q5": {
+      "q": "Özel endüstriyel uygulamalar için özel PPR çözümleri üretebilir misiniz?",
+      "a": "Evet. Almanya'daki gelişmiş üretim tesisimiz, yarı iletken fabrikaları için ultra saf su taşıma veya son derece spesifik kimyasal işleme hatları gibi benzersiz kurumsal gereksinimler için özel aletleri ve uzman polimer karışımlarını idare edecek şekilde donatılmıştır. Özel mühendislik, teknik departmanımızla doğrudan istişare gerektirir."
+    }
+  },
+  "GlobalOperations": {
+    "title": "Almanya'da <br/>Geliştirildi. <br/>Tüm Dünyada Uygulandı.",
+    "p1": "KWT GmbH, modern su ve altyapı mühendisliğinin öncüsünü temsil eder. Waldsolms-Brandoberndorf'taki merkez ofisimizden, tüm K-Aqua ürün ekosisteminin araştırmasını, yüksek hassasiyetli üretimini ve küresel dağıtım lojistiğini titizlikle yönetiyoruz.",
+    "p2": "Merkezi operasyon tesisimiz tedarik zincirinin her aşamasına derinden entegredir; tavizsiz Alman kalite kontrol protokollerini, katı DIN/ISO standart uyumluluğunu ve oldukça verimli uluslararası nakliye yönlendirmesini uygular. Bu, ürettiğimiz her PPR boru hattı sisteminin sıkı kurumsal hizmet seviyesi anlaşmalarını (SLA) karşılamasını sağlar.",
+    "hq_tag": "Genel Merkez ve Küresel Komuta",
+    "hq_address": "KWT GmbH <br/>Auweg 3 <br/>35647 Waldsolms-<br/>Brandoberndorf <br/>Almanya",
+    "hq_desc": "Ana üretim kampüsümüz ve yönetim kurulumuz tam olarak Hessen'in sanayi merkezinde yer almaktadır; bu durum, önemli Avrupa nakliye arterlerine ve Frankfurt küresel lojistik merkezine kesintisiz bağlantı sağlar.",
+    "view_map": "Tesisi Haritalarda Görüntüle"
+  },
+  "Hero": {
+    "title": "Kurumsal <br />Bağlantıyı Başlatın.",
+    "subtitle": "İster milyonlarca dolarlık bir altyapı projesi tasarlıyor olun, ister kesin PPR boru hattı teknik belgeleri arıyor olun, ister stratejik bir distribütör ortaklığı kuruyor olun; K-Aqua'nın Almanya'daki küresel komuta merkezi tedarik döngünüzü hızlandırmaya hazır.",
+    "button": "Operasyonlara Ulaşın"
+  },
+  "Legal": {
+    "title": "Kurumsal <br/>Uyumluluk.",
+    "subtitle": "Mutlak şeffaflık ve Avrupa yasal çerçevelerine sıkı sıkıya bağlılık, kurumsal operasyonlarımızı ve veri yönetimi mimarimizi yönetir.",
+    "imprint": {
+      "title": "Künye (Impressum)",
+      "directors_label": "Yönetim Kurulu Üyeleri",
+      "directors_value": "Philipp Nickel, Marcello Gallio",
+      "court_label": "Kayıt Mahkemesi",
+      "court_value": "Wetzlar HRB 6732",
+      "vat_label": "KDV Kimlik No.",
+      "vat_value": "DE 296238486",
+      "disclaimer": "Bilgiler, Alman Telemedya Yasası'nın (TMG) 5. Bölümüne göre sağlanmıştır. Yönetim kurulu üyeleri, KWT GmbH'nin operasyonları ve ticari temsilinden yasal olarak sorumludur."
+    },
+    "privacy": {
+      "title": "Veri Gizliliği Mimarisi",
+      "p1": "KWT GmbH, Genel Veri Koruma Yönetmeliği'ne (GDPR) sıkı sıkıya uymaktadır. Dijital kurumsal arayüzlerimiz aracılığıyla işlediğimiz kişisel ve kurumsal bilgilerin mutlak bütünlüğünü ve korunmasını sağlamak için sıfır güven (zero-trust) güvenlik modellerini uyguluyoruz.",
+      "p2": "Verileri kesinlikle Avrupa yasal hükümleri temelinde işliyoruz. Veri toplama vektörlerimiz, kriptografik depolamamız, saklama yaşam döngümüz ve haklarınız (onayın geri alınması dahil) ile ilgili derin teknik ayrıntılar için tam belgelerimiz mevcuttur.",
+      "button": "Güvenlik Politikasını İste"
+    }
+  },
+  "Procurement": {
+    "title": "Kurumsal Tedarik İş Akışı.",
+    "subtitle": "Büyük ölçekli altyapı projeleri ve B2B distribütörleri için düzenli, oldukça öngörülebilir bir edinim hattı geliştirdik.",
+    "step1": {
+      "title": "Teknik Danışmanlık ve Şartname",
+      "desc": "Mühendislik bölümümüz, gereken kesin PPR boru hattı matrisini belirlemek için proje şemalarınızı, akışkanlar dinamiği gereksinimlerinizi ve operasyonel parametrelerinizi analiz eder. Bölgesel kurallara ve kurumsal SLA'lara tam uyum sağlıyoruz."
+    },
+    "step2": {
+      "title": "Hacim Teklifi ve Lojistik Planlama",
+      "desc": "Ticari departmanımız oldukça rekabetçi bir hacim fiyatlandırma modeli yapılandırır. Eşzamanlı olarak tedarik zinciri mimarlarımız, Almanya tesislerimizden doğrudan şantiyenize veya dağıtım merkezinize optimum nakliye yönlendirmesini haritalandırır."
+    },
+    "step3": {
+      "title": "Hassas Üretim",
+      "desc": "Tedarik yetkisi verildikten sonra üretim planlanır. Her boru ve fiting, sıfır hatalı teslimatı garantilemek için aşırı basınç testi ve termografi dahil olmak üzere sıkı ISO/DIN sertifikalı kalite güvencesine tabi tutulur."
+    },
+    "step4": {
+      "title": "Küresel Dağıtım ve Destek",
+      "desc": "Malzemeler güvenli, izlenen uluslararası nakliye yoluyla dağıtılır. Teslimattan sonra teknik ekibimiz saha kaynak denetimleri, kurulum eğitimi ve sürekli yaşam döngüsü desteği için hazır bulunmaktadır."
+    }
+  },
+  "RegionalOffices": {
+    "title": "Küresel Ağ. <br/>Yerel Uzmanlık.",
+    "subtitle": "Almanya komuta merkezimizin ötesinde K-Aqua, ana kıta pazarlarında tedarik zincirinin hızlı yürütülmesini ve yerelleştirilmiş mühendislik desteğini sağlamak için stratejik operasyonel merkezler bulundurur.",
+    "mena": {
+      "name": "K-Aqua MENA HUB",
+      "address": "Dubai Silicon Oasis, DDP, Bina A2, Dubai, Birleşik Arap Emirlikleri",
+      "focus": "Orta Doğu ve Kuzey Afrika genelinde büyük ölçekli tuzdan arındırma arayüzlerini, yüksek sıcaklık soğutma boru hatlarını ve kurumsal dağıtımı yönetmek."
+    },
+    "apac": {
+      "name": "K-Aqua APAC Operasyonları",
+      "address": "Marina Bay Finans Merkezi, Kule 3, Singapur",
+      "focus": "Yarı iletken üretimindeki ultra saf su sistemleri ve Asya-Pasifik bölgesi genelindeki yüksek katlı ticari dağıtımlar için stratejik gözetim."
+    },
+    "latam": {
+      "name": "K-Aqua LATAM Koordinasyonu",
+      "address": "Av. Brigadeiro Faria Lima, São Paulo, Brezilya",
+      "focus": "Latin Amerika genelinde zorlu ortamlarda sağlam madencilik altyapısı çözümlerini ve belediye su dağıtım ağlarını yönlendirmek."
+    }
+  },
+  "SalesForm": {
+    "title": "Proje Şartnamesini Başlatın.",
+    "subtitle": "Altyapı projesi parametrelerinizi veya dağıtım talebinizi gönderin. Ticari mühendislik ekibimiz, derinlemesine teknik bir uyum planlamak için 24 saat içinde yanıt verecektir.",
+    "success_title": "İletim Sağlandı.",
+    "success_desc": "Parametreleriniz ticari mühendislik masamıza güvenli bir şekilde yönlendirildi. Yakında dosyanıza bir uzman atanacaktır.",
+    "labels": {
+      "first_name": "Adınız",
+      "last_name": "Soyadınız",
+      "company": "Kurum / Organizasyon",
+      "email": "Kurumsal E-posta",
+      "inquiry_type": "Talebin Türü",
+      "message": "Proje Parametreleri ve Şartnameleri"
+    },
+    "placeholders": {
+      "first_name": "Adınızı girin",
+      "last_name": "Soyadınızı girin",
+      "company": "Şirketinizin adı",
+      "email": "isim@sirket.com",
+      "message": "Hacim gereksinimleri, uygulama alanı, bölgesel dağıtım ve gerekli DIN/ISO sertifikaları hakkında ayrıntılar sağlayın..."
+    },
+    "options": {
+      "distributor": "Distribütör Ortaklık Başvurusu",
+      "project": "Büyük Ölçekli Proje Tedariki",
+      "technical": "Teknik Destek / Mühendislik Özellikleri",
+      "other": "Genel Ticari Talep"
+    },
+    "button": "İsteği İlet",
+    "email_subject": "K-Aqua Talebi",
+    "email_body": {
+      "name": "Ad Soyad",
+      "company": "Şirket",
+      "email": "E-posta",
+      "inquiry_type": "Talep Türü",
+      "message": "Mesaj"
+    }
+  }
+}

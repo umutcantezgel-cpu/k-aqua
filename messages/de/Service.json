@@ -1,0 +1,154 @@
+{
+  "Hero": {
+    "title": "Engineering<br />Ressourcen.",
+    "subtitle": "Umfassende technische Dokumentation, Qualitätssicherungsstandards und präzise Installationsrichtlinien für K-Aqua PP-R und PP-RCT Rohrleitungssysteme.",
+    "button": "Technische Daten entdecken"
+  },
+  "Overview": {
+    "title": "Präzisionstechnik für moderne Infrastruktur",
+    "p1": "K-Aqua widmet sich der Weiterentwicklung der Flüssigkeitstransporttechnologie durch kompromisslose Präzision und strenge Materialwissenschaft. Unsere PP-R (Polypropylen-Random-Copolymer) und PP-RCT (Polypropylen-Random-Copolymer mit modifizierter Kristallinität und Temperaturbeständigkeit) Systeme repräsentieren den Höhepunkt moderner Rohrleitungsinfrastruktur.",
+    "p2": "Ausdrücklich entwickelt, um Architekten, Maschinenbauingenieure, Anlagenplaner und Meisterinstallateure zu unterstützen, gewährleistet unser technisches Ökosystem absolute Zuverlässigkeit über den gesamten Lebenszyklus. Von anspruchsvollen industriellen Kühlnetzen und aggressiven chemischen Transportleitungen bis hin zu sensiblen Trinkwasserverteilungen liefern K-Aqua Produkte unübertroffene chemische Beständigkeit, thermische Stabilität und Schalldämmung.",
+    "p3": "Wir stärken Branchenexperten durch die Bereitstellung umfassender, transparenter technischer Daten. Dieses Engagement garantiert, dass jede verschweißte Verbindung und jeder verlegte Meter Rohr den höchsten internationalen Standards entspricht, einschließlich DIN-, ISO- und DVGW-Zertifizierungen. Entdecken Sie die Spezifikationen, die K-Aqua zur ultimativen Wahl für zukunftsorientierte Bauingenieure machen."
+  },
+  "MaterialScience": {
+    "title": "Fortschrittliche Materialwissenschaft",
+    "description": "Die grundlegende Stärke von K-Aqua Rohrleitungssystemen liegt in unseren hochraffinierten Polymermatrizes. Das Verständnis der biochemischen und strukturellen Vorteile unserer Materialien gewährleistet eine optimale Anwendung in unterschiedlichsten technischen Szenarien.",
+    "coreAdvantageTitle": "Kernvorteil",
+    "coreAdvantageQuote": "\"Unsere proprietären PP-R und PP-RCT Formulierungen verlängern die Betriebslebensdauer von Hochdruck-Flüssigkeitstransportsystemen drastisch und reduzieren gleichzeitig die Biofilmbildung.\"",
+    "cards": {
+      "0": {
+        "title": "Hochmolekulares PP-R",
+        "description": "Polypropylen-Random-Copolymer (PP-R) zeichnet sich durch eine hochmolekulare Struktur aus, die selbst bei niedrigen Temperaturen eine überlegene Schlagfestigkeit bietet. Die glatte Innenfläche reduziert die Flüssigkeitsreibung drastisch und verhindert Verkalkung und Verkrustung über Jahrzehnte im aktiven Einsatz vollständig."
+      },
+      "1": {
+        "title": "PP-RCT Kristalle der nächsten Generation",
+        "description": "PP-RCT stellt einen Durchbruch in der Polymertechnik dar und verfügt über eine veränderte kristalline Struktur. Diese Modifikation ermöglicht es dem Material, bei erhöhten Temperaturen deutlich höheren hydrostatischen Drücken standzuhalten, was dünnere Rohrwandungen erleichtert und zu 15-20% höheren hydraulischen Durchflusskapazitäten führt."
+      },
+      "2": {
+        "title": "Schalldämmung",
+        "description": "Im Gegensatz zu starren metallischen Leitungen absorbiert die viskoelastische Natur von K-Aqua Polymeren auf natürliche Weise kinetische Energie. Diese strukturelle Eigenschaft dämpft Druckstöße (Wasserschlag) erheblich und reduziert die hydrodynamische Geräuschübertragung, was es ideal für akustisch sensible Umgebungen wie Krankenhäuser, Hotels und Luxusresidenzen macht."
+      },
+      "3": {
+        "title": "Chemische & Thermische Beständigkeit",
+        "description": "K-Aqua Systeme wurden entwickelt, um extremen betrieblichen Belastungen standzuhalten und transportieren aggressive Chemikalien, Druckluft und überhitztes Wasser ohne strukturelle Verschlechterung. Die Polymermatrix bleibt über einen pH-Bereich von 1 bis 14 vollständig chemisch inert und korrosionsbeständig."
+      }
+    }
+  },
+  "QualityAssurance": {
+    "title": "Qualitätssicherungsstandards",
+    "description": "Unsere Null-Fehler-Politik wird durch ein kompromissloses, automatisiertes Test-Framework geregelt. Durch den strikten Betrieb nach ISO 9001:2015 und DIN EN ISO 15874 Standards garantiert K-Aqua, dass jedes Bauteil, das unser Werk verlässt, für jahrzehntelange einwandfreie Leistung konstruiert ist.",
+    "cards": {
+      "0": {
+        "title": "Inline-Extrusionsüberwachung",
+        "description": "Lasergestützte Mikrometer scannen während des Extrusionsprozesses kontinuierlich die Rohrwanddicke und Konzentrizität. Jede Abweichung jenseits mikroskopischer Toleranzen löst sofort eine automatisierte Linienablehnung aus und gewährleistet so absolute Dimensionsstabilität."
+      },
+      "1": {
+        "title": "Destruktive Chargenprüfung",
+        "description": "Jede Produktionscharge durchläuft extreme hydrostatische Drucktests, thermische Zyklen und Izod-Schlagfestigkeitsprüfungen. Diese destruktiven Belastungstests verifizieren die molekulare Integrität der Polymerketten unter Worst-Case-Betriebsszenarien."
+      },
+      "2": {
+        "title": "Verifizierung durch Dritte",
+        "description": "Interne Kennzahlen werden regelmäßig von unabhängigen globalen Prüfstellen wie TÜV, DVGW und SKZ geprüft und zertifiziert. Dieses zweischichtige Verifizierungssystem garantiert die Einhaltung globaler Sanitär- und Maschinenbaurichtlinien."
+      }
+    }
+  },
+  "TrainingAcademy": {
+    "title": "K-Aqua Trainingsakademie",
+    "description": "Selbst die fortschrittlichsten Rohrleitungssysteme erfordern eine fachgerechte Installation. Die K-Aqua Academy existiert, um die Lücke zwischen Materialwissenschaft und praktischer Anwendung zu schließen. Wir bieten Meisterinstallateuren die strenge Ausbildung, die zur Erlangung der offiziellen Zertifizierung erforderlich ist.",
+    "list": {
+      "0": {
+        "title": "Vor-Ort Projektseminare",
+        "description": "Unsere technischen Bauleiter sind direkt an großen Infrastrukturbaustellen im Einsatz und bieten großen Installationsteams praxisnahe Schulungen an, um die projektspezifische Compliance vom ersten Tag an sicherzustellen."
+      },
+      "1": {
+        "title": "Theoretisches Curriculum",
+        "description": "Intensive Workshops zu thermodynamischen Berechnungen, Dehnungsausgleich und optimalen Befestigungsabständen, maßgeschneidert für PP-R und PP-RCT Netzwerke."
+      },
+      "2": {
+        "title": "Offizielle Zertifizierung",
+        "description": "Installateure, die sowohl die praktischen Schweißprüfungen als auch die theoretischen Bewertungen bestehen, erhalten das Zertifikat \"K-Aqua Certified Installer\", das sie berechtigt, unsere erweiterten Herstellergarantien zu aktivieren."
+      }
+    },
+    "protocol": "Zertifizierungsprotokoll"
+  },
+  "InstallationProtocols": {
+    "title": "Installationsprotokolle",
+    "description": "Die Beherrschung der exakten thermischen Schweißtechniken sichert lebenslange Verbindungsintegrität. Sehen Sie sich unsere Schritt-für-Schritt-Masterclasses an, in denen die Temperaturkalibrierungen, Druckanforderungen und Abkühlzeiten für jede Schweißmethode detailliert beschrieben werden.",
+    "modulePrefix": "Modul",
+    "protocols": {
+      "0": {
+        "title": "Manuelles Muffenschweißen",
+        "subtitle": "PP-R / PP-RCT Rohre & Fittings",
+        "desc": "Die grundlegende Technik für standardmäßige Wohn- und Gewerberohrnetze. Dieses Modul demonstriert präzise Aufheizzeiten, optimale Einstecktiefen und kritische Abkühlphasen mit Handschweißgeräten, um homogene, leckagefreie thermische Schweißverbindungen zu erreichen. Lernen Sie die exakten Millimetertoleranzen kennen, die für Standardmaßverhältnisse erforderlich sind."
+      },
+      "1": {
+        "title": "Maschinelles Muffenschweißen",
+        "subtitle": "Stationäre Schweißmaschinen",
+        "desc": "Bei Rohren mit größerem Durchmesser, bei denen die manuelle Ausrichtung physisch anspruchsvoll wird, bieten stationäre Muffenschweißmaschinen mechanische Präzision. Erfahren Sie, wie Sie das Rohr fixieren, die Heizmatrix kalibrieren und eine perfekt ausgerichtete Schweißung mit industrieller Konsistenz durchführen. Unverzichtbar für Steigleitungsinstallationen in Hochhäusern."
+      },
+      "2": {
+        "title": "Elektromuffenschweißen",
+        "subtitle": "Automatisierte Verbindungsverschweißung",
+        "desc": "Bei Arbeiten unter engen räumlichen Gegebenheiten oder bei der Durchführung von Reparaturen ist die Elektromuffenschweißung unübertroffen. Dieser Leitfaden behandelt das Schälen der Rohre, Reinigungsprotokolle, Barcode-Scannen für automatisierte Heizzyklen und die Überprüfung der Schweißindikatoren für garantierte strukturelle Integrität. Elektromuffenschweißen minimiert menschliche Fehler durch digitale Kalibrierung."
+      },
+      "3": {
+        "title": "Stumpfschweißen",
+        "subtitle": "Hauptleitungen mit großem Durchmesser",
+        "desc": "Unverzichtbar für massive Infrastruktur und den Transport großer Flüssigkeitsmengen. Dieses fortgeschrittene Tutorial erklärt das Planen der Rohrenden, die Ausrichtung der Heizplatte unter spezifischem Hydraulikdruck, die Anwärmphase und den kontrollierten Abkühlzyklus, die für eine fehlerfreie Stumpfschweißung großer Durchmesser erforderlich sind. Gewährleistet monolithische Integrität über lange kommunale Strecken."
+      }
+    }
+  },
+  "DocumentLibrary": {
+    "title": "Dokumentenbibliothek",
+    "description": "Greifen Sie auf die maßgebliche technische K-Aqua Bibliothek zu. Unsere Dokumentation liefert die genauen Spezifikationen, die für kompromisslose Infrastrukturprojekte erforderlich sind, und gewährleistet absolute Transparenz bei Materialzusammensetzung und Leistungsdaten.",
+    "download": "PDF Herunterladen",
+    "docs": {
+      "0": {
+        "title": "Umfassendes Produktsortiment",
+        "category": "Katalog",
+        "description": "Ein vollständiger Katalog, der unsere PP-R und PP-RCT Rohrleitungssysteme detailliert beschreibt. Entdecken Sie Abmessungen, Druckklassen (SDR) und das gesamte Sortiment an präzisionsgefertigten Fittings, die für Trinkwasser, Heizung und industrielle Anwendungen entwickelt wurden."
+      },
+      "1": {
+        "title": "Technische Produkteigenschaften",
+        "category": "Technische Daten",
+        "description": "Tauchen Sie tief in die Materialwissenschaft hinter K-Aqua ein. Erfahren Sie mehr über unsere fortschrittliche hochmolekulare Polypropylen-Architektur, die außergewöhnliche thermische Stabilität und die schalldämpfenden Eigenschaften."
+      },
+      "2": {
+        "title": "Qualitätssicherung & Zertifizierungen",
+        "category": "Compliance",
+        "description": "Überprüfen Sie unsere strengen internen Testprotokolle, die Einhaltung strenger internationaler DIN- und ISO-Standards, die kontinuierliche Chargenüberwachung und unsere Null-Fehler-Fertigungstoleranzpolitik."
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Technisches FAQ",
+    "subtitle": "Direkte Antworten auf die kritischsten Fragen aus Maschinenbau und Installation bezüglich K-Aqua Polymernetzwerken.",
+    "faqs": {
+      "0": {
+        "q": "Was ist die maximale Betriebstemperatur für PP-RCT Systeme?",
+        "a": "K-Aqua PP-RCT Systeme sind für einen sicheren Betrieb bei Dauertemperaturen bis zu 70°C (158°F) für 50 Jahre bei Standardbetriebsdrücken ausgelegt. Sie halten kurzfristigen Spitzentemperaturen von bis zu 90°C (194°F) ohne strukturelle Schäden stand, was sie ideal für anspruchsvolle Warmwasserheizungsanwendungen macht."
+      },
+      "1": {
+        "q": "Wie lange muss eine Schweißverbindung abkühlen, bevor Druck ausgeübt wird?",
+        "a": "Die Abkühlzeit ist streng abhängig vom Durchmesser und der Wandstärke des Rohres. Eine Standard-20mm-Rohrverbindung erfordert etwa 2 Minuten feste Abkühlung und weitere 5 Minuten vor der vollständigen hydrostatischen Prüfung. Bei Hauptleitungen mit großem Durchmesser (z. B. 160 mm) muss die Verbindung mindestens 40 Minuten ruhen. Genaue Abkühlmatrizen finden Sie in unserem Handbuch \"Technische Produkteigenschaften\"."
+      },
+      "2": {
+        "q": "Können K-Aqua Rohre in direktem Sonnenlicht installiert werden?",
+        "a": "Standard PP-R und PP-RCT Rohre reagieren empfindlich auf längere ultraviolette (UV) Strahlung. Bei Verlegung im Freien müssen die Rohre isoliert oder mit UV-beständigen Beschichtungen gestrichen werden. Alternativ bietet K-Aqua spezielle UV-stabilisierte Rohrvarianten an, die speziell für freiliegende Außeninstallationen entwickelt wurden."
+      },
+      "3": {
+        "q": "Wie gleicht PP-R die thermische Ausdehnung aus?",
+        "a": "Alle Polymerrohre dehnen sich bei Temperaturanstieg aus. K-Aqua Systeme gleichen dies durch präzise Fest- und Lospunkt-Halterungen oder durch Dehnungsbögen aus. Unsere mehrschichtigen Glasfaser-Verbundrohre (Faser) reduzieren die lineare Ausdehnung drastisch um bis zu 75% im Vergleich zu Standard-Einschichtrohren, was die strukturelle Planung vereinfacht."
+      },
+      "4": {
+        "q": "Ist K-Aqua für den Transport aggressiver Industriechemikalien geeignet?",
+        "a": "Ja. Unsere hochmolekulare Polypropylenmatrix ist sehr beständig gegen ein breites Spektrum von Säuren, Laugen und organischen Lösungsmitteln. Die chemische Beständigkeit ist jedoch abhängig von der spezifischen Verbindung, Konzentration und Betriebstemperatur. Auf Anfrage stellen wir Ingenieuren eine umfassende Beständigkeitstabelle zur Verfügung."
+      }
+    }
+  },
+  "CTA": {
+    "title": "Bereit, Ihr nächstes Infrastrukturprojekt zu planen?",
+    "description": "Wenden Sie sich direkt an unser Team für technische Spezifikationen für individuelle thermodynamische Berechnungen, CAD-Bibliotheken oder die Terminierung von Vor-Ort-Akademien.",
+    "button": "Technischen Support kontaktieren"
+  }
+}

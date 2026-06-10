@@ -1,0 +1,151 @@
+{
+  "Departments": {
+    "title": "Direkte Abteilungsweiterleitung.",
+    "subtitle": "Beschleunigen Sie Ihre Anfrage, indem Sie sich direkt mit den spezialisierten Engineering-, Vertriebs- oder Enterprise-Procurement-Teams verbinden, die für Ihre Region und Ihren technischen Bereich verantwortlich sind.",
+    "enterprise_division": {
+      "tag": "Enterprise Commercial Division",
+      "desc": "Verbinden Sie sich mit unserem kommerziellen Strukturierungsteam für Unternehmensbereitstellungen, Großhandelsvolumen-Preismodelle, massive Infrastrukturprojekt-Ausschreibungen und internationale B2B-Distributor-Partnerschaften. Unsere technischen Vertriebsingenieure sind bereit, den genauen finanziellen und logistischen Rahmen für Ihren mehrphasigen Pipeline-Rollout zu entwerfen.",
+      "fax_protocol": "Fax Protokoll"
+    },
+    "technical_support": {
+      "tag": "Technischer Support & Enterprise QA",
+      "desc": "Wir garantieren die betriebliche Integrität jedes PPR-Fittings und -Rohrs. Für komplexe Installationsanleitungen, fluiddynamische Spezifikationen, Druckprüfprotokolle oder strenge Qualitätssicherungsaudits bietet unser spezialisierter technischer Support kompromisslose technische Aufsicht.",
+      "bullet1": "ISO/DIN-Zertifizierungsdokumentation",
+      "bullet2": "BIM & CAD Systembibliotheken",
+      "bullet3": "Schweiß- & Extrusionstechnische Spezifikationen"
+    }
+  },
+  "FAQ": {
+    "title": "Unternehmensanfragen.",
+    "subtitle": "Überprüfen Sie unsere standardisierten technischen und kommerziellen Protokolle.",
+    "q1": {
+      "q": "Wie werde ich ein offizieller K-Aqua B2B-Distributor?",
+      "a": "Die Zulassung als autorisierter K-Aqua-Distributor erfordert eine vorläufige Bewertung der Marktfähigkeit. Wir arbeiten mit etablierten Logistik- und Sanitärversorgungsunternehmen zusammen, die in der Lage sind, regionale Bestände zu führen und große Infrastrukturprojekte zu unterstützen. Bitte wenden Sie sich an unsere Enterprise Commercial Division, um das Lieferantenprüfprotokoll einzuleiten."
+    },
+    "q2": {
+      "q": "Was sind die Mindestbestellmengen (MOQ) für Unternehmenslieferungen?",
+      "a": "Aufgrund des logistischen Umfangs internationaler Fracht sind Standard-Unternehmenslieferungen für 20-Fuß- und 40-Fuß-Container optimiert. Projektspezifische Anforderungen können jedoch gemischte Containerladungen vorschreiben. Für genaue MOQ-Schwellenwerte basierend auf Ihren erforderlichen Rohrdurchmessern und Fitting-Verhältnissen fordern Sie bitte ein Volumenangebot an."
+    },
+    "q3": {
+      "q": "Bietet K-Aqua technische Schulungen vor Ort für Installationsteams an?",
+      "a": "Ja. Für massive Infrastrukturbereitstellungen kann unser technisches Ingenieurteam an Ihren Projektstandort entsandt werden, um zertifizierte Schulungen zu präzisen PPR-Schweißtechniken, Extrusionsprotokollen und Wärmedehnungsmanagement durchzuführen. Wir stellen sicher, dass Ihre Teams nach exakten deutschen DIN-Normen arbeiten."
+    },
+    "q4": {
+      "q": "Welche Garantien und Gewährleistungen gelten für Ihre PPR-Systeme?",
+      "a": "Unsere PPR-Pipelinesysteme werden durch eine branchenführende, umfassende 10-Jahres-Garantie abgesichert, wenn sie von zertifizierten Fachleuten gemäß unseren technischen Richtlinien installiert werden. Aufgrund unserer strengen Herstellungs- und thermografischen QA-Prozesse sind K-Aqua-Systeme für eine Betriebslebensdauer von über 50 Jahren ausgelegt."
+    },
+    "q5": {
+      "q": "Können Sie kundenspezifische PPR-Lösungen für spezielle industrielle Anwendungen herstellen?",
+      "a": "Ja. Unsere fortschrittliche Produktionsstätte in Deutschland ist mit der Handhabung von kundenspezifischen Werkzeugen und speziellen Polymermischungen für einzigartige Unternehmensanforderungen ausgestattet, einschließlich des Transports von Reinstwasser für Halbleiterfabriken oder hochspezifischen chemischen Verarbeitungslinien. Kundenspezifische Entwicklungen erfordern eine direkte Rücksprache mit unserer technischen Abteilung."
+    }
+  },
+  "GlobalOperations": {
+    "title": "Entwickelt in <br/>Deutschland. <br/>Weltweit im Einsatz.",
+    "p1": "Die KWT GmbH repräsentiert die Avantgarde der modernen Wasser- und Infrastrukturtechnik. Von unserem zentralen Hauptsitz in Waldsolms-Brandoberndorf aus überwachen wir akribisch die Forschung, die hochpräzise Fertigung und die globale Distributionslogistik des gesamten K-Aqua-Produktökosystems.",
+    "p2": "Unsere zentrale Betriebsanlage ist tief in jede Phase der Lieferkette integriert und erzwingt kompromisslose deutsche Qualitätskontrollprotokolle, strenge Einhaltung von DIN/ISO-Normen und hochgradig effizientes internationales Frachtrouting. Dies stellt sicher, dass jedes von uns produzierte PPR-Pipelinesystem die strengen Enterprise SLAs erfüllt.",
+    "hq_tag": "Hauptsitz & Global Command",
+    "hq_address": "KWT GmbH <br/>Auweg 3 <br/>35647 Waldsolms-<br/>Brandoberndorf <br/>Deutschland",
+    "hq_desc": "Unser primärer Fertigungscampus und der Vorstand befinden sich genau im industriellen Herzen Hessens, was eine nahtlose Anbindung an die wichtigsten europäischen Frachtrouten und das globale Logistikzentrum Frankfurt ermöglicht.",
+    "view_map": "Anlage auf Maps ansehen"
+  },
+  "Hero": {
+    "title": "Initiieren Sie <br />die Unternehmensverbindung.",
+    "subtitle": "Egal, ob Sie ein Multimillionen-Dollar-Infrastrukturprojekt konzipieren, präzise technische Dokumentationen für PPR-Pipelines suchen oder eine strategische Vertriebspartnerschaft aufbauen möchten – das globale Kommandozentrum von K-Aqua in Deutschland ist bereit, Ihren Beschaffungszyklus zu beschleunigen.",
+    "button": "Operations kontaktieren"
+  },
+  "Legal": {
+    "title": "Corporate <br/>Compliance.",
+    "subtitle": "Absolute Transparenz und strikte Einhaltung der europäischen rechtlichen Rahmenbedingungen bestimmen unsere Unternehmensabläufe und unsere Datenmanagement-Architektur.",
+    "imprint": {
+      "title": "Impressum",
+      "directors_label": "Geschäftsführer",
+      "directors_value": "Philipp Nickel, Marcello Gallio",
+      "court_label": "Registergericht",
+      "court_value": "Wetzlar HRB 6732",
+      "vat_label": "USt-IdNr.",
+      "vat_value": "DE 296238486",
+      "disclaimer": "Angaben gemäß § 5 TMG. Die Geschäftsführer sind für den Betrieb und die kaufmännische Vertretung der KWT GmbH rechtlich verantwortlich."
+    },
+    "privacy": {
+      "title": "Datenschutzarchitektur",
+      "p1": "Die KWT GmbH hält sich strikt an die Datenschutz-Grundverordnung (DSGVO). Wir setzen Zero-Trust-Sicherheitsmodelle durch, um die absolute Integrität und den Schutz der von uns über unsere digitalen Unternehmensschnittstellen verarbeiteten persönlichen und unternehmerischen Daten zu gewährleisten.",
+      "p2": "Wir verarbeiten Daten ausschließlich auf Grundlage der europäischen gesetzlichen Bestimmungen. Für tiefe technische Details zu unseren Datenerfassungsvektoren, zur kryptografischen Speicherung, zum Aufbewahrungslebenszyklus und zu Ihren Rechten (einschließlich des Widerrufs der Einwilligung) steht Ihnen unsere vollständige Dokumentation zur Verfügung.",
+      "button": "Sicherheitsrichtlinie anfordern"
+    }
+  },
+  "Procurement": {
+    "title": "Enterprise Beschaffungsworkflow.",
+    "subtitle": "Wir haben eine gestraffte, hochgradig vorhersehbare Akquisitionspipeline für große Infrastrukturprojekte und B2B-Distributoren entwickelt.",
+    "step1": {
+      "title": "Technische Beratung & Spezifikation",
+      "desc": "Unsere Engineering-Abteilung analysiert Ihre Projektschemata, fluiddynamische Anforderungen und Betriebsparameter, um die genaue erforderliche PPR-Pipeline-Matrix zu spezifizieren. Wir stellen die vollständige Einhaltung regionaler Vorschriften und Enterprise SLAs sicher."
+    },
+    "step2": {
+      "title": "Volumenangebot & Logistikplanung",
+      "desc": "Die kaufmännische Abteilung strukturiert ein äußerst wettbewerbsfähiges Volumenpreismodell. Gleichzeitig planen unsere Supply-Chain-Architekten das optimale Frachtrouting von unseren deutschen Werken direkt zu Ihrer Baustelle oder Ihrem Vertriebszentrum."
+    },
+    "step3": {
+      "title": "Präzisionsfertigung",
+      "desc": "Nach der Beschaffungsgenehmigung wird die Produktion geplant. Jedes Rohr und Fitting durchläuft eine strenge ISO/DIN-zertifizierte Qualitätssicherung, einschließlich Hyperdruckprüfungen und Thermografie, um eine fehlerfreie Lieferung zu gewährleisten."
+    },
+    "step4": {
+      "title": "Globale Bereitstellung & Support",
+      "desc": "Die Materialien werden über sichere, nachverfolgte internationale Fracht versendet. Nach der Lieferung steht unser technisches Team für Schweißaudits vor Ort, Installationsschulungen und kontinuierlichen Lifecycle-Support zur Verfügung."
+    }
+  },
+  "RegionalOffices": {
+    "title": "Globales Netzwerk. <br/>Lokale Expertise.",
+    "subtitle": "Neben unserem deutschen Kommandozentrum unterhält K-Aqua strategische operative Hubs, um eine schnelle Umsetzung der Lieferkette und lokalen technischen Support in den primären kontinentalen Märkten sicherzustellen.",
+    "mena": {
+      "name": "K-Aqua MENA HUB",
+      "address": "Dubai Silicon Oasis, DDP, Building A2, Dubai, Vereinigte Arabische Emirate",
+      "focus": "Verwaltung großer Entsalzungsanlagen, Hochtemperatur-Kühlpipelines und Unternehmensverteilung im gesamten Nahen Osten und Nordafrika."
+    },
+    "apac": {
+      "name": "K-Aqua APAC Operations",
+      "address": "Marina Bay Financial Centre, Tower 3, Singapur",
+      "focus": "Strategische Aufsicht über Reinstwassersysteme in der Halbleiterfertigung und gewerbliche Hochhausbereitstellungen im asiatisch-pazifischen Raum."
+    },
+    "latam": {
+      "name": "K-Aqua LATAM Coordination",
+      "address": "Av. Brigadeiro Faria Lima, São Paulo, Brasilien",
+      "focus": "Förderung robuster Bergbauinfrastrukturlösungen und kommunaler Wasserverteilungsnetze durch extreme Umgebungen in ganz Lateinamerika."
+    }
+  },
+  "SalesForm": {
+    "title": "Initiieren Sie die Projektspezifikation.",
+    "subtitle": "Übermitteln Sie Ihre Infrastrukturprojektparameter oder Vertriebsanfrage. Unser kaufmännisches Engineering-Team wird innerhalb von 24 Stunden antworten, um eine tiefgehende technische Abstimmung zu planen.",
+    "success_title": "Übertragung gesichert.",
+    "success_desc": "Ihre Parameter wurden sicher an unseren kaufmännischen Engineering-Desk weitergeleitet. Ein Spezialist wird Ihrer Akte in Kürze zugewiesen.",
+    "labels": {
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "company": "Unternehmen / Organisation",
+      "email": "Geschäftliche E-Mail",
+      "inquiry_type": "Art der Anfrage",
+      "message": "Projektparameter & Spezifikationen"
+    },
+    "placeholders": {
+      "first_name": "Vorname eingeben",
+      "last_name": "Nachname eingeben",
+      "company": "Ihr Unternehmensname",
+      "email": "name@unternehmen.com",
+      "message": "Geben Sie Details zu Volumenanforderungen, Anwendungsbereich, regionaler Bereitstellung und erforderlichen DIN/ISO-Zertifizierungen an..."
+    },
+    "options": {
+      "distributor": "Bewerbung als Distributor-Partnerschaft",
+      "project": "Großprojektbeschaffung",
+      "technical": "Technischer Support / Engineering-Spezifikationen",
+      "other": "Allgemeine kommerzielle Anfrage"
+    },
+    "button": "Anfrage senden",
+    "email_subject": "K-Aqua Anfrage",
+    "email_body": {
+      "name": "Name",
+      "company": "Unternehmen",
+      "email": "E-Mail",
+      "inquiry_type": "Art der Anfrage",
+      "message": "Nachricht"
+    }
+  }
+}

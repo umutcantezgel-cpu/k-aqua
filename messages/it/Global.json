@@ -1,0 +1,47 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "products": "Prodotti",
+    "solutions": "Soluzioni",
+    "about": "Chi siamo",
+    "service": "Servizi",
+    "news": "Notizie",
+    "career": "Carriera",
+    "contact": "Contatti"
+  },
+  "Footer": {
+    "description": "Leader nell'approvvigionamento idrico. Tubi e raccordi PP-R/PP-RCT di alta qualità.",
+    "explore": "Esplora",
+    "products": "Prodotti",
+    "solutions": "Soluzioni",
+    "references": "Referenze",
+    "career": "Carriera",
+    "contact": "Contatti",
+    "legal": "Legale",
+    "imprint": "Note legali",
+    "privacyPolicy": "Informativa sulla privacy",
+    "allRightsReserved": "Tutti i diritti riservati.",
+    "gdpr": "Rigoroso rispetto del GDPR"
+  },
+  "CTASection": {
+    "heading": "Pronto per il tuo prossimo progetto?",
+    "text": "Contattaci per una consulenza senza impegno e scopri come le nostre soluzioni soddisfano perfettamente le tue esigenze.",
+    "buttonText": "Contattaci ora"
+  },
+  "FAQSection": {
+    "title": "Domande frequenti"
+  },
+  "HeroSection": {
+    "title": "Benvenuti in K-Aqua",
+    "subtitle": "Il tuo partner per una tecnologia idrica all'avanguardia",
+    "ctaText": "Richiedi ora"
+  },
+  "NotFound": {
+    "title": "404",
+    "subtitle": "Pagina non trovata",
+    "desc": "La pagina richiesta non è stata trovata. Si prega di utilizzare una delle opzioni seguenti:",
+    "home": "Home",
+    "contact": "Contatto",
+    "blog": "Blog"
+  }
+}

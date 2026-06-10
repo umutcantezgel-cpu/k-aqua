@@ -1,0 +1,47 @@
+{
+  "Navigation": {
+    "home": "首页",
+    "products": "产品",
+    "solutions": "解决方案",
+    "about": "关于我们",
+    "service": "服务",
+    "news": "新闻",
+    "career": "职业",
+    "contact": "联系我们"
+  },
+  "Footer": {
+    "description": "供水领域的领导者。高质量的PP-R/PP-RCT管道和管件。",
+    "explore": "探索",
+    "products": "产品",
+    "solutions": "解决方案",
+    "references": "成功案例",
+    "career": "职业",
+    "contact": "联系我们",
+    "legal": "法律信息",
+    "imprint": "版本说明",
+    "privacyPolicy": "隐私政策",
+    "allRightsReserved": "版权所有。",
+    "gdpr": "严格遵守GDPR法规"
+  },
+  "CTASection": {
+    "heading": "准备好开始您的下一个项目了吗？",
+    "text": "请联系我们进行免费咨询，了解我们的解决方案如何完美满足您的需求。",
+    "buttonText": "立即联系我们"
+  },
+  "FAQSection": {
+    "title": "常见问题"
+  },
+  "HeroSection": {
+    "title": "欢迎来到 K-Aqua",
+    "subtitle": "您未来水技术的合作伙伴",
+    "ctaText": "立即咨询"
+  },
+  "NotFound": {
+    "title": "404",
+    "subtitle": "找不到页面",
+    "desc": "无法找到请求的页面。请使用以下选项之一：",
+    "home": "首页",
+    "contact": "联系我们",
+    "blog": "博客"
+  }
+}

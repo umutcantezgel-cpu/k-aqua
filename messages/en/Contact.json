@@ -1,0 +1,143 @@
+{
+  "Departments": {
+    "title": "Direct Departmental Routing.",
+    "subtitle": "Expedite your inquiry by connecting directly with the specialized engineering, sales, or enterprise procurement teams responsible for your region and technical domain.",
+    "enterprise_division": {
+      "tag": "Enterprise Commercial Division",
+      "desc": "Connect with our commercial structuring team for enterprise deployments, wholesale volume pricing models, massive infrastructure project tenders, and international B2B distributor partnerships. Our technical sales engineers are prepared to architect the precise financial and logistical framework for your multi-phase pipeline rollout.",
+      "fax_protocol": "Fax Protocol"
+    },
+    "technical_support": {
+      "tag": "Technical Support & Enterprise QA",
+      "desc": "We guarantee the operational integrity of every PPR fitting and pipe. For complex installation guidance, fluid dynamic specifications, pressure testing protocols, or rigorous quality assurance audits, our specialized engineering support desk offers uncompromising technical oversight.",
+      "bullet1": "ISO/DIN Certification Documentation",
+      "bullet2": "BIM & CAD System Libraries",
+      "bullet3": "Welding & Extrusion Technical Specs"
+    }
+  },
+  "FAQ": {
+    "title": "Enterprise Inquiries.",
+    "subtitle": "Review our standardized technical and commercial protocols.",
+    "q1": {
+      "q": "How do I become an official K-Aqua B2B distributor?",
+      "a": "Becoming an authorized K-Aqua distributor requires a preliminary market capability assessment. We partner with established logistics and plumbing supply enterprises capable of maintaining regional inventory and supporting large-scale infrastructure projects. Please contact our Enterprise Commercial Division to initiate the vendor vetting protocol."
+    },
+    "q2": {
+      "q": "What are the minimum order quantities (MOQ) for enterprise shipments?",
+      "a": "Due to the logistical scale of international freight, standard enterprise shipments are optimized for 20ft and 40ft containers. However, project-specific requirements can dictate mixed-container loads. For exact MOQ thresholds based on your required pipe diameters and fitting ratios, please request a volume quotation."
+    },
+    "q3": {
+      "q": "Does K-Aqua provide on-site technical training for installation crews?",
+      "a": "Yes. For massive infrastructure deployments, our technical engineering team can be dispatched to your project site to conduct certified training on precise PPR welding techniques, extrusion protocols, and thermal expansion management. We ensure your crews are operating to exact German DIN standards."
+    },
+    "q4": {
+      "q": "What guarantees and warranties apply to your PPR systems?",
+      "a": "Our PPR pipeline systems are backed by an industry-leading, comprehensive 10-year warranty when installed by certified professionals according to our technical guidelines. Due to our rigorous manufacturing and thermographic QA processes, K-Aqua systems are engineered to exceed a 50-year operational lifecycle."
+    },
+    "q5": {
+      "q": "Can you manufacture custom PPR solutions for specialized industrial applications?",
+      "a": "Yes. Our advanced manufacturing facility in Germany is equipped to handle custom tooling and specialized polymer blends for unique enterprise requirements, including ultra-pure water transport for semiconductor fabs or highly specific chemical processing lines. Custom engineering requires direct consultation with our technical department."
+    }
+  },
+  "GlobalOperations": {
+    "title": "Engineered in <br/>Germany. <br/>Deployed Worldwide.",
+    "p1": "KWT GmbH represents the vanguard of modern aquatic and infrastructure engineering. Operating from our central headquarters in Waldsolms-Brandoberndorf, we meticulously oversee research, high-precision manufacturing, and the global distribution logistics of the complete K-Aqua product ecosystem.",
+    "p2": "Our central operations facility is deeply integrated into every phase of the supply chain, enforcing uncompromising German quality control protocols, rigid DIN/ISO standard compliance, and highly efficient international freight routing. This ensures that every PPR pipeline system we produce meets strict enterprise SLAs.",
+    "hq_tag": "Headquarters & Global Command",
+    "hq_address": "KWT GmbH <br/>Auweg 3 <br/>35647 Waldsolms-<br/>Brandoberndorf <br/>Germany",
+    "hq_desc": "Our primary manufacturing campus and executive board are located precisely in the industrial heartland of Hessen, allowing for seamless connection to major European freight arteries and the Frankfurt global logistics hub.",
+    "view_map": "View Facility on Maps"
+  },
+  "Hero": {
+    "title": "Initiate <br />Enterprise Connection.",
+    "subtitle": "Whether you are architecting a multi-million dollar infrastructure project, seeking precise PPR pipeline technical documentation, or establishing a strategic distributor partnership, K-Aqua's global command center in Germany is ready to accelerate your procurement cycle.",
+    "button": "Reach Operations"
+  },
+  "Legal": {
+    "title": "Corporate <br/>Compliance.",
+    "subtitle": "Absolute transparency and strict adherence to European legal frameworks govern our corporate operations and data management architecture.",
+    "imprint": {
+      "title": "Imprint (Impressum)",
+      "directors_label": "Managing Directors",
+      "directors_value": "Philipp Nickel, Marcello Gallio",
+      "court_label": "Court of Registry",
+      "court_value": "Wetzlar HRB 6732",
+      "vat_label": "VAT Identification No.",
+      "vat_value": "DE 296238486",
+      "disclaimer": "Information provided according to Sec. 5 German Telemedia Act (TMG). The managing directors are legally responsible for the operations and commercial representation of KWT GmbH."
+    },
+    "privacy": {
+      "title": "Data Privacy Architecture",
+      "p1": "KWT GmbH adheres strictly to the General Data Protection Regulation (DSGVO/GDPR). We enforce zero-trust security models to ensure the absolute integrity and protection of the personal and corporate information we process across our digital enterprise interfaces.",
+      "p2": "We process data strictly on the basis of European legal provisions. For deep technical details regarding our data collection vectors, cryptographic storage, retention lifecycle, and your rights (including withdrawal of consent), our full documentation is available.",
+      "button": "Request Security Policy"
+    }
+  },
+  "Procurement": {
+    "title": "Enterprise Procurement Workflow.",
+    "subtitle": "We have engineered a streamlined, highly predictable acquisition pipeline for large-scale infrastructure projects and B2B distributors.",
+    "step1": {
+      "title": "Technical Consultation & Specification",
+      "desc": "Our engineering division analyzes your project schematics, fluid dynamic requirements, and operational parameters to specify the precise PPR pipeline matrix required. We ensure full compliance with regional codes and enterprise SLAs."
+    },
+    "step2": {
+      "title": "Volume Quotation & Logistics Planning",
+      "desc": "The commercial department structures a highly competitive volume pricing model. Simultaneously, our supply chain architects map the optimal freight routing from our German facilities directly to your construction site or distribution hub."
+    },
+    "step3": {
+      "title": "Precision Manufacturing",
+      "desc": "Upon procurement authorization, production is scheduled. Every pipe and fitting undergoes rigorous ISO/DIN certified quality assurance, including hyper-pressure testing and thermography, ensuring zero-defect delivery."
+    },
+    "step4": {
+      "title": "Global Deployment & Support",
+      "desc": "Materials are deployed via secure, tracked international freight. Post-delivery, our technical team remains available for on-site welding audits, installation training, and continuous lifecycle support."
+    }
+  },
+  "RegionalOffices": {
+    "title": "Global Network. <br/>Local Expertise.",
+    "subtitle": "Beyond our German command center, K-Aqua maintains strategic operational hubs to ensure rapid supply chain execution and localized engineering support across primary continental markets.",
+    "mena": {
+      "name": "K-Aqua MENA HUB",
+      "address": "Dubai Silicon Oasis, DDP, Building A2, Dubai, United Arab Emirates",
+      "focus": "Managing large-scale desalination interfaces, high-temperature cooling pipelines, and enterprise distribution throughout the Middle East and North Africa."
+    },
+    "apac": {
+      "name": "K-Aqua APAC Operations",
+      "address": "Marina Bay Financial Centre, Tower 3, Singapore",
+      "focus": "Strategic oversight for ultra-pure water systems in semiconductor manufacturing and high-rise commercial deployments across the Asia-Pacific territory."
+    },
+    "latam": {
+      "name": "K-Aqua LATAM Coordination",
+      "address": "Av. Brigadeiro Faria Lima, São Paulo, Brazil",
+      "focus": "Driving robust mining infrastructure solutions and municipal water delivery networks through extreme environments across Latin America."
+    }
+  },
+  "SalesForm": {
+    "title": "Initiate Project Specification.",
+    "subtitle": "Submit your infrastructure project parameters or distribution inquiry. Our commercial engineering team will respond within 24 hours to schedule a deep-dive technical alignment.",
+    "success_title": "Transmission Secured.",
+    "success_desc": "Your parameters have been securely routed to our commercial engineering desk. A specialist will be assigned to your file shortly.",
+    "labels": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "company": "Enterprise / Organization",
+      "email": "Corporate Email",
+      "inquiry_type": "Nature of Inquiry",
+      "message": "Project Parameters & Specifications"
+    },
+    "placeholders": {
+      "first_name": "Enter first name",
+      "last_name": "Enter last name",
+      "company": "Your company name",
+      "email": "name@company.com",
+      "message": "Provide details regarding volume requirements, application domain, regional deployment, and required DIN/ISO certifications..."
+    },
+    "options": {
+      "distributor": "Distributor Partnership Application",
+      "project": "Large-Scale Project Procurement",
+      "technical": "Technical Support / Engineering Specifications",
+      "other": "General Commercial Inquiry"
+    },
+    "button": "Transmit Request"
+  }
+}

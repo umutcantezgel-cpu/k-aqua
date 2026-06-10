@@ -1,0 +1,81 @@
+{
+  "Hero": {
+    "title": "Risorse<br />Ingegneristiche.",
+    "subtitle": "Documentazione tecnica completa, standard di garanzia della qualità e guide all'installazione di precisione.",
+    "button": "Esplora i Dati Tecnici"
+  },
+  "Overview": {
+    "title": "Ingegneria di Precisione per Infrastrutture Moderne",
+    "p1": "K-Aqua si dedica al progresso della tecnologia del trasporto dei fluidi attraverso una precisione senza compromessi.",
+    "p2": "Progettato per supportare architetti e ingegneri, il nostro ecosistema garantisce un'affidabilità totale.",
+    "p3": "Forniamo ai professionisti dati tecnici trasparenti, conformi agli standard internazionali DIN e ISO."
+  },
+  "MaterialScience": {
+    "title": "Scienza dei Materiali Avanzata",
+    "description": "La forza fondamentale dei sistemi di tubazioni K-Aqua risiede nelle nostre matrici polimeriche.",
+    "coreAdvantageTitle": "Vantaggio Principale",
+    "coreAdvantageQuote": "\"Le nostre formulazioni prolungano drasticamente la durata dei sistemi di trasporto dei fluidi.\"",
+    "cards": {
+      "0": { "title": "PP-R", "description": "Fornisce una resistenza agli urti superiore." },
+      "1": { "title": "Cristalli PP-RCT", "description": "Maggiore capacità di flusso idraulico." },
+      "2": { "title": "Smorzamento Acustico", "description": "Riduce la trasmissione del rumore." },
+      "3": { "title": "Resistenza Chimica", "description": "Trasporta sostanze chimiche aggressive senza degrado." }
+    }
+  },
+  "QualityAssurance": {
+    "title": "Standard di Garanzia della Qualità",
+    "description": "La nostra politica zero difetti è regolata da test automatizzati.",
+    "cards": {
+      "0": { "title": "Monitoraggio", "description": "Scansione continua dello spessore." },
+      "1": { "title": "Test Distruttivi", "description": "Test di pressione idrostatica." },
+      "2": { "title": "Verifica di Terze Parti", "description": "Certificato da TÜV, DVGW." }
+    }
+  },
+  "TrainingAcademy": {
+    "title": "K-Aqua Training Academy",
+    "description": "Forniamo agli installatori la formazione rigorosa necessaria.",
+    "list": {
+      "0": { "title": "Seminari in Cantiere", "description": "Formazione pratica." },
+      "1": { "title": "Curriculum Teorico", "description": "Workshop sui calcoli termodinamici." },
+      "2": { "title": "Certificazione Ufficiale", "description": "Credenziale ufficiale." }
+    },
+    "protocol": "Protocollo di Certificazione"
+  },
+  "InstallationProtocols": {
+    "title": "Protocolli di Installazione",
+    "description": "Padroneggiare le tecniche di fusione termica.",
+    "modulePrefix": "Modulo",
+    "protocols": {
+      "0": { "title": "Saldatura Manuale", "subtitle": "Tubi PP-R", "desc": "Tecnica fondamentale." },
+      "1": { "title": "Saldatura a Macchina", "subtitle": "Macchine Stazionarie", "desc": "Per tubi di grande diametro." },
+      "2": { "title": "Elettrofusione", "subtitle": "Fusione Automatizzata", "desc": "Minimizza l'errore umano." },
+      "3": { "title": "Saldatura di Testa", "subtitle": "Linee Principali", "desc": "Per infrastrutture massicce." }
+    }
+  },
+  "DocumentLibrary": {
+    "title": "Libreria Documenti",
+    "description": "Accedi alla libreria tecnica definitiva.",
+    "download": "Scarica PDF",
+    "docs": {
+      "0": { "title": "Gamma di Prodotti", "category": "Catalogo", "description": "Catalogo completo." },
+      "1": { "title": "Caratteristiche Tecniche", "category": "Dati Tecnici", "description": "Approfondimento tecnico." },
+      "2": { "title": "Qualità e Certificazioni", "category": "Conformità", "description": "Protocolli di test." }
+    }
+  },
+  "FAQ": {
+    "title": "FAQ Tecniche",
+    "subtitle": "Risposte dirette alle domande di ingegneria.",
+    "faqs": {
+      "0": { "q": "Temperatura massima?", "a": "Fino a 70°C." },
+      "1": { "q": "Tempo di raffreddamento?", "a": "Da 2 a 40 minuti." },
+      "2": { "q": "Luce solare diretta?", "a": "Richiede isolamento." },
+      "3": { "q": "Espansione termica?", "a": "Tubi compositi riducono l'espansione." },
+      "4": { "q": "Trasporto chimico?", "a": "Estremamente resistente." }
+    }
+  },
+  "CTA": {
+    "title": "Pronto per il tuo prossimo progetto?",
+    "description": "Connettiti direttamente con il nostro team.",
+    "button": "Contatta il Supporto Tecnico"
+  }
+}

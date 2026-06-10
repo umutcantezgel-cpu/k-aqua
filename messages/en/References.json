@@ -1,0 +1,75 @@
+{
+  "CTA": {
+    "title": "Specify K-Aqua for Your Next Project.",
+    "description": "Join the thousands of global developers who refuse to compromise on quality. Connect with our engineering team to design your system architecture.",
+    "button": "Initiate Consultation"
+  },
+  "CaseStudies": {
+    "title": "Featured Case Studies",
+    "description": "Explore our global portfolio of successful installations and discover how K-Aqua solves complex engineering challenges.",
+    "viewFull": "View Full Case Study"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "description": "Insights into our global deployments and technical capabilities.",
+    "questions": {
+      "q1": "In what types of projects are K-Aqua PP-R pipes typically installed?",
+      "a1": "K-Aqua PP-R systems are highly versatile and are globally specified for municipal water supply networks, luxury hotel resorts, high-rise commercial superstructures, and industrial facilities requiring chemical-resistant piping.",
+      "q2": "How do K-Aqua systems perform in extreme temperatures?",
+      "a2": "Our PP-R and PP-RCT pipes are engineered for superior thermal stability. They maintain structural integrity and operate flawlessly in both freezing conditions and high-temperature industrial environments.",
+      "q3": "Why do engineers choose K-Aqua over traditional metal piping?",
+      "a3": "K-Aqua polymer systems eliminate the risk of corrosion and scaling, which are common points of failure in traditional metal pipes. Additionally, our systems are significantly lighter, faster to install, and boast an operational lifespan exceeding 50 years.",
+      "q4": "Are K-Aqua piping systems suitable for high-rise buildings?",
+      "a4": "Yes. Our systems are frequently deployed in skyscrapers due to their ability to withstand immense hydrostatic pressures without degradation or pressure loss over decades of continuous operation."
+    }
+  },
+  "Hero": {
+    "badge": "Global Deployment",
+    "title1": "Engineered for the",
+    "title2": "World's Extremes.",
+    "description": "Over the past decades, K-Aqua products have proven themselves countless times in destinations all over the world. Our references mirror the extensive installation possibilities we offer."
+  },
+  "Legacy": {
+    "title": "The Legacy of PP-R and PP-RCT Systems",
+    "p1": "For over a quarter of a century, K-Aqua has redefined the standards of polymer piping systems on a global scale. From the freezing municipal pipelines of Northern Europe to the hyper-demanding high-rise commercial structures in the Middle East, our PP-R and PP-RCT technologies serve as the invisible backbone of modern civilization.",
+    "p2": "The references showcased here serve as a rapid reflection of our extensive installation possibilities. Engineers, architects, and urban planners demand absolute certainty—and K-Aqua delivers. We provide the unyielding arteries that power modern infrastructure, luxury hospitality, and vast industrial estates. When the stakes are highest, the world builds with K-Aqua.",
+    "p3": "Every installation is a testament to our German-engineered precision. The superior thermal stability, absolute corrosion resistance, and decades-long operational lifespans of our piping networks ensure that once K-Aqua is installed, it performs flawlessly. Our footprint spans five continents, safeguarding the world's most vital resource against extreme pressures and fluctuating temperatures.",
+    "p4": "We understand that modern architecture pushes boundaries. Whether it’s routing through the structural core of an 80-story skyscraper or burying miles of municipal supply lines beneath a bustling metropolis, K-Aqua offers an uncompromising solution that scales with your ambition."
+  },
+  "Sectors": {
+    "title": "Industries We Serve",
+    "description": "Our piping solutions are engineered to meet the unique demands of various high-performance sectors.",
+    "commercialTitle": "Commercial Superstructures",
+    "commercialDesc": "Withstanding immense hydrostatic pressures in mega-towers. K-Aqua systems are selected for their zero-failure tolerance, ensuring seamless water distribution across hundreds of vertical meters without degradation or pressure loss over decades of continuous operation.",
+    "hospitalityTitle": "Luxury Hospitality & Resorts",
+    "hospitalityDesc": "Pristine water quality is non-negotiable in the world's leading resorts. Our non-toxic, hygienically perfect PP-R systems guarantee that water remains exactly as intended from the source to the suite, eliminating heavy metal contamination and scaling.",
+    "municipalTitle": "Municipal Infrastructure",
+    "municipalDesc": "Cities rely on K-Aqua to deliver millions of liters daily. Engineered to resist scaling, corrosion, and extreme ground movements, our vast underground networks provide multi-generational reliability, significantly reducing maintenance overheads for public utilities."
+  },
+  "Stats": {
+    "countries": "Countries Served",
+    "meters": "Meters Installed",
+    "years": "Years of Excellence",
+    "failure": "Zero Failure Rate"
+  },
+  "Technical": {
+    "title": "Technical Superiority",
+    "description": "The foundation of every successful installation lies in the unmatched material properties of K-Aqua systems. We don't just supply pipes; we deliver a lifetime guarantee of performance.",
+    "features": {
+      "thermalTitle": "Thermal Stability",
+      "thermalDesc": "K-Aqua PP-R and PP-RCT pipes exhibit extraordinary thermal stability, capable of continuous operation at high temperatures without structural degradation.",
+      "corrosionTitle": "Absolute Corrosion Resistance",
+      "corrosionDesc": "Our polymer composition is inherently immune to both internal and external corrosion, ensuring water quality remains pristine and pipe interiors stay free of scaling.",
+      "pressureTitle": "High Pressure Tolerance",
+      "pressureDesc": "Engineered to withstand severe hydrostatic pressures, making it the ideal choice for high-rise buildings and demanding industrial applications."
+    },
+    "specsTitle": "Material Specifications",
+    "specs": {
+      "material": "Material Base",
+      "density": "Density",
+      "thermal": "Thermal Conductivity",
+      "linear": "Linear Expansion",
+      "lifespan": "Expected Lifespan"
+    }
+  }
+}

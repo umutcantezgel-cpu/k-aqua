@@ -1,0 +1,676 @@
+"use client";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Building2, Home, Activity, Droplets } from 'lucide-react';
+
+export default function HomeApplicationsSection() {
+  const applications = [
+    {
+      title: "Commercial & High-Rise Construction",
+      icon: <Building2 className="w-6 h-6" />,
+      description: "In vertical construction, pressure stability and weight reduction are paramount. K-Aqua systems deliver high-capacity fluid transport for skyscrapers, shopping malls, and office complexes. The lightweight nature of PP-R drastically reduces structural load compared to steel, while the secure fusion joints eliminate catastrophic failure risks in high-pressure riser shafts."
+    },
+    {
+      title: "Residential Water Supply",
+      icon: <Home className="w-6 h-6" />,
+      description: "Safeguarding public health begins with the delivery mechanism. Our potable water pipes are completely non-toxic, odor-neutral, and taste-neutral. They comply with the strictest international drinking water standards, ensuring that residential developments, apartment complexes, and single-family homes receive water exactly as purified at the source."
+    },
+    {
+      title: "Healthcare & Laboratory Facilities",
+      icon: <Activity className="w-6 h-6" />,
+      description: "Hospitals and laboratories demand absolute sterility and resistance to harsh chemical treatments. The biologically inactive surface of K-Aqua PP-R pipes prevents the formation of legionella and other biofilms. Furthermore, the material's chemical resistance ensures it withstands aggressive thermal and chemical disinfection protocols mandated in medical environments."
+    },
+    {
+      title: "Industrial Process Cooling & Heating",
+      icon: <Droplets className="w-6 h-6" />,
+      description: "Industrial manufacturing requires robust thermal management. Our fiberglass-reinforced multi-layer pipes provide exceptional insulation properties, drastically reducing energy loss in chilled water systems for HVAC and industrial process cooling. They resist the corrosive effects of glycol mixtures and industrial coolants, offering a maintenance-free lifecycle in harsh factory settings."
+    }
+  ];
+
+  return (
+    <section className="py-24 bg-slate-50 text-slate-900 border-t border-slate-200">
+      <div className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="text-center max-w-4xl mx-auto mb-20">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6">Engineered for Every Sector</h2>
+            <p className="text-xl text-slate-600 leading-relaxed">
+              Our advanced piping architectures are not limited by industry. By providing superior material performance across all critical metrics—pressure, temperature, purity, and longevity—K-Aqua systems are the foundational choice for diverse infrastructure projects worldwide.
+            </p>
+          </motion.div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {applications.map((app, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: idx * 0.1 }}
+              className="bg-white rounded-3xl p-8 border border-slate-200 hover:border-slate-300 transition-colors"
+            >
+              <div className="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center mb-6 text-primary">
+                {app.icon}
+              </div>
+              <h3 className="text-xl font-bold mb-4">{app.title}</h3>
+              <p className="text-slate-600 leading-relaxed text-sm">
+                {app.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import MagneticButton from '@/components/ui/MagneticButton';
+import { ArrowRight } from 'lucide-react';
+
+export default function HomeCTASection() {
+  return (
+    <section className="relative py-32 bg-white text-slate-900 overflow-hidden border-t border-slate-200">
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-100/50 to-transparent pointer-events-none" />
+      
+      <div className="relative w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12 text-center z-10">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="max-w-4xl mx-auto"
+        >
+          <h2 className="text-5xl lg:text-7xl font-bold tracking-tight mb-8 leading-[1.05]">
+            Specify the Apex of <br /> Water Infrastructure.
+          </h2>
+          <p className="text-xl text-slate-600 leading-relaxed mb-12 max-w-[60ch] mx-auto">
+            Our presence in the construction value chain is defined by an absolute commitment to material integrity. We do not just manufacture pipes; we architect the lifelines of modern civilization. Partner with K-Aqua for your next global project.
+          </p>
+
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+            <MagneticButton as="div" className="bg-slate-900 text-white hover:bg-slate-800 rounded-full !px-0 !py-0 w-full sm:w-auto">
+              <Link href="/contact" className="px-10 py-5 flex items-center justify-center gap-2 w-full text-lg">
+                Initiate Project <ArrowRight className="w-5 h-5" />
+              </Link>
+            </MagneticButton>
+            <MagneticButton as="div" className="bg-transparent border border-slate-200 text-slate-900 hover:bg-slate-50 rounded-full !px-0 !py-0 w-full sm:w-auto">
+              <Link href="/products" className="px-10 py-5 flex items-center justify-center gap-2 w-full text-lg">
+                View Technical Specs
+              </Link>
+            </MagneticButton>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { FileCheck, Award, BadgeCheck } from 'lucide-react';
+
+export default function HomeCertificationsSection() {
+  const certifications = [
+    {
+      title: "SKZ Certification",
+      authority: "Süddeutsches Kunststoff-Zentrum",
+      desc: "German certification confirming rigorous mechanical and thermal stability testing for plastic piping systems."
+    },
+    {
+      title: "WRAS Approval",
+      authority: "Water Regulations Advisory Scheme",
+      desc: "United Kingdom certification guaranteeing material compliance for safe transport of potable drinking water."
+    },
+    {
+      title: "DVGW Standards",
+      authority: "Deutscher Verein des Gas- und Wasserfaches",
+      desc: "Adherence to the highest German standards for hygiene and technical safety in water supply networks."
+    },
+    {
+      title: "ISO 9001:2015",
+      authority: "International Organization for Standardization",
+      desc: "Global standard affirming our relentless commitment to quality management and continuous manufacturing improvement."
+    }
+  ];
+
+  return (
+    <section className="py-24 bg-slate-50 border-t border-slate-200">
+      <div className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <div className="w-16 h-16 mx-auto rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center justify-center mb-6">
+              <FileCheck className="w-8 h-8 text-[#431074]" />
+            </div>
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-slate-900">
+              Verified by Global Authorities
+            </h2>
+            <p className="text-xl text-slate-600 leading-relaxed">
+              Trust in B2B engineering is not established through claims; it is forged through relentless external auditing. K-Aqua systems carry the most stringent international certifications, ensuring uncompromised compliance for massive infrastructure projects.
+            </p>
+          </motion.div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {certifications.map((cert, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: idx * 0.1 }}
+              className="bg-white p-8 rounded-3xl border border-slate-200 hover:border-slate-300 transition-colors shadow-sm text-center flex flex-col items-center"
+            >
+              <Award className="w-10 h-10 text-slate-300 mb-6" />
+              <h3 className="text-xl font-bold text-slate-900 mb-2">{cert.title}</h3>
+              <div className="text-xs font-bold uppercase tracking-wider text-[#431074] mb-4">{cert.authority}</div>
+              <p className="text-slate-600 text-sm leading-relaxed">{cert.desc}</p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/Accordion";
+
+export default function HomeFAQSection() {
+  const faqs = [
+    {
+      question: "What are the primary benefits of K-Aqua PP-R over copper or steel?",
+      answer: "K-Aqua PP-R entirely eliminates the risk of galvanic corrosion, scaling, and heavy metal leaching. It is significantly lighter, making installation faster and safer. Additionally, it offers vastly superior thermal insulation, reducing energy loss in hot water and HVAC systems, and provides superior acoustic dampening to prevent water hammer noise."
+    },
+    {
+      question: "How are K-Aqua pipes and fittings joined?",
+      answer: "We utilize homogeneous thermal socket fusion. The pipe and fitting are briefly heated to their melting point using a specialized welding tool, then pushed together. They fuse at the molecular level, creating a continuous, leak-proof conduit without the need for glue, solder, or mechanical weak points."
+    },
+    {
+      question: "What is the maximum operating temperature and pressure?",
+      answer: "While it depends on the specific SDR rating and application class, our advanced PP-RCT systems can operate continuously at temperatures up to 90°C and handle significant pressure loads (up to 10-20 bar) for over 50 years, compliant with DIN EN ISO 15874 standards."
+    },
+    {
+      question: "Are K-Aqua systems safe for potable drinking water?",
+      answer: "Absolutely. K-Aqua systems are certified by global authorities like WRAS and SKZ. The material is biologically and chemically inert, completely non-toxic, and opaque to prevent light transmittance (stopping algae growth), ensuring the water remains pure."
+    },
+    {
+      question: "Do you supply large-scale commercial and industrial projects?",
+      answer: "Yes, this is our core competency. We manufacture pipes up to massive 160mm diameters, complete with heavy-duty distribution manifolds, industrial valves, and brass transition inserts, specifically engineered for high-rise buildings, hospitals, and industrial cooling networks globally."
+    }
+  ];
+
+  return (
+    <section className="py-24 bg-slate-50 border-t border-slate-200">
+      <div className="w-full max-w-[800px] mx-auto px-6 sm:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-4xl font-bold tracking-tight mb-6 text-slate-900">
+            Frequently Asked Questions
+          </h2>
+          <p className="text-lg text-slate-600">
+            Technical answers for engineers, architects, and facility managers.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          <Accordion type="single" collapsible className="w-full bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+            {faqs.map((faq, idx) => (
+              <AccordionItem key={idx} value={`item-${idx}`}>
+                <AccordionTrigger className="text-left font-bold text-slate-900 hover:text-[#431074]">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-slate-600 leading-relaxed text-base">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Factory, Droplet, Globe, ShieldCheck } from 'lucide-react';
+
+export default function HomeFeaturesSection() {
+  const features = [
+    {
+      icon: <Factory className="w-8 h-8" />,
+      title: "Precision Manufacturing",
+      description: "Fabricated entirely in our state-of-the-art German facilities, each KWT fitting is molded with uncompromising micrometer precision. This intensive engineering process guarantees a seamless, friction-free internal geometry that actively prevents scaling, mitigates pressure loss, and maximizes fluid flow dynamics across complex piping networks. Our rigorous quality control ensures that every batch meets the absolute highest industrial benchmarks before deployment."
+    },
+    {
+      icon: <Droplet className="w-8 h-8" />,
+      title: "Material Superiority (PP-R & PP-RCT)",
+      description: "Utilizing next-generation Polypropylene Random Copolymer (PP-R) and Polypropylene Random Copolymer with modified crystallinity and temperature resistance (PP-RCT), our systems withstand extreme thermal stress and massive high-pressure differentials. These advanced thermoplastic polymers are fully biologically neutral and opaque, ensuring absolute water purity by preventing light transmittance and subsequent algae growth within the conduit."
+    },
+    {
+      icon: <Globe className="w-8 h-8" />,
+      title: "Global Deployment & Compatibility",
+      description: "From sprawling desert mega-structures enduring intense heat to subterranean alpine infrastructure subjected to freezing conditions, K-Aqua systems are certified and deployed globally. We provide a universal, unyielding solution that interfaces flawlessly with existing commercial and residential water management architectures. Our standardized dimensioning ensures cross-border compatibility for multinational engineering firms."
+    },
+    {
+      icon: <ShieldCheck className="w-8 h-8" />,
+      title: "Unparalleled System Longevity",
+      description: "Unlike traditional metallic pipes susceptible to corrosion, galvanic pitting, and tuberculation, our polymer science effectively immunizes the infrastructure against degradation. K-Aqua systems are engineered for an operational lifespan exceeding 50 years under standard conditions, drastically reducing total cost of ownership, minimizing maintenance downtime, and providing unparalleled peace of mind for facility managers and property developers."
+    }
+  ];
+
+  return (
+    <section className="py-24 bg-slate-50 border-t border-slate-200">
+      <div className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mb-16 max-w-4xl"
+        >
+          <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-slate-900">The Architecture of Water Transport</h2>
+          <p className="text-xl text-slate-600 leading-relaxed">
+            We do not compromise on structural integrity. Our competitive advantage lies in the relentless pursuit of material science perfection, delivering piping solutions that redefine industry standards for durability, efficiency, and safety.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {features.map((feature, idx) => (
+            <motion.article 
+              key={idx}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: idx * 0.1 }}
+              className="p-10 rounded-3xl bg-white border border-slate-200 shadow-sm hover:border-slate-300 hover:shadow-md transition-all group"
+            >
+              <div className="w-16 h-16 rounded-2xl bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-900 mb-8 group-hover:text-[#431074] group-hover:bg-[#431074]/5 transition-colors">
+                {feature.icon}
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-slate-900">{feature.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {feature.description}
+              </p>
+            </motion.article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import MagneticButton from '@/components/ui/MagneticButton';
+import { ArrowRight } from 'lucide-react';
+
+export default function HomeHeroSection() {
+  return (
+    <section className="relative min-h-[90vh] flex items-center bg-white overflow-hidden py-24">
+      <div className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="lg:col-span-7 flex flex-col items-start z-10">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-8 flex items-center space-x-3"
+          >
+            <div className="w-2 h-2 rounded-full bg-[#431074] animate-pulse" />
+            <span className="font-mono text-xs uppercase tracking-[0.2em] text-slate-600">Advanced Piping Solutions</span>
+          </motion.div>
+
+          <motion.h1 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="text-5xl lg:text-7xl font-bold leading-[1.05] tracking-tight mb-8 text-slate-900"
+          >
+            Leading the Future of <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-slate-500">Water Supply Infrastructure</span>
+          </motion.h1>
+
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-lg text-slate-600 max-w-[60ch] leading-relaxed mb-10"
+          >
+            K-Aqua, the core business field of KWT GmbH, represents the apex of global manufacturing for advanced pipes and fittings. We engineer mission-critical water supply architectures for residential, commercial, and industrial applications. Utilizing ultra-high-performance PP-R and PP-RCT plastic materials, we position ourselves not merely as a supplier, but as the fundamental manufacturer driving the modern construction value chain forward. Our systems guarantee absolute purity, exceptional thermal stability, and unprecedented operational lifespans in the most demanding environments on Earth.
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="flex flex-wrap items-center gap-6"
+          >
+            <MagneticButton as="div" className="bg-slate-900 text-white hover:bg-slate-800 rounded-full !px-0 !py-0">
+              <Link href="/products" className="px-8 py-4 flex items-center gap-2">
+                Explore Our Ecosystem <ArrowRight className="w-4 h-4" />
+              </Link>
+            </MagneticButton>
+            <MagneticButton as="div" className="bg-white border border-slate-200 text-slate-900 hover:bg-slate-50 rounded-full shadow-sm !px-0 !py-0">
+              <Link href="/contact" className="px-8 py-4 flex items-center gap-2">
+                Consult an Engineer
+              </Link>
+            </MagneticButton>
+          </motion.div>
+        </div>
+
+        <div className="lg:col-span-5 relative h-[50vh] lg:h-[70vh] rounded-3xl overflow-hidden border border-slate-200 shadow-sm bg-slate-50">
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="w-full h-full bg-slate-100 flex items-center justify-center"
+          >
+            <div className="text-slate-400 font-mono text-sm">Industrial Flow Architecture</div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { TestTubeDiagonal, Thermometer, ShieldAlert } from 'lucide-react';
+
+export default function HomeMaterialsScienceSection() {
+  const materials = [
+    {
+      icon: <TestTubeDiagonal className="w-8 h-8" />,
+      title: "Biological & Chemical Neutrality",
+      description: "Water purity is absolute. The PP-R matrix is completely inert, meaning it does not react with the conveyed fluid or ambient chemicals. It prevents the leaching of heavy metals—a common catastrophic failure in brass and copper systems—while its opaque nature blocks UV light, creating an environment entirely hostile to algae and biofilm proliferation."
+    },
+    {
+      icon: <Thermometer className="w-8 h-8" />,
+      title: "Extreme Thermal Stability",
+      description: "K-Aqua PP-RCT (Polypropylene Random Copolymer with modified crystallinity and temperature resistance) exhibits an elevated crystalline structure. This microscopic advantage translates into macroscopic resilience, allowing the system to operate continuously at high temperatures (up to 90°C) and extreme pressures without mechanical deformation or bursting."
+    },
+    {
+      icon: <ShieldAlert className="w-8 h-8" />,
+      title: "Acoustic Insulation & Stress Damping",
+      description: "Fluid dynamics inevitably generate acoustic vibration. Unlike rigid metallic pipes that act as resonance chambers for water hammer and flow noise, the elastic properties of K-Aqua polymers naturally absorb and dampen acoustic energy. This makes our systems uniquely suited for luxury residential developments and sound-sensitive healthcare environments."
+    }
+  ];
+
+  return (
+    <section className="py-24 bg-white border-t border-slate-200">
+      <div className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="flex flex-col items-start">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-8 text-slate-900 leading-[1.1]">
+                Material Science: <br /> The Polymer Advantage
+              </h2>
+              <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+                <p>
+                  At KWT GmbH, we do not merely shape plastic; we manipulate macromolecular structures. The foundation of the K-Aqua ecosystem is our proprietary blend of Polypropylene Random Copolymers. By carefully controlling the polymerization process, we achieve a material that bridges the gap between the rigidity needed for structural integrity and the elasticity required to withstand extreme hydrostatic shock.
+                </p>
+                <p>
+                  Traditional metallic systems are inherently flawed. They corrode, they scale, and they eventually fail. Our polymer science offers a definitive solution. We provide an infrastructure material that is lighter than steel, more durable than copper, and infinitely more reliable over a multi-decade operational lifespan.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6">
+            {materials.map((item, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: idx * 0.1 }}
+                className="flex items-start gap-6 p-8 rounded-3xl bg-slate-50 border border-slate-200 hover:border-slate-300 transition-colors"
+              >
+                <div className="flex-shrink-0 w-16 h-16 rounded-2xl bg-white border border-slate-100 flex items-center justify-center text-slate-900 shadow-sm">
+                  {item.icon}
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-3 text-slate-900">{item.title}</h3>
+                  <p className="text-slate-600 leading-relaxed">{item.description}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Link2 } from 'lucide-react';
+
+export default function HomePartnershipSection() {
+  return (
+    <section className="py-24 bg-white border-t border-slate-200 overflow-hidden">
+      <div className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="order-2 lg:order-1 relative h-[60vh] rounded-3xl overflow-hidden bg-slate-50 border border-slate-200"
+          >
+            <div className="absolute inset-0 flex items-center justify-center p-12">
+               <div className="text-center">
+                 <div className="text-slate-900 font-bold text-4xl tracking-tight mb-4">KWT × KESSEL</div>
+                 <div className="text-slate-500 font-mono text-sm uppercase tracking-widest">Strategic Alliance</div>
+               </div>
+            </div>
+          </motion.div>
+
+          <div className="order-1 lg:order-2 flex flex-col items-start">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-200 shadow-sm flex items-center justify-center mb-8">
+                <Link2 className="w-6 h-6 text-[#431074]" />
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-8 text-slate-900 leading-[1.1]">
+                The KESSEL Partnership: <br /> Unifying Liquid Transport
+              </h2>
+              <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+                <p>
+                  Engineering excellence does not exist in a vacuum. To provide a truly comprehensive solution for modern architecture, KWT GmbH has formed a profound strategic alliance with KESSEL AG — the undisputed global leader in drainage technology. This partnership represents a paradigm shift in building services engineering.
+                </p>
+                <p>
+                  While K-Aqua pioneers the supply and distribution of pressurized clean water, KESSEL masters the safe, hygienic evacuation and treatment of wastewater. Together, we bridge the gap. We offer civil engineers, architects, and developers a unified, uncompromising ecosystem that governs the complete lifecycle of liquid transport within a structure.
+                </p>
+                <p>
+                  This synergy means streamlined procurement, guaranteed material compatibility, and a singular standard of unrelenting German quality. When you specify K-Aqua for supply and KESSEL for drainage, you are engineering a building that is functionally immortal against water-related degradation. We do not just share a philosophy; we share a commitment to mechanical perfection.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Settings2, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
+
+export default function HomeProductEcosystemSection() {
+  const products = [
+    {
+      name: "PP-R & PP-RCT Pipe Networks",
+      desc: "Our flagship multi-layer and single-layer piping systems. Engineered with a proprietary fiberglass-reinforced middle layer to drastically reduce linear thermal expansion, these pipes are the definitive choice for hot and cold potable water, HVAC chilled water, and industrial fluid transport. Available in diameters ranging from 20mm to massive 160mm commercial calibers."
+    },
+    {
+      name: "Precision Socket Fusion Fittings",
+      desc: "An exhaustive catalog of over 400 specialized fittings—including elbows, tees, reducers, and end caps—designed for flawless homogeneous thermal fusion. The resulting molecular bond creates a continuous system entirely free of weak points, eliminating the risk of micro-leaks inherent in mechanical or threaded connections."
+    },
+    {
+      name: "Transition Fittings & Brass Inserts",
+      desc: "Bridging the gap between polymer innovation and existing metallic infrastructure. Our transition fittings feature ultra-high-grade brass inserts securely molded into the PP-R matrix, engineered to withstand immense torque during installation while preventing rotational slippage. Ideal for connecting to pumps, boilers, and legacy steel or copper networks."
+    },
+    {
+      name: "Industrial Valves & Distribution Manifolds",
+      desc: "Complete fluid control solutions integrated natively into the K-Aqua ecosystem. Our robust PP-R ball valves, concealed stop valves, and advanced distribution manifolds provide precise flow regulation. Manufactured for heavy-duty cycling, they ensure zero-leak operation and require zero maintenance throughout their operational lifecycle."
+    }
+  ];
+
+  return (
+    <section className="py-24 bg-white border-t border-slate-200">
+      <div className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+          <div className="lg:col-span-5 sticky top-24">
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-200 shadow-sm flex items-center justify-center mb-6">
+                <Settings2 className="w-6 h-6 text-[#431074]" />
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-slate-900">
+                Comprehensive Product Ecosystem
+              </h2>
+              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+                K-Aqua is not merely a component manufacturer; we provide a holistic, end-to-end fluid transport ecosystem. From the primary municipal supply line down to the final architectural fixture connection, our portfolio covers every technical requirement for modern plumbing and HVAC engineering.
+              </p>
+              <Link href="/products" className="inline-flex items-center gap-2 font-semibold text-slate-900 hover:text-[#431074] transition-colors">
+                Download Technical Catalog <ArrowRight className="w-4 h-4" />
+              </Link>
+            </motion.div>
+          </div>
+
+          <div className="lg:col-span-7 space-y-8">
+            {products.map((prod, idx) => (
+              <motion.div 
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: idx * 0.1 }}
+                className="p-8 rounded-3xl bg-slate-50 border border-slate-200 hover:border-slate-300 transition-colors"
+              >
+                <h3 className="text-2xl font-bold mb-4 text-slate-900">{prod.name}</h3>
+                <p className="text-slate-600 leading-relaxed">
+                  {prod.desc}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Leaf, Recycle, Factory } from 'lucide-react';
+
+export default function HomeSustainabilitySection() {
+  return (
+    <section className="py-24 bg-white border-t border-slate-200">
+      <div className="w-full max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+          <div className="lg:col-span-6 flex flex-col items-start">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <div className="w-12 h-12 rounded-xl bg-green-50 border border-green-100 flex items-center justify-center mb-8">
+                <Leaf className="w-6 h-6 text-green-700" />
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mb-8 text-slate-900 leading-[1.1]">
+                Ecological Responsibility & <br /> Green Building Standards
+              </h2>
+              <div className="space-y-6 text-lg text-slate-600 leading-relaxed mb-8">
+                <p>
+                  Modern infrastructure must not compromise the environment it occupies. KWT GmbH integrates profound ecological responsibility into every phase of the K-Aqua lifecycle. Polypropylene (PP-R) is intrinsically a green material; it requires significantly less energy to manufacture and transport compared to heavy metals like steel or copper.
+                </p>
+                <p>
+                  Our piping networks directly contribute to green building certifications such as LEED and BREEAM. By providing exceptional thermal insulation, they radically decrease energy consumption in HVAC systems. Furthermore, at the end of their multi-decade lifespan, K-Aqua systems are 100% mechanically recyclable, ensuring they re-enter the industrial manufacturing loop rather than occupying landfills.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="p-8 bg-slate-50 rounded-3xl border border-slate-200"
+            >
+              <Recycle className="w-10 h-10 text-green-700 mb-6" />
+              <h3 className="text-xl font-bold text-slate-900 mb-3">100% Recyclable</h3>
+              <p className="text-slate-600 leading-relaxed text-sm">
+                PP-R can be fully re-granulated and reused in secondary industrial applications, creating a closed-loop material lifecycle.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="p-8 bg-slate-50 rounded-3xl border border-slate-200"
+            >
+              <Factory className="w-10 h-10 text-green-700 mb-6" />
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Low Carbon Footprint</h3>
+              <p className="text-slate-600 leading-relaxed text-sm">
+                Optimized extrusion processes and a lightweight profile massively reduce energy expenditure during both fabrication and global transit.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

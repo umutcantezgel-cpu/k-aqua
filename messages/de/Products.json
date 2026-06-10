@@ -1,0 +1,153 @@
+{
+  "ApplicationAreas": {
+    "title": "Einsatzbereiche.",
+    "subtitle": "K-Aqua ist keine Einzellösung, sondern eine vielseitige Plattform für anspruchsvolle Flüssigkeitstransporte im Wohn-, Gewerbe- und Industriebereich.",
+    "cards": {
+      "potable": { "title": "Trinkwassernetze", "desc": "Absolute Hygiene für die Verteilung von warmem und kaltem Trinkwasser in Wohn-, Gewerbe- und medizinischen Einrichtungen. Keine Schwermetallauswaschung." },
+      "climate": { "title": "HLK-Systeme", "desc": "Optimiert für Kaltwasserleitungen, Heizkörperanschlüsse und Fußbodenheizungen. Hervorragende Wärmedämmung minimiert den Energieverlust." },
+      "industrial": { "title": "Industrieflüssigkeiten", "desc": "Hohe chemische Beständigkeit ermöglicht den sicheren Transport von aggressiven Säuren, Laugen und Industriekühlwasser unter anspruchsvollen Bedingungen." },
+      "agricultural": { "title": "Landwirtschaftliche Bewässerung", "desc": "Langlebiger Einsatz in Umgebungen mit hoher UV-Strahlung und hohem Druck." },
+      "compressed": { "title": "Druckluft", "desc": "Ein leckagefreies, korrosionsbeständiges Netzwerk für die Druckluftverteilung. Garantiert saubere Luft ohne Rostpartikel für pneumatische Werkzeuge." },
+      "shipbuilding": { "title": "Schiffbau", "desc": "Marine-taugliche Widerstandsfähigkeit gegen salzhaltige Umgebungen." }
+    }
+  },
+  "CTA": {
+    "title": "Planung starten.",
+    "subtitle": "Laden Sie das komplette Produktsortiment als PDF herunter. Informieren Sie sich über technische Parameter, molekulare Spezifikationen und extreme Testprotokolle.",
+    "download": "Produktsortiment herunterladen",
+    "contact": "Technik kontaktieren",
+    "systemStatus": "Systemstatus:",
+    "operational": "Betriebsbereit"
+  },
+  "CompetitiveAdvantage": {
+    "title": "Die Wettbewerbsmatrix.",
+    "subtitle": "Herkömmliche Materialien sind aufgrund ihrer Verbindungsmethoden und chemischen Anfälligkeit kompromittiert. K-Aqua setzt einen neuen Maßstab für infrastrukturelle Langlebigkeit.",
+    "table": {
+      "feature": "Eigenschaft",
+      "rows": {
+        "joining": "Verbindungstechnik",
+        "corrosion": "Korrosionsbeständigkeit",
+        "scale": "Kalkablagerung",
+        "thermal": "Wärmedämmung",
+        "acoustic": "Schalldämmung",
+        "lifespan": "Lebensdauer"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Technische Anfragen.",
+    "subtitle": "Umfassende Antworten für Ingenieure, Architekten und Installateure, die K-Aqua-Systeme spezifizieren.",
+    "questions": {
+      "diff": { "q": "Was ist der Unterschied zwischen PP-R und PP-RCT?", "a": "PP-R (Polypropylen-Random-Copolymer) ist das Standardmaterial für zuverlässige Rohrnetze. PP-RCT (Polypropylen-Random-Copolymer mit modifizierter Kristallinität und Temperaturbeständigkeit) weist eine besondere kristalline Struktur auf, die eine höhere Druckbeständigkeit bei erhöhten Temperaturen ermöglicht." },
+      "hvac": { "q": "Können K-Aqua-Rohre für Kaltwasser- und HLK-Systeme verwendet werden?", "a": "Absolut. Die von Natur aus niedrige Wärmeleitfähigkeit verringert das Risiko von Kondenswasserbildung erheblich." },
+      "weld": { "q": "Wie verhindert das Polyfusionsschweißen Lecks?", "a": "Beim Polyfusionsschweißen werden Rohr und Fitting auf den genauen Schmelzpunkt erhitzt und dann zusammengefügt. Es entsteht eine einzige, makromolekulare Matrix ohne Schwachstellen." },
+      "safe": { "q": "Sind diese Rohre sicher für Trinkwasser?", "a": "Ja. K-Aqua-Systeme werden aus hochwertigem Polypropylen hergestellt und garantieren, dass keine Schwermetalle oder Mikroplastik ins Wasser gelangen." },
+      "life": { "q": "Wie hoch ist die Lebenserwartung einer K-Aqua-Installation?", "a": "Bei fachgerechter Installation und Betrieb innerhalb der Parameter ist das System für eine Lebensdauer von über 50 Jahren ausgelegt." }
+    }
+  },
+  "FittingsArsenal": {
+    "title": "Das Arsenal.",
+    "subtitle1": "Ein System ist nur so stark wie sein schwächstes Glied. Unsere Fittings sind in Größen von ",
+    "subtitle2": "20 mm bis 315 mm",
+    "subtitle3": " präzisionsgefertigt.",
+    "footer": "Jedes einzelne Zubehörteil ist so gefertigt, dass es makellos mit dem Rohrleitungssystem verzahnt ist. Die Kompromisslosigkeit ist unser Standard.",
+    "items": {
+      "valves": { "title": "Premium Ventile", "desc": "Kontrollmechanismen ohne Leckage." },
+      "unions": { "title": "Hochdruckverschraubungen", "desc": "Fehlerfreie mechanische Verbindungen." },
+      "cutting": { "title": "Schneidwerkzeuge", "desc": "Mikrometergenaues Trennen von Rohren." },
+      "welding": { "title": "Schweißgeräte", "desc": "Thermisches Fusions-Equipment für absolute Homogenisierung." }
+    }
+  },
+  "Hero": {
+    "badge": "Systemarchitektur",
+    "title": "PP-R & PP-RCT",
+    "subtitle": "Der Höhepunkt der Sanitärtechnik. Unsere Rohrleitungssysteme wurden für reines Trinkwasser entwickelt und definieren die strukturelle Integrität in der modernen Bauindustrie neu.",
+    "button": "System initialisieren"
+  },
+  "Installation": {
+    "title": "Die Physik der Polyfusion.",
+    "subtitle1": "Mechanische Verbindungen versagen irgendwann. O-Ringe verschleißen. K-Aqua vermeidet diese Schwachstellen durch thermische Polyfusion.",
+    "subtitle2": "Durch Erhitzen des Materials bis zum Schmelzpunkt wird die molekulare Struktur flüssig und verschmilzt zu einer einzigen Einheit.",
+    "steps": {
+      "cut": { "title": "Präzisionsschnitt", "desc": "Das Rohr wird mit Spezialwerkzeugen senkrecht durchtrennt, um eine makellose Verbindungsfläche zu gewährleisten." },
+      "thermal": { "title": "Thermische Aktivierung", "desc": "Rohr und Fitting werden gleichzeitig auf 260°C erhitzt." },
+      "polyfusion": { "title": "Polyfusion", "desc": "Die aktivierten Komponenten werden zusammengefügt. Die Polymerketten greifen sofort ineinander." },
+      "homo": { "title": "Homogenisierung", "desc": "Nach dem Abkühlen verschwindet die Grenzschicht vollständig. Die Teile werden zu einem einzigen Material." }
+    }
+  },
+  "MaterialScience": {
+    "title": "Die Materialwissenschaft: PP-R vs. PP-RCT.",
+    "subtitle": "Fortschrittliche Polymertechnik.",
+    "p1": "Standard-PP-R ist seit langem die Basis für den hygienischen Wassertransport. PP-RCT hebt diese Basis durch einen Beta-Nukleierungsprozess jedoch an.",
+    "p2": "Diese kontrollierte Kristallisation führt zu einem dichteren, hochgeordneten molekularen Netzwerk, was eine höhere Druckfestigkeit ermöglicht.",
+    "badge": "Beta-kristalline Struktur",
+    "features": {
+      "beta": "Beta-Kristallinität",
+      "pressure": "Höhere Druckfestigkeit",
+      "wall": "Reduzierte Wandstärke",
+      "flow": "Erhöhte Durchflussrate"
+    }
+  },
+  "QualityAssurance": {
+    "title": "Kompromisslose Qualitätssicherung.",
+    "subtitle": "Jeder Millimeter K-Aqua Rohr wird strengen Testprotokollen unterzogen, um eine Lebensdauer von über 50 Jahren unter Dauerbelastung zu gewährleisten.",
+    "certs": {
+      "din": { "title": "DIN 8077 / 8078", "desc": "Deutsche Norm für PP-Rohre, Abmessungen und Qualitätsanforderungen." },
+      "dvgw": { "title": "DVGW", "desc": "Zertifiziert für den sicheren Transport von Trinkwasser ohne Auswaschung." },
+      "iso": { "title": "ISO 15874", "desc": "Internationale Norm für Kunststoff-Rohrleitungssysteme." },
+      "skz": { "title": "SKZ-Prüfung", "desc": "Kontinuierliche Überwachung zur Gewährleistung der molekularen Stabilität." }
+    }
+  },
+  "SDRRatings": {
+    "title": "Dimensionale Skalierung.",
+    "subtitle1": "Wir gehen bei der Größe keine Kompromisse ein. Unsere Dimensionen beginnen bei flexiblen ",
+    "subtitle2": "20 mm",
+    "subtitle3": " und reichen bis zu kolossalen ",
+    "subtitle4": "630 mm",
+    "subtitle5": " für massive industrielle Anwendungen.",
+    "ratings": {
+      "sdr6": { "sdr": "SDR 6", "desc": "Extremer Druck. Maximale Wandstärke für raue Betriebsumgebungen.", "pressure": "PN 20" },
+      "sdr7": { "sdr": "SDR 7.4", "desc": "Hoher Druck. Optimale Balance für gewerbliche Warmwassernetze.", "pressure": "PN 16" },
+      "sdr9": { "sdr": "SDR 9", "desc": "Erhöhter Durchfluss. Verstärkte Struktur bei optimiertem Innendurchmesser.", "pressure": "PN 12.5" },
+      "sdr11": { "sdr": "SDR 11", "desc": "Standardverteilung. Der Goldstandard für Kalt- und Warmwasser.", "pressure": "PN 10" },
+      "sdr17": { "sdr": "SDR 17", "desc": "Maximales Volumen. Dünnwandige Architektur für hohen Durchfluss.", "pressure": "PN 6" }
+    }
+  },
+  "Sustainability": {
+    "title": "Ökologische Verantwortung.",
+    "p1": "Nachhaltigkeit in der Industrie erfordert einen vielschichtigen Ansatz: Minimierung der grauen Energie, Maximierung der Effizienz und Recyclingfähigkeit.",
+    "p2": "K-Aqua-Systeme benötigen deutlich weniger Energie bei der Herstellung. Die glatte Innenfläche reduziert zudem die Flüssigkeitsreibung.",
+    "p3": "Am Ende seiner Lebensdauer ist die Polypropylenmatrix zu 100% recycelbar.",
+    "energy": "Graue Energie (MJ/kg)",
+    "low": "Niedrig",
+    "heat": "Wärmeverlustprofil",
+    "minimal": "Minimal",
+    "recyclability": "Material-Recyclingfähigkeit"
+  },
+  "TechnicalSpecs": {
+    "title": "Technische Spezifikationen.",
+    "subtitle": "Strenge Technik erfordert präzise Daten. Die Eigenschaften von K-Aqua werden nach ISO- und DIN-Normen geprüft.",
+    "headers": {
+      "property": "Eigenschaft",
+      "value": "Wert",
+      "method": "Prüfmethode"
+    },
+    "specs": {
+      "density": { "property": "Dichte", "value": "0.895 - 0.905 g/cm³", "method": "ISO 1183" },
+      "melt": { "property": "Schmelzflussrate (230°C/2.16kg)", "value": "0.2 - 0.5 g/10min", "method": "ISO 1133" },
+      "thermal": { "property": "Wärmeleitfähigkeit bei 20°C", "value": "0.24 W/(m·K)", "method": "DIN 52612" },
+      "expansion": { "property": "Längenausdehnungskoeffizient", "value": "0.15 mm/(m·K)", "method": "DIN 53752" },
+      "modulus": { "property": "Elastizitätsmodul", "value": "800 MPa", "method": "ISO 178" },
+      "yield": { "property": "Streckspannung", "value": "25 MPa", "method": "ISO 527-2" }
+    }
+  },
+  "TechnologyCore": {
+    "title1": "Molekulare",
+    "title2": "Dominanz.",
+    "subtitle": "Einlagige & mehrlagige glasfaserverstärkte Strukturen.",
+    "p1": "K-Aqua PP-R und PP-RCT stellen einen Paradigmenwechsel dar und garantieren absolute Hygiene ohne Korrosion.",
+    "p2": "Durch die direkte Einbettung von hochfesten Glasfasern wird die thermische Ausdehnung drastisch minimiert und die Drucktoleranz erhöht.",
+    "p3": "Das Polyfusionsschweißen verschmilzt Rohr und Fitting zu einer einzigen, kontinuierlichen molekularen Kette.",
+    "badge": "Polymatrix / Visualisierung"
+  }
+}

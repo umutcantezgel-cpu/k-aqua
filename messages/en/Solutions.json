@@ -1,0 +1,113 @@
+{
+  "Hero": {
+    "title1": "Sustainable",
+    "title2": "PP-R Pipe",
+    "title3": "Systems",
+    "subtitle": "Environmentally responsible plumbing solutions engineered for the future. We are committed to reducing atmospheric pollution, conserving resources, and manufacturing superior thermoplastic polymers that outperform traditional materials."
+  },
+  "Applications": {
+    "title": "Industry Applications",
+    "subtitle": "A versatile engineering solution deployed across multiple sectors, engineered to solve specific fluid transport challenges.",
+    "commercialTitle": "Commercial Plumbing",
+    "commercialDesc": "Ideal for high-rise commercial buildings, hospitals, and hotels where reliable potable water distribution and pressure consistency are strictly mandated. Zero corrosion guarantees clean water delivery for decades.",
+    "hvacTitle": "HVAC Chilled Water",
+    "hvacDesc": "Highly efficient for air conditioning and chilled water systems. The low thermal conductivity of PP-R minimizes heat gain, preventing condensation buildup and maintaining precise temperature control.",
+    "heatingTitle": "Radiator Heating",
+    "heatingDesc": "Engineered to handle continuous high-temperature stress, making it the premier choice for central radiator heating networks and underfloor heating applications.",
+    "industrialTitle": "Industrial Fluid Transport",
+    "industrialDesc": "Exceptional chemical resistance allows for the safe conveyance of aggressive industrial fluids, compressed air, and manufacturing chemicals without degrading the pipe matrix.",
+    "agricultureTitle": "Agricultural Irrigation",
+    "agricultureDesc": "Durable and UV-resistant options available for large-scale agricultural irrigation, offering high impact resistance against environmental wear and extreme weather conditions."
+  },
+  "Certifications": {
+    "title": "Global Certifications",
+    "subtitle": "Engineered in Germany, trusted globally. Our products are rigorously tested to meet and exceed international quality assurance standards.",
+    "dinTitle": "DIN 8077 / DIN 8078",
+    "dinDesc": "German Institute for Standardization compliance for polypropylene pipe dimensions and quality testing.",
+    "isoTitle": "ISO 9001:2015",
+    "isoDesc": "Internationally recognized standard for robust Quality Management Systems in manufacturing.",
+    "dvgwTitle": "DVGW Certified",
+    "dvgwDesc": "Approved for safe use in drinking water installations by the German Technical and Scientific Association for Gas and Water.",
+    "skzTitle": "SKZ Testing",
+    "skzDesc": "Rigorous third-party testing and quality surveillance by the German Plastics Center."
+  },
+  "Comparative": {
+    "title": "Material Comparison",
+    "subtitle": "When evaluated against traditional plumbing materials, K-Aqua PP-R demonstrates superior capabilities in preventing corrosion, reducing scale build-up, and ensuring long-term system integrity.",
+    "perfFeature": "Performance Feature",
+    "kAqua": "K-Aqua PP-R",
+    "copper": "Copper",
+    "steel": "Galvanized Steel",
+    "pvc": "PVC / CPVC",
+    "f1": "Corrosion Resistant",
+    "f2": "Scale Build-Up Prevention",
+    "f3": "Thermal Insulation (Low Heat Loss)",
+    "f4": "Acoustic Dampening (Low Noise)",
+    "f5": "Toxic-Free Installation (No Glues/Solder)",
+    "f6": "High Impact Resistance"
+  },
+  "Cta": {
+    "title": "Specify K-Aqua for Your Next Project",
+    "subtitle": "Download our comprehensive technical documentation, including CAD files, pressure specifications, and global certification documents.",
+    "button1": "Download Technical Specs",
+    "button2": "Contact Engineering Team"
+  },
+  "Durability": {
+    "title": "Uncompromising Durability",
+    "subtitle": "Built to outlast the buildings they inhabit. Our systems provide peace of mind through exceptional engineering and material science.",
+    "lifespanTitle": "50+ Year Lifespan",
+    "lifespanDesc": "Engineered for longevity, K-Aqua PP-R piping systems are certified to operate continuously for over 50 years under standard operating pressures and temperatures, eliminating the need for periodic system overhauls.",
+    "pressureTitle": "High Pressure Resistance",
+    "pressureDesc": "Our homogeneous fusion joints and structurally reinforced pipe walls allow the system to withstand severe pressure fluctuations and water hammer effects, surpassing the stress tolerances of traditional materials.",
+    "tempTitle": "Temperature Extremes",
+    "tempDesc": "Designed to operate flawlessly across a broad thermal spectrum. From deep chilling applications to high-temperature radiator heating networks, the material maintains its structural integrity without warping or degrading."
+  },
+  "EconomicROI": {
+    "title": "Economic ROI",
+    "subtitle": "Beyond engineering superiority, K-Aqua delivers profound economic advantages through rapid installation, energy efficiency, and eliminated maintenance.",
+    "fasterTitle": "Faster Installation",
+    "fasterDesc": "Thermal fusion joining drastically reduces labor time compared to welding steel or soldering copper, accelerating project timelines and reducing labor costs.",
+    "maintenanceTitle": "Maintenance Costs",
+    "maintenanceDesc": "Scale-free and corrosion-resistant properties mean zero routine internal maintenance, significantly lowering operational expenditures over the building's lifecycle.",
+    "heatTitle": "Less Heat Loss",
+    "heatDesc": "Superior thermal insulation retains heat in hot water lines much more effectively than metal piping, leading to measurable energy efficiency and utility savings."
+  },
+  "Environment": {
+    "title": "Environmental Integrity",
+    "p1": "Before modern polypropylene extraction, propylene and ethylene waste gases from petroleum processing were simply burned off, releasing significant atmospheric pollution. Today, these gases are upcycled into polypropylene, drastically reducing manufacturing emissions and preventing harmful flares.",
+    "p2": "Our manufacturing facilities employ a state-of-the-art closed cooling cycle. This means water is continuously circulated and chilled without discharging into local rivers, streams, or lakes, completely eliminating thermal pollution and wastewater run-off.",
+    "p3": "Because K-Aqua PP-R pipes are significantly lighter than metal alternatives, transportation requires less fuel, directly contributing to a significantly reduced carbon footprint from factory to job site.",
+    "diagram": "Environmental Process Diagram"
+  },
+  "HealthSafety": {
+    "title": "Health & Hygiene",
+    "subtitle": "Setting the international standard for hygienic fluid transport. Our materials prioritize human health and acoustic comfort above all.",
+    "potableTitle": "Potable Water Safety",
+    "potableDesc": "Manufactured from food-grade plumbing materials, ensuring that drinking water remains completely uncontaminated, tasteless, and odorless from source to tap.",
+    "legionellaTitle": "Legionella Resistance",
+    "legionellaDesc": "The exceedingly smooth internal surface of PP-R prevents the formation of biofilms and scale, effectively neutralizing the breeding grounds for Legionella and other harmful bacteria.",
+    "toxicTitle": "Non-Toxic Architecture",
+    "toxicDesc": "Installation relies on heat fusion rather than toxic glues, solvents, or lead-based solders, maintaining absolute chemical purity within the piping network.",
+    "acousticTitle": "Acoustic Insulation",
+    "acousticDesc": "The inherent density and elasticity of our polymer structure provide exceptional noise reduction, severely dampening flow noise and water hammer for quieter building environments."
+  },
+  "MaterialScience": {
+    "title": "Advanced Material Science",
+    "p1": "At the core of our solutions lies Polypropylene Random Copolymer (PP-R/PP-RCT), a sophisticated thermoplastic polymer engineered for exceptional performance. Unlike traditional materials, its unique molecular structure provides outstanding chemical resistance and thermal stability.",
+    "p2": "The copolymerization process introduces ethylene into the propylene chain, resulting in a highly flexible yet durable matrix. This prevents internal scaling, maintains a smooth internal surface, and eliminates the risk of heavy metal leaching, ensuring absolute purity in fluid transport.",
+    "chemicalTitle": "Chemical Resistance",
+    "chemicalDesc": "Highly resistant to acidic and alkaline solutions, operating safely in aggressive environments without degrading or weakening the pipe wall.",
+    "thermalTitle": "Thermal Stability",
+    "thermalDesc": "Maintains structural integrity across extreme temperature gradients, making it ideal for both high-heat industrial applications and chilled water systems."
+  },
+  "Recyclability": {
+    "title": "Lifecycle & Recyclability",
+    "subtitle": "Engineered for a sustainable future, our PP-R systems represent the pinnacle of zero-waste manufacturing and end-of-life material recovery.",
+    "recyclableTitle": "100% Recyclable Pipes",
+    "recyclableDesc": "K-Aqua PP-R pipes are 100% recyclable at the end of their 50+ year lifespan. Unlike cross-linked plastics (PEX) or composite metals, polypropylene can be melted down and repurposed without complex chemical separation.",
+    "resinTitle": "Resin Code 5",
+    "resinDesc": "Categorized under Resin Identification Code 5, our materials are highly prized in the secondary recycling market. This high-grade polymer retains significant structural integrity, making it ideal for secondary industrial applications.",
+    "zeroWasteTitle": "Zero Waste Manufacturing",
+    "zeroWasteDesc": "During the extrusion and injection molding processes, any off-cuts or production scrap are immediately reground and reintroduced into non-critical manufacturing lines, ensuring absolute minimal landfill waste."
+  }
+}

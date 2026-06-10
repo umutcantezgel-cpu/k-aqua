@@ -1,0 +1,75 @@
+{
+  "CTA": {
+    "title": "Specifica K-Aqua per il tuo prossimo progetto.",
+    "description": "Unisciti alle migliaia di sviluppatori globali che si rifiutano di scendere a compromessi sulla qualità. Connettiti con il nostro team di ingegneri per progettare l'architettura del tuo sistema.",
+    "button": "Avvia la consultazione"
+  },
+  "CaseStudies": {
+    "title": "Casi di studio in primo piano",
+    "description": "Esplora il nostro portafoglio globale di installazioni di successo e scopri come K-Aqua risolve complesse sfide ingegneristiche.",
+    "viewFull": "Visualizza il caso di studio completo"
+  },
+  "FAQ": {
+    "title": "Domande frequenti",
+    "description": "Approfondimenti sulle nostre implementazioni globali e sulle nostre capacità tecniche.",
+    "questions": {
+      "q1": "In quali tipi di progetti vengono tipicamente installati i tubi K-Aqua PP-R?",
+      "a1": "I sistemi K-Aqua PP-R sono altamente versatili e sono specificati a livello globale per reti di approvvigionamento idrico municipale, resort alberghieri di lusso, sovrastrutture commerciali a molti piani e strutture industriali che richiedono tubazioni resistenti agli agenti chimici.",
+      "q2": "Come si comportano i sistemi K-Aqua a temperature estreme?",
+      "a2": "I nostri tubi in PP-R e PP-RCT sono progettati per una stabilità termica superiore. Mantengono l'integrità strutturale e funzionano perfettamente sia in condizioni di gelo che in ambienti industriali ad alta temperatura.",
+      "q3": "Perché gli ingegneri scelgono K-Aqua rispetto alle tradizionali tubazioni in metallo?",
+      "a3": "I sistemi polimerici K-Aqua eliminano il rischio di corrosione e incrostazioni, che sono punti di guasto comuni nei tradizionali tubi in metallo. Inoltre, i nostri sistemi sono notevolmente più leggeri, più veloci da installare e vantano una durata operativa che supera i 50 anni.",
+      "q4": "I sistemi di tubazioni K-Aqua sono adatti per grattacieli?",
+      "a4": "Sì. I nostri sistemi vengono frequentemente impiegati nei grattacieli a causa della loro capacità di resistere a immense pressioni idrostatiche senza degrado o perdita di pressione in decenni di funzionamento continuo."
+    }
+  },
+  "Hero": {
+    "badge": "Implementazione globale",
+    "title1": "Progettato per gli",
+    "title2": "estremi del mondo.",
+    "description": "Negli ultimi decenni, i prodotti K-Aqua si sono dimostrati innumerevoli volte in destinazioni di tutto il mondo. Le nostre referenze rispecchiano le ampie possibilità di installazione che offriamo."
+  },
+  "Legacy": {
+    "title": "L'eredità dei sistemi PP-R e PP-RCT",
+    "p1": "Per oltre un quarto di secolo, K-Aqua ha ridefinito gli standard dei sistemi di tubazioni polimeriche su scala globale. Dalle gelide tubature municipali del Nord Europa alle sovrastrutture commerciali iper-esigenti a molti piani in Medio Oriente, le nostre tecnologie PP-R e PP-RCT fungono da spina dorsale invisibile della civiltà moderna.",
+    "p2": "Le referenze qui mostrate fungono da rapido riflesso delle nostre ampie possibilità di installazione. Ingegneri, architetti e urbanisti esigono assoluta certezza e K-Aqua la offre.",
+    "p3": "Ogni installazione è una testimonianza della nostra precisione ingegneristica tedesca. La stabilità termica superiore, l'assoluta resistenza alla corrosione e la durata operativa decennale garantiscono che, una volta installato K-Aqua, funzioni in modo impeccabile.",
+    "p4": "Comprendiamo che l'architettura moderna spinge i confini. Che si tratti di instradare attraverso il nucleo strutturale di un grattacielo di 80 piani o di seppellire miglia di linee di approvvigionamento municipale sotto una vivace metropoli, K-Aqua offre una soluzione senza compromessi."
+  },
+  "Sectors": {
+    "title": "Settori che serviamo",
+    "description": "Le nostre soluzioni di tubazioni sono progettate per soddisfare le esigenze uniche di vari settori ad alte prestazioni.",
+    "commercialTitle": "Sovrastrutture commerciali",
+    "commercialDesc": "Resistere a immense pressioni idrostatiche nelle mega-torri. I sistemi K-Aqua sono selezionati per la loro tolleranza a zero guasti, garantendo una distribuzione dell'acqua senza soluzione di continuità attraverso centinaia di metri verticali.",
+    "hospitalityTitle": "Ospitalità e resort di lusso",
+    "hospitalityDesc": "La qualità dell'acqua incontaminata non è negoziabile nei principali resort del mondo. I nostri sistemi PP-R atossici e igienicamente perfetti garantiscono che l'acqua rimanga esattamente come previsto dalla fonte alla suite.",
+    "municipalTitle": "Infrastruttura municipale",
+    "municipalDesc": "Le città si affidano a K-Aqua per fornire milioni di litri al giorno. Progettate per resistere a incrostazioni, corrosione e movimenti estremi del terreno, le nostre vaste reti sotterranee offrono un'affidabilità multigenerazionale."
+  },
+  "Stats": {
+    "countries": "Paesi serviti",
+    "meters": "Metri installati",
+    "years": "Anni di eccellenza",
+    "failure": "Tasso di guasto zero"
+  },
+  "Technical": {
+    "title": "Superiorità tecnica",
+    "description": "Il fondamento di ogni installazione di successo risiede nelle proprietà impareggiabili dei materiali dei sistemi K-Aqua. Non forniamo solo tubi; offriamo una garanzia di prestazione a vita.",
+    "features": {
+      "thermalTitle": "Stabilità termica",
+      "thermalDesc": "I tubi K-Aqua PP-R e PP-RCT presentano una straordinaria stabilità termica, in grado di funzionare continuamente a temperature elevate senza degrado strutturale.",
+      "corrosionTitle": "Assoluta resistenza alla corrosione",
+      "corrosionDesc": "La nostra composizione polimerica è intrinsecamente immune alla corrosione interna ed esterna, garantendo che la qualità dell'acqua rimanga incontaminata e che gli interni dei tubi rimangano privi di incrostazioni.",
+      "pressureTitle": "Elevata tolleranza alla pressione",
+      "pressureDesc": "Progettato per resistere a forti pressioni idrostatiche, rendendolo la scelta ideale per grattacieli e applicazioni industriali esigenti."
+    },
+    "specsTitle": "Specifiche dei materiali",
+    "specs": {
+      "material": "Base materiale",
+      "density": "Densità",
+      "thermal": "Conduttività termica",
+      "linear": "Espansione lineare",
+      "lifespan": "Durata prevista"
+    }
+  }
+}

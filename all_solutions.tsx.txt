@@ -1,0 +1,806 @@
+"use client";
+
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
+import { Building2, Snowflake, Flame, Factory, Sprout } from 'lucide-react';
+
+const applications = [
+  {
+    id: "commercial",
+    title: "Commercial Plumbing",
+    icon: Building2,
+    description: "Ideal for high-rise commercial buildings, hospitals, and hotels where reliable potable water distribution and pressure consistency are strictly mandated. Zero corrosion guarantees clean water delivery for decades.",
+  },
+  {
+    id: "hvac",
+    title: "HVAC Chilled Water",
+    icon: Snowflake,
+    description: "Highly efficient for air conditioning and chilled water systems. The low thermal conductivity of PP-R minimizes heat gain, preventing condensation buildup and maintaining precise temperature control.",
+  },
+  {
+    id: "heating",
+    title: "Radiator Heating",
+    icon: Flame,
+    description: "Engineered to handle continuous high-temperature stress, making it the premier choice for central radiator heating networks and underfloor heating applications.",
+  },
+  {
+    id: "industrial",
+    title: "Industrial Fluid Transport",
+    icon: Factory,
+    description: "Exceptional chemical resistance allows for the safe conveyance of aggressive industrial fluids, compressed air, and manufacturing chemicals without degrading the pipe matrix.",
+  },
+  {
+    id: "agriculture",
+    title: "Agricultural Irrigation",
+    icon: Sprout,
+    description: "Durable and UV-resistant options available for large-scale agricultural irrigation, offering high impact resistance against environmental wear and extreme weather conditions.",
+  }
+];
+
+export default function SolutionsApplications() {
+  const [activeTab, setActiveTab] = useState(applications[0].id);
+
+  const currentApp = applications.find(app => app.id === activeTab)!;
+
+  return (
+    <section className="relative py-32 lg:py-48 bg-white border-t border-slate-200/50">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="text-center mb-16 md:mb-24"
+        >
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6 text-slate-900">
+            Industry Applications
+          </h2>
+          <p className="text-xl md:text-2xl text-slate-500 max-w-3xl mx-auto leading-relaxed font-light">
+            A versatile engineering solution deployed across multiple sectors, engineered to solve specific fluid transport challenges.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
+          <div className="lg:col-span-5 flex flex-col gap-4">
+            {applications.map((app) => (
+              <button
+                key={app.id}
+                onClick={() => setActiveTab(app.id)}
+                className={`text-left px-8 py-6 rounded-2xl border transition-all duration-300 flex items-center gap-6 ${
+                  activeTab === app.id
+                    ? "bg-[#5b2d8c] border-[#5b2d8c] text-white shadow-md"
+                    : "bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300"
+                }`}
+              >
+                <app.icon className={`w-6 h-6 flex-shrink-0 ${activeTab === app.id ? "text-white" : "text-[#5b2d8c]"}`} strokeWidth={2} />
+                <span className={`text-xl font-semibold tracking-tight ${activeTab === app.id ? "text-white" : "text-slate-900"}`}>
+                  {app.title}
+                </span>
+              </button>
+            ))}
+          </div>
+
+          <div className="lg:col-span-7">
+            <div className="bg-slate-50 rounded-[2rem] border border-slate-200 p-10 lg:p-16 h-full min-h-[400px] flex flex-col justify-center relative overflow-hidden">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={currentApp.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.4, ease: "easeOut" }}
+                  className="relative z-10"
+                >
+                  <div className="inline-flex items-center justify-center p-5 bg-white rounded-2xl mb-8 border border-slate-200 shadow-sm">
+                    <currentApp.icon className="w-10 h-10 text-[#5b2d8c]" strokeWidth={1.5} />
+                  </div>
+                  <h3 className="text-3xl lg:text-4xl font-bold tracking-tight text-slate-900 mb-6">
+                    {currentApp.title}
+                  </h3>
+                  <p className="text-xl text-slate-600 leading-relaxed max-w-2xl">
+                    {currentApp.description}
+                  </p>
+                </motion.div>
+              </AnimatePresence>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'motion/react';
+import { Award, FileCheck, Globe2, BadgeCheck } from 'lucide-react';
+
+export default function SolutionsCertifications() {
+  const certifications = [
+    {
+      title: "DIN 8077 / DIN 8078",
+      description: "German Institute for Standardization compliance for polypropylene pipe dimensions and quality testing.",
+      icon: Award
+    },
+    {
+      title: "ISO 9001:2015",
+      description: "Internationally recognized standard for robust Quality Management Systems in manufacturing.",
+      icon: Globe2
+    },
+    {
+      title: "DVGW Certified",
+      description: "Approved for safe use in drinking water installations by the German Technical and Scientific Association for Gas and Water.",
+      icon: FileCheck
+    },
+    {
+      title: "SKZ Testing",
+      description: "Rigorous third-party testing and quality surveillance by the German Plastics Center.",
+      icon: BadgeCheck
+    }
+  ];
+
+  return (
+    <section className="relative py-32 lg:py-48 bg-white border-t border-slate-200/50">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="text-center mb-16 md:mb-24"
+        >
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6 text-slate-900">
+            Global Certifications
+          </h2>
+          <p className="text-xl md:text-2xl text-slate-500 max-w-3xl mx-auto leading-relaxed font-light">
+            Engineered in Germany, trusted globally. Our products are rigorously tested to meet and exceed international quality assurance standards.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+          {certifications.map((cert, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
+              className="bg-slate-50 border border-slate-200 rounded-[2rem] p-8 text-center flex flex-col items-center justify-center aspect-square"
+            >
+              <div className="p-4 bg-white rounded-full mb-6 border border-slate-200 shadow-sm">
+                <cert.icon className="w-10 h-10 text-[#5b2d8c]" strokeWidth={1.5} />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3 tracking-tight">
+                {cert.title}
+              </h3>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                {cert.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'motion/react';
+import { Check, X } from 'lucide-react';
+
+const comparisonData = [
+  {
+    feature: "Corrosion Resistant",
+    kaqua: true,
+    copper: false,
+    steel: false,
+    pvc: true,
+  },
+  {
+    feature: "Scale Build-Up Prevention",
+    kaqua: true,
+    copper: false,
+    steel: false,
+    pvc: true,
+  },
+  {
+    feature: "Thermal Insulation (Low Heat Loss)",
+    kaqua: true,
+    copper: false,
+    steel: false,
+    pvc: false,
+  },
+  {
+    feature: "Acoustic Dampening (Low Noise)",
+    kaqua: true,
+    copper: false,
+    steel: false,
+    pvc: false,
+  },
+  {
+    feature: "Toxic-Free Installation (No Glues/Solder)",
+    kaqua: true,
+    copper: false,
+    steel: true,
+    pvc: false,
+  },
+  {
+    feature: "High Impact Resistance",
+    kaqua: true,
+    copper: true,
+    steel: true,
+    pvc: false,
+  }
+];
+
+export default function SolutionsComparative() {
+  return (
+    <section className="relative py-32 lg:py-48 bg-slate-50 border-t border-slate-200/50">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="mb-16 md:mb-24"
+        >
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6 text-slate-900">
+            Material Comparison
+          </h2>
+          <p className="text-xl md:text-2xl text-slate-500 max-w-3xl leading-relaxed font-light">
+            When evaluated against traditional plumbing materials, K-Aqua PP-R demonstrates superior capabilities in preventing corrosion, reducing scale build-up, and ensuring long-term system integrity.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+          className="bg-white rounded-[2rem] border border-slate-200 shadow-sm overflow-hidden"
+        >
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse min-w-[800px]">
+              <thead>
+                <tr className="border-b border-slate-200">
+                  <th className="py-8 px-8 text-lg font-semibold text-slate-900 w-1/3">Performance Feature</th>
+                  <th className="py-8 px-6 text-center text-lg font-bold text-[#5b2d8c] bg-slate-50/50 w-1/6">K-Aqua PP-R</th>
+                  <th className="py-8 px-6 text-center text-lg font-medium text-slate-600 w-1/6">Copper</th>
+                  <th className="py-8 px-6 text-center text-lg font-medium text-slate-600 w-1/6">Galvanized Steel</th>
+                  <th className="py-8 px-6 text-center text-lg font-medium text-slate-600 w-1/6">PVC / CPVC</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {comparisonData.map((row, idx) => (
+                  <tr key={idx} className="hover:bg-slate-50/50 transition-colors">
+                    <td className="py-6 px-8 text-slate-700 font-medium">{row.feature}</td>
+                    <td className="py-6 px-6 bg-slate-50/30">
+                      <div className="flex justify-center">
+                        {row.kaqua ? <Check className="w-6 h-6 text-green-500" strokeWidth={2.5} /> : <X className="w-6 h-6 text-red-400" strokeWidth={2} />}
+                      </div>
+                    </td>
+                    <td className="py-6 px-6">
+                      <div className="flex justify-center">
+                        {row.copper ? <Check className="w-6 h-6 text-slate-400" strokeWidth={2} /> : <X className="w-6 h-6 text-slate-300" strokeWidth={2} />}
+                      </div>
+                    </td>
+                    <td className="py-6 px-6">
+                      <div className="flex justify-center">
+                        {row.steel ? <Check className="w-6 h-6 text-slate-400" strokeWidth={2} /> : <X className="w-6 h-6 text-slate-300" strokeWidth={2} />}
+                      </div>
+                    </td>
+                    <td className="py-6 px-6">
+                      <div className="flex justify-center">
+                        {row.pvc ? <Check className="w-6 h-6 text-slate-400" strokeWidth={2} /> : <X className="w-6 h-6 text-slate-300" strokeWidth={2} />}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'motion/react';
+import { ArrowRight, FileText } from 'lucide-react';
+import Link from 'next/link';
+
+export default function SolutionsCtaSection() {
+  return (
+    <section className="relative py-32 lg:py-48 bg-slate-50 border-t border-slate-200/50 overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-200/50 via-slate-50 to-slate-50 pointer-events-none"></div>
+      
+      <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="max-w-4xl mx-auto"
+        >
+          <div className="inline-flex items-center justify-center p-4 bg-white rounded-2xl mb-8 border border-slate-200 shadow-sm">
+            <FileText className="w-8 h-8 text-[#5b2d8c]" strokeWidth={1.5} />
+          </div>
+          
+          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-8 text-slate-900">
+            Specify K-Aqua for Your Next Project
+          </h2>
+          
+          <p className="text-xl md:text-2xl text-slate-600 mb-12 font-light leading-relaxed max-w-2xl mx-auto">
+            Download our comprehensive technical documentation, including CAD files, pressure specifications, and global certification documents.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+            <Link 
+              href="/service"
+              className="group relative inline-flex items-center justify-center gap-3 px-8 py-5 bg-slate-900 text-white rounded-full overflow-hidden transition-transform hover:scale-105 active:scale-95"
+            >
+              <span className="relative z-10 font-medium text-lg tracking-wide">
+                Download Technical Specs
+              </span>
+              <ArrowRight className="relative z-10 w-5 h-5 transition-transform group-hover:translate-x-1" strokeWidth={2} />
+              <div className="absolute inset-0 bg-[#5b2d8c] transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300 ease-out"></div>
+            </Link>
+            
+            <Link 
+              href="/contact"
+              className="inline-flex items-center justify-center px-8 py-5 text-lg font-medium tracking-wide text-slate-900 bg-white border-2 border-slate-200 rounded-full hover:border-slate-900 hover:bg-slate-50 transition-all duration-300"
+            >
+              Contact Engineering Team
+            </Link>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'motion/react';
+import { ShieldCheck, Thermometer, Gauge } from 'lucide-react';
+
+export default function SolutionsDurability() {
+  const cards = [
+    {
+      icon: ShieldCheck,
+      title: "50+ Year Lifespan",
+      description: "Engineered for longevity, K-Aqua PP-R piping systems are certified to operate continuously for over 50 years under standard operating pressures and temperatures, eliminating the need for periodic system overhauls."
+    },
+    {
+      icon: Gauge,
+      title: "High Pressure Resistance",
+      description: "Our homogeneous fusion joints and structurally reinforced pipe walls allow the system to withstand severe pressure fluctuations and water hammer effects, surpassing the stress tolerances of traditional materials."
+    },
+    {
+      icon: Thermometer,
+      title: "Temperature Extremes",
+      description: "Designed to operate flawlessly across a broad thermal spectrum. From deep chilling applications to high-temperature radiator heating networks, the material maintains its structural integrity without warping or degrading."
+    }
+  ];
+
+  return (
+    <section className="relative py-32 lg:py-48 bg-white border-t border-slate-200/50">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24">
+          
+          <div className="lg:col-span-4">
+            <motion.div
+              initial={{ opacity: 0, x: -40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="sticky top-32"
+            >
+              <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6 text-slate-900">
+                Uncompromising Durability
+              </h2>
+              <p className="text-xl text-slate-500 leading-relaxed font-light mb-8">
+                Built to outlast the buildings they inhabit. Our systems provide peace of mind through exceptional engineering and material science.
+              </p>
+            </motion.div>
+          </div>
+
+          <div className="lg:col-span-8 flex flex-col gap-8">
+            {cards.map((card, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.6, delay: idx * 0.15, ease: "easeOut" }}
+                className="bg-slate-50 border border-slate-200 rounded-[2rem] p-10 lg:p-14"
+              >
+                <div className="inline-flex items-center justify-center p-4 bg-white rounded-2xl mb-8 border border-slate-200 shadow-sm">
+                  <card.icon className="w-8 h-8 text-[#5b2d8c]" strokeWidth={1.5} />
+                </div>
+                <h3 className="text-3xl font-bold tracking-tight text-slate-900 mb-6">
+                  {card.title}
+                </h3>
+                <p className="text-xl text-slate-600 leading-relaxed">
+                  {card.description}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'motion/react';
+import { TrendingDown, Zap, Clock } from 'lucide-react';
+
+export default function SolutionsEconomicROI() {
+  const metrics = [
+    {
+      icon: Clock,
+      stat: "50%",
+      title: "Faster Installation",
+      description: "Thermal fusion joining drastically reduces labor time compared to welding steel or soldering copper, accelerating project timelines and reducing labor costs."
+    },
+    {
+      icon: TrendingDown,
+      stat: "0%",
+      title: "Maintenance Costs",
+      description: "Scale-free and corrosion-resistant properties mean zero routine internal maintenance, significantly lowering operational expenditures over the building's lifecycle."
+    },
+    {
+      icon: Zap,
+      stat: "20%",
+      title: "Less Heat Loss",
+      description: "Superior thermal insulation retains heat in hot water lines much more effectively than metal piping, leading to measurable energy efficiency and utility savings."
+    }
+  ];
+
+  return (
+    <section className="relative py-32 lg:py-48 bg-slate-50 border-t border-slate-200/50">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="text-center mb-16 md:mb-24"
+        >
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6 text-slate-900">
+            Economic ROI
+          </h2>
+          <p className="text-xl md:text-2xl text-slate-500 max-w-3xl mx-auto leading-relaxed font-light">
+            Beyond engineering superiority, K-Aqua delivers profound economic advantages through rapid installation, energy efficiency, and eliminated maintenance.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          {metrics.map((item, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: index * 0.15, ease: "easeOut" }}
+              className="bg-white rounded-[2rem] border border-slate-200 shadow-sm p-10 lg:p-14 text-center flex flex-col items-center"
+            >
+              <div className="inline-flex items-center justify-center p-4 bg-slate-50 rounded-2xl mb-8 border border-slate-200">
+                <item.icon className="w-8 h-8 text-[#5b2d8c]" strokeWidth={1.5} />
+              </div>
+              <div className="text-6xl md:text-7xl font-bold tracking-tighter text-slate-900 mb-4">
+                {item.stat}
+              </div>
+              <h3 className="text-2xl font-bold tracking-tight text-slate-900 mb-4">
+                {item.title}
+              </h3>
+              <p className="text-slate-600 leading-relaxed text-lg">
+                {item.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'motion/react';
+import { Leaf } from 'lucide-react';
+
+export default function SolutionsEnvironment() {
+  return (
+    <section className="relative py-32 lg:py-48 bg-slate-50 border-t border-slate-200/50">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
+          
+          <div className="lg:col-span-6 lg:order-last">
+            <motion.div
+              initial={{ opacity: 0, x: 40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+            >
+              <div className="inline-flex items-center justify-center p-4 bg-white rounded-2xl mb-8 border border-slate-200 shadow-sm">
+                <Leaf className="w-8 h-8 text-[#5b2d8c]" strokeWidth={1.5} />
+              </div>
+              <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-8 text-slate-900">
+                Environmental Integrity
+              </h2>
+              <article className="prose prose-lg text-slate-600 max-w-none">
+                <p>
+                  Before modern polypropylene extraction, propylene and ethylene waste gases from petroleum processing were simply burned off, releasing significant atmospheric pollution. Today, these gases are upcycled into polypropylene, drastically reducing manufacturing emissions and preventing harmful flares.
+                </p>
+                <p>
+                  Our manufacturing facilities employ a state-of-the-art closed cooling cycle. This means water is continuously circulated and chilled without discharging into local rivers, streams, or lakes, completely eliminating thermal pollution and wastewater run-off.
+                </p>
+                <p>
+                  Because K-Aqua PP-R pipes are significantly lighter than metal alternatives, transportation requires less fuel, directly contributing to a significantly reduced carbon footprint from factory to job site.
+                </p>
+              </article>
+            </motion.div>
+          </div>
+
+          <div className="lg:col-span-6 lg:order-first">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="w-full h-[60vh] min-h-[500px] rounded-[2rem] bg-white border border-slate-200 shadow-sm relative overflow-hidden flex items-center justify-center p-12"
+            >
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-50 to-white z-0"></div>
+              <div className="relative z-10 w-full h-full border-2 border-dashed border-slate-200 rounded-2xl flex items-center justify-center">
+                <p className="text-slate-400 font-medium tracking-tight">Environmental Process Diagram</p>
+              </div>
+            </motion.div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'motion/react';
+import { ShieldAlert, Droplets, Ear, FlaskConical } from 'lucide-react';
+
+export default function SolutionsHealthSafety() {
+  const safetyFeatures = [
+    {
+      icon: Droplets,
+      title: "Potable Water Safety",
+      description: "Manufactured from food-grade plumbing materials, ensuring that drinking water remains completely uncontaminated, tasteless, and odorless from source to tap."
+    },
+    {
+      icon: ShieldAlert,
+      title: "Legionella Resistance",
+      description: "The exceedingly smooth internal surface of PP-R prevents the formation of biofilms and scale, effectively neutralizing the breeding grounds for Legionella and other harmful bacteria."
+    },
+    {
+      icon: FlaskConical,
+      title: "Non-Toxic Architecture",
+      description: "Installation relies on heat fusion rather than toxic glues, solvents, or lead-based solders, maintaining absolute chemical purity within the piping network."
+    },
+    {
+      icon: Ear,
+      title: "Acoustic Insulation",
+      description: "The inherent density and elasticity of our polymer structure provide exceptional noise reduction, severely dampening flow noise and water hammer for quieter building environments."
+    }
+  ];
+
+  return (
+    <section className="relative py-32 lg:py-48 bg-slate-50 border-t border-slate-200/50">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="text-center mb-16 md:mb-24">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6 text-slate-900">
+              Health & Hygiene
+            </h2>
+            <p className="text-xl md:text-2xl text-slate-500 max-w-3xl mx-auto leading-relaxed font-light">
+              Setting the international standard for hygienic fluid transport. Our materials prioritize human health and acoustic comfort above all.
+            </p>
+          </motion.div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          {safetyFeatures.map((feature, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
+              className="bg-white p-10 lg:p-12 rounded-[2rem] border border-slate-200/60 shadow-sm flex flex-col sm:flex-row gap-8 items-start"
+            >
+              <div className="flex-shrink-0 inline-flex items-center justify-center p-4 bg-slate-50 rounded-2xl border border-slate-200">
+                <feature.icon className="w-8 h-8 text-[#5b2d8c]" strokeWidth={1.5} />
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold tracking-tight text-slate-900 mb-4">
+                  {feature.title}
+                </h3>
+                <p className="text-slate-600 leading-relaxed text-lg">
+                  {feature.description}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'motion/react';
+
+export default function SolutionsHeroSection() {
+  return (
+    <section className="relative w-full min-h-[100dvh] flex items-center pt-24 pb-20 overflow-hidden bg-slate-50 selection:bg-[#5b2d8c]/50">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10 w-full">
+        <motion.div 
+          className="max-w-5xl"
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <h1 className="text-6xl md:text-8xl lg:text-[7.5rem] font-bold tracking-tighter leading-[0.95] text-slate-900 mb-8">
+            Sustainable <br className="hidden md:block"/>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5b2d8c] to-purple-400">PP-R Pipe</span> Systems
+          </h1>
+          <motion.p 
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            className="text-xl md:text-2xl text-slate-600 leading-relaxed max-w-[48ch]"
+          >
+            Environmentally responsible plumbing solutions engineered for the future. We are committed to reducing atmospheric pollution, conserving resources, and manufacturing superior thermoplastic polymers that outperform traditional materials.
+          </motion.p>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'motion/react';
+import { Activity, Beaker, Shield } from 'lucide-react';
+
+export default function SolutionsMaterialScience() {
+  return (
+    <section className="relative py-32 lg:py-48 bg-white border-t border-slate-200/50">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
+          
+          <motion.div
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="lg:col-span-6"
+          >
+            <div className="inline-flex items-center justify-center p-4 bg-slate-50 rounded-2xl mb-8 border border-slate-200 shadow-sm">
+              <Beaker className="w-8 h-8 text-[#5b2d8c]" strokeWidth={1.5} />
+            </div>
+            <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-8 text-slate-900">
+              Advanced Material Science
+            </h2>
+            <article className="prose prose-lg text-slate-600 max-w-none">
+              <p>
+                At the core of our solutions lies Polypropylene Random Copolymer (PP-R/PP-RCT), a sophisticated thermoplastic polymer engineered for exceptional performance. Unlike traditional materials, its unique molecular structure provides outstanding chemical resistance and thermal stability.
+              </p>
+              <p>
+                The copolymerization process introduces ethylene into the propylene chain, resulting in a highly flexible yet durable matrix. This prevents internal scaling, maintains a smooth internal surface, and eliminates the risk of heavy metal leaching, ensuring absolute purity in fluid transport.
+              </p>
+            </article>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+            className="lg:col-span-6 flex flex-col gap-6"
+          >
+            <div className="bg-slate-50 border border-slate-200 rounded-[2rem] p-8 md:p-10 shadow-sm flex items-start gap-6">
+              <div className="bg-white p-3 rounded-xl border border-slate-200 shadow-sm shrink-0">
+                <Shield className="w-6 h-6 text-[#5b2d8c]" />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 tracking-tight">Chemical Resistance</h3>
+                <p className="text-slate-600 leading-relaxed">Highly resistant to acidic and alkaline solutions, operating safely in aggressive environments without degrading or weakening the pipe wall.</p>
+              </div>
+            </div>
+
+            <div className="bg-slate-50 border border-slate-200 rounded-[2rem] p-8 md:p-10 shadow-sm flex items-start gap-6">
+              <div className="bg-white p-3 rounded-xl border border-slate-200 shadow-sm shrink-0">
+                <Activity className="w-6 h-6 text-[#5b2d8c]" />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 tracking-tight">Thermal Stability</h3>
+                <p className="text-slate-600 leading-relaxed">Maintains structural integrity across extreme temperature gradients, making it ideal for both high-heat industrial applications and chilled water systems.</p>
+              </div>
+            </div>
+          </motion.div>
+
+        </div>
+      </div>
+    </section>
+  );
+}
+"use client";
+import React from 'react';
+import { motion } from 'motion/react';
+import { Recycle, PackageOpen, Factory } from 'lucide-react';
+
+export default function SolutionsRecyclability() {
+  return (
+    <section className="relative py-32 lg:py-48 bg-white">
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="mb-16 md:mb-24 text-center"
+        >
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6 text-slate-900">
+            Lifecycle & Recyclability
+          </h2>
+          <p className="text-xl md:text-2xl text-slate-500 max-w-3xl mx-auto leading-relaxed font-light">
+            Engineered for a sustainable future, our PP-R systems represent the pinnacle of zero-waste manufacturing and end-of-life material recovery.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {[
+            {
+              icon: Recycle,
+              title: "100% Recyclable Pipes",
+              content: "K-Aqua PP-R pipes are 100% recyclable at the end of their 50+ year lifespan. Unlike cross-linked plastics (PEX) or composite metals, polypropylene can be melted down and repurposed without complex chemical separation."
+            },
+            {
+              icon: PackageOpen,
+              title: "Resin Code 5",
+              content: "Categorized under Resin Identification Code 5, our materials are highly prized in the secondary recycling market. This high-grade polymer retains significant structural integrity, making it ideal for secondary industrial applications."
+            },
+            {
+              icon: Factory,
+              title: "Zero Waste Manufacturing",
+              content: "During the extrusion and injection molding processes, any off-cuts or production scrap are immediately reground and reintroduced into non-critical manufacturing lines, ensuring absolute minimal landfill waste."
+            }
+          ].map((item, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
+              className="bg-slate-50 p-10 lg:p-12 rounded-[2rem] border border-slate-200/60 shadow-sm"
+            >
+              <div className="inline-flex items-center justify-center p-4 bg-white rounded-2xl mb-8 border border-slate-200 shadow-sm">
+                <item.icon className="w-8 h-8 text-[#5b2d8c]" strokeWidth={1.5} />
+              </div>
+              <h3 className="text-2xl font-bold tracking-tight text-slate-900 mb-6">
+                {item.title}
+              </h3>
+              <p className="text-slate-600 leading-relaxed text-lg">
+                {item.content}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

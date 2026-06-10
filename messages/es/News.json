@@ -1,0 +1,154 @@
+{
+  "GridSection": {
+    "title": "Transmisiones Recientes",
+    "subtitle": "Manténgase informado sobre nuestros últimos avances tecnológicos, despliegues internacionales e iniciativas estratégicas de sostenibilidad.",
+    "readArticle": "Leer Artículo",
+    "articles": {
+      "article1": {
+        "title": "Presentación de la Tecnología de Extrusión de Polímeros de Próxima Generación",
+        "category": "Innovaciones de Productos",
+        "date": "15 Oct 2025",
+        "summary": "Nuestro nuevo proceso de extrusión multicapa aumenta la resistencia al impacto en un 40% al tiempo que reduce el peso del material, estableciendo un nuevo estándar para tuberías industriales."
+      },
+      "article2": {
+        "title": "Importante Despliegue de Infraestructura en el Sudeste Asiático",
+        "category": "Proyectos Globales",
+        "date": "08 Oct 2025",
+        "summary": "K-Aqua asegura un contrato de $45 millones para modernizar la infraestructura de agua municipal en tres importantes zonas metropolitanas de la región de la ASEAN."
+      },
+      "article3": {
+        "title": "Hito de Reciclabilidad del 100% Alcanzado",
+        "category": "Sostenibilidad",
+        "date": "02 Oct 2025",
+        "summary": "Cada accesorio K-Aqua producido a nivel mundial es ahora totalmente reciclable, cerrando el ciclo de nuestro mandato de economía circular."
+      },
+      "article4": {
+        "title": "Los Accesorios de Electrofusión Avanzados Entran en Fase Beta",
+        "category": "Innovaciones de Productos",
+        "date": "28 Sep 2025",
+        "summary": "Comienzan las pruebas beta de nuestros accesorios inteligentes de electrofusión equipados con trazabilidad RFID y configuración automática de parámetros de soldadura."
+      },
+      "article5": {
+        "title": "Apertura de un Nuevo Centro de Fabricación en Europa del Este",
+        "category": "Proyectos Globales",
+        "date": "20 Sep 2025",
+        "summary": "Expandiendo nuestra presencia europea, la nueva instalación totalmente automatizada duplicará nuestra capacidad de producción para el mercado de la UE."
+      },
+      "article6": {
+        "title": "Objetivo de Operaciones con Carbono Negativo para 2030",
+        "category": "Sostenibilidad",
+        "date": "12 Sep 2025",
+        "summary": "Estamos acelerando nuestro cronograma. Al hacer la transición a redes de energía 100% renovable, nuestro objetivo es ser completamente negativos en carbono para finales de la década."
+      },
+      "article7": {
+        "title": "Lanzamiento de la Serie de Válvulas Industriales de Alta Presión",
+        "category": "Innovaciones de Productos",
+        "date": "05 Sep 2025",
+        "summary": "Diseñada para el transporte de productos químicos extremos, la nueva serie de válvulas ofrece una resistencia a la corrosión sin precedentes en entornos operativos hostiles."
+      },
+      "article8": {
+        "title": "Asociación con una Mega Planta Desalinizadora",
+        "category": "Proyectos Globales",
+        "date": "29 Ago 2025",
+        "summary": "K-Aqua seleccionada como proveedor principal para la planta de desalinización con energía solar más grande del mundo en el Medio Oriente."
+      },
+      "article9": {
+        "title": "Avance en Polímeros de Base Biológica",
+        "category": "Sostenibilidad",
+        "date": "21 Ago 2025",
+        "summary": "I+D diseña con éxito una mezcla de biopolímero de grado comercial que mantiene el 98% de la resistencia a la tracción de los plásticos tradicionales a base de fósiles."
+      },
+      "article10": {
+        "title": "Integración de Detección Inteligente de Fugas en Tuberías",
+        "category": "Innovaciones de Productos",
+        "date": "15 Ago 2025",
+        "summary": "Los sensores acústicos integrados en nuestra serie de tuberías municipales permiten la detección de fugas en tiempo real y alertas de mantenimiento predictivo."
+      },
+      "article11": {
+        "title": "K-Aqua Adquiere Red de Distribución Nórdica",
+        "category": "Proyectos Globales",
+        "date": "08 Ago 2025",
+        "summary": "La adquisición estratégica optimiza nuestra cadena de suministro en toda Escandinavia, reduciendo drásticamente los plazos de entrega para los clientes regionales."
+      },
+      "article12": {
+        "title": "Instalación Certificada de Cero Desperdicio de Agua",
+        "category": "Sostenibilidad",
+        "date": "01 Ago 2025",
+        "summary": "Nuestra planta de producción insignia ha logrado el estado verificado de Cero Desperdicio de Agua, utilizando sistemas avanzados de enfriamiento y filtración de circuito cerrado."
+      }
+    }
+  },
+  "HeroSection": {
+    "badge": "Noticias y Prensa de la Empresa",
+    "title1": "Las Últimas",
+    "title2": "Actualizaciones.",
+    "subtitle": "Descubra nuestras últimas innovaciones de productos, proyectos globales, hitos de sostenibilidad y anuncios corporativos."
+  },
+  "FeaturedArticleSection": {
+    "badge": "ESTÁNDAR CERTIFICADO",
+    "article1": {
+      "title": "Calidad Sin Compromisos",
+      "subtitle": "ISO 9001:2015 — Sistema de Gestión de Calidad",
+      "p1": "En K-Aqua, la calidad no es una métrica estática, es la arquitectura dinámica y fundamental de todo lo que diseñamos. La certificación ISO 9001:2015 valida rigurosamente nuestra búsqueda incesante de la perfección operativa y la precisión absoluta en la fabricación global.",
+      "p2": "Cada tubería, cada accesorio y cada solución de transporte de fluidos que desplegamos está sujeto a estándares estrictos sin disculpas. Creemos que la verdadera confiabilidad requiere un enfoque sistémico y altamente calibrado hacia la excelencia. Al hacer cumplir estas pautas internacionales integrales en toda nuestra matriz de producción, nos aseguramos de que nuestros socios reciban nada menos que un rendimiento que define la industria, diseñado para resistir la prueba del tiempo y los extremos ambientales más duros.",
+      "li1": "Pruebas de materiales rigurosas",
+      "li2": "Trazabilidad de extremo a extremo",
+      "li3": "Optimización continua de procesos"
+    },
+    "article2": {
+      "title": "Cuidado del Medio Ambiente",
+      "subtitle": "ISO 14001:2015 — Sistema de Gestión Ambiental",
+      "p1": "Nuestro compromiso con el planeta está inequívocamente codificado en nuestra certificación ISO 14001:2015. Los desafíos ecológicos del mañana exigen hoy una acción audaz, sistémica y sostenible. Hemos reestructurado de manera integral nuestros procesos de ciclo de vida para minimizar ferozmente nuestra huella global.",
+      "p2": "Desde el abastecimiento hiperético de materias primas hasta la reducción radical de los desechos industriales en nuestras instalaciones de fabricación, K-Aqua está ferozmente dedicada a proteger los recursos vitales con los que trabajamos tan íntimamente. El agua es vida, y salvaguardarla es nuestra directiva suprema. Esta certificación representa nuestra promesa inquebrantable a las generaciones futuras de que el progreso industrial y la preservación ecológica no son mutuamente excluyentes.",
+      "li1": "Iniciativas de fabricación sin desperdicios",
+      "li2": "Reducción del impacto del ciclo de vida",
+      "li3": "Adquisición de materiales sostenibles"
+    },
+    "article3": {
+      "title": "Eficiencia Energética Radical",
+      "subtitle": "ISO 50001:2018 — Sistema de Gestión Energética",
+      "p1": "La eficiencia es el motor absoluto de la evolución industrial. Con la certificación ISO 50001:2018, hemos hiperoptimizado nuestros protocolos de consumo de energía en todas las instalaciones globales de K-Aqua, estableciendo un nuevo punto de referencia para el sector.",
+      "p2": "Al implementar sistemas inteligentes de gestión de energía basados en datos e invertir fuertemente en tecnologías de producción de bajo consumo de vanguardia, estamos frenando drásticamente nuestras emisiones de carbono. Rastrearemos meticulosamente, analizaremos y refinaremos incesantemente cada vatio de energía utilizado en nuestras líneas de producción. No solo estamos conservando energía; estamos diseñando un futuro profundamente más ágil, más limpio y mucho más responsable para la fabricación pesada.",
+      "li1": "Integración de instalaciones de red inteligente",
+      "li2": "Análisis de consumo en tiempo real",
+      "li3": "Mitigación de emisiones de carbono"
+    }
+  },
+  "PressKitSection": {
+    "badge": "Activos Oficiales",
+    "title": "Kit de Medios y Prensa",
+    "subtitle": "La transparencia absoluta es primordial. Acceda a nuestras pautas de marca oficiales, fotografías de productos de alta resolución, biografías ejecutivas y certificados de gestión ISO verificados.",
+    "btnEn": "PDF ISO en Inglés",
+    "btnDe": "PDF ISO en Alemán",
+    "card1": {
+      "title": "Activos de la Marca",
+      "desc": "Logotipos oficiales, tipografía y especificaciones de paleta de colores.",
+      "action": "Descargar ZIP"
+    },
+    "card2": {
+      "title": "Fotografía de Productos",
+      "desc": "Imágenes de alta resolución de nuestras tuberías, accesorios e instalaciones.",
+      "action": "Descargar ZIP"
+    },
+    "card3": {
+      "title": "Comunicados de Prensa",
+      "desc": "Archivo de todas las declaraciones y comunicados de prensa oficiales de la empresa.",
+      "action": "Ver Archivo"
+    },
+    "card4": {
+      "title": "Biografías Ejecutivas",
+      "desc": "Perfiles y fotos del equipo de liderazgo de K-Aqua.",
+      "action": "Descargar PDF"
+    }
+  },
+  "NewsletterSection": {
+    "title": "Suscríbase a Nuestro Boletín",
+    "subtitle": "Obtenga los últimos conocimientos sobre fabricación de tuberías industriales, prácticas de ingeniería sostenibles y actualizaciones corporativas globales entregados directamente a su bandeja de entrada.",
+    "success": "Suscripción confirmada. Bienvenido a bordo.",
+    "placeholder": "Ingrese su dirección de correo electrónico",
+    "subscribe": "Suscribirse",
+    "privacy": "Respetamos su bandeja de entrada. Cero spam. Lea nuestra",
+    "privacyLink": "Política de Privacidad",
+    "dot": "."
+  }
+}

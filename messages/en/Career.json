@@ -1,0 +1,88 @@
+{
+  "Hero": {
+    "title_1": "Engineer the",
+    "title_2": "Future of Water",
+    "subtitle": "Join K-Aqua and build the infrastructure that sustains life. We are seeking ambitious minds to push the boundaries of polymer engineering.",
+    "cta": "View Open Roles"
+  },
+  "CTA": {
+    "title": "Become the Catalyst",
+    "subtitle": "If you have the drive to be part of an ever-growing success story and want to join a modern company pushing the limits of engineering, we want to hear from you.",
+    "btn_email": "Apply via Email",
+    "btn_call": "Call HR Dept",
+    "contact_prefix": "Direct Contact"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "q": "Do you offer remote work options?", "a": "Depending on the role, we offer flexible hybrid and fully remote arrangements. Engineering and production roles typically require on-site presence, while sales and admin roles offer more flexibility." },
+      { "q": "What is the onboarding process like?", "a": "New hires go through a comprehensive 4-week onboarding program covering our products, culture, systems, and deep-dives with key department heads." },
+      { "q": "Are there opportunities for international relocation?", "a": "Yes, as a global company, we frequently offer internal mobility and relocation opportunities across our international offices." },
+      { "q": "How does K-Aqua support professional development?", "a": "We provide an annual learning budget, internal mentorship programs, and paid time off for relevant certifications and industry conferences." }
+    ]
+  },
+  "Benefits": {
+    "title": "Comprehensive Benefits",
+    "subtitle": "We demand the best from our team, and we provide the best in return. Our benefits package is designed to support your professional and personal life.",
+    "items": [
+      { "title": "Comprehensive Health", "desc": "Top-tier health coverage prioritizing your well-being and peace of mind." },
+      { "title": "Continuous Learning", "desc": "Generous budgets for courses, certifications, and industry conferences." },
+      { "title": "Flexible Operations", "desc": "Core working hours with flexibility to manage your personal schedule." },
+      { "title": "Modern Facilities", "desc": "State-of-the-art office spaces designed for focus, collaboration, and comfort." },
+      { "title": "Premium Amenities", "desc": "In-house catering, specialty coffee, and relaxation zones." },
+      { "title": "Performance Bonus", "desc": "Competitive compensation packages with performance-based incentives." }
+    ]
+  },
+  "JobPostings": {
+    "title": "Open Roles",
+    "subtitle": "Find your place in our growing organization. We are actively hiring across multiple departments.",
+    "items": [
+      { "title": "Senior Polymer Engineer", "dept": "Engineering", "type": "Full-time", "location": "Germany / Hybrid" },
+      { "title": "Production Plant Manager", "dept": "Manufacturing", "type": "Full-time", "location": "On-site" },
+      { "title": "Global Technical Sales Lead", "dept": "Sales", "type": "Full-time", "location": "Remote / Travel" },
+      { "title": "Supply Chain Analyst", "dept": "Logistics", "type": "Full-time", "location": "Hybrid" }
+    ]
+  },
+  "HiringProcess": {
+    "title": "The Hiring Process",
+    "subtitle": "Transparent, efficient, and respectful of your time.",
+    "items": [
+      { "title": "Application Review", "desc": "Our recruitment team carefully reviews your profile against our current requirements and future needs." },
+      { "title": "Initial Conversation", "desc": "A brief call to discuss your background, motivations, and answer any immediate questions about K-Aqua." },
+      { "title": "Technical/Expertise Interview", "desc": "A deep dive into your professional skills with the hiring manager and team members." },
+      { "title": "Final Offer", "desc": "We extend a competitive offer and discuss your integration plan into our global team." }
+    ]
+  },
+  "Culture": {
+    "title": "Our Culture",
+    "subtitle": "An environment designed for those who demand excellence and thrive in high-performing teams.",
+    "items": [
+      { "title": "Collaborative Excellence", "desc": "Our teams operate with high trust and autonomy. We believe the best ideas win, regardless of hierarchy or tenure." },
+      { "title": "Innovation First", "desc": "We invest heavily in R&D. From advanced PP-RCT compounds to automated extrusion lines, innovation is our baseline." },
+      { "title": "Continuous Growth", "desc": "We challenge archaic norms. Your career path at K-Aqua is limited only by your ambition and drive to learn." }
+    ]
+  },
+  "Manifesto": {
+    "title": "The Manifesto",
+    "quote": "\"Water is the essence of life, but infrastructure is what delivers it. We build the arteries of modern civilization with uncompromising precision and German engineering.\"",
+    "description": "At K-Aqua, we don't just manufacture pipes. We engineer resilient systems that guarantee the safe transport of the world's most valuable resource. We are aggrandising by design—constantly seeking growth, scale, and capability."
+  },
+  "Locations": {
+    "title": "Our Headquarters",
+    "subtitle": "Located in the heart of Germany, our central campus is the hub of our global operations. It houses our main R&D laboratories, executive offices, and the core engineering teams driving our international expansion.",
+    "hq_title": "Global HQ - Germany",
+    "map_placeholder": "Facility Map Integration"
+  },
+  "MarketPosition": {
+    "title": "Unrivaled Position",
+    "subtitle": "We hold a dominant market position, but we consider it only the beginning. Our trajectory is steep, and our expansion is continuous.",
+    "items": [
+      { "title": "Global Reach", "desc": "Expanding across continents, our water supply solutions are the backbone of megaprojects worldwide." },
+      { "title": "Aggressive Growth", "desc": "An aggrandising company that never stands still. We reinvest heavily in R&D and talent." },
+      { "title": "Market Leadership", "desc": "Setting the standard for quality, durability, and safety in the PP-R and PP-RCT industry." },
+      { "title": "Uncompromising Quality", "desc": "Certified excellence. Our manufacturing process guarantees zero-failure tolerances in extreme conditions." },
+      { "title": "Fluid Dynamics", "desc": "Mastering the physics of water transport. Every fitting and pipe is optimized for maximum efficiency." },
+      { "title": "Modern Infrastructure", "desc": "Operating a state-of-the-art facility where automation and human expertise work in perfect synthesis." }
+    ]
+  }
+}

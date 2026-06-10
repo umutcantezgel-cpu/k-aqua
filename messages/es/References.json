@@ -1,0 +1,75 @@
+{
+  "CTA": {
+    "title": "Especifique K-Aqua para su próximo proyecto.",
+    "description": "Únase a los miles de desarrolladores globales que se niegan a comprometer la calidad. Conéctese con nuestro equipo de ingeniería para diseñar la arquitectura de su sistema.",
+    "button": "Iniciar consulta"
+  },
+  "CaseStudies": {
+    "title": "Casos de estudio destacados",
+    "description": "Explore nuestra cartera global de instalaciones exitosas y descubra cómo K-Aqua resuelve complejos desafíos de ingeniería.",
+    "viewFull": "Ver caso de estudio completo"
+  },
+  "FAQ": {
+    "title": "Preguntas frecuentes",
+    "description": "Perspectivas sobre nuestras implementaciones globales y capacidades técnicas.",
+    "questions": {
+      "q1": "¿En qué tipos de proyectos se instalan normalmente las tuberías K-Aqua PP-R?",
+      "a1": "Los sistemas K-Aqua PP-R son muy versátiles y se especifican a nivel mundial para redes de suministro de agua municipales, complejos hoteleros de lujo, superestructuras comerciales de gran altura e instalaciones industriales que requieren tuberías resistentes a productos químicos.",
+      "q2": "¿Cómo funcionan los sistemas K-Aqua en temperaturas extremas?",
+      "a2": "Nuestras tuberías de PP-R y PP-RCT están diseñadas para brindar una estabilidad térmica superior. Mantienen la integridad estructural y funcionan a la perfección tanto en condiciones de congelación como en entornos industriales de alta temperatura.",
+      "q3": "¿Por qué los ingenieros eligen K-Aqua en lugar de las tuberías metálicas tradicionales?",
+      "a3": "Los sistemas de polímeros K-Aqua eliminan el riesgo de corrosión y acumulación de incrustaciones, que son puntos de falla comunes en las tuberías de metal tradicionales. Además, nuestros sistemas son significativamente más livianos, más rápidos de instalar y cuentan con una vida útil operativa que supera los 50 años.",
+      "q4": "¿Los sistemas de tuberías K-Aqua son adecuados para edificios de gran altura?",
+      "a4": "Sí. Nuestros sistemas se implementan con frecuencia en rascacielos debido a su capacidad para soportar inmensas presiones hidrostáticas sin degradación ni pérdida de presión durante décadas de funcionamiento continuo."
+    }
+  },
+  "Hero": {
+    "badge": "Despliegue global",
+    "title1": "Diseñado para los",
+    "title2": "extremos del mundo.",
+    "description": "Durante las últimas décadas, los productos K-Aqua han demostrado su valía innumerables veces en destinos de todo el mundo. Nuestras referencias reflejan las amplias posibilidades de instalación que ofrecemos."
+  },
+  "Legacy": {
+    "title": "El legado de los sistemas PP-R y PP-RCT",
+    "p1": "Durante más de un cuarto de siglo, K-Aqua ha redefinido los estándares de los sistemas de tuberías de polímeros a escala mundial. Desde las heladas tuberías municipales del norte de Europa hasta las superestructuras comerciales hiper-exigentes del Medio Oriente, nuestras tecnologías PP-R y PP-RCT sirven como la columna vertebral invisible de la civilización moderna.",
+    "p2": "Las referencias que se muestran aquí sirven como un rápido reflejo de nuestras amplias posibilidades de instalación. Ingenieros, arquitectos y urbanistas exigen absoluta certeza, y K-Aqua cumple.",
+    "p3": "Cada instalación es un testimonio de nuestra precisión de ingeniería alemana. La estabilidad térmica superior, la absoluta resistencia a la corrosión y la vida útil operativa de décadas aseguran que una vez que se instala K-Aqua, funciona de manera impecable.",
+    "p4": "Entendemos que la arquitectura moderna empuja los límites. Ya sea que se trate de enrutar a través del núcleo estructural de un rascacielos de 80 pisos o de enterrar millas de líneas de suministro municipales, K-Aqua ofrece una solución intransigente."
+  },
+  "Sectors": {
+    "title": "Industrias a las que servimos",
+    "description": "Nuestras soluciones de tuberías están diseñadas para satisfacer las demandas únicas de varios sectores de alto rendimiento.",
+    "commercialTitle": "Superestructuras comerciales",
+    "commercialDesc": "Soportando inmensas presiones hidrostáticas en megatorres. Los sistemas K-Aqua son seleccionados por su tolerancia de cero fallas, asegurando una distribución de agua perfecta a través de cientos de metros verticales.",
+    "hospitalityTitle": "Hoteles de lujo y complejos turísticos",
+    "hospitalityDesc": "La calidad prístina del agua no es negociable en los principales centros turísticos del mundo. Nuestros sistemas PP-R no tóxicos e higiénicamente perfectos garantizan que el agua permanezca exactamente como se pretende desde la fuente hasta la suite.",
+    "municipalTitle": "Infraestructura municipal",
+    "municipalDesc": "Las ciudades confían en K-Aqua para suministrar millones de litros a diario. Diseñadas para resistir las incrustaciones, la corrosión y los movimientos extremos del suelo, nuestras vastas redes subterráneas brindan confiabilidad multigeneracional."
+  },
+  "Stats": {
+    "countries": "Países servidos",
+    "meters": "Metros instalados",
+    "years": "Años de excelencia",
+    "failure": "Tasa de fallas cero"
+  },
+  "Technical": {
+    "title": "Superioridad técnica",
+    "description": "La base de cada instalación exitosa radica en las propiedades de los materiales inigualables de los sistemas K-Aqua. No solo suministramos tuberías; ofrecemos una garantía de rendimiento de por vida.",
+    "features": {
+      "thermalTitle": "Estabilidad térmica",
+      "thermalDesc": "Las tuberías K-Aqua PP-R y PP-RCT exhiben una extraordinaria estabilidad térmica, capaces de funcionar de forma continua a altas temperaturas sin degradación estructural.",
+      "corrosionTitle": "Absoluta resistencia a la corrosión",
+      "corrosionDesc": "Nuestra composición de polímero es inherentemente inmune a la corrosión interna y externa, lo que garantiza que la calidad del agua permanezca impecable y que el interior de las tuberías esté libre de incrustaciones.",
+      "pressureTitle": "Alta tolerancia a la presión",
+      "pressureDesc": "Diseñado para soportar presiones hidrostáticas severas, lo que lo convierte en la opción ideal para edificios de gran altura y aplicaciones industriales exigentes."
+    },
+    "specsTitle": "Especificaciones de materiales",
+    "specs": {
+      "material": "Base de material",
+      "density": "Densidad",
+      "thermal": "Conductividad térmica",
+      "linear": "Expansión lineal",
+      "lifespan": "Vida útil esperada"
+    }
+  }
+}

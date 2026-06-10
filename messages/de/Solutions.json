@@ -1,0 +1,113 @@
+{
+  "Hero": {
+    "title1": "Nachhaltige",
+    "title2": "PP-R Rohr-",
+    "title3": "Systeme",
+    "subtitle": "Umweltfreundliche Sanitärlösungen für die Zukunft. Wir engagieren uns für die Reduzierung der Luftverschmutzung, die Schonung von Ressourcen und die Herstellung überlegener thermoplastischer Polymere, die herkömmliche Materialien übertreffen."
+  },
+  "Applications": {
+    "title": "Industrieanwendungen",
+    "subtitle": "Eine vielseitige technische Lösung für mehrere Sektoren, entwickelt zur Lösung spezifischer Herausforderungen beim Medientransport.",
+    "commercialTitle": "Gewerbliche Sanitärtechnik",
+    "commercialDesc": "Ideal für gewerbliche Hochhäuser, Krankenhäuser und Hotels, wo eine zuverlässige Trinkwasserverteilung und Druckkonstanz zwingend erforderlich sind. Null Korrosion garantiert jahrzehntelang saubere Wasserversorgung.",
+    "hvacTitle": "HLK Kaltwasser",
+    "hvacDesc": "Hocheffizient für Klimatisierung und Kaltwassersysteme. Die geringe Wärmeleitfähigkeit von PP-R minimiert die Wärmeaufnahme, verhindert Kondenswasserbildung und hält die Temperaturregelung präzise aufrecht.",
+    "heatingTitle": "Heizkörperanbindung",
+    "heatingDesc": "Entwickelt für kontinuierliche Hochtemperaturbelastung, was es zur ersten Wahl für zentrale Heizkörpernetzwerke und Fußbodenheizungsanwendungen macht.",
+    "industrialTitle": "Industrieller Flüssigkeitstransport",
+    "industrialDesc": "Außergewöhnliche chemische Beständigkeit ermöglicht die sichere Förderung aggressiver industrieller Flüssigkeiten, Druckluft und Produktionschemikalien ohne Abbau der Rohrmatrix.",
+    "agricultureTitle": "Landwirtschaftliche Bewässerung",
+    "agricultureDesc": "Langlebige und UV-beständige Optionen für großflächige landwirtschaftliche Bewässerung, mit hoher Schlagfestigkeit gegen Umweltverschleiß und extreme Wetterbedingungen."
+  },
+  "Certifications": {
+    "title": "Globale Zertifizierungen",
+    "subtitle": "In Deutschland entwickelt, weltweit vertraut. Unsere Produkte werden strengstens getestet, um internationale Qualitätsstandards zu erfüllen und zu übertreffen.",
+    "dinTitle": "DIN 8077 / DIN 8078",
+    "dinDesc": "Normen des Deutschen Instituts für Normung für die Abmessungen und Qualitätsprüfungen von Polypropylenrohren.",
+    "isoTitle": "ISO 9001:2015",
+    "isoDesc": "International anerkannter Standard für robuste Qualitätsmanagementsysteme in der Fertigung.",
+    "dvgwTitle": "DVGW Zertifiziert",
+    "dvgwDesc": "Zugelassen für den sicheren Einsatz in Trinkwasserinstallationen durch den Deutschen Verein des Gas- und Wasserfaches.",
+    "skzTitle": "SKZ Prüfung",
+    "skzDesc": "Strenge unabhängige Prüfung und Qualitätsüberwachung durch das Süddeutsche Kunststoff-Zentrum."
+  },
+  "Comparative": {
+    "title": "Materialvergleich",
+    "subtitle": "Im Vergleich zu herkömmlichen Sanitärmaterialien zeigt K-Aqua PP-R überlegene Eigenschaften bei der Verhinderung von Korrosion, der Reduzierung von Kalkablagerungen und der Gewährleistung der langfristigen Systemintegrität.",
+    "perfFeature": "Leistungsmerkmal",
+    "kAqua": "K-Aqua PP-R",
+    "copper": "Kupfer",
+    "steel": "Verzinkter Stahl",
+    "pvc": "PVC / CPVC",
+    "f1": "Korrosionsbeständig",
+    "f2": "Verhindert Kalkablagerungen",
+    "f3": "Wärmedämmung (geringer Wärmeverlust)",
+    "f4": "Schalldämmend (geräuscharm)",
+    "f5": "Giftfreie Installation (Keine Kleber/Lote)",
+    "f6": "Hohe Schlagfestigkeit"
+  },
+  "Cta": {
+    "title": "Spezifizieren Sie K-Aqua für Ihr nächstes Projekt",
+    "subtitle": "Laden Sie unsere umfassende technische Dokumentation herunter, einschließlich CAD-Dateien, Druckspezifikationen und globalen Zertifizierungsdokumenten.",
+    "button1": "Technische Spezifikationen herunterladen",
+    "button2": "Ingenieurteam kontaktieren"
+  },
+  "Durability": {
+    "title": "Kompromisslose Haltbarkeit",
+    "subtitle": "Gebaut, um die Gebäude, die sie bewohnen, zu überdauern. Unsere Systeme bieten Sicherheit durch außergewöhnliche Ingenieurskunst und Materialwissenschaft.",
+    "lifespanTitle": "50+ Jahre Lebensdauer",
+    "lifespanDesc": "K-Aqua PP-R-Rohrleitungssysteme sind auf Langlebigkeit ausgelegt und dafür zertifiziert, bei Standardbetriebsdrücken und -temperaturen über 50 Jahre lang ununterbrochen zu arbeiten, wodurch regelmäßige Systemüberholungen überflüssig werden.",
+    "pressureTitle": "Hohe Druckbeständigkeit",
+    "pressureDesc": "Unsere homogenen Schweißverbindungen und strukturell verstärkten Rohrwandungen ermöglichen es dem System, starken Druckschwankungen und Wasserschlägen standzuhalten und übertreffen die Belastungsgrenzen herkömmlicher Materialien.",
+    "tempTitle": "Temperaturextreme",
+    "tempDesc": "Entwickelt, um über ein breites thermisches Spektrum einwandfrei zu funktionieren. Von Anwendungen in der Tiefkühlung bis hin zu Hochtemperatur-Heizkörpernetzen behält das Material seine strukturelle Integrität, ohne sich zu verformen oder abzubauen."
+  },
+  "EconomicROI": {
+    "title": "Wirtschaftlicher ROI",
+    "subtitle": "Über die technische Überlegenheit hinaus bietet K-Aqua tiefgreifende wirtschaftliche Vorteile durch schnelle Installation, Energieeffizienz und den Wegfall von Wartungsarbeiten.",
+    "fasterTitle": "Schnellere Installation",
+    "fasterDesc": "Die thermische Schweißverbindung reduziert die Arbeitszeit im Vergleich zum Schweißen von Stahl oder Löten von Kupfer drastisch, beschleunigt die Projektlaufzeiten und senkt die Arbeitskosten.",
+    "maintenanceTitle": "Wartungskosten",
+    "maintenanceDesc": "Ablagerungsfreie und korrosionsbeständige Eigenschaften bedeuten keinerlei routinemäßige interne Wartung, was die Betriebskosten über den Lebenszyklus des Gebäudes hinweg erheblich senkt.",
+    "heatTitle": "Geringerer Wärmeverlust",
+    "heatDesc": "Die hervorragende Wärmedämmung hält die Wärme in Warmwasserleitungen weitaus effektiver als bei Metallrohren, was zu messbarer Energieeffizienz und Einsparungen bei den Nebenkosten führt."
+  },
+  "Environment": {
+    "title": "Umweltintegrität",
+    "p1": "Vor der modernen Polypropylen-Gewinnung wurden Propylen- und Ethylen-Abgase aus der Erdölverarbeitung einfach abgefackelt, was zu erheblicher Luftverschmutzung führte. Heute werden diese Gase zu Polypropylen aufgewertet, was die Produktionsemissionen drastisch reduziert und schädliche Fackeln verhindert.",
+    "p2": "Unsere Produktionsstätten nutzen einen hochmodernen geschlossenen Kühlkreislauf. Dies bedeutet, dass Wasser kontinuierlich zirkuliert und gekühlt wird, ohne in lokale Flüsse, Bäche oder Seen eingeleitet zu werden, wodurch thermische Verschmutzung und Abwasserabfluss vollständig eliminiert werden.",
+    "p3": "Da K-Aqua PP-R-Rohre deutlich leichter als Metallalternativen sind, benötigt der Transport weniger Kraftstoff, was direkt zu einem deutlich reduzierten CO2-Fußabdruck vom Werk bis zur Baustelle beiträgt.",
+    "diagram": "Umweltprozessdiagramm"
+  },
+  "HealthSafety": {
+    "title": "Gesundheit & Hygiene",
+    "subtitle": "Der internationale Standard für den hygienischen Medientransport. Unsere Materialien stellen die menschliche Gesundheit und den akustischen Komfort über alles.",
+    "potableTitle": "Trinkwassersicherheit",
+    "potableDesc": "Hergestellt aus lebensmittelechten Sanitärmaterialien, um sicherzustellen, dass das Trinkwasser von der Quelle bis zum Wasserhahn völlig unkontaminiert, geschmacks- und geruchsneutral bleibt.",
+    "legionellaTitle": "Legionellenresistenz",
+    "legionellaDesc": "Die extrem glatte Innenfläche von PP-R verhindert die Bildung von Biofilmen und Kalk, wodurch der Nährboden für Legionellen und andere schädliche Bakterien effektiv neutralisiert wird.",
+    "toxicTitle": "Ungiftige Architektur",
+    "toxicDesc": "Die Installation beruht auf Wärmeschweißen anstelle von giftigen Klebstoffen, Lösungsmitteln oder bleihaltigen Loten, wodurch die absolute chemische Reinheit im Rohrnetzwerk erhalten bleibt.",
+    "acousticTitle": "Schalldämmung",
+    "acousticDesc": "Die inhärente Dichte und Elastizität unserer Polymerstruktur bieten eine außergewöhnliche Geräuschreduzierung, die Fließgeräusche und Wasserschläge stark dämpft und so für ruhigere Gebäudeumgebungen sorgt."
+  },
+  "MaterialScience": {
+    "title": "Fortschrittliche Materialwissenschaft",
+    "p1": "Das Herzstück unserer Lösungen ist das Polypropylen-Random-Copolymer (PP-R/PP-RCT), ein hochentwickeltes thermoplastisches Polymer, das für außergewöhnliche Leistung entwickelt wurde. Im Gegensatz zu herkömmlichen Materialien bietet seine einzigartige Molekularstruktur eine hervorragende chemische Beständigkeit und thermische Stabilität.",
+    "p2": "Der Copolymerisationsprozess führt Ethylen in die Propylenkette ein, was zu einer hochflexiblen und dennoch haltbaren Matrix führt. Dies verhindert interne Ablagerungen, erhält eine glatte Innenfläche aufrecht und eliminiert das Risiko der Auswaschung von Schwermetallen, was absolute Reinheit beim Flüssigkeitstransport gewährleistet.",
+    "chemicalTitle": "Chemische Beständigkeit",
+    "chemicalDesc": "Hochbeständig gegen saure und alkalische Lösungen, arbeitet sicher in aggressiven Umgebungen, ohne die Rohrwand abzubauen oder zu schwächen.",
+    "thermalTitle": "Thermische Stabilität",
+    "thermalDesc": "Behält die strukturelle Integrität über extreme Temperaturgradienten hinweg bei, was es ideal für Hochtemperatur-Industrieanwendungen sowie Kaltwassersysteme macht."
+  },
+  "Recyclability": {
+    "title": "Lebenszyklus & Recyclingfähigkeit",
+    "subtitle": "Entwickelt für eine nachhaltige Zukunft, stellen unsere PP-R-Systeme den Höhepunkt der abfallfreien Produktion und der Materialrückgewinnung am Ende der Lebensdauer dar.",
+    "recyclableTitle": "100% recycelbare Rohre",
+    "recyclableDesc": "K-Aqua PP-R-Rohre sind am Ende ihrer 50-jährigen Lebensdauer zu 100% recycelbar. Im Gegensatz zu vernetzten Kunststoffen (PEX) oder Verbundmetallen kann Polypropylen geschmolzen und ohne komplexe chemische Trennung wiederverwendet werden.",
+    "resinTitle": "Harz-Code 5",
+    "resinDesc": "Als Harz-Identifikationscode 5 kategorisiert, werden unsere Materialien auf dem sekundären Recyclingmarkt sehr geschätzt. Dieses hochwertige Polymer behält eine erhebliche strukturelle Integrität und ist ideal für sekundäre industrielle Anwendungen.",
+    "zeroWasteTitle": "Abfallfreie Fertigung",
+    "zeroWasteDesc": "Während der Extrusions- und Spritzgussprozesse werden jegliche Abschnitte oder Produktionsabfälle sofort gemahlen und in unkritische Produktionslinien zurückgeführt, wodurch absolute Minimalabfälle auf Deponien sichergestellt werden."
+  }
+}

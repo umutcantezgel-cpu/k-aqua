@@ -1,0 +1,153 @@
+{
+  "ApplicationAreas": {
+    "title": "Obszary Zastosowań.",
+    "subtitle": "K-Aqua to wszechstronna platforma zaprojektowana do wymagających scenariuszy transportu płynów.",
+    "cards": {
+      "potable": { "title": "Sieci Wody Pitnej", "desc": "Absolutna higiena dla dystrybucji zimnej i ciepłej wody pitnej." },
+      "climate": { "title": "Systemy HVAC", "desc": "Zoptymalizowane dla linii wody lodowej i ogrzewania." },
+      "industrial": { "title": "Płyny Przemysłowe", "desc": "Wysoka odporność chemiczna na ciecze agresywne." },
+      "agricultural": { "title": "Nawadnianie w Rolnictwie", "desc": "Trwałe wdrożenie w środowiskach o wysokim ciśnieniu." },
+      "compressed": { "title": "Sprężone Powietrze", "desc": "Szczelna sieć dla dystrybucji sprężonego powietrza." },
+      "shipbuilding": { "title": "Przemysł Stoczniowy", "desc": "Odporność klasy morskiej w środowiskach słonych." }
+    }
+  },
+  "CTA": {
+    "title": "Inicjalizuj Wdrożenie.",
+    "subtitle": "Pobierz pełną ofertę produktów w formacie PDF.",
+    "download": "Pobierz Ofertę PDF",
+    "contact": "Kontakt z Inżynierią",
+    "systemStatus": "Status Systemu:",
+    "operational": "Operacyjny"
+  },
+  "CompetitiveAdvantage": {
+    "title": "Przewaga Konkurencyjna.",
+    "subtitle": "K-Aqua wyznacza nowy standard trwałości infrastruktury.",
+    "table": {
+      "feature": "Funkcja",
+      "rows": {
+        "joining": "Metoda Łączenia",
+        "corrosion": "Odporność na Korozję",
+        "scale": "Gromadzenie Kamienia",
+        "thermal": "Izolacja Termiczna",
+        "acoustic": "Tłumienie Akustyczne",
+        "lifespan": "Żywotność"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Zapytania Techniczne.",
+    "subtitle": "Wyczerpujące odpowiedzi dla inżynierów i architektów.",
+    "questions": {
+      "diff": { "q": "Czym różni się PP-R od PP-RCT?", "a": "PP-RCT pozwala na wyższą odporność na ciśnienie w podwyższonych temperaturach." },
+      "hvac": { "q": "Czy rury K-Aqua można stosować w systemach HVAC?", "a": "Absolutnie. Niska przewodność cieplna znacznie zmniejsza ryzyko kondensacji." },
+      "weld": { "q": "Jak zgrzewanie polifuzyjne zapobiega wyciekom?", "a": "Tworzy jedną ciągłą matrycę bez klejów." },
+      "safe": { "q": "Czy te rury są bezpieczne dla wody pitnej?", "a": "Tak, są certyfikowane do transportu wody pitnej na całym świecie." },
+      "life": { "q": "Jaka jest oczekiwana żywotność?", "a": "Powyżej 50 lat przy prawidłowej instalacji." }
+    }
+  },
+  "FittingsArsenal": {
+    "title": "Arsenał.",
+    "subtitle1": "Nasze złączki są precyzyjnie wykonane w rozmiarach od ",
+    "subtitle2": "20 mm do 315 mm",
+    "subtitle3": ".",
+    "footer": "Każdy element idealnie łączy się z systemem.",
+    "items": {
+      "valves": { "title": "Zawory Premium", "desc": "Mechanizmy kontrolne bez wycieków." },
+      "unions": { "title": "Śrubunki Wysokiego Ciśnienia", "desc": "Niezawodne łączenia mechaniczne." },
+      "cutting": { "title": "Narzędzia Tnące", "desc": "Precyzja mikrometryczna." },
+      "welding": { "title": "Urządzenia Zgrzewające", "desc": "Sprzęt do fuzji termicznej." }
+    }
+  },
+  "Hero": {
+    "badge": "Architektura Systemu",
+    "title": "PP-R i PP-RCT",
+    "subtitle": "Szczyt inżynierii sanitarnej. Zaprojektowane dla wody pitnej.",
+    "button": "Zainicjuj System"
+  },
+  "Installation": {
+    "title": "Fizyka Polifuzji.",
+    "subtitle1": "K-Aqua unika słabych punktów dzięki polifuzji termicznej.",
+    "subtitle2": "Dzięki podgrzaniu materiału struktura staje się płynna.",
+    "steps": {
+      "cut": { "title": "Precyzyjne Cięcie", "desc": "Rura jest przecinana prostopadle." },
+      "thermal": { "title": "Aktywacja Termiczna", "desc": "Podgrzewane jednocześnie do 260°C." },
+      "polyfusion": { "title": "Polifuzja", "desc": "Elementy łączą się bez obracania." },
+      "homo": { "title": "Homogenizacja", "desc": "Dwa elementy stają się jednym materiałem." }
+    }
+  },
+  "MaterialScience": {
+    "title": "Inżynieria Materiałowa.",
+    "subtitle": "Zaawansowana inżynieria polimerowa.",
+    "p1": "PP-RCT podnosi standardy dzięki procesowi beta-nukleacji.",
+    "p2": "Kontrolowana krystalizacja umożliwia większą odporność na ciśnienie.",
+    "badge": "Struktura Krystaliczna Beta",
+    "features": {
+      "beta": "Krystaliczność Beta",
+      "pressure": "Wyższa Odporność na Ciśnienie",
+      "wall": "Zmniejszona Grubość Ścianki",
+      "flow": "Zwiększony Przepływ"
+    }
+  },
+  "QualityAssurance": {
+    "title": "Zapewnienie Jakości.",
+    "subtitle": "Poddawane rygorystycznym testom.",
+    "certs": {
+      "din": { "title": "DIN 8077 / 8078", "desc": "Niemiecka norma dla rur PP." },
+      "dvgw": { "title": "DVGW", "desc": "Certyfikat dla wody pitnej." },
+      "iso": { "title": "ISO 15874", "desc": "Norma międzynarodowa." },
+      "skz": { "title": "Testy SKZ", "desc": "Ciągły audyt niezależny." }
+    }
+  },
+  "SDRRatings": {
+    "title": "Skalowanie Wymiarowe.",
+    "subtitle1": "Nasze wymiary zaczynają się od ",
+    "subtitle2": "20 mm",
+    "subtitle3": " aż po kolosalne ",
+    "subtitle4": "630 mm",
+    "subtitle5": ".",
+    "ratings": {
+      "sdr6": { "sdr": "SDR 6", "desc": "Ekstremalne Ciśnienie.", "pressure": "PN 20" },
+      "sdr7": { "sdr": "SDR 7.4", "desc": "Wysokie Ciśnienie.", "pressure": "PN 16" },
+      "sdr9": { "sdr": "SDR 9", "desc": "Duży Przepływ.", "pressure": "PN 12.5" },
+      "sdr11": { "sdr": "SDR 11", "desc": "Standardowa Dystrybucja.", "pressure": "PN 10" },
+      "sdr17": { "sdr": "SDR 17", "desc": "Maksymalna Objętość.", "pressure": "PN 6" }
+    }
+  },
+  "Sustainability": {
+    "title": "Odpowiedzialność Ekologiczna.",
+    "p1": "Zrównoważony rozwój wymaga wielostronnego podejścia.",
+    "p2": "Systemy wymagają znacznie mniej energii do produkcji.",
+    "p3": "Matryca polipropylenowa jest w 100% zdatna do recyklingu.",
+    "energy": "Wbudowana Energia",
+    "low": "Niska",
+    "heat": "Utrata Ciepła",
+    "minimal": "Minimalna",
+    "recyclability": "Podatność na Recykling"
+  },
+  "TechnicalSpecs": {
+    "title": "Specyfikacje Techniczne.",
+    "subtitle": "Precyzyjne dane według norm ISO i DIN.",
+    "headers": {
+      "property": "Właściwość",
+      "value": "Wartość",
+      "method": "Metoda"
+    },
+    "specs": {
+      "density": { "property": "Gęstość", "value": "0.895 - 0.905 g/cm³", "method": "ISO 1183" },
+      "melt": { "property": "Wskaźnik Szybkości Płynięcia", "value": "0.2 - 0.5 g/10min", "method": "ISO 1133" },
+      "thermal": { "property": "Przewodność", "value": "0.24 W/(m·K)", "method": "DIN 52612" },
+      "expansion": { "property": "Rozszerzalność", "value": "0.15 mm/(m·K)", "method": "DIN 53752" },
+      "modulus": { "property": "Moduł Sprężystości", "value": "800 MPa", "method": "ISO 178" },
+      "yield": { "property": "Granica Plastyczności", "value": "25 MPa", "method": "ISO 527-2" }
+    }
+  },
+  "TechnologyCore": {
+    "title1": "Dominacja",
+    "title2": "Molekularna.",
+    "subtitle": "Struktury wzmacniane włóknem szklanym.",
+    "p1": "Gwarancja braku toksyczności.",
+    "p2": "Zmniejsza rozszerzalność cieplną.",
+    "p3": "Zgrzewanie eliminuje mechaniczne punkty awarii.",
+    "badge": "Polimatryca"
+  }
+}

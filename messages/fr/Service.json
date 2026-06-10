@@ -1,0 +1,154 @@
+{
+  "Hero": {
+    "title": "Ressources<br />d'Ingénierie.",
+    "subtitle": "Documentation technique complète, normes d'assurance qualité et guides d'installation précis pour les systèmes de tuyauterie K-Aqua PP-R et PP-RCT.",
+    "button": "Explorer les Données Techniques"
+  },
+  "Overview": {
+    "title": "Ingénierie de Précision pour les Infrastructures Modernes",
+    "p1": "K-Aqua se consacre à l'avancement de la technologie de transport des fluides grâce à une précision sans compromis et une science des matériaux rigoureuse. Nos systèmes PP-R (Polypropylène Copolymère Random) et PP-RCT (Polypropylène Copolymère Random avec cristallinité et résistance thermique modifiées) représentent le summum de l'infrastructure de tuyauterie moderne.",
+    "p2": "Conçu explicitement pour soutenir les architectes, les ingénieurs en mécanique, les planificateurs d'installations et les maîtres installateurs, notre écosystème technique garantit une fiabilité totale sur tout le cycle de vie. Des réseaux de refroidissement industriels très exigeants aux lignes de transport de produits chimiques agressifs en passant par les distributions d'eau potable sensibles, les produits K-Aqua offrent une résistance chimique, une stabilité thermique et un amortissement acoustique inégalés.",
+    "p3": "Nous donnons les moyens aux professionnels de l'industrie en fournissant des données techniques exhaustives et transparentes. Cet engagement garantit que chaque joint fusionné et chaque mètre de tuyau posé répond aux normes internationales les plus strictes, y compris les certifications DIN, ISO et DVGW. Découvrez les spécifications qui font de K-Aqua le choix définitif pour l'ingénierie structurelle avant-gardiste."
+  },
+  "MaterialScience": {
+    "title": "Science des Matériaux Avancée",
+    "description": "La force fondamentale des systèmes de tuyauterie K-Aqua réside dans nos matrices polymères hautement raffinées. Comprendre les avantages biochimiques et structurels de nos matériaux garantit une application optimale dans divers scénarios d'ingénierie.",
+    "coreAdvantageTitle": "Avantage Principal",
+    "coreAdvantageQuote": "\"Nos formulations propriétaires de PP-R et PP-RCT prolongent considérablement la durée de vie opérationnelle des systèmes de transport de fluides à haute pression tout en atténuant la formation de bio-film.\"",
+    "cards": {
+      "0": {
+        "title": "PP-R de Haut Poids Moléculaire",
+        "description": "Le Polypropylène Copolymère Random (PP-R) est caractérisé par une structure de haut poids moléculaire qui offre une résistance supérieure aux chocs, même à basse température. Sa surface interne lisse réduit considérablement la friction des fluides et empêche entièrement la calcification et l'incrustation sur des décennies de service actif."
+      },
+      "1": {
+        "title": "Cristaux de Nouvelle Génération PP-RCT",
+        "description": "Le PP-RCT représente une percée dans l'ingénierie des polymères, doté d'une structure cristalline modifiée. Cette modification permet au matériau de résister à des pressions hydrostatiques nettement plus élevées à des températures élevées, facilitant des parois de tuyaux plus minces et entraînant des capacités de flux hydraulique supérieures de 15 à 20%."
+      },
+      "2": {
+        "title": "Amortissement Acoustique",
+        "description": "Contrairement aux conduits métalliques rigides, la nature viscoélastique des polymères K-Aqua absorbe naturellement l'énergie cinétique. Ce trait structurel amortit profondément les effets de coup de bélier et réduit la transmission des bruits hydrodynamiques, le rendant idéal pour les environnements sensibles sur le plan acoustique."
+      },
+      "3": {
+        "title": "Résistance Chimique & Thermique",
+        "description": "Conçus pour gérer des contraintes opérationnelles extrêmes, les systèmes K-Aqua transportent des produits chimiques agressifs, de l'air comprimé et de l'eau surchauffée sans dégradation structurelle. La matrice polymère reste entièrement inerte chimiquement et résistante à la corrosion."
+      }
+    }
+  },
+  "QualityAssurance": {
+    "title": "Normes d'Assurance Qualité",
+    "description": "Notre politique zéro défaut est régie par un cadre de test automatisé sans compromis. Opérant strictement sous les normes ISO 9001:2015 et DIN EN ISO 15874, K-Aqua garantit que chaque composant est conçu pour des décennies de performances irréprochables.",
+    "cards": {
+      "0": {
+        "title": "Surveillance d'Extrusion en Ligne",
+        "description": "Des micromètres guidés par laser numérisent en continu l'épaisseur de la paroi du tuyau et la concentricité pendant le processus d'extrusion. Tout écart déclenche instantanément un rejet de ligne."
+      },
+      "1": {
+        "title": "Tests de Lots Destructifs",
+        "description": "Chaque lot de production subit des tests de pression hydrostatique extrêmes, des cycles thermiques et des évaluations de résistance aux chocs Izod."
+      },
+      "2": {
+        "title": "Vérification par des Tiers",
+        "description": "Les mesures internes sont constamment auditées et certifiées par des autorités mondiales de test indépendantes, y compris TÜV, DVGW et SKZ."
+      }
+    }
+  },
+  "TrainingAcademy": {
+    "title": "Académie de Formation K-Aqua",
+    "description": "Même les systèmes de tuyauterie les plus avancés nécessitent une installation experte. L'Académie K-Aqua comble le fossé entre la science des matériaux et l'application pratique.",
+    "list": {
+      "0": {
+        "title": "Séminaires de Projet sur Site",
+        "description": "Nos superviseurs techniques se déploient directement sur les grands chantiers d'infrastructure, offrant une formation pratique aux grandes équipes d'installation."
+      },
+      "1": {
+        "title": "Programme Théorique",
+        "description": "Ateliers approfondis couvrant les calculs thermodynamiques, les compensations de dilatation et les distances de support optimales."
+      },
+      "2": {
+        "title": "Certification Officielle",
+        "description": "Les installateurs qui réussissent les examens reçoivent le titre d'Installateur Certifié K-Aqua, les autorisant à activer nos garanties prolongées."
+      }
+    },
+    "protocol": "Protocole de Certification"
+  },
+  "InstallationProtocols": {
+    "title": "Protocoles d'Installation",
+    "description": "Maîtriser les techniques de fusion thermique exactes garantit l'intégrité à vie des joints. Passez en revue nos masterclasses étape par étape.",
+    "modulePrefix": "Module",
+    "protocols": {
+      "0": {
+        "title": "Soudage Manuel par Emboîtement",
+        "subtitle": "Tuyaux & Raccords PP-R / PP-RCT",
+        "desc": "La technique fondamentale pour les réseaux de tuyaux résidentiels et commerciaux standards."
+      },
+      "1": {
+        "title": "Soudage par Machine par Emboîtement",
+        "subtitle": "Machines de Soudage Stationnaires",
+        "desc": "Pour les tuyaux de grand diamètre, les machines de soudage stationnaires offrent une précision mécanique."
+      },
+      "2": {
+        "title": "Soudage par Électrofusion",
+        "subtitle": "Fusion de Joint Automatisée",
+        "desc": "Idéal pour les contraintes spatiales, ce guide couvre le pelage de tuyaux et les protocoles de nettoyage."
+      },
+      "3": {
+        "title": "Soudage Bout à Bout",
+        "subtitle": "Conduites Principales à Grand Diamètre",
+        "desc": "Essentiel pour les infrastructures massives et le transport de fluides à volume élevé."
+      }
+    }
+  },
+  "DocumentLibrary": {
+    "title": "Bibliothèque de Documents",
+    "description": "Accédez à la bibliothèque technique définitive de K-Aqua.",
+    "download": "Télécharger le PDF",
+    "docs": {
+      "0": {
+        "title": "Gamme Complète de Produits",
+        "category": "Catalogue",
+        "description": "Un catalogue complet détaillant nos systèmes de tuyauterie PP-R et PP-RCT."
+      },
+      "1": {
+        "title": "Caractéristiques Techniques des Produits",
+        "category": "Données Techniques",
+        "description": "Plongez dans la science des matériaux derrière K-Aqua."
+      },
+      "2": {
+        "title": "Assurance Qualité & Certifications",
+        "category": "Conformité",
+        "description": "Passez en revue nos protocoles de test internes rigoureux et notre respect des normes DIN et ISO."
+      }
+    }
+  },
+  "FAQ": {
+    "title": "FAQ Technique",
+    "subtitle": "Réponses directes aux questions d'ingénierie mécanique et d'installation les plus critiques.",
+    "faqs": {
+      "0": {
+        "q": "Quelle est la température de fonctionnement maximale des systèmes PP-RCT ?",
+        "a": "Ils sont conçus pour fonctionner jusqu'à 70°C en continu pendant 50 ans, avec des pics à 90°C."
+      },
+      "1": {
+        "q": "Combien de temps un joint de fusion doit-il refroidir ?",
+        "a": "Le temps dépend du diamètre. Un tuyau standard de 20 mm nécessite environ 2 minutes de refroidissement fixe."
+      },
+      "2": {
+        "q": "Les tuyaux K-Aqua peuvent-ils être installés à la lumière directe du soleil ?",
+        "a": "Les tuyaux doivent être isolés, peints, ou vous pouvez utiliser nos variantes stabilisées aux UV."
+      },
+      "3": {
+        "q": "Comment le PP-R gère-t-il la dilatation thermique ?",
+        "a": "Grâce à des arrangements précis de supports fixes et coulissants, ou des boucles de dilatation."
+      },
+      "4": {
+        "q": "K-Aqua convient-il au transport chimique industriel agressif ?",
+        "a": "Oui, il est très résistant à un large spectre d'acides, d'alcalis et de solvants organiques."
+      }
+    }
+  },
+  "CTA": {
+    "title": "Prêt à concevoir votre prochain projet d'infrastructure ?",
+    "description": "Connectez-vous directement à notre équipe pour des calculs thermodynamiques sur mesure ou des bibliothèques CAO.",
+    "button": "Contacter le Support Technique"
+  }
+}

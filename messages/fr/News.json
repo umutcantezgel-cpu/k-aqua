@@ -1,0 +1,154 @@
+{
+  "GridSection": {
+    "title": "Transmissions Récentes",
+    "subtitle": "Restez informé sur nos dernières avancées technologiques, nos déploiements internationaux et nos initiatives stratégiques de développement durable.",
+    "readArticle": "Lire l'Article",
+    "articles": {
+      "article1": {
+        "title": "Dévoilement de la Technologie d'Extrusion de Polymères Nouvelle Génération",
+        "category": "Innovations Produits",
+        "date": "15 Oct 2025",
+        "summary": "Notre nouveau procédé d'extrusion multicouche augmente la résistance aux chocs de 40 % tout en réduisant le poids des matériaux, établissant une nouvelle référence pour la tuyauterie industrielle."
+      },
+      "article2": {
+        "title": "Déploiement Majeur d'Infrastructures en Asie du Sud-Est",
+        "category": "Projets Mondiaux",
+        "date": "08 Oct 2025",
+        "summary": "K-Aqua obtient un contrat de 45 millions de dollars pour rénover l'infrastructure d'eau municipale dans trois grandes zones métropolitaines de la région de l'ANASE."
+      },
+      "article3": {
+        "title": "L'Étape de Recyclabilité à 100 % est Atteinte",
+        "category": "Développement Durable",
+        "date": "02 Oct 2025",
+        "summary": "Chaque raccord K-Aqua produit dans le monde est désormais entièrement recyclable, bouclant ainsi la boucle de notre mandat d'économie circulaire."
+      },
+      "article4": {
+        "title": "Les Raccords Électrosoudables Avancés Entrent en Phase Bêta",
+        "category": "Innovations Produits",
+        "date": "28 Sep 2025",
+        "summary": "Début des tests bêta pour nos raccords électrosoudables intelligents équipés d'une traçabilité RFID et d'une configuration automatisée des paramètres de soudage."
+      },
+      "article5": {
+        "title": "Ouverture d'un Nouveau Centre de Fabrication en Europe de l'Est",
+        "category": "Projets Mondiaux",
+        "date": "20 Sep 2025",
+        "summary": "En élargissant notre présence européenne, la nouvelle installation entièrement automatisée doublera notre capacité de production pour le marché de l'UE."
+      },
+      "article6": {
+        "title": "Objectif d'Opérations à Empreinte Carbone Négative pour 2030",
+        "category": "Développement Durable",
+        "date": "12 Sep 2025",
+        "summary": "Nous accélérons notre calendrier. En passant à des réseaux d'énergie 100 % renouvelable, notre objectif est d'être totalement à empreinte carbone négative d'ici la fin de la décennie."
+      },
+      "article7": {
+        "title": "Lancement de la Série de Vannes Industrielles Haute Pression",
+        "category": "Innovations Produits",
+        "date": "05 Sep 2025",
+        "summary": "Conçue pour le transport de produits chimiques extrêmes, la nouvelle série de vannes offre une résistance à la corrosion inégalée dans les environnements opérationnels difficiles."
+      },
+      "article8": {
+        "title": "Partenariat avec la Méga Usine de Dessalement",
+        "category": "Projets Mondiaux",
+        "date": "29 Aoû 2025",
+        "summary": "K-Aqua a été sélectionné comme fournisseur principal pour la plus grande usine de dessalement à l'énergie solaire au monde au Moyen-Orient."
+      },
+      "article9": {
+        "title": "Percée dans les Polymères Biosourcés",
+        "category": "Développement Durable",
+        "date": "21 Aoû 2025",
+        "summary": "La R&D a réussi à concevoir un mélange de biopolymères de qualité commerciale qui conserve 98 % de la résistance à la traction des plastiques traditionnels d'origine fossile."
+      },
+      "article10": {
+        "title": "Intégration de la Détection Intelligente des Fuites de Tuyaux",
+        "category": "Innovations Produits",
+        "date": "15 Aoû 2025",
+        "summary": "Des capteurs acoustiques intégrés dans notre série de tuyaux municipaux permettent une détection des fuites en temps réel et des alertes de maintenance prédictive."
+      },
+      "article11": {
+        "title": "K-Aqua Acquiert le Réseau de Distribution Nordique",
+        "category": "Projets Mondiaux",
+        "date": "08 Aoû 2025",
+        "summary": "L'acquisition stratégique rationalise notre chaîne d'approvisionnement dans toute la Scandinavie, réduisant considérablement les délais de livraison pour les clients régionaux."
+      },
+      "article12": {
+        "title": "Installation Certifiée Zéro Gaspillage d'Eau",
+        "category": "Développement Durable",
+        "date": "01 Aoû 2025",
+        "summary": "Notre usine de production phare a atteint le statut vérifié de Zéro Gaspillage d'Eau, utilisant des systèmes avancés de refroidissement et de filtration en circuit fermé."
+      }
+    }
+  },
+  "HeroSection": {
+    "badge": "Actualités & Presse de l'Entreprise",
+    "title1": "Les Dernières",
+    "title2": "Mises à jour.",
+    "subtitle": "Découvrez nos dernières innovations produits, projets mondiaux, étapes clés en matière de développement durable et annonces de l'entreprise."
+  },
+  "FeaturedArticleSection": {
+    "badge": "NORME CERTIFIÉE",
+    "article1": {
+      "title": "La Qualité sans Compromis",
+      "subtitle": "ISO 9001:2015 — Système de Management de la Qualité",
+      "p1": "Chez K-Aqua, la qualité n'est pas une mesure statique : c'est l'architecture dynamique et fondamentale de tout ce que nous concevons. La certification ISO 9001:2015 valide rigoureusement notre quête incessante de la perfection opérationnelle et de la précision absolue dans la fabrication mondiale.",
+      "p2": "Chaque pipeline, chaque raccord et chaque solution de transport de fluides que nous déployons est soumis à des normes strictement intransigeantes. Nous pensons que la véritable fiabilité exige une approche systémique et hautement calibrée de l'excellence. En appliquant ces directives internationales complètes à l'ensemble de notre matrice de production, nous garantissons à nos partenaires des performances à la pointe de l'industrie, conçues pour résister à l'épreuve du temps et aux extrêmes environnementaux les plus difficiles.",
+      "li1": "Tests de matériaux rigoureux",
+      "li2": "Traçabilité de bout en bout",
+      "li3": "Optimisation continue des processus"
+    },
+    "article2": {
+      "title": "Gérance Environnementale",
+      "subtitle": "ISO 14001:2015 — Système de Management Environnemental",
+      "p1": "Notre engagement envers la planète est codifié sans équivoque dans notre certification ISO 14001:2015. Les défis écologiques de demain exigent aujourd'hui une action audacieuse, systémique et durable. Nous avons entièrement restructuré nos processus de cycle de vie pour minimiser considérablement notre empreinte globale.",
+      "p2": "De l'approvisionnement hyper-éthique en matières premières à la réduction radicale des déchets industriels dans nos usines de fabrication, K-Aqua s'est engagé farouchement à protéger les ressources vitales avec lesquelles nous travaillons si intimement. L'eau c'est la vie, et la protéger est notre directive suprême. Cette certification représente notre promesse indéfectible aux générations futures que le progrès industriel et la préservation de l'environnement ne s'excluent pas mutuellement.",
+      "li1": "Initiatives de fabrication zéro déchet",
+      "li2": "Réduction de l'impact du cycle de vie",
+      "li3": "Achat de matériaux durables"
+    },
+    "article3": {
+      "title": "Efficacité Énergétique Radicale",
+      "subtitle": "ISO 50001:2018 — Système de Management de l'Énergie",
+      "p1": "L'efficacité est le moteur absolu de l'évolution industrielle. Avec la certification ISO 50001:2018, nous avons hyper-optimisé nos protocoles de consommation d'énergie dans toutes les installations mondiales de K-Aqua, établissant une nouvelle référence pour le secteur.",
+      "p2": "En mettant en œuvre des systèmes de gestion de l'énergie intelligents et basés sur des données, et en investissant massivement dans des technologies de production de pointe à faible consommation, nous réduisons considérablement nos émissions de carbone. Nous suivons méticuleusement, analysons et affinons sans relâche chaque watt d'énergie utilisé dans nos lignes de production. Nous ne nous contentons pas d'économiser l'énergie ; nous concevons un avenir profondément plus rationnel, plus propre et bien plus responsable pour l'industrie manufacturière lourde.",
+      "li1": "Intégration d'installations de réseau intelligent",
+      "li2": "Analyses de consommation en temps réel",
+      "li3": "Atténuation des émissions de carbone"
+    }
+  },
+  "PressKitSection": {
+    "badge": "Ressources Officielles",
+    "title": "Médias & Dossier de Presse",
+    "subtitle": "La transparence absolue est primordiale. Accédez à nos directives officielles de marque, aux photographies de produits haute résolution, aux biographies des dirigeants et aux certificats de gestion ISO vérifiés.",
+    "btnEn": "PDF ISO Anglais",
+    "btnDe": "PDF ISO Allemand",
+    "card1": {
+      "title": "Actifs de la Marque",
+      "desc": "Logos officiels, typographie et spécifications de la palette de couleurs.",
+      "action": "Télécharger le ZIP"
+    },
+    "card2": {
+      "title": "Photographie de Produits",
+      "desc": "Images haute résolution de nos tuyaux, raccords et installations.",
+      "action": "Télécharger le ZIP"
+    },
+    "card3": {
+      "title": "Communiqués de Presse",
+      "desc": "Archives de toutes les déclarations officielles de l'entreprise et des communiqués de presse.",
+      "action": "Voir les Archives"
+    },
+    "card4": {
+      "title": "Biographies des Dirigeants",
+      "desc": "Profils et portraits de l'équipe de direction de K-Aqua.",
+      "action": "Télécharger le PDF"
+    }
+  },
+  "NewsletterSection": {
+    "title": "Abonnez-vous à Notre Briefing",
+    "subtitle": "Recevez les dernières informations sur la fabrication de tuyaux industriels, les pratiques d'ingénierie durables et les mises à jour mondiales de l'entreprise directement dans votre boîte de réception.",
+    "success": "Abonnement confirmé. Bienvenue à bord.",
+    "placeholder": "Entrez votre adresse e-mail",
+    "subscribe": "S'abonner",
+    "privacy": "Nous respectons votre boîte de réception. Pas de spam, jamais. Lisez notre",
+    "privacyLink": "Politique de Confidentialité",
+    "dot": "."
+  }
+}

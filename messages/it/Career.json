@@ -1,0 +1,88 @@
+{
+  "Hero": {
+    "title_1": "Progetta",
+    "title_2": "il futuro dell'acqua",
+    "subtitle": "Unisciti a K-Aqua e costruisci l'infrastruttura che sostiene la vita. Siamo alla ricerca di menti ambiziose per spingere i confini dell'ingegneria dei polimeri.",
+    "cta": "Visualizza posizioni aperte"
+  },
+  "CTA": {
+    "title": "Diventa il catalizzatore",
+    "subtitle": "Se hai la spinta per far parte di una storia di successo in continua crescita e vuoi unirti a un'azienda moderna che spinge i limiti dell'ingegneria, vogliamo sentirti.",
+    "btn_email": "Candidati via E-mail",
+    "btn_call": "Chiama le Risorse Umane",
+    "contact_prefix": "Contatto diretto"
+  },
+  "FAQ": {
+    "title": "Domande frequenti",
+    "items": [
+      { "q": "Offrite opzioni di lavoro da remoto?", "a": "A seconda del ruolo, offriamo accordi ibridi flessibili e completamente da remoto. I ruoli di ingegneria e produzione richiedono in genere la presenza in loco, mentre i ruoli di vendita e amministrazione offrono maggiore flessibilità." },
+      { "q": "Com'è il processo di inserimento?", "a": "I nuovi assunti seguono un programma completo di inserimento di 4 settimane che copre i nostri prodotti, la nostra cultura, i sistemi e gli approfondimenti con i capi dipartimento chiave." },
+      { "q": "Ci sono opportunità di trasferimento internazionale?", "a": "Sì, come azienda globale, offriamo frequentemente mobilità interna e opportunità di trasferimento nei nostri uffici internazionali." },
+      { "q": "In che modo K-Aqua supporta lo sviluppo professionale?", "a": "Forniamo un budget annuale per la formazione, programmi di tutoraggio interno e permessi retribuiti per certificazioni pertinenti e conferenze del settore." }
+    ]
+  },
+  "Benefits": {
+    "title": "Vantaggi completi",
+    "subtitle": "Esigiamo il meglio dal nostro team e diamo il meglio in cambio. Il nostro pacchetto di vantaggi è progettato per supportare la tua vita professionale e personale.",
+    "items": [
+      { "title": "Salute completa", "desc": "Copertura sanitaria di alto livello che dà priorità al tuo benessere e alla tua tranquillità." },
+      { "title": "Apprendimento continuo", "desc": "Budget generosi per corsi, certificazioni e conferenze del settore." },
+      { "title": "Operazioni flessibili", "desc": "Orario di lavoro base con flessibilità per gestire il tuo programma personale." },
+      { "title": "Strutture moderne", "desc": "Spazi per uffici all'avanguardia progettati per favorire la concentrazione, la collaborazione e il comfort." },
+      { "title": "Servizi premium", "desc": "Ristorazione interna, caffè speciali e zone relax." },
+      { "title": "Bonus di rendimento", "desc": "Pacchetti retributivi competitivi con incentivi basati sulle prestazioni." }
+    ]
+  },
+  "JobPostings": {
+    "title": "Posizioni aperte",
+    "subtitle": "Trova il tuo posto nella nostra organizzazione in crescita. Stiamo assumendo attivamente in più dipartimenti.",
+    "items": [
+      { "title": "Ingegnere senior dei polimeri", "dept": "Ingegneria", "type": "Tempo pieno", "location": "Germania / Ibrido" },
+      { "title": "Direttore dello stabilimento di produzione", "dept": "Produzione", "type": "Tempo pieno", "location": "In sede" },
+      { "title": "Responsabile tecnico commerciale globale", "dept": "Vendite", "type": "Tempo pieno", "location": "Da remoto / In viaggio" },
+      { "title": "Analista della catena di fornitura", "dept": "Logistica", "type": "Tempo pieno", "location": "Ibrido" }
+    ]
+  },
+  "HiringProcess": {
+    "title": "Il processo di assunzione",
+    "subtitle": "Trasparente, efficiente e rispettoso del tuo tempo.",
+    "items": [
+      { "title": "Revisione della candidatura", "desc": "Il nostro team di reclutamento esamina attentamente il tuo profilo in base alle nostre esigenze attuali e future." },
+      { "title": "Conversazione iniziale", "desc": "Una breve telefonata per discutere del tuo background, delle tue motivazioni e rispondere a qualsiasi domanda immediata su K-Aqua." },
+      { "title": "Colloquio tecnico/di competenza", "desc": "Un'immersione profonda nelle tue capacità professionali con il responsabile delle assunzioni e i membri del team." },
+      { "title": "Offerta finale", "desc": "Presenteremo un'offerta competitiva e discuteremo del tuo piano di integrazione nel nostro team globale." }
+    ]
+  },
+  "Culture": {
+    "title": "La nostra cultura",
+    "subtitle": "Un ambiente progettato per coloro che esigono l'eccellenza e prosperano in team ad alte prestazioni.",
+    "items": [
+      { "title": "Eccellenza collaborativa", "desc": "I nostri team operano con grande fiducia e autonomia. Crediamo che le idee migliori vincano, indipendentemente dalla gerarchia o dall'anzianità." },
+      { "title": "L'innovazione prima di tutto", "desc": "Investiamo molto in ricerca e sviluppo. Dai composti PP-RCT avanzati alle linee di estrusione automatizzate, l'innovazione è la nostra base." },
+      { "title": "Crescita continua", "desc": "Sfidiamo le norme arcaiche. Il tuo percorso di carriera in K-Aqua è limitato solo dalla tua ambizione e dalla tua voglia di imparare." }
+    ]
+  },
+  "Manifesto": {
+    "title": "Il manifesto",
+    "quote": "\"L'acqua è l'essenza della vita, ma è l'infrastruttura che la distribuisce. Costruiamo le arterie della civiltà moderna con una precisione senza compromessi e ingegneria tedesca.\"",
+    "description": "In K-Aqua non produciamo solo tubi. Progettiamo sistemi resilienti che garantiscono il trasporto sicuro della risorsa più preziosa al mondo. Siamo un'azienda che punta in alto: alla costante ricerca di crescita, scalabilità e capacità."
+  },
+  "Locations": {
+    "title": "La nostra sede",
+    "subtitle": "Situato nel cuore della Germania, il nostro campus centrale è il fulcro delle nostre operazioni globali. Ospita i nostri principali laboratori di ricerca e sviluppo, uffici dirigenziali e i principali team di ingegneria che guidano la nostra espansione internazionale.",
+    "hq_title": "Sede centrale globale - Germania",
+    "map_placeholder": "Integrazione mappa struttura"
+  },
+  "MarketPosition": {
+    "title": "Posizione senza rivali",
+    "subtitle": "Ricopriamo una posizione dominante sul mercato, ma consideriamo ciò solo l'inizio. La nostra traiettoria è ripida e la nostra espansione è continua.",
+    "items": [
+      { "title": "Portata globale", "desc": "Espandendosi in tutti i continenti, le nostre soluzioni di approvvigionamento idrico sono la spina dorsale di megaprogetti in tutto il mondo." },
+      { "title": "Crescita aggressiva", "desc": "Un'azienda in espansione che non si ferma mai. Reinvestiamo pesantemente in ricerca e sviluppo e talenti." },
+      { "title": "Leadership di mercato", "desc": "Definire lo standard per qualità, durata e sicurezza nel settore PP-R e PP-RCT." },
+      { "title": "Qualità senza compromessi", "desc": "Eccellenza certificata. Il nostro processo di produzione garantisce tolleranze di zero guasti in condizioni estreme." },
+      { "title": "Fluidodinamica", "desc": "Padroneggiare la fisica del trasporto dell'acqua. Ogni raccordo e tubo è ottimizzato per la massima efficienza." },
+      { "title": "Infrastruttura moderna", "desc": "Operare in una struttura all'avanguardia in cui l'automazione e l'esperienza umana lavorano in perfetta sintesi." }
+    ]
+  }
+}

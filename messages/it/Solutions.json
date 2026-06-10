@@ -1,0 +1,113 @@
+{
+  "Hero": {
+    "title1": "Sistemi in",
+    "title2": "Tubi PP-R",
+    "title3": "Sostenibili",
+    "subtitle": "Soluzioni idrauliche ecologicamente responsabili progettate per il futuro. Ci impegniamo a ridurre l'inquinamento atmosferico, conservare le risorse e produrre polimeri termoplastici superiori che superano i materiali tradizionali."
+  },
+  "Applications": {
+    "title": "Applicazioni Industriali",
+    "subtitle": "Una soluzione ingegneristica versatile impiegata in molteplici settori, progettata per risolvere specifiche sfide nel trasporto dei fluidi.",
+    "commercialTitle": "Idraulica Commerciale",
+    "commercialDesc": "Ideale per edifici commerciali a più piani, ospedali e hotel dove sono rigorosamente richieste una distribuzione affidabile dell'acqua potabile e una costanza di pressione. Zero corrosione garantisce la fornitura di acqua pulita per decenni.",
+    "hvacTitle": "Acqua Refrigerata HVAC",
+    "hvacDesc": "Altamente efficiente per i sistemi di condizionamento d'aria e acqua refrigerata. La bassa conducibilità termica del PP-R minimizza l'accumulo di calore, prevenendo la condensa e mantenendo un preciso controllo della temperatura.",
+    "heatingTitle": "Riscaldamento a Radiatori",
+    "heatingDesc": "Progettato per gestire lo stress continuo ad alte temperature, rendendolo la scelta principale per le reti centrali di riscaldamento a radiatori e le applicazioni di riscaldamento a pavimento.",
+    "industrialTitle": "Trasporto Fluidi Industriali",
+    "industrialDesc": "L'eccezionale resistenza chimica consente il trasporto sicuro di fluidos industriali aggressivi, aria compressa e sostanze chimiche di produzione senza degradare la matrice del tubo.",
+    "agricultureTitle": "Irrigazione Agricola",
+    "agricultureDesc": "Opzioni durevoli e resistenti ai raggi UV disponibili per l'irrigazione agricola su larga scala, offrendo un'alta resistenza agli urti contro l'usura ambientale e le condizioni meteorologiche estreme."
+  },
+  "Certifications": {
+    "title": "Certificazioni Globali",
+    "subtitle": "Progettato in Germania, fidato a livello globale. I nostri prodotti sono rigorosamente testati per soddisfare e superare gli standard internazionali di garanzia della qualità.",
+    "dinTitle": "DIN 8077 / DIN 8078",
+    "dinDesc": "Conformità dell'Istituto Tedesco per la Standardizzazione per le dimensioni dei tubi in polipropilene e i test di qualità.",
+    "isoTitle": "ISO 9001:2015",
+    "isoDesc": "Standard internazionalmente riconosciuto per robusti Sistemi di Gestione della Qualità nella produzione.",
+    "dvgwTitle": "Certificato DVGW",
+    "dvgwDesc": "Approvato per l'uso sicuro negli impianti di acqua potabile dall'Associazione Tecnico-Scientifica Tedesca per il Gas e l'Acqua.",
+    "skzTitle": "Test SKZ",
+    "skzDesc": "Rigorosi test di terze parti e sorveglianza della qualità da parte del Centro Tedesco delle Materie Plastiche."
+  },
+  "Comparative": {
+    "title": "Confronto dei Materiali",
+    "subtitle": "Quando valutato rispetto ai materiali idraulici tradizionali, il PP-R K-Aqua dimostra capacità superiori nel prevenire la corrosione, ridurre l'accumulo di calcare e garantire l'integrità del sistema a lungo termine.",
+    "perfFeature": "Caratteristica di Prestazione",
+    "kAqua": "K-Aqua PP-R",
+    "copper": "Rame",
+    "steel": "Acciaio Zincato",
+    "pvc": "PVC / CPVC",
+    "f1": "Resistente alla Corrosione",
+    "f2": "Prevenzione Accumulo di Calcare",
+    "f3": "Isolamento Termico (Bassa Perdita di Calore)",
+    "f4": "Smorzamento Acustico (Basso Rumore)",
+    "f5": "Installazione Priva di Sostanze Tossiche (Senza Colle/Saldature)",
+    "f6": "Alta Resistenza agli Urti"
+  },
+  "Cta": {
+    "title": "Specifica K-Aqua per il tuo Prossimo Progetto",
+    "subtitle": "Scarica la nostra documentazione tecnica completa, inclusi file CAD, specifiche di pressione e documenti di certificazione globali.",
+    "button1": "Scarica Specifiche Tecniche",
+    "button2": "Contatta il Team di Ingegneria"
+  },
+  "Durability": {
+    "title": "Durata Senza Compromessi",
+    "subtitle": "Costruiti per durare più a lungo degli edifici che occupano. I nostri sistemi offrono tranquillità grazie a un'eccezionale ingegneria e scienza dei materiali.",
+    "lifespanTitle": "Oltre 50 Anni di Durata",
+    "lifespanDesc": "Progettati per la longevità, i sistemi di tubazioni in PP-R K-Aqua sono certificati per operare continuamente per oltre 50 anni a pressioni e temperature operative standard, eliminando la necessità di revisioni periodiche del sistema.",
+    "pressureTitle": "Alta Resistenza alla Pressione",
+    "pressureDesc": "Le nostre giunzioni a fusione omogenea e le pareti dei tubi strutturalmente rinforzate consentono al sistema di resistere a forti fluttuazioni di pressione e all'effetto colpo d'ariete, superando le tolleranze di stress dei materiali tradizionali.",
+    "tempTitle": "Temperature Estreme",
+    "tempDesc": "Progettato per operare perfettamente in un ampio spettro termico. Dalle applicazioni di refrigerazione profonda alle reti di radiatori ad alta temperatura, il materiale mantiene la sua integrità strutturale senza deformarsi o degradarsi."
+  },
+  "EconomicROI": {
+    "title": "ROI Economico",
+    "subtitle": "Oltre alla superiorità ingegneristica, K-Aqua offre profondi vantaggi economici attraverso un'installazione rapida, efficienza energetica e manutenzione eliminata.",
+    "fasterTitle": "Installazione Più Rapida",
+    "fasterDesc": "La giunzione per fusione termica riduce drasticamente i tempi di manodopera rispetto alla saldatura dell'acciaio o del rame, accelerando le tempistiche del progetto e riducendo i costi della manodopera.",
+    "maintenanceTitle": "Costi di Manutenzione",
+    "maintenanceDesc": "Le proprietà senza incrostazioni e resistenti alla corrosione significano nessuna manutenzione interna di routine, abbassando notevolmente le spese operative lungo il ciclo di vita dell'edificio.",
+    "heatTitle": "Minore Perdita di Calore",
+    "heatDesc": "L'isolamento termico superiore trattiene il calore nelle linee dell'acqua calda in modo molto più efficace rispetto alle tubazioni metalliche, portando a un'efficienza energetica misurabile e a risparmi sulle utenze."
+  },
+  "Environment": {
+    "title": "Integrità Ambientale",
+    "p1": "Prima dell'estrazione moderna del polipropilene, i gas di scarico di propilene ed etilene derivanti dalla lavorazione del petrolio venivano semplicemente bruciati, rilasciando un significativo inquinamento atmosferico. Oggi, questi gas vengono riciclati in polipropilene, riducendo drasticamente le emissioni di produzione e prevenendo fiamme nocive.",
+    "p2": "I nostri impianti di produzione impiegano un ciclo di raffreddamento chiuso all'avanguardia. Ciò significa che l'acqua viene fatta circolare e raffreddata continuamente senza scaricarsi in fiumi, torrenti o laghi locali, eliminando completamente l'inquinamento termico e il deflusso delle acque reflue.",
+    "p3": "Poiché i tubi K-Aqua PP-R sono significativamente più leggeri delle alternative metalliche, il trasporto richiede meno carburante, contribuendo direttamente a un'impronta di carbonio notevolmente ridotta dalla fabbrica al cantiere.",
+    "diagram": "Diagramma del Processo Ambientale"
+  },
+  "HealthSafety": {
+    "title": "Salute e Igiene",
+    "subtitle": "Impostiamo lo standard internazionale per il trasporto igienico dei fluidi. I nostri materiali pongono la salute umana e il comfort acustico al di sopra di tutto.",
+    "potableTitle": "Sicurezza dell'Acqua Potabile",
+    "potableDesc": "Realizzato con materiali idraulici per uso alimentare, garantendo che l'acqua potabile rimanga completamente incontaminata, insapore e inodore dalla fonte al rubinetto.",
+    "legionellaTitle": "Resistenza alla Legionella",
+    "legionellaDesc": "La superficie interna estremamente liscia del PP-R previene la formazione di biofilm e calcare, neutralizzando efficacemente i terreni di coltura per la Legionella e altri batteri dannosi.",
+    "toxicTitle": "Architettura Non Tossica",
+    "toxicDesc": "L'installazione si basa sulla fusione a caldo piuttosto che su colle tossiche, solventi o saldature a base di piombo, mantenendo l'assoluta purezza chimica all'interno della rete di tubazioni.",
+    "acousticTitle": "Isolamento Acustico",
+    "acousticDesc": "La densità e l'elasticità intrinseche della nostra struttura polimerica forniscono un'eccezionale riduzione del rumore, attenuando fortemente i rumori di scorrimento e i colpi d'ariete per ambienti di costruzione più silenziosi."
+  },
+  "MaterialScience": {
+    "title": "Scienza dei Materiali Avanzata",
+    "p1": "Al centro delle nostre soluzioni si trova il Copolimero Random di Polipropilene (PP-R/PP-RCT), un polimero termoplastico sofisticato progettato per prestazioni eccezionali. A differenza dei materiali tradizionali, la sua struttura molecolare unica offre un'eccezionale resistenza chimica e stabilità termica.",
+    "p2": "Il processo di copolimerizzazione introduce etilene nella catena del propilene, risultando in una matrice altamente flessibile ma resistente. Ciò previene le incrostazioni interne, mantiene una superficie interna liscia ed elimina il rischio di lisciviazione di metalli pesanti, garantendo una purezza assoluta nel trasporto dei fluidi.",
+    "chemicalTitle": "Resistenza Chimica",
+    "chemicalDesc": "Altamente resistente a soluzioni acide e alcaline, operando in sicurezza in ambienti aggressivi senza degradare o indebolire la parete del tubo.",
+    "thermalTitle": "Stabilità Termica",
+    "thermalDesc": "Mantiene l'integrità strutturale attraverso gradienti termici estremi, rendendolo ideale sia per le applicazioni industriali ad alto calore che per i sistemi ad acqua refrigerata."
+  },
+  "Recyclability": {
+    "title": "Ciclo di Vita e Riciclabilità",
+    "subtitle": "Progettati per un futuro sostenibile, i nostri sistemi PP-R rappresentano l'apice della produzione a zero rifiuti e del recupero dei materiali a fine vita.",
+    "recyclableTitle": "Tubi Riciclabili al 100%",
+    "recyclableDesc": "I tubi K-Aqua PP-R sono riciclabili al 100% alla fine della loro durata di vita di oltre 50 anni. A differenza delle plastiche reticolate (PEX) o dei metalli compositi, il polipropilene può essere fuso e riutilizzato senza una complessa separazione chimica.",
+    "resinTitle": "Codice Resina 5",
+    "resinDesc": "Classificati sotto il Codice Identificativo della Resina 5, i nostri materiali sono molto apprezzati nel mercato del riciclaggio secondario. Questo polimero di alta qualità conserva una significativa integrità strutturale, rendendolo ideale per le applicazioni industriali secondarie.",
+    "zeroWasteTitle": "Produzione a Zero Rifiuti",
+    "zeroWasteDesc": "Durante i processi di estrusione e stampaggio a iniezione, eventuali sfridi o scarti di produzione vengono immediatamente macinati e reintrodotti in linee di produzione non critiche, garantendo uno spreco assoluto minimo in discarica."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "Navigation": {
+    "home": "Inicio",
+    "products": "Productos",
+    "solutions": "Soluciones",
+    "about": "Sobre nosotros",
+    "service": "Servicios",
+    "news": "Noticias",
+    "career": "Carrera",
+    "contact": "Contacto"
+  },
+  "Footer": {
+    "description": "Líder en suministro de agua. Tuberías y accesorios PP-R/PP-RCT de alta calidad.",
+    "explore": "Explorar",
+    "products": "Productos",
+    "solutions": "Soluciones",
+    "references": "Referencias",
+    "career": "Carrera",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "imprint": "Aviso legal",
+    "privacyPolicy": "Política de privacidad",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "gdpr": "Estricto cumplimiento del RGPD"
+  },
+  "CTASection": {
+    "heading": "¿Listo para tu próximo proyecto?",
+    "text": "Contáctanos para una consulta sin compromiso y descubre cómo nuestras soluciones cumplen perfectamente con tus requisitos.",
+    "buttonText": "Contáctanos ahora"
+  },
+  "FAQSection": {
+    "title": "Preguntas frecuentes"
+  },
+  "HeroSection": {
+    "title": "Bienvenido a K-Aqua",
+    "subtitle": "Tu socio para tecnología de agua del futuro",
+    "ctaText": "Solicitar ahora"
+  },
+  "NotFound": {
+    "title": "404",
+    "subtitle": "Página no encontrada",
+    "desc": "No se pudo encontrar la página solicitada. Utilice una de las siguientes opciones:",
+    "home": "Inicio",
+    "contact": "Contacto",
+    "blog": "Blog"
+  }
+}

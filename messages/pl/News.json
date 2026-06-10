@@ -1,0 +1,154 @@
+{
+  "GridSection": {
+    "title": "Najnowsze Wiadomości",
+    "subtitle": "Bądź na bieżąco z naszymi najnowszymi przełomami technologicznymi, międzynarodowymi wdrożeniami i strategicznymi inicjatywami na rzecz zrównoważonego rozwoju.",
+    "readArticle": "Przeczytaj Artykuł",
+    "articles": {
+      "article1": {
+        "title": "Zaprezentowano Technologię Wytłaczania Polimerów Nowej Generacji",
+        "category": "Innowacje Produktowe",
+        "date": "15 Paź 2025",
+        "summary": "Nasz nowy wielowarstwowy proces wytłaczania zwiększa odporność na uderzenia o 40%, jednocześnie zmniejszając wagę materiału, ustanawiając nowy standard dla rurociągów przemysłowych."
+      },
+      "article2": {
+        "title": "Główne Wdrożenie Infrastruktury w Azji Południowo-Wschodniej",
+        "category": "Globalne Projekty",
+        "date": "08 Paź 2025",
+        "summary": "K-Aqua zabezpiecza kontrakt o wartości 45 mln USD na modernizację miejskiej infrastruktury wodnej w trzech głównych strefach metropolitalnych w regionie ASEAN."
+      },
+      "article3": {
+        "title": "Osiągnięto Kamień Milowy: 100% Możliwości Recyklingu",
+        "category": "Zrównoważony Rozwój",
+        "date": "02 Paź 2025",
+        "summary": "Każda złączka K-Aqua produkowana globalnie jest teraz w pełni oparta na recyklingu, zamykając obieg naszego mandatu gospodarki o obiegu zamkniętym."
+      },
+      "article4": {
+        "title": "Zaawansowane Złączki Elektrooporowe Wchodzą w Fazę Beta",
+        "category": "Innowacje Produktowe",
+        "date": "28 Wrz 2025",
+        "summary": "Rozpoczynają się testy beta dla naszych inteligentnych złączek elektrooporowych wyposażonych w śledzenie RFID i automatyczną konfigurację parametrów zgrzewania."
+      },
+      "article5": {
+        "title": "Otwarcie Nowego Centrum Produkcyjnego w Europie Wschodniej",
+        "category": "Globalne Projekty",
+        "date": "20 Wrz 2025",
+        "summary": "Rozszerzając naszą obecność w Europie, nowy, w pełni zautomatyzowany zakład podwoi naszą zdolność produkcyjną na rynek UE."
+      },
+      "article6": {
+        "title": "Cel: Operacje Węglowo Ujemne do 2030 Roku",
+        "category": "Zrównoważony Rozwój",
+        "date": "12 Wrz 2025",
+        "summary": "Przyspieszamy nasz harmonogram. Przechodząc na sieci w 100% zasilane energią odnawialną, dążymy do tego, aby do końca dekady być całkowicie węglowo ujemni."
+      },
+      "article7": {
+        "title": "Wprowadzono Serię Wysokociśnieniowych Zaworów Przemysłowych",
+        "category": "Innowacje Produktowe",
+        "date": "05 Wrz 2025",
+        "summary": "Zaprojektowana z myślą o ekstremalnym transporcie chemikaliów nowa seria zaworów oferuje niezrównaną odporność na korozję w trudnych środowiskach operacyjnych."
+      },
+      "article8": {
+        "title": "Partnerstwo z Mega Zakładem Odsalania",
+        "category": "Globalne Projekty",
+        "date": "29 Sie 2025",
+        "summary": "K-Aqua wybrane jako główny dostawca dla największego na świecie zakładu odsalania zasilanego energią słoneczną na Bliskim Wschodzie."
+      },
+      "article9": {
+        "title": "Przełom w Dziedzinie Polimerów Biobazowych",
+        "category": "Zrównoważony Rozwój",
+        "date": "21 Sie 2025",
+        "summary": "Dział badawczo-rozwojowy z powodzeniem inżynieruje mieszankę biopolimerów klasy komercyjnej, która utrzymuje 98% wytrzymałości na rozciąganie tradycyjnych tworzyw sztucznych na bazie paliw kopalnych."
+      },
+      "article10": {
+        "title": "Integracja Inteligentnego Wykrywania Wycieków",
+        "category": "Innowacje Produktowe",
+        "date": "15 Sie 2025",
+        "summary": "Zintegrowane czujniki akustyczne w naszej serii rur komunalnych umożliwiają wykrywanie wycieków w czasie rzeczywistym i powiadomienia o konserwacji zapobiegawczej."
+      },
+      "article11": {
+        "title": "K-Aqua Przejmuje Nordycką Sieć Dystrybucji",
+        "category": "Globalne Projekty",
+        "date": "08 Sie 2025",
+        "summary": "Strategiczne przejęcie usprawnia nasz łańcuch dostaw w całej Skandynawii, drastycznie skracając czas realizacji dla klientów regionalnych."
+      },
+      "article12": {
+        "title": "Certyfikat Zakładu Zero Waste Wody",
+        "category": "Zrównoważony Rozwój",
+        "date": "01 Sie 2025",
+        "summary": "Nasz flagowy zakład produkcyjny osiągnął zweryfikowany status Zero Odpadów Wodnych, wykorzystując zaawansowane systemy chłodzenia w obiegu zamkniętym i filtracji."
+      }
+    }
+  },
+  "HeroSection": {
+    "badge": "Nowości i Prasa Firmowa",
+    "title1": "Najnowsze",
+    "title2": "Aktualizacje.",
+    "subtitle": "Odkryj nasze najnowsze innowacje produktowe, globalne projekty, kamienie milowe w zakresie zrównoważonego rozwoju i ogłoszenia korporacyjne."
+  },
+  "FeaturedArticleSection": {
+    "badge": "CERTYFIKOWANY STANDARD",
+    "article1": {
+      "title": "Jakość Bez Kompromisów",
+      "subtitle": "ISO 9001:2015 — System Zarządzania Jakością",
+      "p1": "W K-Aqua jakość nie jest statyczną metryką — jest dynamiczną, fundamentalną architekturą wszystkiego, co inżynierujemy. Certyfikat ISO 9001:2015 rygorystycznie potwierdza nasze nieustanne dążenie do operacyjnej perfekcji i absolutnej precyzji w globalnej produkcji.",
+      "p2": "Każdy rurociąg, każda złączka i każde rozwiązanie transportu płynów, które wdrażamy, podlega bezkompromisowo surowym standardom. Wierzymy, że prawdziwa niezawodność wymaga systemowego, wysoce skalibrowanego podejścia do doskonałości. Egzekwując te kompleksowe międzynarodowe wytyczne w całej naszej matrycy produkcyjnej, zapewniamy, że nasi partnerzy otrzymują nie mniej niż wiodącą w branży wydajność — zaprojektowaną tak, aby wytrzymać próbę czasu i najtrudniejsze warunki środowiskowe.",
+      "li1": "Rygorystyczne testy materiałowe",
+      "li2": "Identyfikowalność typu end-to-end",
+      "li3": "Ciągła optymalizacja procesów"
+    },
+    "article2": {
+      "title": "Zarządzanie Środowiskiem",
+      "subtitle": "ISO 14001:2015 — System Zarządzania Środowiskowego",
+      "p1": "Nasze zaangażowanie w ochronę planety jest jednoznacznie skodyfikowane w naszej certyfikacji ISO 14001:2015. Wyzwania ekologiczne jutra wymagają dziś odważnych, systemowych i zrównoważonych działań. Kompleksowo zrestrukturyzowaliśmy procesy naszego cyklu życia, aby radykalnie zminimalizować nasz globalny ślad.",
+      "p2": "Od hiperetycznego pozyskiwania surowców po radykalną redukcję odpadów przemysłowych w naszych zakładach produkcyjnych, K-Aqua z pasją poświęca się ochronie kluczowych zasobów, z którymi tak blisko współpracujemy. Woda to życie, a jej ochrona to nasza nadrzędna dyrektywa. Ta certyfikacja stanowi naszą nierozerwalną obietnicę złożoną przyszłym pokoleniom, że postęp przemysłowy i ochrona ekologiczna nie wykluczają się wzajemnie.",
+      "li1": "Inicjatywy produkcyjne zero waste",
+      "li2": "Redukcja wpływu cyklu życia",
+      "li3": "Zrównoważone pozyskiwanie materiałów"
+    },
+    "article3": {
+      "title": "Radykalna Efektywność Energetyczna",
+      "subtitle": "ISO 50001:2018 — System Zarządzania Energią",
+      "p1": "Efektywność to absolutny motor ewolucji przemysłowej. Z certyfikatem ISO 50001:2018 hiperzoptymalizowaliśmy nasze protokoły zużycia energii we wszystkich globalnych obiektach K-Aqua, ustanawiając nowy punkt odniesienia dla sektora.",
+      "p2": "Dzięki wdrożeniu inteligentnych, opartych na danych systemów zarządzania energią i ogromnym inwestycjom w najnowocześniejsze, niskoemisyjne technologie produkcji drastycznie ograniczamy nasze emisje węgla. Skrupulatnie śledzimy, analizujemy i bezlitośnie udoskonalamy każdy pojedynczy wat mocy zużywany na naszych liniach produkcyjnych. Nie tylko oszczędzamy energię; architekturujemy gruntownie chudszą, czystszą i znacznie bardziej odpowiedzialną przyszłość dla przemysłu ciężkiego.",
+      "li1": "Integracja inteligentnych sieci z obiektami",
+      "li2": "Analiza zużycia w czasie rzeczywistym",
+      "li3": "Łagodzenie emisji węgla"
+    }
+  },
+  "PressKitSection": {
+    "badge": "Zasoby Oficjalne",
+    "title": "Materiały Prasowe",
+    "subtitle": "Absolutna przejrzystość ma kluczowe znaczenie. Uzyskaj dostęp do naszych oficjalnych wytycznych dotyczących marki, zdjęć produktów w wysokiej rozdzielczości, życiorysów kadry kierowniczej i zweryfikowanych certyfikatów zarządzania ISO.",
+    "btnEn": "PDF ISO w Języku Angielskim",
+    "btnDe": "PDF ISO w Języku Niemieckkim",
+    "card1": {
+      "title": "Zasoby Marki",
+      "desc": "Oficjalne logotypy, typografia i specyfikacje palety kolorów.",
+      "action": "Pobierz ZIP"
+    },
+    "card2": {
+      "title": "Fotografia Produktowa",
+      "desc": "Obrazy wysokiej rozdzielczości naszych rur, złączek i obiektów.",
+      "action": "Pobierz ZIP"
+    },
+    "card3": {
+      "title": "Komunikaty Prasowe",
+      "desc": "Archiwum wszystkich oficjalnych oświadczeń firmy i komunikatów prasowych.",
+      "action": "Wyświetl Archiwum"
+    },
+    "card4": {
+      "title": "Życiorysy Kadry",
+      "desc": "Profile i zdjęcia zespołu zarządzającego K-Aqua.",
+      "action": "Pobierz PDF"
+    }
+  },
+  "NewsletterSection": {
+    "title": "Zapisz się na Nasz Biuletyn",
+    "subtitle": "Otrzymuj najnowsze informacje na temat produkcji rur przemysłowych, zrównoważonych praktyk inżynieryjnych i globalnych aktualizacji korporacyjnych bezpośrednio do swojej skrzynki odbiorczej.",
+    "success": "Subskrypcja potwierdzona. Witamy na pokładzie.",
+    "placeholder": "Wpisz swój adres e-mail",
+    "subscribe": "Subskrybuj",
+    "privacy": "Szanujemy Twoją skrzynkę odbiorczą. Żadnego spamu, nigdy. Przeczytaj naszą",
+    "privacyLink": "Politykę Prywatności",
+    "dot": "."
+  }
+}

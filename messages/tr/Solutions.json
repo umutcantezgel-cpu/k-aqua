@@ -1,0 +1,113 @@
+{
+  "Hero": {
+    "title1": "Sürdürülebilir",
+    "title2": "PP-R Boru",
+    "title3": "Sistemleri",
+    "subtitle": "Gelecek için tasarlanmış çevreye duyarlı sıhhi tesisat çözümleri. Atmosferik kirliliği azaltmaya, kaynakları korumaya ve geleneksel malzemelerden daha üstün termoplastik polimerler üretmeye kararlıyız."
+  },
+  "Applications": {
+    "title": "Endüstriyel Uygulamalar",
+    "subtitle": "Spesifik akışkan taşıma zorluklarını çözmek için tasarlanmış, birden fazla sektöre yayılmış çok yönlü bir mühendislik çözümü.",
+    "commercialTitle": "Ticari Sıhhi Tesisat",
+    "commercialDesc": "Güvenilir içme suyu dağıtımının ve basınç tutarlılığının kesinlikle zorunlu olduğu yüksek katlı ticari binalar, hastaneler ve oteller için idealdir. Sıfır korozyon, onlarca yıl boyunca temiz su dağıtımını garanti eder.",
+    "hvacTitle": "HVAC Soğuk Su",
+    "hvacDesc": "İklimlendirme ve soğuk su sistemleri için yüksek verimli. PP-R'nin düşük termal iletkenliği, ısı kazancını en aza indirerek yoğuşmayı önler ve hassas sıcaklık kontrolünü korur.",
+    "heatingTitle": "Radyatör Isıtma",
+    "heatingDesc": "Sürekli yüksek sıcaklık stresini kaldıracak şekilde tasarlanmıştır; bu, onu merkezi radyatör ısıtma ağları ve yerden ısıtma uygulamaları için birinci sınıf bir seçenek haline getirir.",
+    "industrialTitle": "Endüstriyel Akışkan Taşıma",
+    "industrialDesc": "Olağanüstü kimyasal direnç, agresif endüstriyel akışkanların, basınçlı havanın ve üretim kimyasallarının boru matrisini bozmadan güvenli bir şekilde taşınmasını sağlar.",
+    "agricultureTitle": "Tarımsal Sulama",
+    "agricultureDesc": "Geniş ölçekli tarımsal sulama için mevcut dayanıklı ve UV'ye dayanıklı seçenekler, çevresel aşınmaya ve aşırı hava koşullarına karşı yüksek darbe direnci sunar."
+  },
+  "Certifications": {
+    "title": "Küresel Sertifikalar",
+    "subtitle": "Almanya'da tasarlandı, dünya çapında güveniliyor. Ürünlerimiz, uluslararası kalite güvence standartlarını karşılamak ve aşmak için titizlikle test edilir.",
+    "dinTitle": "DIN 8077 / DIN 8078",
+    "dinDesc": "Polipropilen boru boyutları ve kalite testleri için Alman Standardizasyon Enstitüsü uyumluluğu.",
+    "isoTitle": "ISO 9001:2015",
+    "isoDesc": "Üretimde sağlam Kalite Yönetim Sistemleri için uluslararası alanda tanınan standart.",
+    "dvgwTitle": "DVGW Sertifikalı",
+    "dvgwDesc": "Alman Gaz ve Su Teknik ve Bilimsel Derneği tarafından içme suyu tesisatlarında güvenli kullanım için onaylanmıştır.",
+    "skzTitle": "SKZ Testleri",
+    "skzDesc": "Alman Plastik Merkezi tarafından titiz üçüncü taraf testleri ve kalite gözetimi."
+  },
+  "Comparative": {
+    "title": "Malzeme Karşılaştırması",
+    "subtitle": "Geleneksel sıhhi tesisat malzemelerine göre değerlendirildiğinde K-Aqua PP-R, korozyonu önlemede, kireç oluşumunu azaltmada ve uzun vadeli sistem bütünlüğünü sağlamada üstün yetenekler gösterir.",
+    "perfFeature": "Performans Özelliği",
+    "kAqua": "K-Aqua PP-R",
+    "copper": "Bakır",
+    "steel": "Galvanizli Çelik",
+    "pvc": "PVC / CPVC",
+    "f1": "Korozyona Dirençli",
+    "f2": "Kireç Oluşumunu Önleme",
+    "f3": "Isı Yalıtımı (Düşük Isı Kaybı)",
+    "f4": "Akustik Sönümleme (Düşük Gürültü)",
+    "f5": "Toksik Olmayan Kurulum (Tutkal/Lehim Yok)",
+    "f6": "Yüksek Darbe Direnci"
+  },
+  "Cta": {
+    "title": "Bir Sonraki Projeniz İçin K-Aqua'yı Belirtin",
+    "subtitle": "CAD dosyaları, basınç özellikleri ve küresel sertifikasyon belgeleri dahil olmak üzere kapsamlı teknik belgelerimizi indirin.",
+    "button1": "Teknik Özellikleri İndir",
+    "button2": "Mühendislik Ekibiyle İletişime Geçin"
+  },
+  "Durability": {
+    "title": "Ödün Vermeyen Dayanıklılık",
+    "subtitle": "İçinde bulundukları binalardan daha uzun süre dayanacak şekilde inşa edildiler. Sistemlerimiz, olağanüstü mühendislik ve malzeme bilimi sayesinde gönül rahatlığı sağlar.",
+    "lifespanTitle": "50+ Yıl Ömür",
+    "lifespanDesc": "Uzun ömürlü olacak şekilde tasarlanan K-Aqua PP-R boru sistemleri, standart çalışma basınçları ve sıcaklıkları altında 50 yılı aşkın süreyle sürekli çalışacak şekilde onaylanmıştır ve periyodik sistem revizyonlarına olan ihtiyacı ortadan kaldırır.",
+    "pressureTitle": "Yüksek Basınç Direnci",
+    "pressureDesc": "Homojen füzyon bağlantılarımız ve yapısal olarak güçlendirilmiş boru duvarlarımız, sistemin şiddetli basınç dalgalanmalarına ve su darbesi etkilerine dayanmasını sağlayarak geleneksel malzemelerin stres toleranslarını aşar.",
+    "tempTitle": "Aşırı Sıcaklıklar",
+    "tempDesc": "Geniş bir termal spektrumda kusursuz bir şekilde çalışacak şekilde tasarlanmıştır. Derin soğutma uygulamalarından yüksek sıcaklıklı radyatör ısıtma ağlarına kadar, malzeme bükülmeden veya bozulmadan yapısal bütünlüğünü korur."
+  },
+  "EconomicROI": {
+    "title": "Ekonomik Yatırım Getirisi",
+    "subtitle": "K-Aqua, mühendislik üstünlüğünün ötesinde, hızlı kurulum, enerji verimliliği ve ortadan kalkan bakım sayesinde derin ekonomik avantajlar sağlar.",
+    "fasterTitle": "Daha Hızlı Kurulum",
+    "fasterDesc": "Termal füzyon birleştirme, çelik kaynağı veya bakır lehimlemeye kıyasla işçilik süresini önemli ölçüde azaltarak proje zaman çizelgelerini hızlandırır ve işçilik maliyetlerini düşürür.",
+    "maintenanceTitle": "Bakım Maliyetleri",
+    "maintenanceDesc": "Kireçsiz ve korozyona dayanıklı özellikler, sıfır rutin dahili bakım anlamına gelir ve binanın yaşam döngüsü boyunca işletme giderlerini önemli ölçüde azaltır.",
+    "heatTitle": "Daha Az Isı Kaybı",
+    "heatDesc": "Üstün termal yalıtım, sıcak su hatlarındaki ısıyı metal borulara göre çok daha etkili bir şekilde tutarak ölçülebilir enerji verimliliğine ve hizmet tasarruflarına yol açar."
+  },
+  "Environment": {
+    "title": "Çevresel Bütünlük",
+    "p1": "Modern polipropilen ekstraksiyonundan önce, petrol işleme kaynaklı propilen ve etilen atık gazları basitçe yakılır ve ciddi atmosferik kirliliğe yol açardı. Bugün, bu gazlar polipropilene dönüştürülerek üretim emisyonlarını önemli ölçüde azaltıyor ve zararlı alevlenmeleri önlüyor.",
+    "p2": "Üretim tesislerimiz en son teknoloji ürünü kapalı soğutma döngüsü kullanır. Bu, suyun yerel nehirlere, derelere veya göllere deşarj edilmeden sürekli olarak sirküle edildiği ve soğutulduğu anlamına gelir, böylece termal kirlilik ve atık su akışı tamamen ortadan kalkar.",
+    "p3": "K-Aqua PP-R boruları metal alternatiflerinden önemli ölçüde daha hafif olduğu için ulaşım daha az yakıt gerektirir ve fabrikadan şantiyeye önemli ölçüde azaltılmış bir karbon ayak izine doğrudan katkıda bulunur.",
+    "diagram": "Çevresel Süreç Diyagramı"
+  },
+  "HealthSafety": {
+    "title": "Sağlık & Hijyen",
+    "subtitle": "Hijyenik akışkan taşımacılığı için uluslararası standardı belirliyoruz. Malzemelerimiz her şeyden önce insan sağlığını ve akustik konforu ön planda tutar.",
+    "potableTitle": "İçme Suyu Güvenliği",
+    "potableDesc": "Gıdaya uygun sıhhi tesisat malzemelerinden üretilmiş olup, içme suyunun kaynaktan musluğa kadar tamamen kirlenmemiş, tatsız ve kokusuz kalmasını sağlar.",
+    "legionellaTitle": "Lejyonella Direnci",
+    "legionellaDesc": "PP-R'nin son derece pürüzsüz iç yüzeyi, biyofilm ve kireç oluşumunu önleyerek Lejyonella ve diğer zararlı bakterilerin üreme alanlarını etkili bir şekilde etkisiz hale getirir.",
+    "toxicTitle": "Toksik Olmayan Mimari",
+    "toxicDesc": "Kurulum, boru ağı içinde mutlak kimyasal saflığı koruyan toksik yapıştırıcılar, çözücüler veya kurşun bazlı lehimler yerine ısı füzyonuna dayanır.",
+    "acousticTitle": "Akustik İzolasyon",
+    "acousticDesc": "Polimer yapımızın doğal yoğunluğu ve esnekliği, olağanüstü gürültü azaltma sağlar, daha sessiz bina ortamları için akış gürültüsünü ve su darbesini ciddi şekilde azaltır."
+  },
+  "MaterialScience": {
+    "title": "İleri Malzeme Bilimi",
+    "p1": "Çözümlerimizin temelinde, olağanüstü performans için tasarlanmış sofistike bir termoplastik polimer olan Polipropilen Rastgele Kopolimer (PP-R/PP-RCT) yatmaktadır. Geleneksel malzemelerin aksine, benzersiz moleküler yapısı olağanüstü kimyasal direnç ve termal stabilite sağlar.",
+    "p2": "Kopolimerizasyon işlemi propilen zincirine etilen katarak oldukça esnek ancak dayanıklı bir matris oluşturur. Bu, iç kireçlenmeyi önler, pürüzsüz bir iç yüzey korur ve ağır metal sızıntısı riskini ortadan kaldırarak sıvı taşımacılığında mutlak saflık sağlar.",
+    "chemicalTitle": "Kimyasal Direnç",
+    "chemicalDesc": "Asidik ve alkali çözeltilere karşı oldukça dirençlidir, boru duvarını bozmadan veya zayıflatmadan agresif ortamlarda güvenle çalışır.",
+    "thermalTitle": "Termal Kararlılık",
+    "thermalDesc": "Aşırı sıcaklık değişimlerinde yapısal bütünlüğü korur, bu da onu hem yüksek ısılı endüstriyel uygulamalar hem de soğuk su sistemleri için ideal kılar."
+  },
+  "Recyclability": {
+    "title": "Yaşam Döngüsü & Geri Dönüştürülebilirlik",
+    "subtitle": "Sürdürülebilir bir gelecek için tasarlanan PP-R sistemlerimiz, sıfır atık üretiminin ve ömrünü tamamlamış malzeme geri kazanımının zirvesini temsil ediyor.",
+    "recyclableTitle": "%100 Geri Dönüştürülebilir Borular",
+    "recyclableDesc": "K-Aqua PP-R boruları, 50 yılı aşkın ömürlerinin sonunda %100 geri dönüştürülebilir. Çapraz bağlı plastiklerin (PEX) veya kompozit metallerin aksine, polipropilen karmaşık kimyasal ayrım olmaksızın eritilip yeniden değerlendirilebilir.",
+    "resinTitle": "Reçine Kodu 5",
+    "resinDesc": "Reçine Tanımlama Kodu 5 altında sınıflandırılan malzemelerimiz ikincil geri dönüşüm pazarında oldukça değerlidir. Bu yüksek kaliteli polimer, önemli yapısal bütünlüğü koruyarak ikincil endüstriyel uygulamalar için ideal hale getirir.",
+    "zeroWasteTitle": "Sıfır Atık Üretimi",
+    "zeroWasteDesc": "Ekstrüzyon ve enjeksiyon kalıplama işlemleri sırasında, herhangi bir kesik veya üretim hurdası derhal yeniden öğütülür ve kritik olmayan üretim hatlarına yeniden verilerek katı atık sahasında mutlak minimum atık sağlanır."
+  }
+}

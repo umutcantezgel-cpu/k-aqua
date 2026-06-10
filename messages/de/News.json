@@ -1,0 +1,154 @@
+{
+  "GridSection": {
+    "title": "Aktuelle Nachrichten",
+    "subtitle": "Bleiben Sie informiert über unsere neuesten technologischen Durchbrüche, internationalen Einsätze und strategischen Nachhaltigkeitsinitiativen.",
+    "readArticle": "Artikel lesen",
+    "articles": {
+      "article1": {
+        "title": "Next-Gen Polymer-Extrusionstechnologie vorgestellt",
+        "category": "Produktinnovationen",
+        "date": "15. Okt 2025",
+        "summary": "Unser neues mehrschichtiges Extrusionsverfahren erhöht die Schlagfestigkeit um 40 % und reduziert gleichzeitig das Materialgewicht. Damit setzen wir einen neuen Maßstab für industrielle Rohrleitungen."
+      },
+      "article2": {
+        "title": "Wichtiger Infrastrukturausbau in Südostasien",
+        "category": "Globale Projekte",
+        "date": "08. Okt 2025",
+        "summary": "K-Aqua sichert sich einen 45-Millionen-Dollar-Vertrag zur Überholung der kommunalen Wasserinfrastruktur in drei großen Metropolregionen in der ASEAN-Region."
+      },
+      "article3": {
+        "title": "Meilenstein von 100 % Recycelbarkeit erreicht",
+        "category": "Nachhaltigkeit",
+        "date": "02. Okt 2025",
+        "summary": "Jedes weltweit hergestellte K-Aqua-Fitting ist nun vollständig recycelbar, womit wir den Kreislauf unserer Kreislaufwirtschaftsrichtlinie schließen."
+      },
+      "article4": {
+        "title": "Fortschrittliche Heizwendelfittings in der Betaphase",
+        "category": "Produktinnovationen",
+        "date": "28. Sep 2025",
+        "summary": "Beginn der Betatests für unsere intelligenten Heizwendelfittings, ausgestattet mit RFID-Rückverfolgbarkeit und automatischer Konfiguration der Schweißparameter."
+      },
+      "article5": {
+        "title": "Neues Produktionszentrum in Osteuropa eröffnet",
+        "category": "Globale Projekte",
+        "date": "20. Sep 2025",
+        "summary": "Zur Erweiterung unserer europäischen Präsenz wird die neue, vollautomatische Anlage unsere Produktionskapazität für den EU-Markt verdoppeln."
+      },
+      "article6": {
+        "title": "Ziel: CO2-negative Betriebe bis 2030",
+        "category": "Nachhaltigkeit",
+        "date": "12. Sep 2025",
+        "summary": "Wir beschleunigen unseren Zeitplan. Durch den Übergang zu 100 % erneuerbaren Energienetzen streben wir an, bis zum Ende des Jahrzehnts vollständig CO2-negativ zu sein."
+      },
+      "article7": {
+        "title": "Hochdruck-Industrieventilserie eingeführt",
+        "category": "Produktinnovationen",
+        "date": "05. Sep 2025",
+        "summary": "Entwickelt für extremen Chemikalientransport bietet die neue Ventilserie beispiellose Korrosionsbeständigkeit in rauen Betriebsumgebungen."
+      },
+      "article8": {
+        "title": "Partnerschaft mit Mega-Entsalzungsanlage",
+        "category": "Globale Projekte",
+        "date": "29. Aug 2025",
+        "summary": "K-Aqua wurde als Hauptlieferant für die weltweit größte solarbetriebene Entsalzungsanlage im Nahen Osten ausgewählt."
+      },
+      "article9": {
+        "title": "Durchbruch bei biobasierten Polymeren",
+        "category": "Nachhaltigkeit",
+        "date": "21. Aug 2025",
+        "summary": "Die Forschung und Entwicklung entwickelt erfolgreich eine handelsübliche Bio-Polymer-Mischung, die 98 % der Zugfestigkeit herkömmlicher, fossil basierter Kunststoffe beibehält."
+      },
+      "article10": {
+        "title": "Integration der intelligenten Rohrleckerkennung",
+        "category": "Produktinnovationen",
+        "date": "15. Aug 2025",
+        "summary": "Integrierte akustische Sensoren in unserer kommunalen Rohrserie ermöglichen Leckerkennung in Echtzeit und Warnungen für vorausschauende Wartung."
+      },
+      "article11": {
+        "title": "K-Aqua übernimmt nordisches Vertriebsnetzwerk",
+        "category": "Globale Projekte",
+        "date": "08. Aug 2025",
+        "summary": "Die strategische Akquisition strafft unsere Lieferkette in ganz Skandinavien und reduziert die Vorlaufzeiten für regionale Kunden drastisch."
+      },
+      "article12": {
+        "title": "Anlage mit Zero-Water-Waste zertifiziert",
+        "category": "Nachhaltigkeit",
+        "date": "01. Aug 2025",
+        "summary": "Unser Hauptproduktionswerk hat den verifizierten Status 'Zero Water Waste' erreicht und nutzt fortschrittliche Kühl- und Filtersysteme im geschlossenen Kreislauf."
+      }
+    }
+  },
+  "HeroSection": {
+    "badge": "Unternehmensnachrichten & Presse",
+    "title1": "Die Neuesten",
+    "title2": "Updates.",
+    "subtitle": "Entdecken Sie unsere neuesten Produktinnovationen, globalen Projekte, Nachhaltigkeitsmeilensteine und Unternehmensankündigungen."
+  },
+  "FeaturedArticleSection": {
+    "badge": "ZERTIFIZIERTER STANDARD",
+    "article1": {
+      "title": "Qualität ohne Kompromisse",
+      "subtitle": "ISO 9001:2015 — Qualitätsmanagementsystem",
+      "p1": "Bei K-Aqua ist Qualität keine statische Metrik – sie ist die dynamische, grundlegende Architektur von allem, was wir entwickeln. Die ISO 9001:2015 Zertifizierung validiert rigoros unser unermüdliches Streben nach operativer Perfektion und absoluter Präzision in der globalen Fertigung.",
+      "p2": "Jede Rohrleitung, jedes Fitting und jede Lösung für den Flüssigkeitstransport, die wir einsetzen, unterliegt kompromisslos strengen Standards. Wir glauben, dass wahre Zuverlässigkeit einen systematischen, hochkalibrierten Ansatz zur Exzellenz erfordert. Durch die Durchsetzung dieser umfassenden internationalen Richtlinien in unserer gesamten Produktionsmatrix stellen wir sicher, dass unsere Partner eine branchenführende Leistung erhalten – konstruiert, um dem Test der Zeit und den härtesten Umwelteinflüssen standzuhalten.",
+      "li1": "Strikte Materialprüfungen",
+      "li2": "Durchgängige Rückverfolgbarkeit",
+      "li3": "Kontinuierliche Prozessoptimierung"
+    },
+    "article2": {
+      "title": "Umweltverantwortung",
+      "subtitle": "ISO 14001:2015 — Umweltmanagementsystem",
+      "p1": "Unser Engagement für den Planeten ist in unserer ISO 14001:2015 Zertifizierung eindeutig festgeschrieben. Die ökologischen Herausforderungen von morgen erfordern heute mutiges, systemisches und nachhaltiges Handeln. Wir haben unsere Lebenszyklusprozesse umfassend umstrukturiert, um unseren globalen Fußabdruck drastisch zu minimieren.",
+      "p2": "Von der hyper-ethischen Beschaffung von Rohstoffen bis zur radikalen Reduzierung von Industrieabfällen in unseren Produktionsstätten widmet sich K-Aqua mit Nachdruck dem Schutz der lebenswichtigen Ressourcen, mit denen wir so eng zusammenarbeiten. Wasser ist Leben, und der Schutz dieses Elements ist unsere oberste Maxime. Diese Zertifizierung steht für unser unumstößliches Versprechen an zukünftige Generationen, dass industrieller Fortschritt und ökologischer Erhalt sich nicht ausschließen.",
+      "li1": "Initiativen zur abfallfreien Fertigung",
+      "li2": "Reduzierung der Lebenszyklusauswirkungen",
+      "li3": "Nachhaltige Materialbeschaffung"
+    },
+    "article3": {
+      "title": "Radikale Energieeffizienz",
+      "subtitle": "ISO 50001:2018 — Energiemanagementsystem",
+      "p1": "Effizienz ist der absolute Motor der industriellen Evolution. Mit der ISO 50001:2018 Zertifizierung haben wir unsere Energieverbrauchsprotokolle in allen globalen K-Aqua-Einrichtungen hochgradig optimiert und damit einen neuen Maßstab für den Sektor gesetzt.",
+      "p2": "Durch die Implementierung intelligenter, datengesteuerter Energiemanagementsysteme und umfangreiche Investitionen in hochmoderne, verbrauchsarme Produktionstechnologien dämmen wir unsere CO2-Emissionen drastisch ein. Wir verfolgen, analysieren und verfeinern jeden einzelnen Watt, der in unseren Produktionslinien verbraucht wird, akribisch. Wir sparen nicht nur Energie; wir entwerfen eine deutlich schlankere, sauberere und weitaus verantwortungsvollere Zukunft für die Schwerindustrie.",
+      "li1": "Integration von Smart-Grid-Anlagen",
+      "li2": "Verbrauchsanalysen in Echtzeit",
+      "li3": "Minderung der CO2-Emissionen"
+    }
+  },
+  "PressKitSection": {
+    "badge": "Offizielle Ressourcen",
+    "title": "Medien & Pressemappe",
+    "subtitle": "Absolute Transparenz ist oberstes Gebot. Greifen Sie auf unsere offiziellen Markenrichtlinien, hochauflösende Produktfotografie, Biografien der Führungskräfte und verifizierte ISO-Managementzertifikate zu.",
+    "btnEn": "Englische ISO-PDF",
+    "btnDe": "Deutsche ISO-PDF",
+    "card1": {
+      "title": "Markenressourcen",
+      "desc": "Offizielle Logos, Typografie und Farbpaletten-Spezifikationen.",
+      "action": "ZIP herunterladen"
+    },
+    "card2": {
+      "title": "Produktfotografie",
+      "desc": "Hochauflösende Bilder unserer Rohre, Fittings und Anlagen.",
+      "action": "ZIP herunterladen"
+    },
+    "card3": {
+      "title": "Pressemitteilungen",
+      "desc": "Archiv aller offiziellen Unternehmenserklärungen und Pressemitteilungen.",
+      "action": "Archiv ansehen"
+    },
+    "card4": {
+      "title": "Führungskräfte-Biografien",
+      "desc": "Profile und Porträtfotos des K-Aqua Führungsteams.",
+      "action": "PDF herunterladen"
+    }
+  },
+  "NewsletterSection": {
+    "title": "Abonnieren Sie unser Briefing",
+    "subtitle": "Erhalten Sie die neuesten Erkenntnisse über die Herstellung von Industrierohren, nachhaltige Ingenieurspraktiken und globale Unternehmens-Updates direkt in Ihren Posteingang.",
+    "success": "Abonnement bestätigt. Willkommen an Bord.",
+    "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "subscribe": "Abonnieren",
+    "privacy": "Wir respektieren Ihren Posteingang. Niemals Spam. Lesen Sie unsere",
+    "privacyLink": "Datenschutzrichtlinie",
+    "dot": "."
+  }
+}
