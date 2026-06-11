@@ -1,3 +1,6 @@
+@import "./styles/kaqua-tokens.css";
+@import "./styles/kaqua-components.css";
+@import "./styles/kaqua-fx.css";
 @import "tailwindcss";
 
 @theme {

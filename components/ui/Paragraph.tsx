@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface ParagraphProps {
+interface ParagraphProps extends React.HTMLAttributes<HTMLParagraphElement> {
   children: React.ReactNode;
   size?: 'sm' | 'base' | 'lg';
   muted?: boolean;
@@ -12,6 +12,7 @@ export function Paragraph({
   size = 'base',
   muted = false,
   className = '',
+  ...props
 }: ParagraphProps) {
   let baseStyles = '';
   switch (size) {
@@ -29,7 +30,7 @@ export function Paragraph({
   const textColor = muted ? 'text-[#4A7299]' : 'text-[#0C1929]';
 
   return (
-    <p className={`${baseStyles} ${textColor} ${className}`.trim()}>
+    <p className={`${baseStyles} ${textColor} ${className}`.trim()} {...props}>
       {children}
     </p>
   );

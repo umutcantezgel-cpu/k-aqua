@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Plus_Jakarta_Sans } from 'next/font/google';
+import { Inter, Outfit } from 'next/font/google';
 import '../globals.css';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -7,17 +7,18 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
 import {notFound} from 'next/navigation';
+import { ThemeProvider } from '@/components/providers/ThemeProvider';
+import { TweaksPanel } from '@/components/ui/TweaksPanel';
 
 const inter = Inter({ 
   subsets: ['latin'], 
-  variable: '--font-inter',
+  variable: '--font-body',
   display: 'swap',
 });
 
-const jakarta = Plus_Jakarta_Sans({ 
+const outfit = Outfit({ 
   subsets: ['latin'], 
-  variable: '--font-jakarta',
-  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-heading',
   display: 'swap',
 });
 
@@ -47,13 +48,16 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className="scroll-smooth bg-surface-base text-on-surface">
-      <body className={`${inter.variable} ${jakarta.variable} min-h-screen w-full max-w-full overflow-x-hidden flex flex-col antialiased font-sans selection:bg-primary/20 selection:text-primary`}>
+      <body className={`${inter.variable} ${outfit.variable} min-h-screen w-full max-w-full overflow-x-hidden flex flex-col antialiased font-sans selection:bg-primary/20 selection:text-primary anim-ok`}>
         <NextIntlClientProvider messages={messages}>
-          <Navigation />
-          <main className="flex-1 pt-20 w-full max-w-full overflow-x-hidden">
-            {children}
-          </main>
-          <Footer />
+          <ThemeProvider>
+            <Navigation />
+            <main className="flex-1 pt-20 w-full max-w-full overflow-x-hidden">
+              {children}
+            </main>
+            <Footer />
+            <TweaksPanel />
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

@@ -3,128 +3,98 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from '@/i18n/routing';
 import { usePathname } from 'next/navigation';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Droplet, Menu, X } from 'lucide-react';
-import { useTranslations } from 'next-intl';
-import LanguageSwitcher from './LanguageSwitcher';
+import { Droplet, Menu, X, Sun, Moon } from 'lucide-react';
 
-const getNavItems = (t: any) => [
-  { id: '/', label: t('home') },
-  { id: '/products', label: t('products') },
-  { id: '/solutions', label: t('solutions') },
-  { id: '/about', label: t('about') },
-  { id: '/service', label: t('service') },
-  { id: '/news', label: t('news') },
-  { id: '/career', label: t('career') },
-  { id: '/contact', label: t('contact') },
+const NAV_PAGES = [
+  { id: '/', label: 'Start' },
+  { id: '/products', label: 'Produkte' },
+  { id: '/solutions', label: 'Lösungen' },
+  { id: '/service', label: 'Service' },
+  { id: '/references', label: 'Referenzen' },
+  { id: '/about', label: 'Über uns' },
+  { id: '/news', label: 'News' },
+  { id: '/career', label: 'Karriere' },
 ];
 
 export default function Navigation() {
   const pathname = usePathname();
-  const t = useTranslations('Global.Navigation');
-  const navItems = getNavItems(t);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [dark, setDark] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // Close mobile menu on route change
-  useEffect(() => {
-    setIsMobileMenuOpen(false);
+  useEffect(() => { 
+    setMenuOpen(false); 
   }, [pathname]);
 
-  return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-surface/90 backdrop-blur-md border-b border-border-subtle shadow-sm' : 'bg-transparent'
-      }`}
-    >
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
-        <div className="flex justify-between items-center h-20">
-          <Link 
-            href="/"
-            className="flex items-center cursor-pointer group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-md p-1"
-          >
-            <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center">
-              <Droplet className="w-5 h-5 text-on-primary group-hover:scale-105 transition-transform duration-300" strokeWidth={2} />
-            </div>
-            <span className="ml-3 text-xl font-bold text-on-surface tracking-tight break-words hyphens-auto">K-Aqua</span>
-          </Link>
+  useEffect(() => {
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+  }, [dark]);
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-1">
-            {navItems.map((item) => {
-              const isActive = pathname === item.id || (pathname.startsWith(item.id) && item.id !== '/');
+  return (
+    <React.Fragment>
+      <header className={`k-nav ${scrolled || menuOpen ? 'is-scrolled' : ''}`}>
+        <div className="k-container k-nav-inner">
+          <Link href="/" aria-label="K-Aqua Startseite" style={{ textDecoration: 'none', display: 'inline-flex', minHeight: 44, alignItems: 'center' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <div style={{ width: 28, height: 28, backgroundColor: 'var(--brand-500, #5B2D8C)', borderRadius: 6, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <Droplet size={16} color="white" strokeWidth={2} />
+              </div>
+              <span style={{ fontSize: 20, fontWeight: 700, color: 'var(--k-text, inherit)' }}>K-Aqua</span>
+            </div>
+          </Link>
+          <nav className="k-nav-links" aria-label="Hauptnavigation">
+            {NAV_PAGES.map((p) => {
+              const isActive = pathname === p.id || (pathname.startsWith(p.id) && p.id !== '/');
               return (
-                <Link
-                  key={item.id}
-                  href={item.id}
-                  className={`px-4 py-2 rounded-md text-[13px] font-semibold uppercase tracking-wider transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary min-h-[44px] flex items-center justify-center ${
-                    isActive 
-                      ? 'text-primary' 
-                      : 'text-on-surface-variant hover:text-on-surface active:scale-[0.98]'
-                  }`}
-                >
-                  {item.label}
+                <Link key={p.id} href={p.id as any}
+                  className={`k-nav-link ${isActive ? 'is-active' : ''}`}
+                  aria-current={isActive ? 'page' : undefined}>
+                  {p.label}
                 </Link>
               );
             })}
-            {/* Language Switcher for Desktop */}
-            <div className="ml-4 flex items-center border-l border-border-subtle pl-4">
-              <LanguageSwitcher />
-            </div>
           </nav>
-
-          {/* Mobile Menu Button & Language Switcher */}
-          <div className="md:hidden flex items-center space-x-2">
-            <LanguageSwitcher />
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 rounded-md text-on-surface-variant hover:bg-surface-muted hover:text-on-surface transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary min-h-[44px] min-w-[44px] flex items-center justify-center"
-              aria-label="Toggle menu"
-            >
-              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--sp-2, 8px)' }}>
+            <button type="button" className="k-icon-btn" aria-label={dark ? 'Helles Design aktivieren' : 'Dunkles Design aktivieren'} onClick={() => setDark(!dark)}>
+              {dark ? <Sun size={19} /> : <Moon size={19} />}
+            </button>
+            <span className="k-nav-cta" style={{ display: 'inline-flex' }}>
+              <Link href="/contact" className="k-btn" style={{ fontSize: 13, padding: '0 16px', height: 32, borderRadius: 'var(--radius, 16px)', background: 'var(--brand-500, #5B2D8C)', color: '#fff', display: 'inline-flex', alignItems: 'center', fontWeight: 600, textDecoration: 'none' }}>
+                Kontakt
+              </Link>
+            </span>
+            <button type="button" className="k-icon-btn k-menu-btn" aria-label="Menü öffnen" aria-expanded={menuOpen}
+              style={{ display: 'none' }} onClick={() => setMenuOpen(!menuOpen)}>
+              {menuOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
           </div>
         </div>
-      </div>
-
-      <AnimatePresence>
-        {isMobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -10, filter: "blur(10px)" }}
-            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-            exit={{ opacity: 0, y: -10, filter: "blur(10px)" }}
-            transition={{ duration: 0.3, ease: [0.23, 1, 0.32, 1] }}
-            className="md:hidden absolute top-full left-0 right-0 bg-white/95 backdrop-blur-xl border-b border-slate-200 overflow-hidden shadow-[0_20px_40px_rgb(0,0,0,0.08)] z-[100]"
-          >
-            <div className="px-4 sm:px-6 py-4 space-y-1">
-              {navItems.map((item) => {
-                const isActive = pathname === item.id || (pathname.startsWith(item.id) && item.id !== '/');
-                return (
-                  <Link
-                    key={item.id}
-                    href={item.id}
-                    className={`block w-full text-left px-4 py-4 rounded-xl text-base font-bold transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary min-h-[44px] ${
-                      isActive 
-                        ? 'bg-[#5B2D8C]/5 text-[#5B2D8C] scale-[0.99] shadow-sm ring-1 ring-[#5B2D8C]/10' 
-                        : 'text-slate-600 hover:bg-slate-50 hover:text-[#5B2D8C]'
-                    }`}
-                  >
-                    {item.label}
-                  </Link>
-                );
-              })}
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </header>
+      </header>
+      {menuOpen ? (
+        <div className="k-mobile-menu">
+          {NAV_PAGES.concat([{ id: '/contact', label: 'Kontakt' }]).map((p) => {
+            const isActive = pathname === p.id || (pathname.startsWith(p.id) && p.id !== '/');
+            return (
+              <Link key={p.id} href={p.id as any} className={`k-nav-link ${isActive ? 'is-active' : ''}`}>
+                {p.label}
+              </Link>
+            );
+          })}
+        </div>
+      ) : null}
+      <style>{`
+        @media (max-width: 980px) { 
+          .k-menu-btn { display: grid !important; } 
+          .k-nav-cta { display: none !important; } 
+        }
+      `}</style>
+    </React.Fragment>
   );
 }
