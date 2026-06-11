@@ -1,92 +1,111 @@
 "use client";
 import { useTranslations } from 'next-intl';
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion, useScroll, useTransform } from 'motion/react';
 
 export default function SolutionsHeroSection() {
   const t = useTranslations('Solutions');
-
-  const containerVariants: any = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.15,
-        delayChildren: 0.1,
-      },
-    },
-  };
-
-  const itemVariants: any = {
-    hidden: { opacity: 0, y: 40 },
-    visible: { 
-      opacity: 1, 
-      y: 0, 
-      transition: { duration: 1.2, ease:"easeOut"} 
-    },
-  };
+  const { scrollYProgress } = useScroll();
+  const y1 = useTransform(scrollYProgress, [0, 1], [0, 200]);
+  const scaleImage = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
 
   return (
-    <section className="relative w-full min-h-[100svh] h-auto py-32 lg:py-0 flex flex-col justify-center overflow-hidden bg-[#fafafa]">
-      {/* Premium Background Gradients */}
+    <section className="relative w-full min-h-[100svh] py-32 lg:py-0 flex flex-col justify-center overflow-hidden bg-[#fafafa]">
+      {/* Abstract structural lighting */}
       <div className="absolute inset-0 w-full h-full overflow-hidden pointer-events-none">
         <motion.div 
-          initial={{ opacity: 0, scale: 0.8, x: -50 }}
-          animate={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 2.5, ease:"easeOut"}}
-          className="absolute top-[10%] left-[5%] w-[70vw] md:w-[45vw] h-[70vw] md:h-[45vw] rounded-full bg-gradient-to-br from-blue-500/10 to-sky-400/5 blur-[120px] md:blur-[160px]"/>
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.8, x: 50 }}
-          animate={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 2.5, ease:"easeOut", delay: 0.2 }}
-          className="absolute bottom-[5%] right-[5%] w-[60vw] md:w-[40vw] h-[60vw] md:h-[40vw] rounded-full bg-gradient-to-tl from-sky-300/10 to-blue-300/5 blur-[100px] md:blur-[140px]"/>
-        <div className="absolute bottom-0 w-full h-[30vh] bg-gradient-to-t from-[#fafafa] to-transparent z-0"/>
+          style={{ y: y1 }}
+          className="absolute -top-[20%] -left-[10%] w-[80vw] h-[80vw] rounded-full bg-gradient-to-tr from-sky-200/30 to-blue-100/20 blur-[140px]"
+        />
+        <div className="absolute bottom-0 w-full h-[40vh] bg-gradient-to-t from-[#fafafa] to-transparent z-0"/>
       </div>
 
-      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10 w-full min-w-0 max-w-full flex-1 flex flex-col justify-center py-32">
-        <motion.div 
-          className="w-full min-w-0 max-w-6xl grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center"variants={containerVariants}
-          initial="hidden"animate="visible">
-          <div className="lg:col-span-8 flex flex-col items-start text-left w-full min-w-0 max-w-full">
-            <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full overflow-hidden mb-6 lg:mb-8">
-              <span className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-white/80 border border-slate-200/80 shadow-sm backdrop-blur-xl text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-blue-600">
-                Solutions
-              </span>
-            </motion.div>
-            
-            <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full overflow-hidden">
-              <h1 className="w-full min-w-0 max-w-full overflow-hidden text-[clamp(1.75rem,6vw,4.5rem)] leading-[1.05] tracking-tight  text-slate-900 mb-6 sm:mb-8 break-words hyphens-auto">
-                {t("Hero.title1")} <br className="hidden md:block"/>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-sky-500">
-                  {t("Hero.title2")}
-                </span>{""}
-                <span className="text-slate-400 font-light italic">
-                  {t("Hero.title3")}
-                </span>
-              </h1>
-            </motion.div>
-            
-            <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full overflow-hidden">
-              <p className="w-full min-w-0 max-w-[42ch] text-lg sm:text-xl md:text-[clamp(1.125rem,2vw,1.5rem)] text-slate-500 leading-relaxed  font-light border-l-[3px] border-blue-500/20 pl-6 sm:pl-8 py-2">
-                {t("Hero.subtitle")}
-              </p>
-            </motion.div>
-          </div>
-
+      <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10 w-full min-w-0 max-w-full flex-1 flex flex-col justify-center items-center py-32">
+        <div className="w-full min-w-0 max-w-full overflow-hidden flex flex-col items-center text-center">
+          
           <motion.div 
-            variants={itemVariants} 
-            className="lg:col-span-4 flex justify-center lg:justify-end w-full">
-            {/* Premium structural glowing element to balance the layout */}
-            <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-[22rem] md:h-[22rem]">
-              <div className="absolute inset-0 rounded-full border-[1px] border-slate-200/50 backdrop-blur-3xl shadow-2xl flex items-center justify-center bg-white/40">
-                <div 
-                  className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 rounded-full bg-gradient-to-tr from-blue-500 to-sky-400 blur-2xl animate-pulse"style={{ animationDuration: '4s' }}
-                />
-                <div className="absolute inset-6 rounded-full border border-white/80 border-t-white mix-blend-overlay shadow-[inset_0_0_20px_rgba(255,255,255,0.8)]"/>
-              </div>
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+            className="w-full min-w-0 max-w-full overflow-hidden flex justify-center mb-10"
+          >
+            <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white border border-slate-200 shadow-sm text-xs font-semibold uppercase tracking-widest text-slate-800">
+              <span className="w-2 h-2 rounded-full bg-sky-500" />
+              Next Generation Solutions
             </div>
           </motion.div>
-        </motion.div>
+
+          <motion.div 
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
+            className="w-full min-w-0 max-w-[1000px] overflow-hidden flex justify-center"
+          >
+            <h1 className="w-full min-w-0 max-w-full overflow-hidden text-[clamp(2.5rem,8vw,6rem)] leading-[1.05] tracking-[-0.03em] text-slate-900 break-words hyphens-auto font-medium">
+              {t("Hero.title1")} <br className="hidden md:block"/>
+              <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-slate-600">
+                {t("Hero.title2")}
+                <motion.span 
+                  initial={{ scaleX: 0 }}
+                  animate={{ scaleX: 1 }}
+                  transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1], delay: 0.8 }}
+                  className="absolute -bottom-2 left-0 w-full h-[3px] bg-blue-500 origin-left"
+                />
+              </span>{" "}
+              <span className="text-slate-400 font-normal italic pr-2">
+                {t("Hero.title3")}
+              </span>
+            </h1>
+          </motion.div>
+
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
+            className="w-full min-w-0 max-w-full overflow-hidden flex justify-center mt-10 lg:mt-12"
+          >
+            <p className="w-full min-w-0 max-w-[600px] text-lg md:text-2xl text-slate-500 leading-relaxed font-light">
+              {t("Hero.subtitle")}
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
+            className="w-full min-w-0 max-w-4xl mt-20 relative rounded-3xl overflow-hidden aspect-[21/9] border border-slate-200/50 shadow-2xl bg-white"
+          >
+            <motion.div 
+               style={{ scale: scaleImage }}
+               className="w-full h-full flex items-center justify-center bg-slate-50 relative overflow-hidden"
+            >
+              {/* Minimalist interactive scene */}
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,0,0,0.02)_1px,transparent_1px)] bg-[size:24px_24px]" />
+              <div className="relative z-10 grid grid-cols-3 gap-6 p-10 w-full h-full">
+                 {[1, 2, 3].map((i) => (
+                   <motion.div 
+                     key={i}
+                     whileHover={{ y: -10, scale: 1.02 }}
+                     transition={{ duration: 0.4, ease: "easeOut" }}
+                     className="bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-end p-6 relative overflow-hidden group"
+                   >
+                     <div className="absolute top-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        <div className="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-400">
+                          ↗
+                        </div>
+                     </div>
+                     <div className="w-12 h-12 rounded-full bg-slate-50 mb-auto flex items-center justify-center border border-slate-100">
+                       <div className="w-4 h-4 bg-blue-500 rounded-sm rotate-45" />
+                     </div>
+                     <div className="h-2 w-16 bg-slate-200 rounded-full mb-3" />
+                     <div className="h-2 w-10 bg-slate-100 rounded-full" />
+                   </motion.div>
+                 ))}
+              </div>
+            </motion.div>
+          </motion.div>
+
+        </div>
       </div>
     </section>
   );

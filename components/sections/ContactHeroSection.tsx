@@ -1,110 +1,112 @@
 "use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { ArrowDown } from 'lucide-react';
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { ArrowUpRight, MapPin } from 'lucide-react';
 import MagneticButton from '@/components/ui/MagneticButton';
 import { useTranslations } from 'next-intl';
 
 export default function ContactHeroSection() {
   const t = useTranslations('Contact.Hero');
+  const containerRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end start"]
+  });
 
-  const containerVariants: any = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.15,
-        delayChildren: 0.1
-      }
-    }
-  };
-
-  const itemVariants: any = {
-    hidden: { opacity: 0, y: 40 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 1, ease:"easeOut"}
-    }
-  };
+  const y1 = useTransform(scrollYProgress, [0, 1], [0, 200]);
+  const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.95]);
 
   return (
-    <section className="relative min-h-[100svh] h-auto py-32 lg:py-0 w-full overflow-hidden flex items-center pt-32 pb-24 bg-[#fafafa]">
-      {/* Exquisite Ambient Gradients */}
-      <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+    <section ref={containerRef} className="relative min-h-[100svh] h-auto w-full overflow-hidden flex items-center justify-center bg-[#fafafa]">
+      {/* Abstract Map/Grid Backdrop */}
+      <div className="absolute inset-0 z-0 pointer-events-none flex items-center justify-center opacity-[0.15]">
         <motion.div 
           initial={{ opacity: 0, scale: 1.1 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 2, ease:"easeOut"}}
-          className="absolute top-[-10%] right-[-5%] w-[80vw] h-[80vw] sm:w-[50vw] sm:h-[50vw] bg-gradient-to-bl from-blue-200/40 via-sky-100/30 to-transparent rounded-full blur-[120px]"/>
+          transition={{ duration: 2, ease: "easeOut" }}
+          className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,#fafafa_70%)] z-10"
+        />
+        <div className="w-[200%] h-[200%] absolute inset-0 bg-[linear-gradient(to_right,#64748b_1px,transparent_1px),linear-gradient(to_bottom,#64748b_1px,transparent_1px)] bg-[size:4rem_4rem] [transform:rotateX(60deg)_rotateZ(-45deg)_translateY(-20%)] origin-center" />
+        <motion.div
+          animate={{ 
+            y: [0, -20, 0],
+            rotate: [0, 5, 0]
+          }}
+          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute top-1/4 right-1/4 w-48 h-48 bg-slate-300 rounded-full blur-[80px]"
+        />
+        <motion.div
+          animate={{ 
+            y: [0, 30, 0],
+            scale: [1, 1.2, 1]
+          }}
+          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-slate-200 rounded-full blur-[100px]"
+        />
+      </div>
+
+      <motion.div 
+        style={{ y: y1, opacity, scale }}
+        className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 relative z-10 w-full min-w-0 flex flex-col items-center text-center mt-20"
+      >
         <motion.div 
-          initial={{ opacity: 0, scale: 1.1 }}
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+          className="w-full min-w-0 max-w-6xl overflow-hidden mb-8 flex justify-center"
+        >
+          <h1 
+            className="text-[clamp(2.5rem,8vw,6rem)] leading-[1.05] tracking-tight text-slate-900 break-words hyphens-auto font-medium"
+            dangerouslySetInnerHTML={{ __html: t.raw('title') }} 
+          />
+        </motion.div>
+        
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+          className="w-full min-w-0 max-w-full overflow-hidden flex justify-center mb-16"
+        >
+          <p className="text-[clamp(1.125rem,2vw,1.5rem)] text-slate-600 leading-relaxed max-w-2xl font-light tracking-wide">
+            {t('subtitle')}
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 2, delay: 0.2, ease:"easeOut"}}
-          className="absolute bottom-[-10%] left-[-10%] w-[70vw] h-[70vw] sm:w-[40vw] sm:h-[40vw] bg-gradient-to-tr from-slate-200/40 via-blue-50/40 to-transparent rounded-full blur-[100px]"/>
-        {/* Subtle noise overlay for premium texture */}
-        <div className="absolute inset-0 opacity-[0.015] mix-blend-overlay pointer-events-none"style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E")' }}></div>
-      </div>
-      
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 relative z-10 w-full min-w-0 max-w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          <div className="lg:col-span-7 xl:col-span-8 w-full min-w-0 max-w-full">
-            <motion.div 
-              variants={containerVariants}
-              initial="hidden"whileInView="visible"viewport={{ once: true, margin:"-100px"}}
-              className="flex flex-col items-start w-full min-w-0 max-w-full">
-              <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full overflow-hidden mb-8">
-                <div className="inline-flex items-center px-4 py-2 rounded-full border border-blue-100 shadow-[0_2px_12px_rgba(0,0,0,0.03)] bg-white/60 backdrop-blur-xl">
-                  <span className="w-2 h-2 rounded-full bg-blue-500 mr-3 animate-pulse"></span>
-                  <span className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-800">Contact Us</span>
-                </div>
-              </motion.div>
-              
-              <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full overflow-hidden mb-8">
-                <h1 
-                  className="text-[clamp(1.75rem,6vw,4.5rem)] leading-[1.05] tracking-tight  text-slate-900 break-words hyphens-auto"dangerouslySetInnerHTML={{ __html: t.raw('title') }} 
-                />
-              </motion.div>
-              
-              <motion.div variants={itemVariants} className="w-full min-w-0 max-w-full overflow-hidden">
-                <p className="text-[clamp(1.125rem,2vw,1.5rem)] text-slate-600 leading-relaxed max-w-2xl  font-light tracking-wide">
-                  {t('subtitle')}
-                </p>
-              </motion.div>
-            </motion.div>
+          transition={{ duration: 1.2, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
+          className="w-full min-w-0 max-w-full overflow-hidden flex justify-center"
+        >
+          <div className="relative group">
+            <div className="absolute -inset-4 bg-slate-200 rounded-full blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-700" />
+            <MagneticButton 
+              onClick={() => document.getElementById('contact-ops')?.scrollIntoView({ behavior: 'smooth' })}
+              className="relative px-10 py-6 text-xl bg-slate-900 text-white rounded-full hover:bg-slate-800 transition-colors duration-500 flex items-center justify-center gap-4 overflow-hidden"
+            >
+              <span className="relative z-10 font-medium">{t('button')}</span>
+              <span className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white group-hover:rotate-45 transition-transform duration-500">
+                <ArrowUpRight className="w-5 h-5" />
+              </span>
+            </MagneticButton>
           </div>
-          
-          <div className="lg:col-span-5 xl:col-span-4 w-full min-w-0 max-w-full">
-            <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 1.2, delay: 0.3, ease:"easeOut"}}
-              className="w-full relative group">
-              <div className="absolute -inset-1 bg-gradient-to-b from-blue-100/50 to-transparent rounded-[2.5rem] blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-1000"/>
-              <div className="relative p-8 sm:p-12 rounded-[2.5rem] bg-white/70 backdrop-blur-2xl border border-white/80 shadow-[0_24px_80px_rgba(0,0,0,0.04)] flex flex-col items-center sm:items-start text-center sm:text-left transition-all duration-700 hover:shadow-[0_32px_100px_rgba(0,0,0,0.08)] hover:bg-white/90">
-                <div className="w-16 h-16 rounded-2xl bg-blue-600 flex items-center justify-center mb-10 shadow-lg shadow-blue-600/20 transform -rotate-3 group-hover:rotate-0 transition-transform duration-500 ease-easeOut">
-                  <ArrowDown className="w-6 h-6 text-white"/>
-                </div>
-                <h3 className="text-2xl sm:text-3xl font-semibold text-slate-900 mb-4  tracking-tight">Ready to talk?</h3>
-                <p className="text-slate-500 mb-10  font-light leading-relaxed text-lg">Scroll down to explore our specialized contact options and reach out to the right team.</p>
-                <MagneticButton 
-                  onClick={() => document.getElementById('contact-ops')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="w-full py-5 text-base sm:text-lg bg-blue-600 text-white rounded-2xl hover:bg-blue-700 transition-all duration-300 shadow-[0_8px_30px_rgba(37,99,235,0.15)] hover:shadow-[0_12px_40px_rgba(37,99,235,0.25)] flex items-center justify-center group/btn font-medium">
-                  {t('button')} 
-                  <motion.span 
-                    className="ml-3 inline-flex"animate={{ y: [0, 4, 0] }}
-                    transition={{ duration: 2, repeat: Infinity, ease:"easeOut"}}
-                  >
-                    <ArrowDown className="w-5 h-5 opacity-70 group-hover/btn:opacity-100 transition-opacity"/>
-                  </motion.span>
-                </MagneticButton>
-              </div>
-            </motion.div>
+        </motion.div>
+
+        {/* Floating Map Pin Micro-interaction */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          className="absolute top-0 right-10 hidden lg:flex items-center gap-3 px-5 py-3 bg-white/60 backdrop-blur-xl rounded-2xl border border-white shadow-xl shadow-slate-200/50"
+        >
+          <div className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-white">
+            <MapPin className="w-5 h-5" />
           </div>
-        </div>
-      </div>
+          <span className="text-sm font-medium text-slate-900 uppercase tracking-widest">Global</span>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

@@ -47,8 +47,8 @@ export default async function RootLayout({
   const messages = await getMessages({locale});
 
   return (
-    <html lang={locale} className="scroll-smooth bg-surface-base text-on-surface">
-      <body className={`${inter.variable} ${outfit.variable} min-h-screen w-full max-w-full overflow-x-hidden flex flex-col antialiased font-sans selection:bg-primary/20 selection:text-primary anim-ok`}>
+    <html lang={locale} className="scroll-smooth bg-surface-base text-on-surface anim-ok">
+      <body className={`${inter.variable} ${outfit.variable} min-h-screen w-full max-w-full overflow-x-hidden flex flex-col antialiased font-sans selection:bg-primary/20 selection:text-primary`}>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
             <Navigation />
