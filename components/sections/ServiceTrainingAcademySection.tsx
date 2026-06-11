@@ -49,14 +49,14 @@ export default function ServiceTrainingAcademySection() {
  </ul>
  </div>
 
- <div className="lg:w-1/2 w-full h-[500px] bg-slate-200 rounded-3xl border border-slate-300 relative overflow-hidden flex items-center justify-center">
- {/* Abstract representation of the Academy. Normally an image would go here. */}
- <div className="absolute inset-0 bg-white"></div>
- <div className="relative z-10 text-center p-8">
- <Award className="w-16 h-16 text-slate-300 mx-auto mb-4" />
- <p className="text-slate-400 font-mono text-sm tracking-widest uppercase">{t('protocol')}</p>
- </div>
- </div>
+ <div className="lg:w-1/2 w-full h-[500px] bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl relative overflow-hidden flex items-center justify-center hover:-translate-y-1 hover:shadow-md transition-all">
+  {/* Abstract representation of the Academy. Normally an image would go here. */}
+  <div className="absolute inset-0 bg-slate-50/50"></div>
+  <div className="relative z-10 text-center p-8">
+  <Award className="w-16 h-16 text-slate-300 mx-auto mb-4" />
+  <p className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3 justify-center">{t('protocol')}</p>
+  </div>
+  </div>
 
  </div>
  </section>

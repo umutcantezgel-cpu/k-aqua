@@ -31,7 +31,7 @@ export default function ServiceFAQSection() {
  return (
  <div 
  key={idx} 
- className={`border ${isOpen ? 'border-slate-300 bg-slate-50' : 'border-slate-200 bg-white'} rounded-2xl overflow-hidden transition-colors`}
+ className={`border ${isOpen ? 'border-slate-300/50 bg-white shadow-sm' : 'border-slate-200/50 bg-white/80 backdrop-blur-xl hover:-translate-y-0.5 hover:shadow-sm'} rounded-3xl overflow-hidden transition-all`}
  >
  <button
  onClick={() => setOpenIndex(isOpen ? null : idx)}

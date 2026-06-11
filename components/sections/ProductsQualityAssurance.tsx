@@ -51,7 +51,7 @@ export default function ProductsQualityAssurance() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-10%" }}
  transition={{ duration: 0.6, delay: index * 0.1 }}
- className="p-8 rounded-3xl bg-slate-50 border border-slate-200 hover:border-[#8667b3]/30 transition-colors group min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all group min-w-0"
  >
  <div className="h-12 w-12 rounded-full bg-white border border-slate-200 flex items-center justify-center mb-6 shadow-sm">
  <div className="h-4 w-4 rounded-full bg-[#8667b3] group-hover:scale-125 transition-transform duration-500" />

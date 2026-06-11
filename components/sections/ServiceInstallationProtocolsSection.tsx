@@ -48,7 +48,7 @@ export default function ServiceInstallationProtocolsSection() {
  {protocols.map((protocol, idx) => (
  <article 
  key={idx} 
- className="group flex flex-col lg:flex-row bg-slate-50 border border-slate-200 rounded-3xl overflow-hidden focus-within:ring-2 focus-within:ring-slate-900 min-w-0"
+ className="group flex flex-col lg:flex-row bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl overflow-hidden hover:-translate-y-1 hover:shadow-md transition-all focus-within:ring-2 focus-within:ring-primary min-w-0"
  >
  <div className="lg:w-1/2 relative bg-slate-200 min-h-[300px] lg:min-h-full flex items-center justify-center p-12 overflow-hidden">
  <a href={protocol.url} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-20 focus:outline-none">
@@ -64,7 +64,7 @@ export default function ServiceInstallationProtocolsSection() {
  </div>
  
  <div className="lg:w-1/2 p-8 lg:p-16 flex flex-col justify-center min-w-0">
- <p className="text-slate-500 font-mono text-sm tracking-widest uppercase mb-4 ">{t('modulePrefix')} 0{idx + 1} — {protocol.subtitle}</p>
+ <p className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">{t('modulePrefix')} 0{idx + 1} — {protocol.subtitle}</p>
  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-6 tracking-tight ">{protocol.title}</h3>
  <p className="text-slate-600 leading-relaxed text-base ">
  {protocol.desc}

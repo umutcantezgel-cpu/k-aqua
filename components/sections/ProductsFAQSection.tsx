@@ -60,7 +60,7 @@ export default function ProductsFAQSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-5%" }}
  transition={{ duration: 0.4, delay: index * 0.05 }}
- className="rounded-2xl border border-slate-200 bg-white overflow-hidden"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl overflow-hidden hover:-translate-y-1 hover:shadow-md transition-all"
  >
  <button
  onClick={() => setOpenIndex(isOpen ? null : index)}

@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, ArrowRight, CheckCircle2 } from 'lucide-react';
-import MagneticButton from '@/components/ui/MagneticButton';
 import { useTranslations } from 'next-intl';
+import { Button } from '@/components/ui/Button';
 
 export default function NewsNewsletterSection() {
  const t = useTranslations('News.NewsletterSection');
@@ -21,7 +21,7 @@ export default function NewsNewsletterSection() {
 
  return (
  <section className="py-24 px-4 sm:px-6 lg:px-12 bg-white">
- <div className="max-w-[1000px] mx-auto w-full bg-slate-50 border border-slate-200 rounded-[3rem] p-6 md:p-16 lg:p-20 relative overflow-hidden shadow-sm min-w-0">
+ <div className="max-w-[1000px] mx-auto w-full bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-6 md:p-16 lg:p-20 relative overflow-hidden min-w-0 hover:-translate-y-1 hover:shadow-md transition-all">
  
  {/* Subtle background element */}
  <div className="absolute top-0 right-0 -mr-32 -mt-32 w-96 h-96 bg-[#5b2d8c]/5 rounded-full blur-[100px] pointer-events-none"></div>
@@ -59,13 +59,14 @@ export default function NewsNewsletterSection() {
  placeholder={t('placeholder')} 
  className="w-full bg-white border border-slate-300 text-slate-900 placeholder-slate-400 px-6 py-4 rounded-full outline-none focus:ring-2 focus:ring-[#5b2d8c] focus:border-transparent transition-all shadow-sm"
  />
- <button 
+ <Button 
  type="submit"
- className="w-full sm:w-auto px-8 py-4 bg-[#5b2d8c] text-white rounded-full font-semibold flex items-center justify-center hover:bg-[#4a2473] transition-colors shadow-md"
+ variant="primary"
+ className="w-full sm:w-auto px-8 py-4 rounded-full font-semibold flex items-center justify-center shadow-md"
  >
  {t('subscribe')}
  <ArrowRight className="w-5 h-5 ml-2" />
- </button>
+ </Button>
  </form>
  )}
 

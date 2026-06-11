@@ -35,11 +35,11 @@ export default function ProductsSDRRatings() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-5%" }}
  transition={{ duration: 0.6, delay: i * 0.1, ease: "easeOut" }}
- className="group relative p-8 rounded-2xl bg-white border border-slate-200 hover:border-[#6c5194]/50 transition-all duration-500 overflow-hidden min-w-0"
+ className="group relative bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all overflow-hidden min-w-0"
  >
  <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#6c5194] to-transparent opacity-0 group-hover:opacity-100 transform -translate-x-full group-hover:translate-x-full transition-all duration-1000" />
  <div className="text-3xl font-bold text-slate-900 mb-2 font-mono tracking-tight">{item.sdr}</div>
- <div className="text-xs text-[#6c5194] uppercase tracking-widest font-bold mb-6">{item.pressure}</div>
+ <div className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">{item.pressure}</div>
  <p className="text-sm text-slate-600 leading-relaxed font-light ">
  {item.desc}
  </p>

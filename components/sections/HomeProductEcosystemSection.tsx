@@ -60,10 +60,10 @@ export default function HomeProductEcosystemSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6, delay: idx * 0.1 }}
- className="p-8 rounded-3xl bg-slate-50 border border-slate-200 hover:border-slate-300 transition-colors min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all min-w-0"
  >
- <h3 className="text-2xl font-bold mb-4 text-slate-900 ">{prod.name}</h3>
- <p className="text-slate-600 leading-relaxed ">
+ <h3 className="text-2xl font-bold mb-4 text-slate-900">{prod.name}</h3>
+ <p className="text-slate-600 leading-relaxed">
  {prod.desc}
  </p>
  </motion.div>

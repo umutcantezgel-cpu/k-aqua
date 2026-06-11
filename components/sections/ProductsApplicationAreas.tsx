@@ -3,6 +3,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import { Droplets, Thermometer, Factory, Gauge } from 'lucide-react';
 
 export default function ProductsApplicationAreas() {
  const t = useTranslations('Products');
@@ -11,28 +12,28 @@ export default function ProductsApplicationAreas() {
  title: t('ApplicationAreas.cards.potable.title'),
  desc: t('ApplicationAreas.cards.potable.desc'),
  icon: (
- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20"></path><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+ <Droplets className="w-6 h-6" />
  )
  },
  {
  title: t('ApplicationAreas.cards.climate.title'),
  desc: t('ApplicationAreas.cards.climate.desc'),
  icon: (
- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20"></path><path d="M4.93 4.93l14.14 14.14"></path><path d="M19.07 4.93L4.93 19.07"></path></svg>
+ <Thermometer className="w-6 h-6" />
  )
  },
  {
  title: t('ApplicationAreas.cards.industrial.title'),
  desc: t('ApplicationAreas.cards.industrial.desc'),
  icon: (
- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+ <Factory className="w-6 h-6" />
  )
  },
  {
  title: t('ApplicationAreas.cards.compressed.title'),
  desc: t('ApplicationAreas.cards.compressed.desc'),
  icon: (
- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"></path></svg>
+ <Gauge className="w-6 h-6" />
  )
  }
  ];
@@ -63,7 +64,7 @@ export default function ProductsApplicationAreas() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-10%" }}
  transition={{ duration: 0.5, delay: i * 0.1 }}
- className="p-10 rounded-3xl bg-slate-50 border border-slate-200 hover:border-[#6c5194]/30 transition-colors min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all min-w-0"
  >
  <div className="w-14 h-14 rounded-full bg-white border border-slate-200 flex items-center justify-center text-[#6c5194] mb-8 shadow-sm">
  {app.icon}

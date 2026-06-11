@@ -60,7 +60,7 @@ export default function ContactFAQSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.5, delay: idx * 0.1 }}
- className="bg-white border border-slate-200 rounded-2xl overflow-hidden"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl overflow-hidden hover:-translate-y-1 hover:shadow-md transition-all"
  >
  <button
  onClick={() => setOpenIndex(isOpen ? null : idx)}

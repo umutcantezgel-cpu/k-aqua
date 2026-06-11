@@ -53,13 +53,13 @@ export default function HomeFeaturesSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6, delay: idx * 0.1 }}
- className="p-10 rounded-3xl bg-white border border-slate-200 shadow-sm hover:border-slate-300 hover:shadow-md transition-all group min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all group min-w-0"
  >
- <div className="w-16 h-16 rounded-2xl bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-900 mb-8 group-hover:text-[#431074] group-hover:bg-[#431074]/5 transition-colors">
+ <div className="w-16 h-16 rounded-2xl bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-900 mb-8 group-hover:text-primary group-hover:bg-primary/5 transition-colors">
  {feature.icon}
  </div>
- <h3 className="text-2xl font-bold mb-4 text-slate-900 ">{feature.title}</h3>
- <p className="text-slate-600 leading-relaxed ">
+ <h3 className="text-2xl font-bold mb-4 text-slate-900">{feature.title}</h3>
+ <p className="text-slate-600 leading-relaxed">
  {feature.description}
  </p>
  </motion.article>

@@ -134,12 +134,12 @@ export default function NewsGridSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-50px" }}
  transition={{ duration: 0.5, delay: index * 0.05 }}
- className="group flex flex-col p-8 rounded-3xl border border-slate-200 bg-slate-50 hover:bg-slate-100 hover:border-slate-300 transition-all duration-300 cursor-pointer min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all group flex flex-col cursor-pointer min-w-0"
  >
  <div className="flex items-center justify-between mb-6">
- <div className="inline-flex items-center space-x-2 text-[#5b2d8c]">
+ <div className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">
  {article.icon}
- <span className="text-xs font-mono uppercase tracking-widest ">{article.category}</span>
+ <span>{article.category}</span>
  </div>
  <span className="text-sm font-mono text-slate-500 ">{article.date}</span>
  </div>

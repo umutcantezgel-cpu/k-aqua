@@ -32,9 +32,9 @@ export default function ContactDepartmentsSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6 }}
- className="min-w-0 bg-slate-50 p-10 sm:p-12 rounded-2xl border border-slate-200 shadow-sm"
+ className="min-w-0 bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all"
  >
- <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600 mb-8 flex items-center ">
+ <h3 className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">
  <Building2 className="w-4 h-4 mr-3" /> {t('enterprise_division.tag')}
  </h3>
  <p className="text-slate-600 text-lg mb-8 leading-relaxed ">
@@ -67,11 +67,11 @@ export default function ContactDepartmentsSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6, delay: 0.1 }}
- className="min-w-0 bg-blue-600 text-white p-10 sm:p-12 rounded-2xl shadow-sm relative overflow-hidden group"
+ className="min-w-0 bg-blue-600/90 backdrop-blur-xl text-white rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all relative overflow-hidden group"
  >
  <div className="absolute inset-0 opacity-10 pointer-events-none mix-blend-screen scale-150 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white to-transparent"></div>
  <div className="relative z-10">
- <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-blue-100 mb-8 flex items-center ">
+ <h3 className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-blue-100 mb-3">
  <ShieldCheck className="w-4 h-4 mr-3" /> {t('technical_support.tag')}
  </h3>
  <p className="text-blue-50 text-xl mb-8 leading-relaxed font-medium ">

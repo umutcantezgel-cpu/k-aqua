@@ -69,10 +69,10 @@ export default function SolutionsApplications() {
  <button
  key={app.id}
  onClick={() => setActiveTab(app.id)}
- className={`text-left px-8 py-6 rounded-2xl border transition-all duration-300 flex items-center gap-6 min-w-0 ${
+ className={`text-left px-8 py-6 rounded-3xl border transition-all duration-300 flex items-center gap-6 min-w-0 ${
  activeTab === app.id
- ? "bg-[#5b2d8c] border-[#5b2d8c] text-white shadow-md"
- : "bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300"
+ ? "bg-[#5b2d8c] border-[#5b2d8c] text-white shadow-md hover:-translate-y-1"
+ : "bg-white/80 backdrop-blur-xl border border-slate-200/50 text-slate-600 hover:-translate-y-1 hover:shadow-md"
  }`}
  >
  <app.icon className={`w-6 h-6 flex-shrink-0 ${activeTab === app.id ? "text-white" : "text-[#5b2d8c]"}`} strokeWidth={2} />
@@ -84,7 +84,7 @@ export default function SolutionsApplications() {
  </div>
 
  <div className="lg:col-span-7">
- <div className="bg-slate-50 rounded-[2rem] border border-slate-200 p-10 lg:p-16 h-full min-h-[400px] flex flex-col justify-center relative overflow-hidden">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 lg:p-16 hover:-translate-y-1 hover:shadow-md transition-all h-full min-h-[400px] flex flex-col justify-center relative overflow-hidden">
  <AnimatePresence mode="wait">
  <motion.div
  key={currentApp.id}
@@ -94,7 +94,7 @@ export default function SolutionsApplications() {
  transition={{ duration: 0.4, ease: "easeOut" }}
  className="relative z-10"
  >
- <div className="inline-flex items-center justify-center p-5 bg-white rounded-2xl mb-8 border border-slate-200 shadow-sm">
+ <div className="inline-flex items-center justify-center p-5 bg-white rounded-2xl mb-8 border border-slate-200/50 shadow-sm">
  <currentApp.icon className="w-10 h-10 text-[#5b2d8c]" strokeWidth={1.5} />
  </div>
  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-slate-900 mb-6 ">

@@ -40,7 +40,7 @@ export default function HomeSustainabilitySection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6, delay: 0.1 }}
- className="p-8 bg-slate-50 rounded-3xl border border-slate-200"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all"
  >
  <Recycle className="w-10 h-10 text-green-700 mb-6" />
  <h3 className="text-xl font-bold text-slate-900 mb-3">{t('100% Recyclable')}</h3>
@@ -54,7 +54,7 @@ export default function HomeSustainabilitySection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6, delay: 0.2 }}
- className="p-8 bg-slate-50 rounded-3xl border border-slate-200"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all"
  >
  <Factory className="w-10 h-10 text-green-700 mb-6" />
  <h3 className="text-xl font-bold text-slate-900 mb-3">{t('Low Carbon Footprint')}</h3>

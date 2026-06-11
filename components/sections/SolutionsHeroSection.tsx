@@ -29,7 +29,7 @@ export default function SolutionsHeroSection() {
             transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
             className="w-full min-w-0 max-w-full overflow-hidden flex justify-center mb-10"
           >
-            <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white border border-slate-200 shadow-sm text-xs font-semibold uppercase tracking-widest text-slate-800">
+            <div className="flex items-center justify-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">
               <span className="w-2 h-2 rounded-full bg-sky-500" />
               Next Generation Solutions
             </div>

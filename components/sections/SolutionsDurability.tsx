@@ -55,9 +55,9 @@ export default function SolutionsDurability() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-100px" }}
  transition={{ duration: 0.6, delay: idx * 0.15, ease: "easeOut" }}
- className="bg-slate-50 border border-slate-200 rounded-[2rem] p-10 lg:p-14 min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all lg:p-14 min-w-0"
  >
- <div className="inline-flex items-center justify-center p-4 bg-white rounded-2xl mb-8 border border-slate-200 shadow-sm">
+ <div className="inline-flex items-center justify-center p-4 bg-white rounded-2xl mb-8 border border-slate-200/50 shadow-sm">
  <card.icon className="w-8 h-8 text-[#5b2d8c]" strokeWidth={1.5} />
  </div>
  <h3 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-6 ">

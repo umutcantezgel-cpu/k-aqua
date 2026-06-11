@@ -15,37 +15,37 @@ export default function ServiceMaterialScienceSection() {
  <p className="text-lg text-slate-600 leading-relaxed mb-8 ">
  {t('description')}
  </p>
- <div className="p-6 bg-white border border-slate-200 rounded-2xl">
- <h4 className="text-sm font-bold tracking-widest text-slate-400 uppercase mb-4 ">{t('coreAdvantageTitle')}</h4>
- <p className="text-slate-700 italic ">
+            <div className="p-8 bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl hover:-translate-y-1 hover:shadow-md transition-all">
+              <h4 className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">{t('coreAdvantageTitle')}</h4>
+              <p className="text-slate-700 italic ">
  {t('coreAdvantageQuote')}
  </p>
  </div>
  </div>
 
  <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-8">
- <div className="bg-white p-8 rounded-2xl border border-slate-200 min-w-0">
+            <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all min-w-0">
  <h3 className="text-xl font-bold text-slate-900 mb-4 tracking-tight ">{t('cards.0.title')}</h3>
  <p className="text-slate-600 leading-relaxed text-sm ">
  {t('cards.0.description')}
  </p>
  </div>
 
- <div className="bg-white p-8 rounded-2xl border border-slate-200 min-w-0">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all min-w-0">
  <h3 className="text-xl font-bold text-slate-900 mb-4 tracking-tight ">{t('cards.1.title')}</h3>
  <p className="text-slate-600 leading-relaxed text-sm ">
  {t('cards.1.description')}
  </p>
  </div>
 
- <div className="bg-white p-8 rounded-2xl border border-slate-200 min-w-0">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all min-w-0">
  <h3 className="text-xl font-bold text-slate-900 mb-4 tracking-tight ">{t('cards.2.title')}</h3>
  <p className="text-slate-600 leading-relaxed text-sm ">
  {t('cards.2.description')}
  </p>
  </div>
 
- <div className="bg-white p-8 rounded-2xl border border-slate-200 min-w-0">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all min-w-0">
  <h3 className="text-xl font-bold text-slate-900 mb-4 tracking-tight ">{t('cards.3.title')}</h3>
  <p className="text-slate-600 leading-relaxed text-sm ">
  {t('cards.3.description')}

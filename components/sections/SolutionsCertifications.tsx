@@ -56,7 +56,7 @@ export default function SolutionsCertifications() {
  whileInView={{ opacity: 1, scale: 1 }}
  viewport={{ once: true, margin: "-100px" }}
  transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
- className="bg-slate-50 border border-slate-200 rounded-[2rem] p-8 text-center flex flex-col items-center justify-center aspect-square min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all text-center flex flex-col items-center justify-center aspect-square min-w-0"
  >
  <div className="p-4 bg-white rounded-full mb-6 border border-slate-200 shadow-sm">
  <cert.icon className="w-10 h-10 text-[#5b2d8c]" strokeWidth={1.5} />

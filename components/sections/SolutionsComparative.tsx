@@ -75,7 +75,7 @@ export default function SolutionsComparative() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-100px" }}
  transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
- className="bg-white rounded-[2rem] border border-slate-200 shadow-sm overflow-hidden"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all overflow-hidden"
  >
  <div className="overflow-x-auto">
  <table className="w-full text-left border-collapse min-w-[800px]">

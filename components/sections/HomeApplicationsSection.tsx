@@ -54,13 +54,13 @@ export default function HomeApplicationsSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6, delay: idx * 0.1 }}
- className="bg-white rounded-3xl p-8 border border-slate-200 hover:border-slate-300 transition-colors min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all min-w-0"
  >
- <div className="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center mb-6 text-primary">
+ <div className="w-12 h-12 rounded-xl bg-slate-100/80 flex items-center justify-center mb-6 text-primary">
  {app.icon}
  </div>
- <h3 className="text-xl font-bold mb-4 ">{app.title}</h3>
- <p className="text-slate-600 leading-relaxed text-sm ">
+ <h3 className="text-xl font-bold mb-4 text-slate-900">{app.title}</h3>
+ <p className="text-slate-600 leading-relaxed text-sm">
  {app.description}
  </p>
  </motion.div>

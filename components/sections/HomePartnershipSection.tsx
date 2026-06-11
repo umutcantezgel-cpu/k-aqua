@@ -18,9 +18,9 @@ export default function HomePartnershipSection() {
  className="order-2 lg:order-1 relative h-[60vh] rounded-3xl overflow-hidden bg-slate-50 border border-slate-200"
  >
  <div className="absolute inset-0 flex items-center justify-center p-12">
- <div className="text-center">
+ <div className="text-center flex flex-col items-center">
  <div className="text-slate-900 font-bold text-4xl tracking-tight mb-4">{t('KWT x KESSEL')}</div>
- <div className="text-slate-500 font-mono text-sm uppercase tracking-widest">{t('Strategic Alliance')}</div>
+ <div className="flex items-center justify-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">{t('Strategic Alliance')}</div>
  </div>
  </div>
  </motion.div>

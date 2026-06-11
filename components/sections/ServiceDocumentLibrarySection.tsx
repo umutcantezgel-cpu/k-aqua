@@ -43,7 +43,7 @@ export default function ServiceDocumentLibrarySection() {
 
  <div className="grid grid-cols-1 gap-6">
  {documents.map((doc, idx) => (
- <div key={idx} className="group relative flex flex-col md:flex-row items-start md:items-center justify-between p-8 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-slate-100 transition-colors min-w-0">
+ <div key={idx} className="group relative flex flex-col md:flex-row items-start md:items-center justify-between bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all min-w-0">
  <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-6 md:mb-0">
  <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center border border-slate-200 shadow-sm shrink-0">
  {doc.icon}

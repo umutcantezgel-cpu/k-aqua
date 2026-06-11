@@ -33,7 +33,7 @@ export default function ProductsTechnicalSpecifications() {
  </p>
  </motion.div>
 
- <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl overflow-hidden transition-all">
  <div className="grid grid-cols-1 md:grid-cols-3 bg-slate-50 border-b border-slate-200 p-6 text-xs uppercase tracking-widest font-bold text-slate-500">
  <div className="hidden md:block ">{t('TechnicalSpecs.headers.property')}</div>
  <div className="hidden md:block ">{t('TechnicalSpecs.headers.value')}</div>

@@ -34,11 +34,11 @@ export default function ReferencesCaseStudiesSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6, delay: idx * 0.1 }}
- className="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl transition-all flex flex-col min-w-0"
+ className="group bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl hover:-translate-y-1 hover:shadow-md transition-all flex flex-col min-w-0 overflow-hidden"
  >
  <div className="p-8 flex-1">
  <div className="flex items-center justify-between mb-6">
- <span className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold uppercase tracking-wider rounded-full ">
+ <span className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">
  {study.category}
  </span>
  <span className="text-sm text-slate-500 font-medium ">

@@ -54,7 +54,7 @@ export default function ContactRegionalOfficesSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.5, delay: idx * 0.1 }}
- className="min-w-0 bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 transition-all group"
+ className="min-w-0 bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all group"
  >
  <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-start ">
  <MapPin className="w-5 h-5 mr-3 text-blue-600 shrink-0 mt-1" />

@@ -49,7 +49,7 @@ export default function SolutionsRecyclability() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-100px" }}
  transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
- className="bg-slate-50 p-10 lg:p-12 rounded-[2rem] border border-slate-200/60 shadow-sm min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 lg:p-12 hover:-translate-y-1 hover:shadow-md transition-all min-w-0"
  >
  <div className="inline-flex items-center justify-center p-4 bg-white rounded-2xl mb-8 border border-slate-200 shadow-sm">
  <item.icon className="w-8 h-8 text-[#5b2d8c]" strokeWidth={1.5} />

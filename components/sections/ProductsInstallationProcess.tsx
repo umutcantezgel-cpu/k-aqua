@@ -57,7 +57,7 @@ export default function ProductsInstallationProcess() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-10%" }}
  transition={{ duration: 0.5, delay: i * 0.1 }}
- className="p-8 rounded-2xl bg-slate-50 border border-slate-200 min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all min-w-0"
  >
  <div className="text-sm font-mono text-[#6c5194] mb-4 font-bold">{step.num}</div>
  <h4 className="text-xl font-bold text-slate-900 mb-3 ">{step.title}</h4>

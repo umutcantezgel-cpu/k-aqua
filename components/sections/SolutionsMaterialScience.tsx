@@ -42,7 +42,7 @@ export default function SolutionsMaterialScience() {
  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
  className="lg:col-span-6 flex flex-col gap-6"
  >
- <div className="bg-slate-50 border border-slate-200 rounded-[2rem] p-8 md:p-10 shadow-sm flex items-start gap-6 min-w-0">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 md:p-10 hover:-translate-y-1 hover:shadow-md transition-all flex items-start gap-6 min-w-0">
  <div className="bg-white p-3 rounded-xl border border-slate-200 shadow-sm shrink-0">
  <Shield className="w-6 h-6 text-[#5b2d8c]" />
  </div>
@@ -52,7 +52,7 @@ export default function SolutionsMaterialScience() {
  </div>
  </div>
 
- <div className="bg-slate-50 border border-slate-200 rounded-[2rem] p-8 md:p-10 shadow-sm flex items-start gap-6 min-w-0">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 md:p-10 hover:-translate-y-1 hover:shadow-md transition-all flex items-start gap-6 min-w-0">
  <div className="bg-white p-3 rounded-xl border border-slate-200 shadow-sm shrink-0">
  <Activity className="w-6 h-6 text-[#5b2d8c]" />
  </div>

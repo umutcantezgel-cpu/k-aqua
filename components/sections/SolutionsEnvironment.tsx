@@ -45,7 +45,7 @@ export default function SolutionsEnvironment() {
  whileInView={{ opacity: 1, scale: 1 }}
  viewport={{ once: true, margin: "-100px" }}
  transition={{ duration: 0.8, ease: "easeOut" }}
- className="w-full h-[60vh] min-h-[500px] rounded-[2rem] bg-white border border-slate-200 shadow-sm relative overflow-hidden flex items-center justify-center p-12"
+ className="w-full h-[60vh] min-h-[500px] bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all relative overflow-hidden flex items-center justify-center lg:p-12"
  >
  <div className="absolute inset-0 bg-gradient-to-br from-slate-50 to-white z-0"></div>
  <div className="relative z-10 w-full h-full border-2 border-dashed border-slate-200 rounded-2xl flex items-center justify-center">

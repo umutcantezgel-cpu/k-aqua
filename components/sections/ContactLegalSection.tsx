@@ -26,7 +26,7 @@ export default function ContactLegalSection() {
  transition={{ duration: 0.6 }}
  className="flex flex-col h-full"
  >
- <div className="min-w-0 p-10 bg-white rounded-2xl border border-slate-200 shadow-sm h-full">
+ <div className="min-w-0 bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all h-full">
  <h3 className="text-2xl font-bold text-slate-900 mb-10 pb-6 border-b border-slate-100 ">{t('imprint.title')}</h3>
  
  <dl className="space-y-8 text-lg">
@@ -60,7 +60,7 @@ export default function ContactLegalSection() {
  transition={{ duration: 0.6, delay: 0.1 }}
  className="flex flex-col h-full"
  >
- <div className="min-w-0 p-10 bg-white rounded-2xl border border-slate-200 shadow-sm h-full flex flex-col justify-between group hover:border-blue-300 transition-colors">
+ <div className="min-w-0 bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all h-full flex flex-col justify-between group">
  <div>
  <div className="w-14 h-14 bg-slate-50 rounded-xl border border-slate-200 flex items-center justify-center mb-8">
  <ShieldCheck className="w-7 h-7 text-blue-600" />

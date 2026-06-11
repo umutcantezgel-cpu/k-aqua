@@ -51,7 +51,7 @@ export default function ReferencesFAQSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ delay: idx * 0.1 }}
- className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all"
  >
  <h4 className="text-xl font-bold text-slate-900 mb-4 ">{faq.question}</h4>
  <p className="text-slate-600 leading-relaxed ">{faq.answer}</p>

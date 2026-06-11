@@ -95,7 +95,7 @@ export default function ProductsHeroSection({ heroY, heroOpacity }: ProductsHero
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out" />
                   <motion.div style={{ scale: imgScale }} className="absolute inset-0 w-full h-full">
                     <img 
-                      src={`https://picsum.photos/seed/product${item}/400/300`} 
+                      src={`https://placehold.co/400x300/e2e8f0/64748b?text=Product+${item}`} 
                       alt={`Highlight ${item}`}
                       className="w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-all duration-700 ease-out mix-blend-luminosity group-hover:mix-blend-normal"
                     />

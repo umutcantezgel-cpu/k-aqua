@@ -34,7 +34,7 @@ export default function ProductsSustainability() {
  </motion.div>
  </article>
 
- <figure className="relative h-[50vh] w-full rounded-3xl overflow-hidden group border border-slate-200 bg-white p-8">
+ <figure className="relative h-[50vh] w-full overflow-hidden group bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all">
  <div className="absolute inset-0 bg-gradient-to-tr from-[#8667b3]/5 to-transparent pointer-events-none" />
  <div className="h-full flex flex-col justify-center space-y-12 max-w-sm mx-auto">
  

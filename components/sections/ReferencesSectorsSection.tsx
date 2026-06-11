@@ -57,7 +57,7 @@ export default function ReferencesSectorsSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6, delay: idx * 0.15 }}
- className="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-lg transition-shadow min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all min-w-0"
  >
  <div className="w-16 h-16 rounded-xl bg-white border border-slate-200 shadow-sm flex items-center justify-center mb-6">
  {sector.icon}

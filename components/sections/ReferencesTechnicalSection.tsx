@@ -65,7 +65,7 @@ export default function ReferencesTechnicalSection() {
  transition={{ duration: 0.8 }}
  className="lg:w-1/2 w-full"
  >
- <div className="bg-slate-50 rounded-3xl p-8 md:p-12 border border-slate-200">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 md:p-12 hover:-translate-y-1 hover:shadow-md transition-all">
  <h3 className="text-2xl font-bold text-slate-900 mb-6 ">{t('specsTitle')}</h3>
  <ul className="space-y-4">
  <li className="flex justify-between items-center py-3 border-b border-slate-200">

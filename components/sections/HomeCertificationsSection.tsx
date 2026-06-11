@@ -59,11 +59,11 @@ export default function HomeCertificationsSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6, delay: idx * 0.1 }}
- className="bg-white p-8 rounded-3xl border border-slate-200 hover:border-slate-300 transition-colors shadow-sm text-center flex flex-col items-center min-w-0"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all text-center flex flex-col items-center min-w-0"
  >
  <Award className="w-10 h-10 text-slate-300 mb-6" />
  <h3 className="text-xl font-bold text-slate-900 mb-2">{cert.title}</h3>
- <div className="text-xs font-bold uppercase tracking-wider text-[#431074] mb-4">{cert.authority}</div>
+ <div className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">{cert.authority}</div>
  <p className="text-slate-600 text-sm leading-relaxed">{cert.desc}</p>
  </motion.div>
  ))}

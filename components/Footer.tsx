@@ -3,53 +3,58 @@ import { Link } from '@/i18n/routing';
 import { Droplet } from 'lucide-react';
 
 export default function Footer() {
-  const col: React.CSSProperties = { display: 'flex', flexDirection: 'column', gap: 4, alignItems: 'flex-start' };
-  const head: React.CSSProperties = { fontFamily: 'var(--font-heading, inherit)', fontWeight: 700, fontSize: 14, letterSpacing: '0.08em', textTransform: 'uppercase', opacity: 0.55, marginBottom: 10 };
-  
   return (
-    <footer className="k-footer">
-      <div className="k-container" style={{ position: 'relative', paddingBlock: 'clamp(48px, 6vw, 80px)' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(220px, 1.4fr) repeat(3, minmax(140px, 1fr))', gap: 'var(--sp-8, 2rem)', flexWrap: 'wrap' }} className="k-footer-grid">
-          <div style={{ ...col, gap: 'var(--sp-4, 1rem)' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <div style={{ width: 26, height: 26, background: 'var(--brand-500, #5B2D8C)', borderRadius: 6, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Droplet size={14} color="white" strokeWidth={2} />
+    <footer className="bg-slate-900 text-slate-100 mt-24 relative overflow-hidden">
+      {/* Decorative gradient blur */}
+      <div className="absolute -left-[300px] -bottom-[600px] w-[900px] h-[900px] rounded-full bg-primary/20 blur-[120px] pointer-events-none" />
+      
+      <div className="max-w-[1200px] mx-auto px-6 py-16 md:py-24 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
+          
+          <div className="lg:col-span-2 flex flex-col gap-6">
+            <Link href="/" aria-label="K-Aqua Startseite" className="flex items-center gap-2 w-fit group">
+              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+                <Droplet size={18} className="text-white" strokeWidth={2.5} />
               </div>
-              <span style={{ fontSize: 18, fontWeight: 700, color: 'var(--k-text, inherit)' }}>K-Aqua</span>
-            </div>
-            <p style={{ fontSize: 15, opacity: 0.65, maxWidth: 320 }}>
-              K-Aqua — Leading in Water Supply. PP-R/PP-RCT Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.
+              <span className="text-xl font-bold tracking-tight text-white">K-Aqua</span>
+            </Link>
+            <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
+              K-Aqua — Leading in Water Supply. Premium PP-R/PP-RCT Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.
             </p>
           </div>
-          <div style={col}>
-            <span style={head}>Produkte</span>
-            <Link href="/products" className="k-footer-link">Produktprogramm</Link>
-            <Link href="/solutions" className="k-footer-link">Materialvorteile</Link>
-            <Link href="/service" className="k-footer-link">Downloads & Videos</Link>
+
+          <div className="flex flex-col gap-4">
+            <span className="font-heading font-bold text-sm tracking-widest uppercase text-slate-500 mb-2">Produkte</span>
+            <Link href="/products" className="text-slate-300 hover:text-white transition-colors text-sm">Produktprogramm</Link>
+            <Link href="/solutions" className="text-slate-300 hover:text-white transition-colors text-sm">Materialvorteile</Link>
+            <Link href="/service" className="text-slate-300 hover:text-white transition-colors text-sm">Downloads & Videos</Link>
           </div>
-          <div style={col}>
-            <span style={head}>Unternehmen</span>
-            <Link href="/about" className="k-footer-link">Über uns</Link>
-            <Link href="/references" className="k-footer-link">Referenzen</Link>
-            <Link href="/news" className="k-footer-link">News & Events</Link>
-            <Link href="/career" className="k-footer-link">Karriere</Link>
+
+          <div className="flex flex-col gap-4">
+            <span className="font-heading font-bold text-sm tracking-widest uppercase text-slate-500 mb-2">Unternehmen</span>
+            <Link href="/about" className="text-slate-300 hover:text-white transition-colors text-sm">Über uns</Link>
+            <Link href="/references" className="text-slate-300 hover:text-white transition-colors text-sm">Referenzen</Link>
+            <Link href="/news" className="text-slate-300 hover:text-white transition-colors text-sm">News & Events</Link>
+            <Link href="/career" className="text-slate-300 hover:text-white transition-colors text-sm">Karriere</Link>
           </div>
-          <div style={col}>
-            <span style={head}>Kontakt</span>
-            <a className="k-footer-link" href="tel:+4960859868410">+49 (0)60 85 / 9868-410</a>
-            <a className="k-footer-link" href="mailto:info@k-aqua.de">info@k-aqua.de</a>
-            <Link href="/contact" className="k-footer-link">Anfahrt & Standort</Link>
+
+          <div className="flex flex-col gap-4">
+            <span className="font-heading font-bold text-sm tracking-widest uppercase text-slate-500 mb-2">Kontakt</span>
+            <a href="tel:+4960859868410" className="text-slate-300 hover:text-white transition-colors text-sm">+49 (0)60 85 / 9868-410</a>
+            <a href="mailto:info@k-aqua.de" className="text-slate-300 hover:text-white transition-colors text-sm">info@k-aqua.de</a>
+            <Link href="/contact" className="text-slate-300 hover:text-white transition-colors text-sm">Anfahrt & Standort</Link>
           </div>
+
         </div>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 'var(--sp-4, 1rem)', flexWrap: 'wrap', marginTop: 'var(--sp-12, 3rem)', paddingTop: 'var(--sp-6, 1.5rem)', borderTop: '1px solid oklch(1 0 0 / 0.12)' }}>
-          <span style={{ fontSize: 14, opacity: 0.5 }}>© {new Date().getFullYear()} KWT GmbH. Alle Rechte vorbehalten.</span>
-          <div style={{ display: 'flex', gap: 'var(--sp-6, 1.5rem)' }}>
-            <Link href="/contact" className="k-footer-link">Impressum</Link>
-            <a className="k-footer-link" href="https://www.k-aqua.de/privacy.php" target="_blank" rel="noreferrer">Datenschutz</a>
+
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 mt-16 pt-8 border-t border-slate-800">
+          <span className="text-slate-500 text-sm">© {new Date().getFullYear()} KWT GmbH. Alle Rechte vorbehalten.</span>
+          <div className="flex gap-6">
+            <Link href="/contact" className="text-slate-500 hover:text-white transition-colors text-sm">Impressum</Link>
+            <a href="https://www.k-aqua.de/privacy.php" target="_blank" rel="noreferrer" className="text-slate-500 hover:text-white transition-colors text-sm">Datenschutz</a>
           </div>
         </div>
       </div>
-      <style>{`@media (max-width: 800px) { .k-footer-grid { grid-template-columns: 1fr 1fr !important; } }`}</style>
     </footer>
   );
 }

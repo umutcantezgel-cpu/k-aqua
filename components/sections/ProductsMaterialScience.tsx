@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Check } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 export default function ProductsMaterialScience() {
@@ -27,7 +28,7 @@ export default function ProductsMaterialScience() {
  </div>
  </div>
  <figcaption className="absolute bottom-8 left-8 right-8 flex justify-between items-end">
- <div className="font-mono text-xs text-slate-600 uppercase tracking-widest bg-white/80 px-3 py-1.5 rounded backdrop-blur-md">
+  <div className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">
  {t('MaterialScience.badge')}
  </div>
  </figcaption>
@@ -56,25 +57,25 @@ export default function ProductsMaterialScience() {
  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-slate-100">
  <li className="flex items-start gap-3">
  <div className="w-6 h-6 rounded-full bg-[#6c5194]/10 flex items-center justify-center shrink-0 text-[#8667b3] mt-1">
- <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+ <Check className="w-3 h-3" />
  </div>
  <span className="text-sm font-medium text-slate-900 ">{t('MaterialScience.features.beta')}</span>
  </li>
  <li className="flex items-start gap-3">
  <div className="w-6 h-6 rounded-full bg-[#6c5194]/10 flex items-center justify-center shrink-0 text-[#8667b3] mt-1">
- <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+ <Check className="w-3 h-3" />
  </div>
  <span className="text-sm font-medium text-slate-900 ">{t('MaterialScience.features.pressure')}</span>
  </li>
  <li className="flex items-start gap-3">
  <div className="w-6 h-6 rounded-full bg-[#6c5194]/10 flex items-center justify-center shrink-0 text-[#8667b3] mt-1">
- <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+ <Check className="w-3 h-3" />
  </div>
  <span className="text-sm font-medium text-slate-900 ">{t('MaterialScience.features.wall')}</span>
  </li>
  <li className="flex items-start gap-3">
  <div className="w-6 h-6 rounded-full bg-[#6c5194]/10 flex items-center justify-center shrink-0 text-[#8667b3] mt-1">
- <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+ <Check className="w-3 h-3" />
  </div>
  <span className="text-sm font-medium text-slate-900 ">{t('MaterialScience.features.flow')}</span>
  </li>

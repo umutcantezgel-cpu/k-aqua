@@ -49,13 +49,13 @@ export default function ProductsTechnologyCore() {
  </article>
 
  {/* Gamified Visual Replacement */}
- <figure className="relative h-[60vh] lg:h-[80vh] w-full rounded-3xl border border-slate-200 bg-slate-50 p-4 overflow-hidden group">
+ <figure className="relative h-[60vh] lg:h-[80vh] w-full bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all overflow-hidden group">
  <div className="absolute inset-0 bg-gradient-to-tr from-[#6c5194]/10 to-transparent opacity-50 group-hover:opacity-100 transition-opacity duration-700" />
  <div className="w-full h-full">
  <div className="w-full h-full rounded-2xl overflow-hidden"></div>
  </div>
  <figcaption className="absolute bottom-8 left-8 right-8 flex justify-between items-end">
- <div className="font-mono text-xs text-slate-600 uppercase tracking-widest bg-white/80 px-3 py-1.5 rounded backdrop-blur-md">
+ <div className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">
  {t('TechnologyCore.badge')}
  </div>
  <div className="w-12 h-12 rounded-full border border-[#6c5194]/20 flex items-center justify-center animate-[spin_10s_linear_infinite]">

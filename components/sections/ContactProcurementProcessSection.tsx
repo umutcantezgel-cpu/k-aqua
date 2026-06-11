@@ -54,7 +54,7 @@ export default function ContactProcurementProcessSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.5, delay: idx * 0.1 }}
- className="relative min-w-0 p-8 bg-slate-50 border border-slate-200 rounded-2xl"
+ className="relative min-w-0 bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all"
  >
  <div className="text-4xl lg:text-5xl font-black text-slate-200 mb-6 tracking-tighter">
  {step.num}

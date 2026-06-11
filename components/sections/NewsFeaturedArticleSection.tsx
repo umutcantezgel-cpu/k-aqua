@@ -102,13 +102,13 @@ function ArticleSection({ index, title, subtitle, icon, reverse, children, badge
  transition={{ duration: 0.8, ease: "easeOut" }}
  className="w-full h-full"
  >
- <div className="w-full h-full rounded-[2rem] overflow-hidden border border-slate-200 shadow-sm bg-slate-50 backdrop-blur-md relative group">
+ <div className="w-full h-full bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all relative group overflow-hidden">
  <div className="absolute inset-0 bg-gradient-to-t from-slate-200 via-transparent to-transparent z-10 flex flex-col justify-end p-8 lg:p-10 pointer-events-none">
  <div className="w-14 h-14 bg-slate-50/80 rounded-2xl flex items-center justify-center mb-6 border border-slate-200 shadow-xl backdrop-blur-md">
  {icon}
  </div>
  <h3 className="text-2xl font-bold text-slate-900 mb-3 ">{title}</h3>
- <p className="text-slate-600 text-xs font-mono uppercase tracking-[0.2em] ">{index} — {badge}</p>
+ <p className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">{index} — {badge}</p>
  </div>
  </div>
  </motion.div>

@@ -53,8 +53,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   useEffect(() => {
-    document.documentElement.dataset.theme = tweaks.dark ? 'dark' : 'light';
-  }, [tweaks.dark]);
+    document.documentElement.dataset.theme = 'light';
+  }, []);
 
   useEffect(() => {
     applyBrand(tweaks.brandColor);

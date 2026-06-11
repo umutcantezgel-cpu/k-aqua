@@ -22,9 +22,9 @@ export default function NewsPressKitSection() {
  transition={{ duration: 0.6 }}
  className="flex flex-col items-start"
  >
- <div className="inline-flex items-center space-x-3 px-4 py-2 rounded-full border border-slate-200 shadow-sm bg-white mb-8">
- <FolderArchive className="w-4 h-4 text-[#5b2d8c]" />
- <span className="text-xs font-mono uppercase tracking-[0.2em] text-slate-700 ">{t('badge')}</span>
+ <div className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">
+ <FolderArchive className="w-4 h-4" />
+ <span>{t('badge')}</span>
  </div>
  
  <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-slate-900 mb-6 leading-tight ">
@@ -59,7 +59,7 @@ export default function NewsPressKitSection() {
  className="grid grid-cols-1 sm:grid-cols-2 gap-6 min-w-0"
  >
  {/* Asset Card 1 */}
- <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow group cursor-pointer min-w-0">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all group cursor-pointer min-w-0">
  <div className="w-12 h-12 bg-slate-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#5b2d8c]/10 transition-colors">
  <ImageIcon className="w-6 h-6 text-slate-700 group-hover:text-[#5b2d8c] transition-colors" />
  </div>
@@ -71,7 +71,7 @@ export default function NewsPressKitSection() {
  </div>
 
  {/* Asset Card 2 */}
- <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow group cursor-pointer min-w-0">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all group cursor-pointer min-w-0">
  <div className="w-12 h-12 bg-slate-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#5b2d8c]/10 transition-colors">
  <ImageIcon className="w-6 h-6 text-slate-700 group-hover:text-[#5b2d8c] transition-colors" />
  </div>
@@ -83,7 +83,7 @@ export default function NewsPressKitSection() {
  </div>
 
  {/* Asset Card 3 */}
- <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow group cursor-pointer min-w-0">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all group cursor-pointer min-w-0">
  <div className="w-12 h-12 bg-slate-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#5b2d8c]/10 transition-colors">
  <FileText className="w-6 h-6 text-slate-700 group-hover:text-[#5b2d8c] transition-colors" />
  </div>
@@ -95,7 +95,7 @@ export default function NewsPressKitSection() {
  </div>
 
  {/* Asset Card 4 */}
- <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow group cursor-pointer min-w-0">
+ <div className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all group cursor-pointer min-w-0">
  <div className="w-12 h-12 bg-slate-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#5b2d8c]/10 transition-colors">
  <FileText className="w-6 h-6 text-slate-700 group-hover:text-[#5b2d8c] transition-colors" />
  </div>

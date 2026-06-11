@@ -45,9 +45,9 @@ export default function ContactGlobalOperationsSection() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6 }}
- className="not-italic min-w-0 bg-white p-12 rounded-2xl border border-slate-200 shadow-sm hover:border-blue-600 transition-colors duration-500"
+ className="not-italic min-w-0 bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all"
  >
- <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600 mb-8 flex items-center ">
+ <h3 className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase text-primary mb-3">
  <MapPin className="w-4 h-4 mr-3" /> {t('hq_tag')}
  </h3>
  <div className="text-3xl sm:text-4xl font-semibold leading-[1.3] text-slate-900 mb-8 " dangerouslySetInnerHTML={{ __html: t.raw('hq_address') }} />

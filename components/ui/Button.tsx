@@ -1,86 +1,86 @@
-'use client';
+"use client";
 
-import React, { forwardRef } from 'react';
-import { Spinner } from './Spinner';
+import React from 'react';
+import { motion, HTMLMotionProps } from 'framer-motion';
+import { cn } from '@/lib/utils';
+import { Loader2 } from 'lucide-react';
+import { Slot } from '@radix-ui/react-slot';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends HTMLMotionProps<"button"> {
   variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'link';
-  size?: 'sm' | 'md' | 'lg' | 'xl';
-  loading?: boolean;
+  size?: 'sm' | 'md' | 'lg' | 'icon';
+  isLoading?: boolean;
+  leftIcon?: React.ReactNode;
+  rightIcon?: React.ReactNode;
   asChild?: boolean;
 }
 
-export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (
     {
-      children,
+      className,
       variant = 'primary',
       size = 'md',
-      loading = false,
+      isLoading,
+      leftIcon,
+      rightIcon,
+      children,
       disabled,
-      className = '',
-      type = 'button',
-      asChild: _asChild,
+      asChild = false,
       ...props
     },
     ref
   ) => {
-    let variantStyles = '';
-    switch (variant) {
-      case 'primary':
-        variantStyles = 'bg-[#1A6FD4] hover:bg-[#0D4999] text-white border border-transparent';
-        break;
-      case 'secondary':
-        variantStyles = 'bg-[#4A7299] hover:bg-[#1E3A5C] text-white border border-transparent';
-        break;
-      case 'outline':
-        variantStyles = 'border-[1.5px] border-[#1A6FD4] hover:bg-[#EAF3FF] text-[#1A6FD4]';
-        break;
-      case 'ghost':
-        variantStyles = 'hover:bg-[#EAF3FF] text-[#0C1929] border border-transparent';
-        break;
-      case 'link':
-        variantStyles = 'text-[#1A6FD4] hover:text-[#0D4999] hover:underline border border-transparent p-0 bg-transparent';
-        break;
-    }
+    const baseStyles = "relative inline-flex items-center justify-center font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 disabled:pointer-events-none disabled:opacity-50 overflow-hidden";
+    
+    const variants = {
+      primary: "bg-primary text-on-primary hover:bg-primary/90 shadow-[0_4px_14px_0_rgba(0,118,255,0.19)] hover:shadow-[0_6px_20px_rgba(0,118,255,0.23)] border border-transparent",
+      secondary: "bg-secondary text-on-secondary hover:bg-secondary/80 border border-transparent",
+      outline: "border border-slate-200 bg-transparent hover:bg-slate-50 text-slate-900",
+      ghost: "bg-transparent hover:bg-slate-100 text-slate-700 hover:text-slate-900",
+      link: "text-primary underline-offset-4 hover:underline bg-transparent"
+    };
 
-    let sizeStyles = '';
-    if (variant !== 'link') {
-      switch (size) {
-        case 'sm':
-          sizeStyles = 'px-3 py-1.5 text-sm';
-          break;
-        case 'md':
-          sizeStyles = 'px-4 py-2 text-base';
-          break;
-        case 'lg':
-          sizeStyles = 'px-6 py-3 text-lg';
-          break;
-        case 'xl':
-          sizeStyles = 'px-8 py-4 text-xl';
-          break;
-      }
-    }
+    const sizes = {
+      sm: "h-9 px-3 text-xs rounded-lg",
+      md: "h-11 px-5 py-2 text-sm rounded-xl",
+      lg: "h-14 px-8 text-base rounded-2xl",
+      icon: "h-11 w-11 rounded-xl"
+    };
 
-    const disabledStyles = disabled || loading ? 'opacity-50 cursor-not-allowed' : '';
+    if (asChild) {
+      return (
+        <Slot
+          ref={ref as any}
+          className={cn(baseStyles, variants[variant], sizes[size], className)}
+          {...(props as any)}
+        >
+          {children}
+        </Slot>
+      );
+    }
 
     return (
-      <button
-        ref={ref}
-        type={type}
-        disabled={disabled || loading}
-        className={`inline-flex items-center justify-center rounded-lg transition-colors font-medium ${variantStyles} ${sizeStyles} ${disabledStyles} ${className}`.trim()}
-        {...props}
+      <motion.button
+        ref={ref as any}
+        whileHover={{ scale: 1.01 }}
+        whileTap={{ scale: 0.98 }}
+        className={cn(baseStyles, variants[variant], sizes[size], className)}
+        disabled={disabled || isLoading}
+        {...(props as any)}
       >
-        {loading && (
-          <span className="mr-2">
-            <Spinner size={size === 'sm' ? 'sm' : 'md'} />
-          </span>
+        {/* Subtle inner light effect for primary button */}
+        {variant === 'primary' && (
+          <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent pointer-events-none" />
         )}
-        {children}
-      </button>
+        
+        {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+        {!isLoading && leftIcon && <span className="mr-2 inline-flex">{leftIcon}</span>}
+        <span className="relative z-10">{children as React.ReactNode}</span>
+        {!isLoading && rightIcon && <span className="ml-2 inline-flex">{rightIcon}</span>}
+      </motion.button>
     );
   }
 );
 
-Button.displayName = 'Button';
+Button.displayName = "Button";

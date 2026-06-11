@@ -59,7 +59,7 @@ ${message}
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
  transition={{ duration: 0.6, delay: 0.2 }}
- className="bg-slate-50 p-10 sm:p-12 rounded-3xl border border-slate-200 shadow-sm"
+ className="bg-white/80 backdrop-blur-xl border border-slate-200/50 shadow-sm rounded-3xl p-8 hover:-translate-y-1 hover:shadow-md transition-all"
  >
  {isSubmitted ? (
  <div className="flex flex-col items-center justify-center py-16 text-center">

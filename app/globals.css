@@ -1,7 +1,7 @@
-@import "./styles/kaqua-tokens.css";
-@import "./styles/kaqua-components.css";
-@import "./styles/kaqua-fx.css";
-@import "tailwindcss";
+@import "tailwindcss" source("../");
+@import "./styles/kaqua-tokens.css" layer(base);
+@import "./styles/kaqua-components.css" layer(components);
+@import "./styles/kaqua-fx.css" layer(utilities);
 
 @theme {
   /* =========================================================================
